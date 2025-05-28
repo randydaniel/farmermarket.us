@@ -1,6 +1,7 @@
 <script>
 	import Button from '$lib/components/Button.svelte';
 	import { EnvelopeSimple, NyTimesLogo } from 'phosphor-svelte';
+	import { page } from '$app/stores';
 </script>
 
 <footer class="border-t border-slate-200 py-11">
@@ -22,8 +23,11 @@
 					<p class="text-sm leading-normal font-light text-slate-600">
 						Looking to promote your resource or sponsor your service? Contact us.
 					</p>
-					<Button variant="primary" leftIcon={{ component: EnvelopeSimple, props: { size: 16 } }}
-						>Contact</Button
+					<Button
+						variant="primary"
+						size="md"
+						href="/"
+						leftIcon={{ component: EnvelopeSimple, props: { size: 16 } }}>Contact</Button
 					>
 				</div>
 			</div>
@@ -35,16 +39,20 @@
 						<li>
 							<a
 								href="/"
-								class="text-sm leading-normal font-light text-slate-600 transition-all duration-300 hover:text-slate-950 hover:underline hover:decoration-dotted"
-								>Directory</a
+								class={`text-sm leading-normal font-light transition-all duration-300
+								${$page.url.pathname === '/' ? 'underline-dotted text-slate-950 underline' : 'text-slate-600 hover:text-slate-950'}`}
 							>
+								Directory
+							</a>
 						</li>
 						<li>
 							<a
-								href="/"
-								class="text-sm leading-normal font-light text-slate-600 transition-all duration-300 hover:text-slate-950 hover:underline hover:decoration-dotted"
-								>FAQ</a
+								href="/faq"
+								class={`text-sm leading-normal font-light transition-all duration-300
+								${$page.url.pathname === '/faq' ? 'underline-dotted text-slate-950 underline' : 'text-slate-600 hover:text-slate-950'}`}
 							>
+								FAQ
+							</a>
 						</li>
 					</ul>
 				</div>
@@ -53,17 +61,21 @@
 					<ul class="flex flex-col gap-1">
 						<li>
 							<a
-								href="/"
-								class="text-sm leading-normal font-light text-slate-600 transition-all duration-300 hover:text-slate-950 hover:underline hover:decoration-dotted"
-								>Terms of use</a
+								href="/terms"
+								class={`text-sm leading-normal font-light transition-all duration-300
+								${$page.url.pathname === '/terms' ? 'underline-dotted text-slate-950 underline' : 'text-slate-600 hover:text-slate-950'}`}
 							>
+								Terms of use
+							</a>
 						</li>
 						<li>
 							<a
-								href="/"
-								class="text-sm leading-normal font-light text-slate-600 transition-all duration-300 hover:text-slate-950 hover:underline hover:decoration-dotted"
-								>Privacy Policy</a
+								href="/privacy"
+								class={`text-sm leading-normal font-light transition-all duration-300
+								${$page.url.pathname === '/privacy' ? 'underline-dotted text-slate-950 underline' : 'text-slate-600 hover:text-slate-950'}`}
 							>
+								Privacy Policy
+							</a>
 						</li>
 					</ul>
 				</div>
