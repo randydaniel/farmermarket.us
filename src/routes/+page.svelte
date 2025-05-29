@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Hero from '$lib/components/layout/Hero.svelte';
+	import { config } from '$lib/config';
 
 	import FilterBar from '$lib/components/layout/FilterBar.svelte';
 	import Chip from '$lib/components/ui/Chip.svelte';
@@ -68,6 +69,56 @@
 		? (filters.find((f) => f.category === selectedCategory)?.label ?? 'All Resources')
 		: 'All Resources';
 </script>
+
+<svelte:head>
+	<!-- Primary SEO -->
+	<title>{config.siteName} | Resource Directory</title>
+	<meta name="description" content={config.siteDescription} />
+	<meta
+		name="keywords"
+		content="resources, tools, directory, productivity, creativity, startups, AI, web3, design, development"
+	/>
+	<meta name="author" content={config.siteName} />
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content={`${config.siteName} | Resource Directory`} />
+	<meta property="og:description" content={config.siteDescription} />
+	<meta property="og:site_name" content={config.siteName} />
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:title" content={`${config.siteName} | Resource Directory`} />
+	<meta property="twitter:description" content={config.siteDescription} />
+
+	<!-- Additional SEO -->
+	<meta name="robots" content="index, follow" />
+	<meta name="googlebot" content="index, follow" />
+
+	<!-- JSON-LD Structured Data -->
+	{@html `<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "WebSite",
+		"name": "${config.siteName}",
+		"description": "${config.siteDescription}",
+		"url": "${config.defaultSiteUrl}",
+		"potentialAction": {
+			"@type": "SearchAction",
+			"target": {
+				"@type": "EntryPoint",
+				"urlTemplate": "${config.defaultSiteUrl}/?q={search_term_string}"
+			},
+			"query-input": "required name=search_term_string"
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "${config.siteName}",
+			"url": "${config.defaultSiteUrl}"
+		}
+	}
+	</script>`}
+</svelte:head>
 
 <Hero align="center" background="/path/to/image.jpg">
 	<h1 class="text-4xl font-medium text-slate-950">Welcome!</h1>
