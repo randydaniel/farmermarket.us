@@ -1,5 +1,5 @@
 <script>
-	import Button from '$lib/components/Button.svelte';
+	import Button from '$lib/components/ui/Button.svelte';
 	import { EnvelopeSimple, NyTimesLogo } from 'phosphor-svelte';
 	import { page } from '$app/stores';
 </script>
@@ -65,7 +65,7 @@
 								class={`text-sm leading-normal font-light transition-all duration-300
 								${$page.url.pathname === '/terms' ? 'underline-dotted text-slate-950 underline' : 'text-slate-600 hover:text-slate-950'}`}
 							>
-								Terms of use
+								Terms of Use
 							</a>
 						</li>
 						<li>

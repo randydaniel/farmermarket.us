@@ -1,5 +1,5 @@
 <script>
-	import Button from '$lib/components/Button.svelte';
+	import Button from '$lib/components/ui/Button.svelte';
 	import { EnvelopeSimple, NyTimesLogo } from 'phosphor-svelte';
 	import { page } from '$app/stores';
 </script>
