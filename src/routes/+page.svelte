@@ -5,8 +5,11 @@
 	import FilterBar from '$lib/components/layout/FilterBar.svelte';
 	import Chip from '$lib/components/ui/Chip.svelte';
 	import ResourceCard from '$lib/components/ui/ResourceCard.svelte';
+	import Ad from '$lib/components/ui/Ad.svelte';
 	import Pagination from '$lib/components/ui/Pagination.svelte';
 	import resources from '$lib/data/resources.json';
+	import { getRandomAd, shouldDisplayAd, getAdInsertIndex } from '$lib/utils/ads';
+	import type { CustomAd } from '$lib/utils/ads';
 	import {
 		OpenAiLogo,
 		CurrencyBtc,
@@ -42,6 +45,12 @@
 	let currentPage = 1;
 	const itemsPerPage = 20;
 
+	// Randomize ad on component mount
+	let randomAd: CustomAd | null = null;
+
+	// Set random ad on mount
+	randomAd = getRandomAd();
+
 	function selectFilter(category: string) {
 		selectedCategory = selectedCategory === category ? '' : category;
 		currentPage = 1; // Reset to first page when filtering
@@ -68,6 +77,10 @@
 	$: selectedLabel = selectedCategory
 		? (filters.find((f) => f.category === selectedCategory)?.label ?? 'All Resources')
 		: 'All Resources';
+
+	// Smart ad placement logic using utility functions
+	$: shouldShowAd = shouldDisplayAd(paginatedResources.length);
+	$: adInsertIndex = getAdInsertIndex();
 </script>
 
 <svelte:head>
@@ -142,7 +155,11 @@
 	</h2>
 	{#if paginatedResources.length > 0}
 		<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-			{#each paginatedResources as resource}
+			{#each paginatedResources as resource, index}
+				<!-- Insert ad at the specified row position -->
+				{#if shouldShowAd && randomAd && index === adInsertIndex}
+					<Ad ad={randomAd} />
+				{/if}
 				<ResourceCard {...resource} />
 			{/each}
 		</div>

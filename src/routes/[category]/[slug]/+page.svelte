@@ -3,6 +3,9 @@
 	import { slugify } from '$lib/utils/slugify';
 	import { config } from '$lib/config';
 	import Button from '$lib/components/ui/Button.svelte';
+	import Ad from '$lib/components/ui/Ad.svelte';
+	import { getRandomAd } from '$lib/utils/ads';
+	import type { CustomAd } from '$lib/utils/ads';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
@@ -10,6 +13,12 @@
 
 	// Generate the canonical URL using the site URL from load function
 	$: canonicalUrl = `${siteUrl}/${resource.category}/${slugify(resource.title)}`;
+
+	// Randomize ad on component mount (for individual resource pages)
+	let randomAd: CustomAd | null = null;
+
+	// Set random ad on mount
+	randomAd = getRandomAd();
 </script>
 
 <svelte:head>
@@ -145,5 +154,12 @@
 		<p class="text-md max-w-[80%] leading-normal font-normal text-slate-600">
 			{resource.description}
 		</p>
+	{/if}
+
+	<!-- Ad Section (if ads enabled and ad available) -->
+	{#if config.ads.enabled && config.ads.showOnResourcePages && randomAd}
+		<div class="mt-8">
+			<Ad ad={randomAd} />
+		</div>
 	{/if}
 </main>

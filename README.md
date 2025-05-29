@@ -206,115 +206,177 @@ const itemsPerPage = 20; // Change this value
 
 ---
 
-## 🔧 SEO Features
+## 💰 Ad System
 
-### Automatic SEO Generation
+The project includes a flexible ad system that supports multiple custom ads with randomization and future Google Ads integration.
 
-Each resource page automatically generates:
+### Features
 
-- **Meta tags**: Title, description, keywords
-- **Open Graph**: Social media sharing optimization
-- **Twitter Cards**: Twitter-specific meta tags
-- **JSON-LD**: Structured data for search engines
-- **Canonical URLs**: Prevent duplicate content issues
+- **🎲 Randomized Ads**: Each page load displays a random ad from your pool
+- **📍 Smart Placement**: Configure which grid row ads appear in on directory pages
+- **📄 Resource Page Ads**: Display ads on individual resource pages
+- **🎯 Multiple Ad Support**: Manage multiple custom ads easily
+- **🚀 Google Ads Ready**: Built-in support for future Google Ads integration
+- **⚙️ Fully Configurable**: Control placement, frequency, and display logic
 
-### SEO Best Practices Included
+### Configuration
 
-- ✅ Dynamic, descriptive page titles
-- ✅ Category-based keywords
-- ✅ Social media preview images
-- ✅ Structured data markup
-- ✅ Mobile-friendly viewport
-- ✅ Semantic HTML structure
+Configure ads in `src/lib/config.ts`:
 
----
+```typescript
+export const config = {
+	// ... other config
+	ads: {
+		enabled: true, // Enable/disable ad system
+		// Directory page ads
+		placementRow: 1, // Insert ad after this row (1-based)
+		itemsPerRow: 4, // Must match your grid columns
+		// Individual resource page ads
+		showOnResourcePages: true, // Enable/disable ads on resource pages
 
-## 🎨 Customization
+		// Custom ads pool - randomly selected
+		customAds: [
+			{
+				id: 'soc-compliance',
+				image: '/ads/soc.png',
+				url: 'https://randy.digital'
+			}
+			// Add more ads here...
+		],
 
-### Styling
-
-The project uses Tailwind CSS. Customize the design by:
-
-1. **Colors**: Update color classes throughout components
-2. **Typography**: Modify text sizes and fonts
-3. **Layout**: Adjust spacing and grid configurations
-4. **Components**: Customize individual component styles
-
-### Components
-
-All UI components are in `src/lib/components/ui/`:
-
-- **Chip**: Filter buttons with active states
-- **Pagination**: Navigation with Previous/Next and page numbers
-- **ResourceCard**: Resource display with hover effects
-
----
-
-## 📋 Scripts
-
-```bash
-npm run dev          # Start development server
-npm run build        # Build for production
-npm run preview      # Preview production build
-npm run check        # Run Svelte check
-npm run check:watch  # Run Svelte check in watch mode
-npm run lint         # Run ESLint
-npm run format       # Run Prettier
+		// Google Ads configuration (for future use)
+		googleAds: {
+			enabled: false, // Will enable when Google Ads are ready
+			adSlotId: '', // Your Google Ads slot ID
+			frequency: 0.3 // 30% chance to show Google Ad vs custom ad
+		}
+	}
+};
 ```
 
----
+### Ad Placement Logic
 
-## 🚀 Deployment
+The system uses a smart placement algorithm:
 
-### Vercel (Recommended)
+- **Row-Based**: Ads appear after complete rows of resources
+- **Example**: With `placementRow: 1` and `itemsPerRow: 4`, the ad appears after the 4th resource
+- **Responsive**: Automatically adapts to your grid configuration
 
-```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy
-vercel
-
-# Set environment variables in Vercel dashboard
+```typescript
+// Placement Examples:
+placementRow: 1, itemsPerRow: 4  // Ad after 4 resources (1st row)
+placementRow: 2, itemsPerRow: 4  // Ad after 8 resources (2nd row)
+placementRow: 3, itemsPerRow: 4  // Ad after 12 resources (3rd row)
 ```
 
-### Netlify
+The system will automatically calculate the correct insertion point based on your grid layout.
 
-```bash
-# Build command: npm run build
-# Publish directory: build
-# Add PUBLIC_SITE_URL to environment variables
+### Resource Page Ads
+
+Ads also appear on individual resource pages after the main content. This provides additional ad impressions and monetization opportunities.
+
+**Features:**
+
+- **Same Ad Pool**: Uses the same randomized ad system as directory pages
+- **Optimal Placement**: Positioned after resource description, before page end
+- **Configurable**: Can be disabled independently from directory ads
+- **Responsive**: Adapts to the resource page layout
+
+**Configuration:**
+
+```typescript
+ads: {
+	showOnResourcePages: true,  // Enable ads on individual resource pages
+	// ... other settings
+}
 ```
 
-### Other Platforms
+**To disable resource page ads only:**
 
-The project builds to static files and can be deployed to any static hosting service. Make sure to:
+```typescript
+ads: {
+	enabled: true,              // Keep directory ads enabled
+	showOnResourcePages: false, // Disable resource page ads
+	// ... other settings
+}
+```
 
-1. Set `PUBLIC_SITE_URL` environment variable
-2. Configure redirects for SPA routing if needed
-3. Set up SSL certificate for HTTPS
+### Ad System Components
 
----
+- **`Ad.svelte`**: Displays custom ads with your branding
+- **`GoogleAd.svelte`**: Ready for Google Ads integration (currently placeholder)
+- **`ads.ts`**: Utility functions for ad logic and randomization
 
-## 📚 Learn More
+### Disabling Ads
 
-- [SvelteKit Documentation](https://kit.svelte.dev/docs)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Phosphor Icons](https://phosphoricons.com/)
-- [SEO Best Practices](https://developers.google.com/search/docs)
+To disable the ad system completely:
 
----
+```typescript
+ads: {
+	enabled: false,
+	// ... rest of config
+}
+```
 
-## 🤝 Contributing
+### Adding New Ads
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Run tests and linting
-5. Submit a pull request
+Simply add new ad objects to the `customAds` array:
 
----
+```typescript
+{
+	id: 'unique-ad-id',                    // Unique identifier
+	image: '/ads/your-ad-image.png',       // Full ad image path
+	url: 'https://example.com/landing'     // Click-through URL
+}
+```
 
-## 📄 License
+### Ad Image Guidelines
 
-[MIT License](LICENSE) - feel free to use this project for your own resource directory!
+- **Full-Image Design**: Ads are complete images that fill the entire ad space
+- **Self-Contained**: All text, branding, and call-to-action should be part of the image
+- **Recommended Size**: 1200x400px (3:1 aspect ratio) for banner-style ads
+- **Format**: PNG, JPG, or WebP
+- **File Size**: Under 500KB for optimal loading
+- **Content**: Design the complete ad within the image file
+- **Responsive**: Images automatically scale to fit the container width
+
+### Randomization System
+
+- **Load-Time Selection**: A random ad is chosen when the page loads
+- **Equal Distribution**: All ads have equal chance of being displayed
+- **Future Enhancement**: Google Ads can be mixed in based on frequency setting
+
+### Google Ads Integration (Future)
+
+When ready to integrate Google Ads:
+
+1. **Enable Google Ads**:
+
+   ```typescript
+   googleAds: {
+     enabled: true,
+     adSlotId: 'your-google-ads-slot-id',
+     frequency: 0.3  // 30% Google Ads, 70% custom ads
+   }
+   ```
+
+2. **Update GoogleAd Component**: Uncomment the Google Ads code in `src/lib/components/ui/GoogleAd.svelte`
+
+3. **Add Google Ads Script**: The system will automatically handle the integration
+
+### Testing Different Placements
+
+You can easily test different ad placements by adjusting the configuration:
+
+```typescript
+// Test ad after first row
+placementRow: 1;
+
+// Test ad after second row
+placementRow: 2;
+
+// Test ad after third row
+placementRow: 3;
+```
+
+The system will automatically calculate the correct insertion point based on your grid layout.
