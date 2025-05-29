@@ -26,9 +26,15 @@
 
 	function handleMouseMove(e: MouseEvent) {
 		if (!isDown) return;
-		e.preventDefault();
+
 		const x = e.pageX - scrollEl.offsetLeft;
 		const walk = (x - startX) * 1.5; // scroll speed
+
+		// Only prevent default if actually walking (dragging)
+		if (Math.abs(walk) > 5) {
+			// Threshold of 5 pixels, adjust as needed
+			e.preventDefault();
+		}
 		scrollEl.scrollLeft = scrollLeft - walk;
 	}
 
@@ -48,7 +54,7 @@
 	});
 </script>
 
-<section class="relative w-full border-b border-slate-200">
+<section class="sticky top-[68px] z-30 w-full border-b border-slate-200 bg-white">
 	<div class="relative w-full">
 		{#if showLeft}
 			<div

@@ -4,7 +4,7 @@
 	import { page } from '$app/stores';
 </script>
 
-<nav class="w-full bg-white py-4">
+<nav class="sticky top-0 z-40 w-full bg-white py-4 shadow-xs">
 	<div class="container mx-auto flex items-center justify-between">
 		<!-- Left: Logo/Title + Nav Links -->
 		<div class="flex items-center gap-8">

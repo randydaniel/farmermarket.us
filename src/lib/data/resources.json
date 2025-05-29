@@ -1,0 +1,209 @@
+[
+	{
+		"id": "1",
+		"title": "AI Art Generator",
+		"description": "Create stunning artwork using artificial intelligence.",
+		"image": "/images/ai-art-generator.jpg",
+		"category": "artificial-intelligence",
+		"externalUrl": "https://aiart.example.com",
+		"sponsored": true
+	},
+	{
+		"id": "2",
+		"title": "Startup Toolkit",
+		"description": "Essential tools and resources for startups.",
+		"image": "/images/startup-toolkit.jpg",
+		"category": "startups",
+		"externalUrl": "https://startuptools.example.com",
+		"sponsored": false
+	},
+	{
+		"id": "3",
+		"title": "Web3 Wallet Guide",
+		"description": "A comprehensive guide to Web3 wallets.",
+		"image": "/images/web3-wallet-guide.jpg",
+		"category": "web-3",
+		"externalUrl": "https://web3wallets.example.com",
+		"sponsored": false
+	},
+	{
+		"id": "4",
+		"title": "Portfolio Builder",
+		"description": "Showcase your work with beautiful, customizable portfolios.",
+		"image": "/images/portfolio-builder.jpg",
+		"category": "portfolios",
+		"externalUrl": "https://portfoliobuilder.example.com",
+		"sponsored": false
+	},
+	{
+		"id": "5",
+		"title": "E-commerce Launchpad",
+		"description": "Everything you need to start and grow your online store.",
+		"image": "/images/ecommerce-launchpad.jpg",
+		"category": "e-commerce",
+		"externalUrl": "https://ecomlaunchpad.example.com",
+		"sponsored": true
+	},
+	{
+		"id": "6",
+		"title": "Mobile App Analytics",
+		"description": "Track and optimize your mobile app performance.",
+		"image": "/images/mobile-app-analytics.jpg",
+		"category": "mobile-apps",
+		"externalUrl": "https://mobileanalytics.example.com",
+		"sponsored": false
+	},
+	{
+		"id": "7",
+		"title": "Design Inspiration Hub",
+		"description": "Find inspiration and resources for your next design project.",
+		"image": "/images/design-inspiration-hub.jpg",
+		"category": "design",
+		"externalUrl": "https://designhub.example.com",
+		"sponsored": false
+	},
+	{
+		"id": "8",
+		"title": "Desktop App Frameworks",
+		"description": "Compare the best frameworks for building desktop applications.",
+		"image": "/images/desktop-app-frameworks.jpg",
+		"category": "desktop-apps",
+		"externalUrl": "https://desktopframeworks.example.com",
+		"sponsored": false
+	},
+	{
+		"id": "9",
+		"title": "Neural Network Trainer",
+		"description": "Train custom neural networks without coding experience.",
+		"image": "/images/neural-network-trainer.jpg",
+		"category": "artificial-intelligence",
+		"externalUrl": "https://neuraltrainer.example.com",
+		"sponsored": false
+	},
+	{
+		"id": "10",
+		"title": "Startup Funding Guide",
+		"description": "Navigate the world of startup funding and investment.",
+		"image": "/images/startup-funding-guide.jpg",
+		"category": "startups",
+		"externalUrl": "https://startupfunding.example.com",
+		"sponsored": true
+	},
+	{
+		"id": "11",
+		"title": "DeFi Dashboard",
+		"description": "Track and manage your decentralized finance investments.",
+		"image": "/images/defi-dashboard.jpg",
+		"category": "web-3",
+		"externalUrl": "https://defidashboard.example.com",
+		"sponsored": false
+	},
+	{
+		"id": "12",
+		"title": "Developer Portfolio Templates",
+		"description": "Professional portfolio templates for developers.",
+		"image": "/images/dev-portfolio-templates.jpg",
+		"category": "portfolios",
+		"externalUrl": "https://devportfolios.example.com",
+		"sponsored": false
+	},
+	{
+		"id": "13",
+		"title": "Shopify Theme Builder",
+		"description": "Create stunning Shopify themes with drag-and-drop.",
+		"image": "/images/shopify-theme-builder.jpg",
+		"category": "e-commerce",
+		"externalUrl": "https://shopifythemes.example.com",
+		"sponsored": false
+	},
+	{
+		"id": "14",
+		"title": "React Native Starter",
+		"description": "Kickstart your React Native app development.",
+		"image": "/images/react-native-starter.jpg",
+		"category": "mobile-apps",
+		"externalUrl": "https://rnstarter.example.com",
+		"sponsored": true
+	},
+	{
+		"id": "15",
+		"title": "UI Component Library",
+		"description": "Ready-to-use components for faster design workflows.",
+		"image": "/images/ui-component-library.jpg",
+		"category": "design",
+		"externalUrl": "https://uicomponents.example.com",
+		"sponsored": false
+	},
+	{
+		"id": "16",
+		"title": "Electron Boilerplate",
+		"description": "Rapid desktop app development with Electron.",
+		"image": "/images/electron-boilerplate.jpg",
+		"category": "desktop-apps",
+		"externalUrl": "https://electronapp.example.com",
+		"sponsored": false
+	},
+	{
+		"id": "17",
+		"title": "Code Review Assistant",
+		"description": "AI-powered code review and optimization suggestions.",
+		"image": "/images/code-review-assistant.jpg",
+		"category": "development",
+		"externalUrl": "https://codereview.example.com",
+		"sponsored": false
+	},
+	{
+		"id": "18",
+		"title": "SaaS Metrics Dashboard",
+		"description": "Track key SaaS metrics and business performance.",
+		"image": "/images/saas-metrics-dashboard.jpg",
+		"category": "saas",
+		"externalUrl": "https://saasmetrics.example.com",
+		"sponsored": true
+	},
+	{
+		"id": "19",
+		"title": "Tech Stack Analyzer",
+		"description": "Analyze and optimize your technology stack.",
+		"image": "/images/tech-stack-analyzer.jpg",
+		"category": "tech",
+		"externalUrl": "https://techstack.example.com",
+		"sponsored": false
+	},
+	{
+		"id": "20",
+		"title": "Pitch Deck Templates",
+		"description": "Professional templates for startup pitch decks.",
+		"image": "/images/pitch-deck-templates.jpg",
+		"category": "startups",
+		"externalUrl": "https://pitchdecks.example.com",
+		"sponsored": false
+	},
+	{
+		"id": "21",
+		"title": "Creative Portfolio Showcase",
+		"description": "Showcase your creative work with stunning galleries.",
+		"image": "/images/creative-portfolio-showcase.jpg",
+		"category": "portfolios",
+		"externalUrl": "https://creativeportfolio.example.com",
+		"sponsored": false
+	},
+	{
+		"id": "22",
+		"title": "WooCommerce Extensions",
+		"description": "Powerful extensions for WooCommerce stores.",
+		"image": "/images/woocommerce-extensions.jpg",
+		"category": "e-commerce",
+		"externalUrl": "https://wooextensions.example.com",
+		"sponsored": true
+	},
+	{
+		"id": "23",
+		"title": "Machine Learning Playground",
+		"description": "Experiment with ML models in your browser.",
+		"image": "/images/ml-playground.jpg",
+		"category": "artificial-intelligence",
+		"externalUrl": "https://mlplayground.example.com",
+		"sponsored": false
+	}
+]
