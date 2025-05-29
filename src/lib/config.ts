@@ -4,5 +4,6 @@ export const config = {
 	siteDescription:
 		'All the tools & resources you need, in one place. Boost productivity, unleash creativity, and simplify tasks with our curated collection.',
 	// Default site URL - update this for your domain
-	defaultSiteUrl: 'https://direx.com'
+	defaultSiteUrl: 'https://direx.com',
+	contactEmail: 'hello@direx.com'
 };

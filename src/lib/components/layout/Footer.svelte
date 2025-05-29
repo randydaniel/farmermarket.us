@@ -2,6 +2,7 @@
 	import Button from '$lib/components/ui/Button.svelte';
 	import { EnvelopeSimple, NyTimesLogo } from 'phosphor-svelte';
 	import { page } from '$app/stores';
+	import { config } from '$lib/config';
 </script>
 
 <footer class="border-t border-slate-200 py-11">
@@ -10,10 +11,13 @@
 			<!-- Left Side -->
 			<div class="flex flex-col gap-4">
 				<div class="flex max-w-sm flex-col gap-8">
-					<h2 class="flex items-center gap-1 text-lg leading-none font-medium text-slate-950">
+					<a
+						href="/"
+						class="flex items-center gap-1 text-lg leading-none font-medium text-slate-950 transition-colors duration-300 hover:text-slate-700"
+					>
 						<NyTimesLogo size={24} />
-						Resources Directory
-					</h2>
+						{config.siteName}
+					</a>
 					<p class="text-sm leading-normal font-light text-slate-600">
 						All the tools &amp; resources you need, in one place. Boost productivity, unleash
 						creativity, and simplify tasks with our curated collection.
@@ -26,7 +30,7 @@
 					<Button
 						variant="primary"
 						size="md"
-						href="/"
+						href="mailto:{config.contactEmail}"
 						leftIcon={{ component: EnvelopeSimple, props: { size: 16 } }}>Contact</Button
 					>
 				</div>

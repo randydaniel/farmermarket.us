@@ -29,7 +29,8 @@
 <div class="group w-full max-w-[364px]">
 	<!-- Image area -->
 	<div
-		class="relative block h-[340px] w-full cursor-pointer overflow-hidden rounded-xl bg-slate-100"
+		class="relative block w-full cursor-pointer overflow-hidden rounded-xl bg-slate-100"
+		style="aspect-ratio: 4/3;"
 		tabindex="0"
 		aria-label={`Open external resource: ${title}`}
 		on:click={openExternal}
@@ -40,7 +41,6 @@
 			src={image}
 			alt={title}
 			class="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-			style="aspect-ratio: 364/340;"
 			loading="lazy"
 		/>
 		<!-- Overlay on hover -->
@@ -57,7 +57,7 @@
 				aria-label={`View resource: ${title}`}
 				on:click|stopPropagation={openExternal}
 			>
-				View Resource <ArrowUpRight size={18} />
+				Visit Resource <ArrowUpRight size={18} />
 			</button>
 			<button
 				type="button"
@@ -82,7 +82,7 @@
 		<div class="flex items-center gap-1 text-base font-semibold text-slate-950">
 			{title}
 			{#if sponsored}
-				<SealCheck size={18} class="text-primary" aria-label="Sponsored" />
+				<SealCheck size={18} class="text-blue-600" aria-label="Sponsored" />
 				<span class="sr-only">Sponsored</span>
 			{/if}
 		</div>
@@ -100,7 +100,7 @@
 		}
 		div.block.relative {
 			height: auto;
-			aspect-ratio: 364/340;
+			aspect-ratio: 4/3;
 			min-height: 180px;
 		}
 	}
