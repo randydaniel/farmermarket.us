@@ -6,10 +6,10 @@
 </script>
 
 <footer class="border-t border-slate-200 py-11">
-	<div class="container mx-auto">
-		<div class="flex justify-between">
+	<div class="container mx-auto px-4 xl:px-0">
+		<div class="flex flex-col justify-between md:flex-row">
 			<!-- Left Side -->
-			<div class="flex flex-col gap-4">
+			<div class="mb-8 flex flex-col gap-4 md:mb-0">
 				<div class="flex max-w-sm flex-col gap-8">
 					<a
 						href="/"

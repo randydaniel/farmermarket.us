@@ -18,7 +18,7 @@
 	{#each items as item, index}
 		<li class="mb-11">
 			<div
-				class="flex w-full items-center justify-between py-2 text-left transition-colors duration-200 hover:cursor-pointer"
+				class="flex w-full items-start justify-between py-2 text-left transition-colors duration-200 hover:cursor-pointer"
 				role="button"
 				tabindex="0"
 				on:click={() => toggleItem(index)}
@@ -40,7 +40,7 @@
 			{#if openIndex === index}
 				<div
 					id="accordion-content-{index}"
-					class="max-w-[80%]"
+					class="max-w-full md:max-w-[80%]"
 					transition:slide={{ duration: 300 }}
 				>
 					<p class="text-base leading-relaxed text-slate-600">{item.content}</p>

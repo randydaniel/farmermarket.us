@@ -27,7 +27,7 @@
 	/>
 </svelte:head>
 
-<main class="container mx-auto max-w-[900px] px-4 py-24">
+<main class="container mx-auto max-w-[900px] px-4 py-12 xl:px-0 xl:py-24">
 	<!-- Header -->
 	<h1 class="mb-4 text-4xl font-normal text-slate-950">Terms of Use</h1>
 

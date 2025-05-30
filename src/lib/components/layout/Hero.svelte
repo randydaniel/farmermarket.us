@@ -15,7 +15,7 @@
 	{/if}
 	<!-- Content -->
 	<div
-		class={`relative z-10 container mx-auto ${align === 'left' ? 'text-left' : align === 'right' ? 'text-right' : 'text-center'}`}
+		class={`relative z-10 container mx-auto px-4 xl:px-0 ${align === 'left' ? 'text-left' : align === 'right' ? 'text-right' : 'text-center'}`}
 	>
 		<slot />
 	</div>

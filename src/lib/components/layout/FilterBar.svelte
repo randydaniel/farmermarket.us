@@ -78,7 +78,7 @@
 			bind:this={scrollEl}
 			role="toolbar"
 			tabindex="0"
-			class="scrollbar-hide container mx-auto overflow-x-auto px-2 py-4 whitespace-nowrap"
+			class="scrollbar-hide container mx-auto overflow-x-auto px-4 py-4 whitespace-nowrap xl:px-0"
 			on:mousedown={handleMouseDown}
 			on:mouseleave={handleMouseLeave}
 			on:mouseup={handleMouseUp}

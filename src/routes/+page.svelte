@@ -149,7 +149,7 @@
 	{/each}
 </FilterBar>
 
-<section class="container mx-auto py-12">
+<section class="container mx-auto px-4 py-12 xl:px-0">
 	<h2 class="mb-6 text-xl font-semibold">
 		{selectedLabel}
 	</h2>

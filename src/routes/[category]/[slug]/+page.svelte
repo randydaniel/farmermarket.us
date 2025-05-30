@@ -97,7 +97,7 @@
 	</script>`}
 </svelte:head>
 
-<main class="container mx-auto max-w-[900px] py-24">
+<main class="container mx-auto max-w-[900px] px-4 py-12 xl:px-0 xl:py-24">
 	<!-- Image section -->
 	<div class="mb-8">
 		<div class="relative overflow-hidden rounded-xl bg-slate-100">
@@ -121,9 +121,9 @@
 	</span>
 
 	<!-- Title and Action button row -->
-	<div class="mb-2 flex w-full items-start justify-between">
+	<div class="mb-2 flex w-full flex-col items-start justify-between md:flex-row">
 		<!-- Title with sponsored badge -->
-		<div class="flex items-center gap-2">
+		<div class="mb-2 flex items-center gap-2 md:mb-0">
 			<h1 class="text-3xl font-bold text-slate-950 lg:text-4xl">
 				{resource.title}
 			</h1>
@@ -133,7 +133,7 @@
 		</div>
 
 		<!-- Action button -->
-		<div class="flex-shrink-0">
+		<div class="mb-2 flex-shrink-0 md:mb-0">
 			<Button
 				variant="primary"
 				size="md"
@@ -147,11 +147,11 @@
 
 	<!-- Description -->
 	{#if resource.longDescription}
-		<p class="text-md max-w-[80%] leading-normal font-normal text-slate-600">
+		<p class="text-md max-w-full leading-normal font-normal text-slate-600 md:max-w-[80%]">
 			{resource.longDescription}
 		</p>
 	{:else if resource.description}
-		<p class="text-md max-w-[80%] leading-normal font-normal text-slate-600">
+		<p class="text-md max-w-full leading-normal font-normal text-slate-600 md:max-w-[80%]">
 			{resource.description}
 		</p>
 	{/if}
