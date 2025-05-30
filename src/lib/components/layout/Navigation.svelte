@@ -78,7 +78,7 @@
 				<Button
 					variant="primary"
 					size="md"
-					href="mailto:{config.contactEmail}"
+					href="mailto:{config.contactEmail}?subject=Resource Directory Inquiry"
 					leftIcon={{ component: EnvelopeSimple, props: { size: 16 } }}
 				>
 					Contact

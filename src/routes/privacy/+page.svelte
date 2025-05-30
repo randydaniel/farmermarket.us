@@ -179,7 +179,7 @@
 			<h2 class="mb-4 text-2xl font-normal text-slate-950 dark:text-slate-50">9. Contact Us</h2>
 			<p class="text-base leading-relaxed text-slate-600 dark:text-slate-200">
 				If you have any questions about these Terms, please contact us at <a
-					href="mailto:{config.contactEmail}"
+					href="mailto:{config.contactEmail}?subject=Resource Directory Inquiry"
 					class="text-slate-950 hover:underline">{config.contactEmail}</a
 				>.
 			</p>
