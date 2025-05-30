@@ -134,7 +134,7 @@
 </svelte:head>
 
 <Hero align="center" background="/hero.png" backgroundMobile="/hero-mobile.png">
-	<h1 class="text-2xl font-medium text-slate-950 mix-blend-difference md:text-4xl">
+	<h1 class="mb-2 text-2xl font-medium text-slate-950 mix-blend-difference md:text-4xl">
 		Build any directory. Fast!
 	</h1>
 	<p class="max-w-xl text-sm font-light text-slate-700 mix-blend-difference md:text-lg">
