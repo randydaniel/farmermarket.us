@@ -54,14 +54,16 @@
 	});
 </script>
 
-<section class="sticky top-[68px] z-30 w-full border-b border-slate-200 bg-white">
+<section
+	class="sticky top-[68px] z-30 w-full border-b border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-950"
+>
 	<div class="relative w-full">
 		{#if showLeft}
 			<div
 				class="pointer-events-none absolute top-0 left-1/2 z-20 h-full w-full max-w-screen-xl -translate-x-1/2"
 			>
 				<div
-					class="absolute top-0 left-0 h-full w-12 bg-gradient-to-r from-white/90 to-transparent"
+					class="absolute top-0 left-0 h-full w-12 bg-gradient-to-r from-white/90 to-transparent dark:from-slate-950/90"
 				></div>
 			</div>
 		{/if}
@@ -70,7 +72,7 @@
 				class="pointer-events-none absolute top-0 left-1/2 z-20 h-full w-full max-w-screen-xl -translate-x-1/2"
 			>
 				<div
-					class="absolute top-0 right-0 h-full w-12 bg-gradient-to-l from-white/90 to-transparent"
+					class="absolute top-0 right-0 h-full w-12 bg-gradient-to-l from-white/90 to-transparent dark:from-slate-950/90"
 				></div>
 			</div>
 		{/if}

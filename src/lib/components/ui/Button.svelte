@@ -15,8 +15,16 @@
     ${size === 'sm' ? 'px-3 py-1 text-xs' : ''}
     ${size === 'md' ? 'px-4 py-2 text-sm' : ''}
     ${size === 'lg' ? 'px-6 py-3 text-base' : ''}
-    ${variant === 'primary' ? 'bg-slate-950/90 text-slate-50 hover:bg-slate-950' : ''}
-    ${variant === 'secondary' ? 'bg-slate-50/90 text-slate-950 hover:bg-slate-50' : ''}
+    ${
+			variant === 'primary'
+				? 'bg-slate-950/90 text-slate-50 hover:bg-slate-950 dark:bg-slate-50 dark:text-slate-950 dark:hover:bg-slate-200'
+				: ''
+		}
+    ${
+			variant === 'secondary'
+				? 'bg-slate-50/90 text-slate-950 hover:bg-slate-50 dark:bg-slate-950 dark:text-slate-50 dark:hover:bg-slate-800'
+				: ''
+		}
     disabled:pointer-events-none disabled:opacity-50`}
 		aria-disabled={disabled}
 		tabindex={disabled ? -1 : 0}
@@ -40,8 +48,16 @@
     ${size === 'sm' ? 'px-3 py-1 text-xs' : ''}
     ${size === 'md' ? 'px-4 py-2 text-sm' : ''}
     ${size === 'lg' ? 'px-6 py-3 text-base' : ''}
-    ${variant === 'primary' ? 'bg-slate-950/90 text-slate-50 hover:bg-slate-950' : ''}
-    ${variant === 'secondary' ? 'bg-slate-50/90 text-slate-950 hover:bg-slate-50' : ''}
+    ${
+			variant === 'primary'
+				? 'bg-slate-950/90 text-slate-50 hover:bg-slate-950 dark:bg-slate-50 dark:text-slate-950 dark:hover:bg-slate-200'
+				: ''
+		}
+    ${
+			variant === 'secondary'
+				? 'bg-slate-50/90 text-slate-950 hover:bg-slate-50 dark:bg-slate-950 dark:text-slate-50 dark:hover:bg-slate-800'
+				: ''
+		}
     disabled:pointer-events-none disabled:opacity-50`}
 		{disabled}
 	>

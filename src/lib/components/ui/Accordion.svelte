@@ -26,13 +26,13 @@
 				aria-expanded={openIndex === index}
 				aria-controls="accordion-content-{index}"
 			>
-				<h3 class="pr-4 text-lg font-semibold text-slate-950">
+				<h3 class="pr-4 text-lg font-semibold text-slate-950 dark:text-slate-50">
 					{item.title}
 				</h3>
 				{#if openIndex === index}
-					<Minus size={20} class="flex-shrink-0 text-slate-600" />
+					<Minus size={20} class="flex-shrink-0 text-slate-600 dark:text-slate-400" />
 				{:else}
-					<Plus size={20} class="flex-shrink-0 text-slate-600" />
+					<Plus size={20} class="flex-shrink-0 text-slate-600 dark:text-slate-400" />
 				{/if}
 			</div>
 
@@ -43,7 +43,7 @@
 					class="max-w-full md:max-w-[80%]"
 					transition:slide={{ duration: 300 }}
 				>
-					<p class="text-base leading-relaxed text-slate-600">{item.content}</p>
+					<p class="text-base leading-relaxed text-slate-600 dark:text-slate-200">{item.content}</p>
 				</div>
 			{/if}
 		</li>

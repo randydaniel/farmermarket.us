@@ -27,13 +27,15 @@
 	/>
 </svelte:head>
 
-<main class="container mx-auto max-w-[900px] px-4 py-12 xl:px-0 xl:py-24">
+<main
+	class="container mx-auto max-w-[900px] px-4 py-12 xl:px-0 xl:py-24 dark:bg-slate-950 dark:text-slate-50"
+>
 	<!-- Header -->
-	<h1 class="mb-4 text-4xl font-normal text-slate-950">Privacy Policy</h1>
+	<h1 class="mb-4 text-4xl font-normal text-slate-950 dark:text-slate-50">Privacy Policy</h1>
 
 	<!-- Privacy Content -->
-	<div class="prose prose-slate max-w-none">
-		<p class="mb-8 text-base leading-relaxed text-slate-600">
+	<div class="prose prose-slate max-w-none dark:text-slate-200">
+		<p class="mb-8 text-base leading-relaxed text-slate-600 dark:text-slate-200">
 			{config.siteName} ("we," "our," or "us") respects your privacy. This Privacy Policy explains how
 			we collect, use, and protect your information when you visit {config.defaultSiteUrl.replace(
 				'https://',
@@ -41,14 +43,18 @@
 			)} (the "Site").
 		</p>
 
-		<hr class="my-8 border-slate-200" />
+		<hr class="my-8 border-slate-200 dark:border-slate-800" />
 
 		<section class="mb-8">
-			<h2 class="mb-4 text-2xl font-normal text-slate-950">1. Information We Collect</h2>
-			<p class="mb-4 text-base leading-relaxed text-slate-600">
+			<h2 class="mb-4 text-2xl font-normal text-slate-950 dark:text-slate-50">
+				1. Information We Collect
+			</h2>
+			<p class="mb-4 text-base leading-relaxed text-slate-600 dark:text-slate-200">
 				We may collect the following types of information:
 			</p>
-			<ul class="list-disc space-y-2 pl-6 text-base leading-relaxed text-slate-600">
+			<ul
+				class="list-disc space-y-2 pl-6 text-base leading-relaxed text-slate-600 dark:text-slate-200"
+			>
 				<li>
 					<strong>Personal Information:</strong> When you fill out forms (e.g., contact, listings), we
 					may collect your name, email address, phone number, etc.
@@ -63,12 +69,18 @@
 			</ul>
 		</section>
 
-		<hr class="my-8 border-slate-200" />
+		<hr class="my-8 border-slate-200 dark:border-slate-800" />
 
 		<section class="mb-8">
-			<h2 class="mb-4 text-2xl font-normal text-slate-950">2. How We Use Your Information</h2>
-			<p class="mb-4 text-base leading-relaxed text-slate-600">We may use your information to:</p>
-			<ul class="list-disc space-y-2 pl-6 text-base leading-relaxed text-slate-600">
+			<h2 class="mb-4 text-2xl font-normal text-slate-950 dark:text-slate-50">
+				2. How We Use Your Information
+			</h2>
+			<p class="mb-4 text-base leading-relaxed text-slate-600 dark:text-slate-200">
+				We may use your information to:
+			</p>
+			<ul
+				class="list-disc space-y-2 pl-6 text-base leading-relaxed text-slate-600 dark:text-slate-200"
+			>
 				<li>Provide and maintain the Site</li>
 				<li>Communicate with you (e.g., responses to inquiries)</li>
 				<li>Improve our services and user experience</li>
@@ -76,84 +88,96 @@
 			</ul>
 		</section>
 
-		<hr class="my-8 border-slate-200" />
+		<hr class="my-8 border-slate-200 dark:border-slate-800" />
 
 		<section class="mb-8">
-			<h2 class="mb-4 text-2xl font-normal text-slate-950">3. Sharing of Information</h2>
-			<p class="mb-4 text-base leading-relaxed text-slate-600">
+			<h2 class="mb-4 text-2xl font-normal text-slate-950 dark:text-slate-50">
+				3. Sharing of Information
+			</h2>
+			<p class="mb-4 text-base leading-relaxed text-slate-600 dark:text-slate-200">
 				We do not sell your personal information. We may share it only:
 			</p>
-			<ul class="list-disc space-y-2 pl-6 text-base leading-relaxed text-slate-600">
+			<ul
+				class="list-disc space-y-2 pl-6 text-base leading-relaxed text-slate-600 dark:text-slate-200"
+			>
 				<li>With service providers who assist us in operating the Site</li>
 				<li>To comply with legal obligations or protect our rights</li>
 				<li>With your consent</li>
 			</ul>
 		</section>
 
-		<hr class="my-8 border-slate-200" />
+		<hr class="my-8 border-slate-200 dark:border-slate-800" />
 
 		<section class="mb-8">
-			<h2 class="mb-4 text-2xl font-normal text-slate-950">4. Data Security</h2>
-			<p class="text-base leading-relaxed text-slate-600">
+			<h2 class="mb-4 text-2xl font-normal text-slate-950 dark:text-slate-50">4. Data Security</h2>
+			<p class="text-base leading-relaxed text-slate-600 dark:text-slate-200">
 				We use reasonable administrative and technical safeguards to protect your information.
 				However, no method of transmission over the Internet is 100% secure.
 			</p>
 		</section>
 
-		<hr class="my-8 border-slate-200" />
+		<hr class="my-8 border-slate-200 dark:border-slate-800" />
 
 		<section class="mb-8">
-			<h2 class="mb-4 text-2xl font-normal text-slate-950">5. Your Rights</h2>
-			<p class="mb-4 text-base leading-relaxed text-slate-600">
+			<h2 class="mb-4 text-2xl font-normal text-slate-950 dark:text-slate-50">5. Your Rights</h2>
+			<p class="mb-4 text-base leading-relaxed text-slate-600 dark:text-slate-200">
 				Depending on your location, you may have the right to:
 			</p>
-			<ul class="list-disc space-y-2 pl-6 text-base leading-relaxed text-slate-600">
+			<ul
+				class="list-disc space-y-2 pl-6 text-base leading-relaxed text-slate-600 dark:text-slate-200"
+			>
 				<li>Access or correct your personal data</li>
 				<li>Request deletion of your data</li>
 				<li>Withdraw consent for data processing</li>
 			</ul>
-			<p class="text-base leading-relaxed text-slate-600">
+			<p class="text-base leading-relaxed text-slate-600 dark:text-slate-200">
 				Contact us at <a href="mailto:{config.contactEmail}" class="text-slate-950 hover:underline"
 					>{config.contactEmail}</a
 				> to make a request.
 			</p>
 		</section>
 
-		<hr class="my-8 border-slate-200" />
+		<hr class="my-8 border-slate-200 dark:border-slate-800" />
 
 		<section class="mb-8">
-			<h2 class="mb-4 text-2xl font-normal text-slate-950">6. Third-Party Links</h2>
-			<p class="text-base leading-relaxed text-slate-600">
+			<h2 class="mb-4 text-2xl font-normal text-slate-950 dark:text-slate-50">
+				6. Third-Party Links
+			</h2>
+			<p class="text-base leading-relaxed text-slate-600 dark:text-slate-200">
 				The Site may contain links to third-party websites. We are not responsible for the privacy
 				practices of those sites.
 			</p>
 		</section>
 
-		<hr class="my-8 border-slate-200" />
+		<hr class="my-8 border-slate-200 dark:border-slate-800" />
 
 		<section class="mb-8">
-			<h2 class="mb-4 text-2xl font-normal text-slate-950">7. Children's Privacy</h2>
-			<p class="text-base leading-relaxed text-slate-600">
+			<h2 class="mb-4 text-2xl font-normal text-slate-950 dark:text-slate-50">
+				7. Children's Privacy
+			</h2>
+			<p class="text-base leading-relaxed text-slate-600 dark:text-slate-200">
 				The Site is not intended for children under 13. We do not knowingly collect personal data
 				from children.
 			</p>
 		</section>
 
-		<hr class="my-8 border-slate-200" />
+		<hr class="my-8 border-slate-200 dark:border-slate-800" />
 
 		<section class="mb-8">
-			<h2 class="mb-4 text-2xl font-normal text-slate-950">8. Changes to This Policy</h2>
-			<p class="text-base leading-relaxed text-slate-600">
+			<h2 class="mb-4 text-2xl font-normal text-slate-950 dark:text-slate-50">
+				8. Changes to This Policy
+			</h2>
+			<p class="text-base leading-relaxed text-slate-600 dark:text-slate-200">
 				We may update this Privacy Policy from time to time. Changes will be posted on this page
 				with an updated effective date.
 			</p>
 		</section>
 
-		<hr class="my-8 border-slate-200" />
+		<hr class="my-8 border-slate-200 dark:border-slate-800" />
 
 		<section class="mb-8">
-			<h2 class="mb-4 text-2xl font-normal text-slate-950">9. Contact Us</h2>
-			<p class="text-base leading-relaxed text-slate-600">
+			<h2 class="mb-4 text-2xl font-normal text-slate-950 dark:text-slate-50">9. Contact Us</h2>
+			<p class="text-base leading-relaxed text-slate-600 dark:text-slate-200">
 				If you have any questions about these Terms, please contact us at <a
 					href="mailto:{config.contactEmail}"
 					class="text-slate-950 hover:underline">{config.contactEmail}</a

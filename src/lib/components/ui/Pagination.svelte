@@ -42,7 +42,7 @@
 	<!-- Previous button -->
 	<button
 		type="button"
-		class="flex cursor-pointer items-center gap-2 rounded-full px-3 py-2 text-sm font-medium text-slate-700 transition-colors hover:bg-slate-100 disabled:cursor-not-allowed disabled:opacity-50"
+		class="flex cursor-pointer items-center gap-2 rounded-full px-3 py-2 text-sm font-medium text-slate-700 transition-colors hover:bg-slate-100 disabled:cursor-not-allowed disabled:opacity-50 dark:text-slate-50 dark:hover:bg-slate-800"
 		disabled={currentPage === 1}
 		on:click={goToPrevious}
 		aria-label="Go to previous page"
@@ -54,12 +54,12 @@
 	<!-- Page numbers -->
 	{#each pages as page}
 		{#if page === '...'}
-			<span class="px-3 py-2 text-sm text-slate-400">...</span>
+			<span class="px-3 py-2 text-sm text-slate-400 dark:text-slate-400">...</span>
 		{:else}
 			<button
 				type="button"
 				class={`flex h-9 w-9 cursor-pointer items-center justify-center rounded-full text-sm font-medium transition-colors
-					${page === currentPage ? 'bg-slate-950 text-white' : 'text-slate-700 hover:bg-slate-100'}`}
+					${page === currentPage ? 'bg-slate-950 text-white dark:bg-slate-50 dark:text-slate-950' : 'text-slate-700 hover:bg-slate-100 dark:text-slate-50 dark:hover:bg-slate-800'}`}
 				on:click={() => goToPage(Number(page))}
 				aria-label={`Go to page ${page}`}
 				aria-current={page === currentPage ? 'page' : undefined}
@@ -72,7 +72,7 @@
 	<!-- Next button -->
 	<button
 		type="button"
-		class="flex cursor-pointer items-center gap-2 rounded-full px-3 py-2 text-sm font-medium text-slate-700 transition-colors hover:bg-slate-100 disabled:cursor-not-allowed disabled:opacity-50"
+		class="flex cursor-pointer items-center gap-2 rounded-full px-3 py-2 text-sm font-medium text-slate-700 transition-colors hover:bg-slate-100 disabled:cursor-not-allowed disabled:opacity-50 dark:text-slate-50 dark:hover:bg-slate-800"
 		disabled={currentPage === totalPages}
 		on:click={goToNext}
 		aria-label="Go to next page"

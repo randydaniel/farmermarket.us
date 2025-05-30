@@ -59,10 +59,16 @@
 	/>
 </svelte:head>
 
-<main class="container mx-auto max-w-[900px] px-4 py-12 xl:px-0 xl:py-24">
+<main
+	class="container mx-auto max-w-[900px] px-4 py-12 xl:px-0 xl:py-24 dark:bg-slate-950 dark:text-slate-50"
+>
 	<!-- Header -->
-	<h1 class="mb-4 text-4xl font-normal text-slate-950">Frequently Asked Questions</h1>
+	<h1 class="mb-4 text-4xl font-normal text-slate-950 dark:text-slate-50">
+		Frequently Asked Questions
+	</h1>
 
 	<!-- FAQ Accordion -->
-	<Accordion items={faqItems} />
+	<div class="prose prose-slate max-w-none">
+		<Accordion items={faqItems} />
+	</div>
 </main>

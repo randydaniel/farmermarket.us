@@ -14,7 +14,11 @@
 <button
 	type="button"
 	class={`inline-flex items-center gap-2 rounded-full px-4 py-3 text-sm font-medium transition-all duration-300
-    ${active ? 'bg-slate-950 text-slate-50' : 'border border-slate-200 bg-slate-50 text-slate-950'}
+    ${
+			active
+				? 'bg-slate-950 text-slate-50 dark:bg-slate-50 dark:text-slate-950'
+				: 'border border-slate-200 bg-slate-50 text-slate-950 dark:border-slate-800 dark:bg-slate-950 dark:text-slate-50'
+		}
     hover:cursor-pointer focus:ring-2 focus:ring-offset-2 focus:outline-none
     disabled:pointer-events-none disabled:opacity-50`}
 	{disabled}

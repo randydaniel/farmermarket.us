@@ -35,13 +35,13 @@
 <!-- Click outside handler -->
 <svelte:window on:click={handleClickOutside} />
 
-<nav class="sticky top-0 z-40 w-full bg-white py-4 shadow-xs">
+<nav class="sticky top-0 z-40 w-full bg-white py-4 shadow-xs dark:bg-slate-950">
 	<div class="container mx-auto flex items-center justify-between px-4 xl:px-0">
 		<!-- Left: Logo + Nav Links (Original Structure) -->
 		<div class="flex items-center gap-4 sm:gap-8">
 			<a
 				href="/"
-				class="flex items-center gap-1 text-lg font-medium text-slate-950 transition-colors duration-300 hover:text-slate-700 sm:gap-2"
+				class="flex items-center gap-1 text-lg font-medium text-slate-950 transition-colors duration-300 hover:text-slate-700 sm:gap-2 dark:text-slate-50 hover:dark:text-slate-100"
 				on:click={closeMobileMenu}
 			>
 				<NyTimesLogo size={24} />
@@ -54,7 +54,7 @@
 					<a
 						href="/"
 						class={`text-base font-normal transition-all duration-300
-						${$page.url.pathname === '/' ? 'text-slate-950 underline underline-offset-4' : 'text-slate-600 hover:text-slate-950'}`}
+						${$page.url.pathname === '/' ? 'text-slate-950 underline underline-offset-4 dark:text-slate-50' : 'text-slate-600 hover:text-slate-950 dark:text-slate-100 hover:dark:text-slate-50'}`}
 					>
 						Directory
 					</a>
@@ -63,7 +63,7 @@
 					<a
 						href="/faq"
 						class={`text-base font-normal transition-all duration-300
-						${$page.url.pathname === '/faq' ? 'text-slate-950 underline underline-offset-4' : 'text-slate-600 hover:text-slate-950'}`}
+						${$page.url.pathname === '/faq' ? 'text-slate-950 underline underline-offset-4 dark:text-slate-50' : 'text-slate-600 hover:text-slate-950 dark:text-slate-100 hover:dark:text-slate-50'}`}
 					>
 						FAQ
 					</a>
