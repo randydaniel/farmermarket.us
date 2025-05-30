@@ -133,7 +133,7 @@
 	</script>`}
 </svelte:head>
 
-<Hero align="center" background="/path/to/image.jpg">
+<Hero align="center" background="/hero.png">
 	<h1 class="text-4xl font-medium text-slate-950">Welcome!</h1>
 	<p class="text-lg text-slate-600">This is a left-aligned hero section.</p>
 </Hero>
