@@ -134,8 +134,13 @@
 </svelte:head>
 
 <Hero align="center" background="/hero.png">
-	<h1 class="text-4xl font-medium text-slate-950">Welcome!</h1>
-	<p class="text-lg text-slate-600">This is a left-aligned hero section.</p>
+	<h1 class="text-4xl font-medium text-slate-950 mix-blend-difference">
+		Build any directory. Fast!
+	</h1>
+	<p class="max-w-xl text-lg font-light text-slate-700 mix-blend-difference">
+		Whether you're launching a local business hub, service finder, or niche index, Direx gives you
+		the structure to do it all—beautifully.
+	</p>
 </Hero>
 <FilterBar>
 	{#each filters as { label, icon, category }}
