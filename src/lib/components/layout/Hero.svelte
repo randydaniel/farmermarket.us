@@ -1,15 +1,23 @@
 <script lang="ts">
 	export let align: 'left' | 'center' | 'right' = 'center';
 	export let background: string = '';
+	export let backgroundMobile: string = '';
 </script>
 
 <section class="relative flex min-h-96 items-center overflow-hidden px-4 py-16">
 	<!-- Overlay: slate-200 with opacity -->
 	<div class="pointer-events-none absolute inset-0 z-0 bg-slate-200/80"></div>
-	<!-- Background image -->
+	<!-- Mobile Background image -->
+	{#if backgroundMobile}
+		<div
+			class="absolute inset-0 z-0 bg-cover bg-center sm:hidden"
+			style={`background-image: url('${backgroundMobile}');`}
+		></div>
+	{/if}
+	<!-- Desktop Background image -->
 	{#if background}
 		<div
-			class="absolute inset-0 z-0 bg-cover bg-center"
+			class="absolute inset-0 z-0 hidden bg-cover bg-center sm:block"
 			style={`background-image: url('${background}');`}
 		></div>
 	{/if}
