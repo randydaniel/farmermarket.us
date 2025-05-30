@@ -4,29 +4,29 @@
 
 	const faqItems = [
 		{
-			title: 'What is included in this landing page template?',
-			content:
-				'This template includes a modern, responsive design optimized for AI agent products. It comes with pre-built sections for hero, features, integrations, pricing, testimonials, and a call-to-action. Easily customizable in Figma or your preferred builder.'
-		},
-		{
 			title: 'Who is this template best suited for?',
 			content:
-				'This template includes a modern, responsive design optimized for AI agent products. It comes with pre-built sections for hero, features, integrations, pricing, testimonials, and a call-to-action. Easily customizable in Figma or your preferred builder.'
+				'Direx is perfect for anyone building a directory-style site—whether you’re listing local businesses, freelancers, services, events, or niche communities. It’s ideal for creators, startups, and agencies looking to launch fast.'
 		},
 		{
 			title: 'Can I customize the layout and visuals?',
 			content:
-				'This template includes a modern, responsive design optimized for AI agent products. It comes with pre-built sections for hero, features, integrations, pricing, testimonials, and a call-to-action. Easily customizable in Figma or your preferred builder.'
+				'Yes. Direx is built for flexibility. You can easily customize colors, typography, spacing, and layouts to match your brand using your favorite design tools or directly in code.'
 		},
 		{
 			title: 'Do I need coding experience to use this template?',
 			content:
-				'This template includes a modern, responsive design optimized for AI agent products. It comes with pre-built sections for hero, features, integrations, pricing, testimonials, and a call-to-action. Easily customizable in Figma or your preferred builder.'
+				'Not necessarily. Direx is designed with clean, well-organized code that’s beginner-friendly. Some basic HTML/CSS knowledge helps if you want to tweak things more deeply, but you don’t need to be an expert to get started.'
 		},
 		{
-			title: 'Is this a one-time purchase or subscription?',
+			title: 'Is this template mobile-friendly?',
 			content:
-				'This template includes a modern, responsive design optimized for AI agent products. It comes with pre-built sections for hero, features, integrations, pricing, testimonials, and a call-to-action. Easily customizable in Figma or your preferred builder.'
+				'Absolutely. Direx is fully responsive and designed to look great on all devices—from phones to desktops.'
+		},
+		{
+			title: 'Can I use this for a client project or commercial site?',
+			content:
+				'Yes. Direx comes with a license that allows commercial use, so you can use it for personal sites, client projects, or full-scale businesses.'
 		}
 	];
 </script>
