@@ -133,11 +133,11 @@
 	</script>`}
 </svelte:head>
 
-<Hero align="center" background="/hero.png">
-	<h1 class="text-4xl font-medium text-slate-950 mix-blend-difference">
+<Hero align="center" background="/hero.png" backgroundMobile="/hero-mobile.png">
+	<h1 class="text-2xl font-medium text-slate-950 mix-blend-difference md:text-4xl">
 		Build any directory. Fast!
 	</h1>
-	<p class="max-w-xl text-lg font-light text-slate-700 mix-blend-difference">
+	<p class="max-w-xl text-sm font-light text-slate-700 mix-blend-difference md:text-lg">
 		Whether you're launching a local business hub, service finder, or niche index, Direx gives you
 		the structure to do it all—beautifully.
 	</p>
