@@ -1,4 +1,5 @@
 import { config } from '$lib/config';
+import { slugify } from '$lib/utils/slugify';
 import resources from '$lib/data/resources.json';
 
 const site = config.defaultSiteUrl.replace(/\/$/, ''); // Remove trailing slash if present
@@ -11,9 +12,9 @@ const staticPages = [
 	{ loc: '/terms', changefreq: 'monthly', priority: 0.7 }
 ];
 
-// Dynamic resource pages (as objects)
+// Dynamic resource pages (as objects, using slugified title)
 const resourcePages = resources.map((r) => ({
-	loc: `/directory/${r.category}/${r.id}`,
+	loc: `/directory/${r.category}/${slugify(r.title)}`,
 	changefreq: 'daily',
 	priority: 0.5
 }));
