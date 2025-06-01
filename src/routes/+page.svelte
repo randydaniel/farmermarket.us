@@ -68,6 +68,11 @@
 
 	$: searchActive = searchQuery.trim().length > 0;
 
+	// Reset pagination when search query changes
+	$: if (searchQuery !== undefined) {
+		currentPage = 1;
+	}
+
 	function selectFilter(category: string) {
 		selectedCategory = selectedCategory === category ? '' : category;
 		currentPage = 1; // Reset to first page when filtering
@@ -230,7 +235,7 @@
 		</div>
 
 		<!-- Pagination -->
-		{#if totalPages > 1 && !searchActive}
+		{#if totalPages > 1}
 			<div class="mt-12">
 				<Pagination {currentPage} {totalPages} onPageChange={handlePageChange} />
 			</div>
