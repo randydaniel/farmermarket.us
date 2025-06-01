@@ -185,6 +185,7 @@
 					active={true}
 					onclick={() => {
 						searchMode = false;
+						searchQuery = ''; // Clear search when closing
 					}}
 				/>
 				<input
@@ -198,11 +199,6 @@
 					}}
 					style="min-width: 0;"
 				/>
-				{#if searchQuery}
-					<button class="ml-1 text-xs text-slate-500 hover:underline" on:click={clearSearch}>
-						Clear
-					</button>
-				{/if}
 			</div>
 		{/if}
 	</svelte:fragment>
