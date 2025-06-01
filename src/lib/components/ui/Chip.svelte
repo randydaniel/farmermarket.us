@@ -4,6 +4,7 @@
 	export let rightIcon: any = null;
 	export let disabled: boolean = false;
 	export let onclick: ((e: MouseEvent) => void) | undefined = undefined;
+	export let ariaLabel: string | undefined = undefined;
 
 	function handleClick(e: MouseEvent) {
 		if (disabled) return;
@@ -23,6 +24,7 @@
     disabled:pointer-events-none disabled:opacity-50`}
 	{disabled}
 	on:click={handleClick}
+	aria-label={ariaLabel}
 >
 	{#if leftIcon}
 		<span class="flex items-center">

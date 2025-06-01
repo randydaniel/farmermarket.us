@@ -182,6 +182,7 @@
 				onclick={() => {
 					searchMode = true;
 				}}
+				ariaLabel="Open search"
 			/>
 		{:else}
 			<div class="flex w-full items-center gap-3">
@@ -192,6 +193,7 @@
 						searchMode = false;
 						searchQuery = ''; // Clear search when closing
 					}}
+					ariaLabel="Close search"
 				/>
 				<input
 					class="flex-1 rounded-full border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-950 shadow-sm focus:border-slate-400 focus:outline-none dark:border-slate-800 dark:bg-slate-950 dark:text-slate-50"
