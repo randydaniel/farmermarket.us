@@ -21,8 +21,14 @@
 		PaintBrush,
 		Code,
 		GitBranch,
-		ArrowsCounterClockwise
+		ArrowsCounterClockwise,
+		MagnifyingGlass,
+		X
 	} from 'phosphor-svelte';
+	import { fade } from 'svelte/transition';
+	import { scale } from 'svelte/transition';
+	import { cubicOut } from 'svelte/easing';
+	import { slide } from 'svelte/transition';
 
 	// Example: filter options as an array
 	const filters = [
@@ -51,6 +57,17 @@
 	// Set random ad on mount
 	randomAd = getRandomAd();
 
+	let searchMode = false;
+	let searchQuery = '';
+	let searchInput: HTMLInputElement | null = null;
+
+	function clearSearch() {
+		searchQuery = '';
+		searchMode = false;
+	}
+
+	$: searchActive = searchQuery.trim().length > 0;
+
 	function selectFilter(category: string) {
 		selectedCategory = selectedCategory === category ? '' : category;
 		currentPage = 1; // Reset to first page when filtering
@@ -62,11 +79,18 @@
 		window.scrollTo({ top: 0, behavior: 'smooth' });
 	}
 
-	$: filteredResources = selectedCategory
-		? allResources.filter((r: any) => {
-				return String(r.category).trim() === String(selectedCategory).trim();
+	$: filteredResources = searchActive
+		? allResources.filter((r) => {
+				const q = searchQuery.toLowerCase();
+				return (
+					r.title.toLowerCase().includes(q) ||
+					r.description.toLowerCase().includes(q) ||
+					r.category.toLowerCase().includes(q)
+				);
 			})
-		: allResources;
+		: selectedCategory
+			? allResources.filter((r) => String(r.category).trim() === String(selectedCategory).trim())
+			: allResources;
 
 	$: totalPages = Math.ceil(filteredResources.length / itemsPerPage);
 	$: paginatedResources = filteredResources.slice(
@@ -81,6 +105,8 @@
 	// Smart ad placement logic using utility functions
 	$: shouldShowAd = shouldDisplayAd(paginatedResources.length);
 	$: adInsertIndex = getAdInsertIndex();
+
+	$: if (searchMode && searchInput) searchInput.focus();
 </script>
 
 <svelte:head>
@@ -142,12 +168,50 @@
 		the structure to do it all—beautifully.
 	</p>
 </Hero>
-<FilterBar>
+<FilterBar hideGradients={searchMode}>
+	<svelte:fragment slot="search">
+		{#if !searchMode}
+			<Chip
+				leftIcon={{ component: MagnifyingGlass, props: { size: 18 } }}
+				active={searchActive}
+				onclick={() => {
+					searchMode = true;
+				}}
+			/>
+		{:else}
+			<div class="flex w-full items-center gap-3">
+				<Chip
+					leftIcon={{ component: X, props: { size: 20 } }}
+					active={true}
+					onclick={() => {
+						searchMode = false;
+					}}
+				/>
+				<input
+					class="flex-1 rounded-full border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-950 shadow-sm focus:border-slate-400 focus:outline-none dark:border-slate-800 dark:bg-slate-950 dark:text-slate-50"
+					type="text"
+					placeholder="Search resources..."
+					bind:value={searchQuery}
+					bind:this={searchInput}
+					on:keydown={(e) => {
+						if (e.key === 'Escape') clearSearch();
+					}}
+					style="min-width: 0;"
+				/>
+				{#if searchQuery}
+					<button class="ml-1 text-xs text-slate-500 hover:underline" on:click={clearSearch}>
+						Clear
+					</button>
+				{/if}
+			</div>
+		{/if}
+	</svelte:fragment>
 	{#each filters as { label, icon, category }}
 		<Chip
 			leftIcon={{ component: icon, props: { size: 18 } }}
-			active={selectedCategory === category}
+			active={selectedCategory === category && !searchActive}
 			onclick={() => selectFilter(category)}
+			disabled={searchActive}
 		>
 			{label}
 		</Chip>
@@ -156,7 +220,7 @@
 
 <section class="container mx-auto px-4 py-12 xl:px-0">
 	<h2 class="mb-6 text-xl font-semibold">
-		{selectedLabel}
+		{searchActive ? `Results for "${searchQuery}"` : selectedLabel}
 	</h2>
 	{#if paginatedResources.length > 0}
 		<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
@@ -170,20 +234,31 @@
 		</div>
 
 		<!-- Pagination -->
-		{#if totalPages > 1}
+		{#if totalPages > 1 && !searchActive}
 			<div class="mt-12">
 				<Pagination {currentPage} {totalPages} onPageChange={handlePageChange} />
 			</div>
 		{/if}
 	{:else}
 		<div class="flex flex-col items-center justify-center py-24">
-			<h3 class="text-xl font-medium">No resources yet.</h3>
-			<button
-				class="mt-2 rounded-full bg-slate-950 px-6 py-3 font-medium text-slate-50 transition hover:bg-slate-800"
-				on:click={() => (selectedCategory = '')}
-			>
-				View all resources
-			</button>
+			<h3 class="text-xl font-medium">
+				{searchActive ? `No resources found for "${searchQuery}"` : 'No resources yet.'}
+			</h3>
+			{#if searchActive}
+				<button
+					class="mt-2 rounded-full bg-slate-950 px-6 py-3 font-medium text-slate-50 transition hover:bg-slate-800"
+					on:click={clearSearch}
+				>
+					Clear search
+				</button>
+			{:else}
+				<button
+					class="mt-2 rounded-full bg-slate-950 px-6 py-3 font-medium text-slate-50 transition hover:bg-slate-800"
+					on:click={() => (selectedCategory = '')}
+				>
+					View all resources
+				</button>
+			{/if}
 		</div>
 	{/if}
 </section>
