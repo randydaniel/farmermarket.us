@@ -22,7 +22,15 @@ const config = {
 			strict: false // Allow dynamic routes to be handled client-side
 		}),
 		prerender: {
-			entries
+			entries,
+			handleHttpError: ({ path, referrer, message }) => {
+				// Ignore 404s on dynamic routes - they'll be handled client-side
+				if (path.includes('[') || path.includes(']')) {
+					return;
+				}
+				// Otherwise, throw the error
+				throw new Error(message);
+			}
 		}
 	}
 };
