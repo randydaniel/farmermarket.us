@@ -1,5 +1,7 @@
 # Direx
 
+[![MadeWithSvelte.com shield](https://madewithsvelte.com/storage/repo-shields/5731-shield.svg)](https://madewithsvelte.com/p/direx/shield-link)
+
 A modern resource directory built with SvelteKit, featuring categorized resource listings, advanced filtering, pagination, and comprehensive SEO optimization.
 
 ---
