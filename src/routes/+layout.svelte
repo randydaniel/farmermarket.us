@@ -5,6 +5,7 @@
 	import Footer from '$lib/components/layout/Footer.svelte';
 
 	let { children } = $props();
+	injectAnalytics();
 </script>
 
 <div class="flex min-h-screen flex-col">
