@@ -145,19 +145,18 @@
 		</div>
 	</div>
 
-	<!-- Description -->
 	{#if resource.longDescription}
-		<p
+		<div
 			class="text-md max-w-full leading-normal font-normal text-slate-600 md:max-w-[80%] dark:text-slate-300"
 		>
-			{resource.longDescription}
-		</p>
+			{@html resource.longDescription}
+		</div>
 	{:else if resource.description}
-		<p
+		<div
 			class="text-md max-w-full leading-normal font-normal text-slate-600 md:max-w-[80%] dark:text-slate-300"
 		>
-			{resource.description}
-		</p>
+			{@html resource.description}
+		</div>
 	{/if}
 
 	<!-- Ad Section (if ads enabled and ad available) -->
