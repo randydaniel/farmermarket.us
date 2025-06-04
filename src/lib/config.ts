@@ -1,11 +1,10 @@
 // Site configuration - customize these values for your deployment
 export const config = {
-	siteName: 'Direx',
-	siteDescription:
-		'All the tools & resources you need, in one place. Boost productivity, unleash creativity, and simplify tasks with our curated collection.',
+	siteName: 'FarmerMarket.us',
+	siteDescription: `Your complete directory of farmer's markets across America. Find fresh, local produce and artisanal goods in your area with market hours, locations, and vendor information.`,
 	// Default site URL - update this for your domain
-	defaultSiteUrl: 'https://direx.vercel.app/',
-	contactEmail: 'hey@randy.digital',
+	defaultSiteUrl: 'https://farmermarket.us/',
+	contactEmail: 'hqdirectory@gmail.com',
 	// Ad placement configuration
 	ads: {
 		enabled: true,
