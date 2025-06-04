@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { injectAnalytics } from '@vercel/analytics/sveltekit';
 	import '../app.css';
 	import Navigation from '$lib/components/layout/Navigation.svelte';
 	import Footer from '$lib/components/layout/Footer.svelte';
