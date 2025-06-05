@@ -1,6 +1,6 @@
 <script>
 	import Button from '$lib/components/ui/Button.svelte';
-	import { EnvelopeSimple, NyTimesLogo } from 'phosphor-svelte';
+	import { EnvelopeSimple, Barn } from 'phosphor-svelte';
 	import { page } from '$app/stores';
 	import { config } from '$lib/config';
 </script>
@@ -15,12 +15,12 @@
 						href="/"
 						class="flex items-center gap-1 text-lg leading-none font-medium text-slate-950 transition-colors duration-300 hover:text-slate-700 dark:text-slate-50 hover:dark:text-slate-100"
 					>
-						<NyTimesLogo size={24} />
+						<Barn size={24} />
 						{config.siteName}
 					</a>
 					<p class="text-sm leading-normal font-light text-slate-600 dark:text-slate-300">
-						All the tools &amp; resources you need, in one place. Boost productivity, unleash
-						creativity, and simplify tasks with our curated collection.
+						Your complete directory of farmer's markets across America. Find fresh, local produce
+						and artisanal goods in your area with market hours, locations, and vendor information.
 					</p>
 				</div>
 				<div class="flex max-w-sm flex-col gap-2">
@@ -38,7 +38,7 @@
 				</div>
 			</div>
 			<!-- Right Side -->
-			<div class="flex flex-col gap-8">
+			<div class="mt-8 flex flex-col gap-8 lg:mt-0">
 				<div class="flex flex-row gap-24">
 					<div class="flex flex-col gap-2">
 						<h3 class="text-lg leading-none font-medium text-slate-950 dark:text-slate-50">

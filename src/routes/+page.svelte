@@ -11,17 +11,49 @@
 	import { getRandomAd, shouldDisplayAd, getAdInsertIndex } from '$lib/utils/ads';
 	import type { CustomAd } from '$lib/utils/ads';
 	import {
-		OpenAiLogo,
-		CurrencyBtc,
-		Briefcase,
-		Shapes,
-		CreditCard,
-		DeviceMobile,
-		Desktop,
-		PaintBrush,
-		Code,
-		GitBranch,
-		ArrowsCounterClockwise,
+		Rocket, // Alabama
+		Snowflake, // Alaska
+		Cactus, // Arizona
+		Diamond, // Arkansas
+		Sun, // California
+		Mountains, // Colorado, Utah, Wyoming
+		Anchor, // Connecticut
+		Bank, // Delaware
+		TreePalm, // Florida
+		Tree, // Georgia, Vermont
+		Island, // Hawaii
+		Circle, // Idaho
+		Buildings, // Illinois
+		FlagCheckered, // Indiana
+		Acorn, // Iowa
+		Wind, // Kansas
+		Horse, // Kentucky
+		MusicNotes, // Louisiana
+		Shrimp, // Maine
+		Fish, // Maryland
+		GraduationCap, // Massachusetts
+		Car, // Michigan
+		Waves, // Minnesota, Mississippi
+		Bridge, // Missouri
+		Tent, // Montana
+		Leaf, // Nebraska, New Hampshire, Washington
+		Cards, // Nevada
+		Factory, // New Jersey
+		Balloon, // New Mexico
+		AppleLogo, // New York
+		Airplane, // North Carolina
+		Drop, // North Dakota
+		Nut, // Ohio
+		Lightning, // Oklahoma
+		Coffee, // Oregon
+		Bell, // Pennsylvania
+		Lighthouse, // Rhode Island
+		Flower, // South Carolina
+		Cheese, // South Dakota, Wisconsin
+		Guitar, // Tennessee
+		Star, // Texas
+		Crown, // Virginia
+		Hammer, // West Virginia
 		MagnifyingGlass,
 		X
 	} from 'phosphor-svelte';
@@ -32,17 +64,56 @@
 
 	// Example: filter options as an array
 	const filters = [
-		{ label: 'Artificial Intelligence', icon: OpenAiLogo, category: 'artificial-intelligence' },
-		{ label: 'Web 3', icon: CurrencyBtc, category: 'web-3' },
-		{ label: 'Portfolios', icon: Briefcase, category: 'portfolios' },
-		{ label: 'Startups', icon: Shapes, category: 'startups' },
-		{ label: 'E-commerce', icon: CreditCard, category: 'e-commerce' },
-		{ label: 'Mobile Apps', icon: DeviceMobile, category: 'mobile-apps' },
-		{ label: 'Desktop Apps', icon: Desktop, category: 'desktop-apps' },
-		{ label: 'Design', icon: PaintBrush, category: 'design' },
-		{ label: 'Development', icon: Code, category: 'development' },
-		{ label: 'Tech', icon: GitBranch, category: 'tech' },
-		{ label: 'SaaS', icon: ArrowsCounterClockwise, category: 'saas' }
+		{ label: 'Alabama', icon: Rocket, category: 'alabama' },
+		{ label: 'Alaska', icon: Snowflake, category: 'alaska' },
+		{ label: 'Arizona', icon: Cactus, category: 'arizona' },
+		{ label: 'Arkansas', icon: Diamond, category: 'arkansas' },
+		{ label: 'California', icon: Sun, category: 'california' },
+		{ label: 'Colorado', icon: Mountains, category: 'colorado' },
+		{ label: 'Connecticut', icon: Anchor, category: 'connecticut' },
+		{ label: 'Delaware', icon: Bank, category: 'delaware' },
+		{ label: 'Florida', icon: TreePalm, category: 'florida' },
+		{ label: 'Georgia', icon: Tree, category: 'georgia' },
+		{ label: 'Hawaii', icon: Island, category: 'hawaii' },
+		{ label: 'Idaho', icon: Circle, category: 'idaho' },
+		{ label: 'Illinois', icon: Buildings, category: 'illinois' },
+		{ label: 'Indiana', icon: FlagCheckered, category: 'indiana' },
+		{ label: 'Iowa', icon: Acorn, category: 'iowa' },
+		{ label: 'Kansas', icon: Wind, category: 'kansas' },
+		{ label: 'Kentucky', icon: Horse, category: 'kentucky' },
+		{ label: 'Louisiana', icon: MusicNotes, category: 'louisiana' },
+		{ label: 'Maine', icon: Shrimp, category: 'maine' },
+		{ label: 'Maryland', icon: Fish, category: 'maryland' },
+		{ label: 'Massachusetts', icon: GraduationCap, category: 'massachusetts' },
+		{ label: 'Michigan', icon: Car, category: 'michigan' },
+		{ label: 'Minnesota', icon: Waves, category: 'minnesota' },
+		{ label: 'Mississippi', icon: Waves, category: 'mississippi' },
+		{ label: 'Missouri', icon: Bridge, category: 'missouri' },
+		{ label: 'Montana', icon: Tent, category: 'montana' },
+		{ label: 'Nebraska', icon: Leaf, category: 'nebraska' },
+		{ label: 'Nevada', icon: Cards, category: 'nevada' },
+		{ label: 'New Hampshire', icon: Leaf, category: 'new-hampshire' },
+		{ label: 'New Jersey', icon: Factory, category: 'new-jersey' },
+		{ label: 'New Mexico', icon: Balloon, category: 'new-mexico' },
+		{ label: 'New York', icon: AppleLogo, category: 'new-york' },
+		{ label: 'North Carolina', icon: Airplane, category: 'north-carolina' },
+		{ label: 'North Dakota', icon: Drop, category: 'north-dakota' },
+		{ label: 'Ohio', icon: Nut, category: 'ohio' },
+		{ label: 'Oklahoma', icon: Lightning, category: 'oklahoma' },
+		{ label: 'Oregon', icon: Coffee, category: 'oregon' },
+		{ label: 'Pennsylvania', icon: Bell, category: 'pennsylvania' },
+		{ label: 'Rhode Island', icon: Lighthouse, category: 'rhode-island' },
+		{ label: 'South Carolina', icon: Flower, category: 'south-carolina' },
+		{ label: 'South Dakota', icon: Cheese, category: 'south-dakota' },
+		{ label: 'Tennessee', icon: Guitar, category: 'tennessee' },
+		{ label: 'Texas', icon: Star, category: 'texas' },
+		{ label: 'Utah', icon: Mountains, category: 'utah' },
+		{ label: 'Vermont', icon: Tree, category: 'vermont' },
+		{ label: 'Virginia', icon: Crown, category: 'virginia' },
+		{ label: 'Washington', icon: Leaf, category: 'washington' },
+		{ label: 'West Virginia', icon: Hammer, category: 'west-virginia' },
+		{ label: 'Wisconsin', icon: Cheese, category: 'wisconsin' },
+		{ label: 'Wyoming', icon: Mountains, category: 'wyoming' }
 	];
 
 	const allResources = resources;
@@ -166,11 +237,11 @@
 
 <Hero align="center" background="/hero.png" backgroundMobile="/hero-mobile.png">
 	<h1 class="mb-2 text-2xl font-medium text-slate-950 mix-blend-difference md:text-4xl">
-		Build any directory. Fast!
+		Farmer's Market Directory
 	</h1>
 	<p class="max-w-xl text-sm font-light text-slate-700 mix-blend-difference md:text-lg">
-		Whether you're launching a local business hub, service finder, or niche index, Direx gives you
-		the structure to do it all—beautifully.
+		Find fresh, local produce and artisanal goods in your area with market hours, locations, and
+		vendor information.
 	</p>
 </Hero>
 <FilterBar hideGradients={searchMode}>
@@ -245,7 +316,7 @@
 	{:else}
 		<div class="flex flex-col items-center justify-center py-24">
 			<h3 class="text-xl font-medium">
-				{searchActive ? `No resources found for "${searchQuery}"` : 'No resources yet.'}
+				{searchActive ? `No resources found for \"${searchQuery}\"` : 'No resources yet.'}
 			</h3>
 			{#if searchActive}
 				<button

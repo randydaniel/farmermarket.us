@@ -7,7 +7,7 @@ export const config = {
 	contactEmail: 'hqdirectory@gmail.com',
 	// Ad placement configuration
 	ads: {
-		enabled: true,
+		enabled: false,
 		// Directory page ads
 		placementRow: 1, // Insert ad after this row (1-based)
 		itemsPerRow: 4, // Should match your grid columns (lg:grid-cols-4)
