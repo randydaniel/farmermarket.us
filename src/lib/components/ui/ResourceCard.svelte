@@ -2,8 +2,7 @@
 	export let title: string;
 	export let description: string = '';
 	export let image: string;
-	export let category: string = '';
-	export let address: { state?: string } | undefined = undefined;
+	export let category: string;
 	export let externalUrl: string;
 	export let sponsored: boolean = false;
 
@@ -11,7 +10,7 @@
 	import { slugify } from '$lib/utils/slugify';
 
 	// For internal link using slugified title
-	$: internalUrl = `/${(category || address?.state || '').toLowerCase()}/${slugify(title)}`;
+	$: internalUrl = `/${category.toLowerCase()}/${slugify(title)}`;
 
 	// Import icons
 	import { SealCheck, Info, ArrowUpRight } from 'phosphor-svelte';

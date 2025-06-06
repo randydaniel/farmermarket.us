@@ -61,7 +61,6 @@
 	import { scale } from 'svelte/transition';
 	import { cubicOut } from 'svelte/easing';
 	import { slide } from 'svelte/transition';
-	import { onMount } from 'svelte';
 
 	// Example: filter options as an array
 	const filters = [
@@ -133,10 +132,6 @@
 	let searchQuery = '';
 	let searchInput: HTMLInputElement | null = null;
 
-	// Geolocation-based state filter activation
-	let geoLoading = false;
-	let geoError = '';
-
 	function clearSearch() {
 		searchQuery = '';
 		searchMode = false;
@@ -190,51 +185,6 @@
 	$: adInsertIndex = getAdInsertIndex();
 
 	$: if (searchMode && searchInput) searchInput.focus();
-
-	async function getStateFromCoords(lat: number, lon: number): Promise<string | null> {
-		// Nominatim OpenStreetMap API (free, but rate-limited)
-		const url = `https://nominatim.openstreetmap.org/reverse?format=json&lat=${lat}&lon=${lon}&zoom=5&addressdetails=1`;
-		try {
-			const res = await fetch(url);
-			const data = await res.json();
-			return data.address?.state || null;
-		} catch (e) {
-			return null;
-		}
-	}
-
-	async function detectLocationAndSetFilter() {
-		geoLoading = true;
-		geoError = '';
-		if ('geolocation' in navigator) {
-			navigator.geolocation.getCurrentPosition(
-				async (position) => {
-					const { latitude, longitude } = position.coords;
-					const state = await getStateFromCoords(latitude, longitude);
-					if (state && filters.some((f) => f.category === state)) {
-						selectedCategory = state;
-					} else {
-						selectedCategory = '';
-					}
-					geoLoading = false;
-				},
-				(err) => {
-					geoError = 'Unable to get your location.';
-					console.warn(geoError);
-					geoLoading = false;
-					selectedCategory = '';
-				}
-			);
-		} else {
-			geoError = 'Geolocation is not supported by your browser.';
-			console.warn(geoError);
-			geoLoading = false;
-		}
-	}
-
-	onMount(() => {
-		detectLocationAndSetFilter();
-	});
 </script>
 
 <svelte:head>
@@ -355,7 +305,7 @@
 				{#if shouldShowAd && randomAd && index === adInsertIndex}
 					<Ad ad={randomAd} />
 				{/if}
-				<ResourceCard {...resource} />
+				<ResourceCard {...resource} category={resource.address.state} />
 			{/each}
 		</div>
 
