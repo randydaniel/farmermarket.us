@@ -1,3 +1,4 @@
+export const prerender = true;
 import { config } from '$lib/config';
 import { slugify } from '$lib/utils/slugify';
 import resources from '$lib/data/resources.json';
