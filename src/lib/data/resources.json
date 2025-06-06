@@ -1,12 +1,27 @@
 [
 	{
 		"id": "1",
-		"title": "AI Art Generator",
-		"description": "Create stunning artwork using artificial intelligence.",
-		"longDescription": "<p>Transform your creative ideas into stunning visual art with the power of artificial intelligence. This cutting-edge tool uses advanced machine learning algorithms to generate unique, high-quality artwork from simple text prompts. Whether you're a professional designer looking for inspiration, a content creator needing custom visuals, or an artist exploring new mediums, this AI art generator provides endless possibilities. Features include multiple art styles, high-resolution outputs, commercial usage rights, and an intuitive interface that makes AI art creation accessible to everyone.</p><p class='mt-4'>This is a second paragraph.</p>",
-		"image": "/images/ai/ai-art-generator.png",
-		"category": "artificial-intelligence",
-		"externalUrl": "https://axcai.gumroad.com/l/axc-0002",
-		"sponsored": true
+		"title": "Alabama Farmers Market",
+		"description": "The Alabama Farmers Market is open to the public 7 days a week, 365 days a year.",
+		"longDescription": "<p>The Alabama Farmers Market welcomes visitors year-round with fresh, local produce and specialty vendors. This expansive indoor and outdoor market connects the community with local farmers and established retailers in a vibrant marketplace setting.</p><p class='mt-4'>Experience the heart of Alabama's agricultural community at this bustling marketplace that brings together local farmers, specialty vendors, and fresh food enthusiasts daily.</p>",
+		"image": "/images/resources/alabama/alabama-farmers-market.avif",
+		"address": {
+			"street": "344 Finley Avenue West",
+			"city": "Birmingham",
+			"state": "Alabama",
+			"zip": "35204"
+		},
+		"phone": "+1 (205) 251-8737",
+		"hours": {
+			"monday": "6:00 AM - 2:00 PM",
+			"tuesday": "6:00 AM - 2:00 PM",
+			"wednesday": "6:00 AM - 2:00 PM",
+			"thursday": "6:00 AM - 2:00 PM",
+			"friday": "6:00 AM - 2:00 PM",
+			"saturday": "6:00 AM - 2:00 PM",
+			"sunday": "6:00 AM - 2:00 PM"
+		},
+		"externalUrl": "https://alabamafarmersmarket.org/",
+		"sponsored": false
 	}
 ]

@@ -12,7 +12,7 @@
 	$: ({ resource, siteUrl } = data);
 
 	// Generate the canonical URL using the site URL from load function
-	$: canonicalUrl = `${siteUrl}/${resource.category}/${slugify(resource.title)}`;
+	$: canonicalUrl = `${siteUrl}/${resource.address.state.toLowerCase()}/${slugify(resource.title)}`;
 
 	// Randomize ad on component mount (for individual resource pages)
 	let randomAd: CustomAd | null = null;
@@ -31,7 +31,7 @@
 	/>
 	<meta
 		name="keywords"
-		content={`${resource.title}, ${resource.category.replace('-', ' ')}, resources, tools, directory`}
+		content={`${resource.title}, ${resource.address.state}, resources, tools, directory`}
 	/>
 	<meta name="author" content={config.siteName} />
 	<link rel="canonical" href={canonicalUrl} />
@@ -87,7 +87,7 @@
 			"name": "${resource.title}",
 			"description": "${resource.description || `Discover ${resource.title} and more resources on ${config.siteName}.`}",
 			"url": "${resource.externalUrl}",
-			"applicationCategory": "${resource.category
+			"applicationCategory": "${resource.address.state
 				.split('-')
 				.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
 				.join(' ')}",
@@ -114,7 +114,7 @@
 	<span
 		class="mb-4 inline-block rounded-full bg-slate-200 px-3 py-1 text-sm font-medium text-slate-700"
 	>
-		{resource.category
+		{resource.address.state
 			.split('-')
 			.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
 			.join(' ')}
@@ -156,6 +156,29 @@
 			class="text-md max-w-full leading-normal font-normal text-slate-600 md:max-w-[80%] dark:text-slate-300"
 		>
 			{@html resource.description}
+		</div>
+	{/if}
+
+	<!-- Address and Hours -->
+	{#if resource.address}
+		<div class="mt-4 text-sm text-slate-700 dark:text-slate-300">
+			<strong>Address:</strong>
+			{resource.address.street}, {resource.address.city}, {resource.address.state}
+			{resource.address.zip}
+		</div>
+	{/if}
+	{#if resource.hours}
+		<div class="mt-2 text-sm text-slate-700 dark:text-slate-300">
+			<strong>Hours:</strong>
+			<ul class="ml-2">
+				<li>Mon: {resource.hours.monday}</li>
+				<li>Tue: {resource.hours.tuesday}</li>
+				<li>Wed: {resource.hours.wednesday}</li>
+				<li>Thu: {resource.hours.thursday}</li>
+				<li>Fri: {resource.hours.friday}</li>
+				<li>Sat: {resource.hours.saturday}</li>
+				<li>Sun: {resource.hours.sunday}</li>
+			</ul>
 		</div>
 	{/if}
 

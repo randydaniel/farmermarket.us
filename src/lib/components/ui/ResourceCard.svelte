@@ -10,7 +10,7 @@
 	import { slugify } from '$lib/utils/slugify';
 
 	// For internal link using slugified title
-	$: internalUrl = `/${category}/${slugify(title)}`;
+	$: internalUrl = `/${category.toLowerCase()}/${slugify(title)}`;
 
 	// Import icons
 	import { SealCheck, Info, ArrowUpRight } from 'phosphor-svelte';
@@ -87,7 +87,7 @@
 			{/if}
 		</div>
 		{#if description}
-			<div class="text-sm text-slate-600 dark:text-slate-300">{description}</div>
+			<div class="text-sm text-slate-600 dark:text-slate-300">{@html description}</div>
 		{/if}
 	</div>
 </div>

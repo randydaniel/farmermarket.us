@@ -4,29 +4,14 @@
 
 	const faqItems = [
 		{
-			title: 'Who is this template best suited for?',
-			content:
-				'Direx is perfect for anyone building a directory-style site—whether you’re listing local businesses, freelancers, services, events, or niche communities. It’s ideal for creators, startups, and agencies looking to launch fast.'
-		},
-		{
-			title: 'Can I customize the layout and visuals?',
-			content:
-				'Yes. Direx is built for flexibility. You can easily customize colors, typography, spacing, and layouts to match your brand using your favorite design tools or directly in code.'
-		},
-		{
-			title: 'Do I need coding experience to use this template?',
-			content:
-				'Not necessarily. Direx is designed with clean, well-organized code that’s beginner-friendly. Some basic HTML/CSS knowledge helps if you want to tweak things more deeply, but you don’t need to be an expert to get started.'
-		},
-		{
-			title: 'Is this template mobile-friendly?',
-			content:
-				'Absolutely. Direx is fully responsive and designed to look great on all devices—from phones to desktops.'
-		},
-		{
-			title: 'Can I use this for a client project or commercial site?',
-			content:
-				'Yes. Direx comes with a license that allows commercial use, so you can use it for personal sites, client projects, or full-scale businesses.'
+			title: `Where can I get Farmers Market vouchers?`,
+			content: `<p>Farmer's Market vouchers are typically available through several programs:</p>
+<ul class="my-2"><li class="mb-4"><strong>WIC Farmers' Market Nutrition Program (FMNP)</strong> - If you receive WIC benefits, you can get vouchers to use at participating farmers' markets. Contact your local WIC office to see if you're eligible and when vouchers are distributed (usually during summer months).</li>
+<li class="mb-4"><strong>Senior Farmers' Market Nutrition Program</strong> - For adults 60 and older who meet income requirements. Check with your local Area Agency on Aging or senior center.</li>
+<li class="mb-4"><strong>SNAP matching programs</strong> - Many farmers' markets offer programs that match your SNAP/EBT dollars, effectively doubling your purchasing power. Look for programs like "Double Up Food Bucks" or similar local initiatives.</li>
+<li class="mb-4"><strong>Community organizations</strong> - Some nonprofits, food banks, or community health centers distribute farmers' market vouchers as part of nutrition programs.</li>
+<li class="mb-4"><strong>Local government programs</strong> - Some cities or counties have their own farmers' market voucher programs for residents.</li></ul>
+<p>To find what's available in your area, I'd recommend calling your local farmers' markets directly, contacting your county health department, or checking with 211 (dial 2-1-1) for information about local assistance programs. Many markets also have information about voucher programs on their websites or social media pages.</p>`
 		}
 	];
 </script>

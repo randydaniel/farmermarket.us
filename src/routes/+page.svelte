@@ -64,56 +64,56 @@
 
 	// Example: filter options as an array
 	const filters = [
-		{ label: 'Alabama', icon: Rocket, category: 'alabama' },
-		{ label: 'Alaska', icon: Snowflake, category: 'alaska' },
-		{ label: 'Arizona', icon: Cactus, category: 'arizona' },
-		{ label: 'Arkansas', icon: Diamond, category: 'arkansas' },
-		{ label: 'California', icon: Sun, category: 'california' },
-		{ label: 'Colorado', icon: Mountains, category: 'colorado' },
-		{ label: 'Connecticut', icon: Anchor, category: 'connecticut' },
-		{ label: 'Delaware', icon: Bank, category: 'delaware' },
-		{ label: 'Florida', icon: TreePalm, category: 'florida' },
-		{ label: 'Georgia', icon: Tree, category: 'georgia' },
-		{ label: 'Hawaii', icon: Island, category: 'hawaii' },
-		{ label: 'Idaho', icon: Circle, category: 'idaho' },
-		{ label: 'Illinois', icon: Buildings, category: 'illinois' },
-		{ label: 'Indiana', icon: FlagCheckered, category: 'indiana' },
-		{ label: 'Iowa', icon: Acorn, category: 'iowa' },
-		{ label: 'Kansas', icon: Wind, category: 'kansas' },
-		{ label: 'Kentucky', icon: Horse, category: 'kentucky' },
-		{ label: 'Louisiana', icon: MusicNotes, category: 'louisiana' },
-		{ label: 'Maine', icon: Shrimp, category: 'maine' },
-		{ label: 'Maryland', icon: Fish, category: 'maryland' },
-		{ label: 'Massachusetts', icon: GraduationCap, category: 'massachusetts' },
-		{ label: 'Michigan', icon: Car, category: 'michigan' },
-		{ label: 'Minnesota', icon: Waves, category: 'minnesota' },
-		{ label: 'Mississippi', icon: Waves, category: 'mississippi' },
-		{ label: 'Missouri', icon: Bridge, category: 'missouri' },
-		{ label: 'Montana', icon: Tent, category: 'montana' },
-		{ label: 'Nebraska', icon: Leaf, category: 'nebraska' },
-		{ label: 'Nevada', icon: Cards, category: 'nevada' },
-		{ label: 'New Hampshire', icon: Leaf, category: 'new-hampshire' },
-		{ label: 'New Jersey', icon: Factory, category: 'new-jersey' },
-		{ label: 'New Mexico', icon: Balloon, category: 'new-mexico' },
-		{ label: 'New York', icon: AppleLogo, category: 'new-york' },
-		{ label: 'North Carolina', icon: Airplane, category: 'north-carolina' },
-		{ label: 'North Dakota', icon: Drop, category: 'north-dakota' },
-		{ label: 'Ohio', icon: Nut, category: 'ohio' },
-		{ label: 'Oklahoma', icon: Lightning, category: 'oklahoma' },
-		{ label: 'Oregon', icon: Coffee, category: 'oregon' },
-		{ label: 'Pennsylvania', icon: Bell, category: 'pennsylvania' },
-		{ label: 'Rhode Island', icon: Lighthouse, category: 'rhode-island' },
-		{ label: 'South Carolina', icon: Flower, category: 'south-carolina' },
-		{ label: 'South Dakota', icon: Cheese, category: 'south-dakota' },
-		{ label: 'Tennessee', icon: Guitar, category: 'tennessee' },
-		{ label: 'Texas', icon: Star, category: 'texas' },
-		{ label: 'Utah', icon: Mountains, category: 'utah' },
-		{ label: 'Vermont', icon: Tree, category: 'vermont' },
-		{ label: 'Virginia', icon: Crown, category: 'virginia' },
-		{ label: 'Washington', icon: Leaf, category: 'washington' },
-		{ label: 'West Virginia', icon: Hammer, category: 'west-virginia' },
-		{ label: 'Wisconsin', icon: Cheese, category: 'wisconsin' },
-		{ label: 'Wyoming', icon: Mountains, category: 'wyoming' }
+		{ label: 'Alabama', icon: Rocket, category: 'Alabama' },
+		{ label: 'Alaska', icon: Snowflake, category: 'Alaska' },
+		{ label: 'Arizona', icon: Cactus, category: 'Arizona' },
+		{ label: 'Arkansas', icon: Diamond, category: 'Arkansas' },
+		{ label: 'California', icon: Sun, category: 'California' },
+		{ label: 'Colorado', icon: Mountains, category: 'Colorado' },
+		{ label: 'Connecticut', icon: Anchor, category: 'Connecticut' },
+		{ label: 'Delaware', icon: Bank, category: 'Delaware' },
+		{ label: 'Florida', icon: TreePalm, category: 'Florida' },
+		{ label: 'Georgia', icon: Tree, category: 'Georgia' },
+		{ label: 'Hawaii', icon: Island, category: 'Hawaii' },
+		{ label: 'Idaho', icon: Circle, category: 'Idaho' },
+		{ label: 'Illinois', icon: Buildings, category: 'Illinois' },
+		{ label: 'Indiana', icon: FlagCheckered, category: 'Indiana' },
+		{ label: 'Iowa', icon: Acorn, category: 'Iowa' },
+		{ label: 'Kansas', icon: Wind, category: 'Kansas' },
+		{ label: 'Kentucky', icon: Horse, category: 'Kentucky' },
+		{ label: 'Louisiana', icon: MusicNotes, category: 'Louisiana' },
+		{ label: 'Maine', icon: Shrimp, category: 'Maine' },
+		{ label: 'Maryland', icon: Fish, category: 'Maryland' },
+		{ label: 'Massachusetts', icon: GraduationCap, category: 'Massachusetts' },
+		{ label: 'Michigan', icon: Car, category: 'Michigan' },
+		{ label: 'Minnesota', icon: Waves, category: 'Minnesota' },
+		{ label: 'Mississippi', icon: Waves, category: 'Mississippi' },
+		{ label: 'Missouri', icon: Bridge, category: 'Missouri' },
+		{ label: 'Montana', icon: Tent, category: 'Montana' },
+		{ label: 'Nebraska', icon: Leaf, category: 'Nebraska' },
+		{ label: 'Nevada', icon: Cards, category: 'Nevada' },
+		{ label: 'New Hampshire', icon: Leaf, category: 'New Hampshire' },
+		{ label: 'New Jersey', icon: Factory, category: 'New Jersey' },
+		{ label: 'New Mexico', icon: Balloon, category: 'New Mexico' },
+		{ label: 'New York', icon: AppleLogo, category: 'New York' },
+		{ label: 'North Carolina', icon: Airplane, category: 'North Carolina' },
+		{ label: 'North Dakota', icon: Drop, category: 'North Dakota' },
+		{ label: 'Ohio', icon: Nut, category: 'Ohio' },
+		{ label: 'Oklahoma', icon: Lightning, category: 'Oklahoma' },
+		{ label: 'Oregon', icon: Coffee, category: 'Oregon' },
+		{ label: 'Pennsylvania', icon: Bell, category: 'Pennsylvania' },
+		{ label: 'Rhode Island', icon: Lighthouse, category: 'Rhode Island' },
+		{ label: 'South Carolina', icon: Flower, category: 'South Carolina' },
+		{ label: 'South Dakota', icon: Cheese, category: 'South Dakota' },
+		{ label: 'Tennessee', icon: Guitar, category: 'Tennessee' },
+		{ label: 'Texas', icon: Star, category: 'Texas' },
+		{ label: 'Utah', icon: Mountains, category: 'Utah' },
+		{ label: 'Vermont', icon: Tree, category: 'Vermont' },
+		{ label: 'Virginia', icon: Crown, category: 'Virginia' },
+		{ label: 'Washington', icon: Leaf, category: 'Washington' },
+		{ label: 'West Virginia', icon: Hammer, category: 'West Virginia' },
+		{ label: 'Wisconsin', icon: Cheese, category: 'Wisconsin' },
+		{ label: 'Wyoming', icon: Mountains, category: 'Wyoming' }
 	];
 
 	const allResources = resources;
@@ -161,11 +161,13 @@
 				return (
 					r.title.toLowerCase().includes(q) ||
 					r.description.toLowerCase().includes(q) ||
-					r.category.toLowerCase().includes(q)
+					r.address.state.toLowerCase().includes(q)
 				);
 			})
 		: selectedCategory
-			? allResources.filter((r) => String(r.category).trim() === String(selectedCategory).trim())
+			? allResources.filter(
+					(r) => String(r.address.state).trim() === String(selectedCategory).trim()
+				)
 			: allResources;
 
 	$: totalPages = Math.ceil(filteredResources.length / itemsPerPage);
@@ -237,7 +239,7 @@
 
 <Hero align="center" background="/hero.png" backgroundMobile="/hero-mobile.png">
 	<h1 class="mb-2 text-2xl font-medium text-slate-950 mix-blend-difference md:text-4xl">
-		Farmer's Market Directory
+		Farmers Market Directory
 	</h1>
 	<p class="max-w-xl text-sm font-light text-slate-700 mix-blend-difference md:text-lg">
 		Find fresh, local produce and artisanal goods in your area with market hours, locations, and
@@ -303,7 +305,12 @@
 				{#if shouldShowAd && randomAd && index === adInsertIndex}
 					<Ad ad={randomAd} />
 				{/if}
-				<ResourceCard {...resource} />
+				<ResourceCard
+					{...resource}
+					category={resource.address.state}
+					address={resource.address}
+					hours={resource.hours}
+				/>
 			{/each}
 		</div>
 
