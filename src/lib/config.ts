@@ -23,7 +23,7 @@ export const config = {
 		],
 		// Google Ads configuration (for future use)
 		googleAds: {
-			enabled: false,
+			enabled: true,
 			adSlotId: '', // Will be set when Google Ads is implemented
 			frequency: 0.3 // 30% chance to show Google Ad vs custom ad
 		}
