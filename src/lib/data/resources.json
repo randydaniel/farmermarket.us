@@ -11,7 +11,7 @@
 			"state": "Alabama",
 			"zip": "35204"
 		},
-		"phone": "+1 (205) 251-8737",
+		"phone": "+1 205 251-8737",
 		"hours": {
 			"monday": "6:00 AM - 2:00 PM",
 			"tuesday": "6:00 AM - 2:00 PM",
@@ -39,7 +39,7 @@
 		"phone": "",
 		"hours": {
 			"monday": "",
-			"tuesday": "10:00 AM - 1:00 PM (Midweek Market, select dates)",
+			"tuesday": "10:00 AM - 1:00 PM",
 			"wednesday": "",
 			"thursday": "",
 			"friday": "",
@@ -72,6 +72,31 @@
 			"sunday": "10:00 AM - 5:00 PM"
 		},
 		"externalUrl": "https://peach-park.site/",
+		"sponsored": false
+	},
+	{
+		"id": "4",
+		"title": "Durbin Farms Market",
+		"description": "Farm market and restaurant offering fresh Chilton County peaches, homemade ice cream, sandwiches, produce, gifts, and more.",
+		"longDescription": "<p>Durbin Farms Market in Clanton, Alabama, is a must-stop destination for travelers and locals alike. Famous for their homegrown Chilton County peaches, the market also features homemade hand-scooped ice cream, a full restaurant menu, fresh produce, jams, jellies, preserves, and a boutique gift shop. Enjoy sandwiches, fried pies, and Southern treats in a family-friendly setting with indoor and outdoor seating. Dogs are welcome at the picnic tables outside. Shop for local honey, sauces, and unique gifts, or pre-order peaches online. Open daily, Durbin Farms Market is a true taste of Alabama hospitality. <a href='https://durbinfarmsmarket.com/' target='_blank' rel='noopener'>Learn more</a>.</p>",
+		"image": "/images/resources/alabama/durbin-farms-market.avif",
+		"address": {
+			"street": "2130 7th St S",
+			"city": "Clanton",
+			"state": "Alabama",
+			"zip": "35045"
+		},
+		"phone": "+1 205-755-1672",
+		"hours": {
+			"monday": "8:00 AM - 8:00 PM",
+			"tuesday": "8:00 AM - 8:00 PM",
+			"wednesday": "8:00 AM - 8:00 PM",
+			"thursday": "8:00 AM - 8:00 PM",
+			"friday": "8:00 AM - 8:00 PM",
+			"saturday": "8:00 AM - 8:00 PM",
+			"sunday": "8:00 AM - 8:00 PM"
+		},
+		"externalUrl": "https://durbinfarmsmarket.com/",
 		"sponsored": false
 	}
 ]

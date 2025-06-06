@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { SealCheck, ArrowUpRight, ArrowLeft } from 'phosphor-svelte';
+	import { SealCheck, ArrowUpRight, MapPin, Phone } from 'phosphor-svelte';
 	import { slugify } from '$lib/utils/slugify';
 	import { config } from '$lib/config';
 	import Button from '$lib/components/ui/Button.svelte';
@@ -121,14 +121,31 @@
 	</span>
 
 	<!-- Title and Action button row -->
-	<div class="mb-2 flex w-full flex-col items-start justify-between md:flex-row">
-		<!-- Title with sponsored badge -->
-		<div class="mb-2 flex items-center gap-2 md:mb-0">
-			<h1 class="text-3xl font-bold text-slate-950 lg:text-4xl dark:text-slate-50">
-				{resource.title}
-			</h1>
-			{#if resource.sponsored}
-				<SealCheck size={24} class="text-blue-600" aria-label="Sponsored" />
+	<div class="mb-4 flex w-full flex-col items-start justify-between md:flex-row">
+		<!-- Title & Address with sponsored badge -->
+		<div class="flex flex-col">
+			<div class="mb-2 flex items-center gap-2 md:mb-0">
+				<h1 class="text-3xl font-bold text-slate-950 lg:text-4xl dark:text-slate-50">
+					{resource.title}
+				</h1>
+				{#if resource.sponsored}
+					<SealCheck size={24} class="text-blue-600" aria-label="Sponsored" />
+				{/if}
+			</div>
+			<!-- Address -->
+			{#if resource.address}
+				<div class="flex items-center gap-1 text-sm text-slate-600 dark:text-slate-300">
+					<MapPin size={16} class="text-slate-600 dark:text-slate-300" />
+					{resource.address.street}, {resource.address.city}, {resource.address.state}
+					{resource.address.zip}
+				</div>
+			{/if}
+			<!-- Phone -->
+			{#if resource.phone}
+				<div class="flex items-center gap-1 text-sm text-slate-600 dark:text-slate-300">
+					<Phone size={16} class="text-slate-600 dark:text-slate-300" />
+					{resource.phone}
+				</div>
 			{/if}
 		</div>
 
@@ -159,25 +176,36 @@
 		</div>
 	{/if}
 
-	<!-- Address and Hours -->
-	{#if resource.address}
-		<div class="mt-4 text-sm text-slate-700 dark:text-slate-300">
-			<strong>Address:</strong>
-			{resource.address.street}, {resource.address.city}, {resource.address.state}
-			{resource.address.zip}
-		</div>
-	{/if}
+	<!-- Hours -->
 	{#if resource.hours}
-		<div class="mt-2 text-sm text-slate-700 dark:text-slate-300">
-			<strong>Hours:</strong>
-			<ul class="ml-2">
-				<li>Mon: {resource.hours.monday}</li>
-				<li>Tue: {resource.hours.tuesday}</li>
-				<li>Wed: {resource.hours.wednesday}</li>
-				<li>Thu: {resource.hours.thursday}</li>
-				<li>Fri: {resource.hours.friday}</li>
-				<li>Sat: {resource.hours.saturday}</li>
-				<li>Sun: {resource.hours.sunday}</li>
+		<div class="mt-4 text-sm text-slate-700 dark:text-slate-300">
+			<ul
+				class="max-w-full rounded-md border border-slate-200 p-4 md:max-w-[80%] dark:border-slate-700"
+			>
+				<li class="flex justify-between rounded-sm bg-slate-100 p-2 dark:bg-slate-800">
+					<span>Monday</span><span>{resource.hours.monday}</span>
+				</li>
+				<li class="flex justify-between rounded-sm p-2">
+					<span>Tuesday</span><span>{resource.hours.tuesday}</span>
+				</li>
+				<li class="flex justify-between rounded-sm bg-slate-100 p-2 dark:bg-slate-800">
+					<span>Wednesday</span><span>{resource.hours.wednesday}</span>
+				</li>
+				<li class="flex justify-between rounded-sm p-2">
+					<span>Thursday</span><span>{resource.hours.thursday}</span>
+				</li>
+				<li class="flex justify-between rounded-sm bg-slate-100 p-2 dark:bg-slate-800">
+					<span>Friday</span><span>{resource.hours.friday}</span>
+				</li>
+				<li class="flex justify-between rounded-sm p-2">
+					<span>Saturday</span><span>{resource.hours.saturday}</span>
+				</li>
+				<li class="flex justify-between rounded-sm bg-slate-100 p-2 dark:bg-slate-800">
+					<span>Sunday</span><span>{resource.hours.sunday}</span>
+				</li>
+				<li class="mt-4 rounded-sm bg-blue-100 p-2 text-sm text-blue-900">
+					Hours may vary. Please contact the market directly to verify current operating hours.
+				</li>
 			</ul>
 		</div>
 	{/if}
