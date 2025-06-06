@@ -17,7 +17,9 @@ const entries = [
 	'/privacy',
 	'/terms',
 	'/sitemap.xml',
-	...resources.map((resource) => `/${resource.category}/${slugify(resource.title)}`)
+	...resources
+		.filter((resource) => resource.address && resource.address.state)
+		.map((resource) => `/${resource.address.state.toLowerCase()}/${slugify(resource.title)}`)
 ];
 
 module.exports = { entries };
