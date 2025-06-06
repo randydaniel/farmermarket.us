@@ -12,6 +12,19 @@
 <li class="mb-4"><strong>Community organizations</strong> - Some nonprofits, food banks, or community health centers distribute farmers' market vouchers as part of nutrition programs.</li>
 <li class="mb-4"><strong>Local government programs</strong> - Some cities or counties have their own farmers' market voucher programs for residents.</li></ul>
 <p>To find what's available in your area, I'd recommend calling your local farmers' markets directly, contacting your county health department, or checking with 211 (dial 2-1-1) for information about local assistance programs. Many markets also have information about voucher programs on their websites or social media pages.</p>`
+		},
+		{
+			title: `How to sell at a farmers market?`,
+			content: `<p>Selling at a farmers market is a great way to reach local customers and support your community. Here are the typical steps:</p>
+<ol class="my-2">
+<li class="mb-2"><strong>Find a market:</strong> Research local farmers markets and review their vendor requirements. Each market may have its own rules, fees, and application process.</li>
+<li class="mb-2"><strong>Apply:</strong> Submit an application to the market manager or through the market's website. You may need to provide details about your products, farm/business, and any required licenses or certifications.</li>
+<li class="mb-2"><strong>Prepare your products:</strong> Ensure your goods meet local health and safety regulations. This may include proper labeling, packaging, and food handling permits.</li>
+<li class="mb-2"><strong>Set up your booth:</strong> Bring tables, tents, signage, and display materials. Make your booth attractive and welcoming to customers.</li>
+<li class="mb-2"><strong>Comply with regulations:</strong> Follow all market rules, including hours of operation, accepted payment methods (such as SNAP/EBT), and any local/state requirements.</li>
+<li class="mb-2"><strong>Engage with customers:</strong> Be friendly, answer questions, and share information about your products and farm/business.</li>
+</ol>
+<p>Contact your local market manager for specific requirements and support. Many markets also offer resources or workshops for new vendors.</p>`
 		}
 	];
 </script>
