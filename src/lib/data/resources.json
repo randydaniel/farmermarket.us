@@ -48,5 +48,30 @@
 		},
 		"externalUrl": "https://pepperplacemarket.com/",
 		"sponsored": false
+	},
+	{
+		"id": "3",
+		"title": "Peach Park",
+		"description": "Down-home farm eatery offering traditional American dishes & desserts, plus a market & gift shop.",
+		"longDescription": "<p>Peach Park in Clanton, Alabama, is a beloved destination for locals and travelers alike. Known for its fresh peaches, homemade ice cream (especially their signature cantaloupe ice cream), and classic Southern fare like BBQ sandwiches and fried chicken, Peach Park also features a market, bakery, boutique, and gift shop. The park offers a spacious outdoor area with picnic tables, a playground for kids, a goldfish pond, and shaded spots for relaxing. With a welcoming, family-friendly atmosphere, Peach Park is perfect for a meal, a sweet treat, or picking up local produce and unique gifts. The staff is known for outstanding service, and the park is open year-round. <a href='https://peach-park.site/' target='_blank' rel='noopener'>Learn more</a>.</p>",
+		"image": "/images/resources/alabama/peach-park.avif",
+		"address": {
+			"street": "2300 7th St S",
+			"city": "Clanton",
+			"state": "Alabama",
+			"zip": "35046"
+		},
+		"phone": "+1 205-755-2065",
+		"hours": {
+			"monday": "10:00 AM - 5:00 PM",
+			"tuesday": "10:00 AM - 5:00 PM",
+			"wednesday": "10:00 AM - 5:00 PM",
+			"thursday": "10:00 AM - 5:00 PM",
+			"friday": "10:00 AM - 5:00 PM",
+			"saturday": "10:00 AM - 5:00 PM",
+			"sunday": "10:00 AM - 5:00 PM"
+		},
+		"externalUrl": "https://peach-park.site/",
+		"sponsored": false
 	}
 ]
