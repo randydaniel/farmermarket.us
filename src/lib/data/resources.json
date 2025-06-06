@@ -23,5 +23,30 @@
 		},
 		"externalUrl": "https://alabamafarmersmarket.org/",
 		"sponsored": false
+	},
+	{
+		"id": "2",
+		"title": "The Market at Pepper Place",
+		"description": "An outdoor farmers market in Birmingham, Alabama, open every Saturday and select Tuesdays, featuring only Alabama grown, raised, and made products.",
+		"longDescription": "<p>The Market at Pepper Place is a state certified, outdoor farmers market in Birmingham, Alabama. Since 2000, it has connected Alabama's finest producers with consumers in the Birmingham area, making fresh, healthy food accessible to all while supporting local farmers and artisans. The market operates every Saturday morning from January 25 to December 13, 7:00 AM to 12:00 PM, rain or shine, and also hosts a Midweek Market on select Tuesdays from 10:00 AM to 1:00 PM. SNAP is accepted and matching dollars are available with DUFB.</p><p class='mt-4'>Enjoy local produce, live music, cooking demos, wellness days, and a vibrant community atmosphere. Dogs are welcome!</p>",
+		"image": "/images/resources/alabama/market-pepper-place.avif",
+		"address": {
+			"street": "2829 2nd Avenue South",
+			"city": "Birmingham",
+			"state": "Alabama",
+			"zip": "35233"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "10:00 AM - 1:00 PM (Midweek Market, select dates)",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "7:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://pepperplacemarket.com/",
+		"sponsored": false
 	}
 ]
