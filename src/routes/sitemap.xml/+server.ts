@@ -13,11 +13,13 @@ const staticPages = [
 ];
 
 // Dynamic resource pages (as objects, using slugified title)
-const resourcePages = resources.map((r) => ({
-	loc: `/directory/${r.category}/${slugify(r.title)}`,
-	changefreq: 'daily',
-	priority: 0.5
-}));
+const resourcePages = resources
+	.filter((r) => r.address && r.address.state)
+	.map((r) => ({
+		loc: `/directory/${r.address.state.toLowerCase()}/${slugify(r.title)}`,
+		changefreq: 'daily',
+		priority: 0.5
+	}));
 
 const pages = [...staticPages, ...resourcePages];
 
