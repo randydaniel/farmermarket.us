@@ -153,7 +153,7 @@
 		"id": "7",
 		"title": "Tanana Valley Farmers Market",
 		"description": "Alaska's oldest established farmers market, featuring Alaska Grown produce, plants, and Made in Alaska arts and crafts in Fairbanks.",
-		"longDescription": "<p>The Tanana Valley Farmers Market in Fairbanks, Alaska, showcases a wide variety of Alaska Grown produce, plants, and Made in Alaska and Silver Hand arts and crafts. As the oldest established farmers market in Alaska, it operates from its own permanent building and brings together growers and artisans from across the Tanana Valley. Open May through September, the market offers fresh vegetables, local products, and a vibrant community atmosphere. <a href='https://www.tvfmarket.com/' target='_blank' rel='noopener'>Learn more</a>.</p>",
+		"longDescription": "<p>The Tanana Valley Farmers Market in Fairbanks, Alaska, showcases a wide variety of Alaska Grown produce, plants, and Made in Alaska and Silver Hand arts and crafts. As the oldest established farmers market in Alaska, it operates from its own permanent building and brings together growers and artisans from across the Tanana Valley. Open May through September, the market offers fresh vegetables, local products, and a vibrant community atmosphere.</p>",
 		"image": "/images/resources/alaska/tanana-valley-farmers-market.avif",
 		"address": {
 			"street": "2600 College Road",
@@ -178,7 +178,7 @@
 		"id": "8",
 		"title": "Homer Farmers Market",
 		"description": "Weekly market in Homer, Alaska, supporting local growers and artisans with fresh produce, food, crafts, and community events.",
-		"longDescription": "<p>The Homer Farmers Market welcomes all growers of farm, garden, and greenhouse produce to participate in a weekly market. Established in 2000, the market supports a sustainable local agricultural community and offers fresh produce, food, crafts, and regular events like cooking demos and live music. SNAP, WIC, and Senior Benefits accepted. Open May through September. <a href='https://homerfarmersmarket.org/' target='_blank' rel='noopener'>Learn more</a>.</p>",
+		"longDescription": "<p>The Homer Farmers Market welcomes all growers of farm, garden, and greenhouse produce to participate in a weekly market. Established in 2000, the market supports a sustainable local agricultural community and offers fresh produce, food, crafts, and regular events like cooking demos and live music. SNAP, WIC, and Senior Benefits accepted. Open May through September.</p>",
 		"image": "/images/resources/alaska/homer-farmers-market.avif",
 		"address": {
 			"street": "1211 Ocean Drive",
@@ -203,7 +203,7 @@
 		"id": "9",
 		"title": "Wasilla Farmers Market",
 		"description": "Summer market in Wasilla, Alaska, offering local produce, baked goods, jams, crafts, and Alaskan-made gifts.",
-		"longDescription": "<p>The Wasilla Farmers Market, sponsored by the Wasilla Knik Historical Society, runs every summer from June through mid-September. Local farmers, gardeners, bakers, and artisans sell fresh produce, jams, breads, and Alaskan-made gifts. Open Wednesdays at Iditapark, the market is a great place to find local flavors and crafts. <a href='http://www.wkhsociety.org/wasilla-farmer-s-market.html' target='_blank' rel='noopener'>Learn more</a>.</p>",
+		"longDescription": "<p>The Wasilla Farmers Market, sponsored by the Wasilla Knik Historical Society, runs every summer from June through mid-September. Local farmers, gardeners, bakers, and artisans sell fresh produce, jams, breads, and Alaskan-made gifts. Open Wednesdays at Iditapark, the market is a great place to find local flavors and crafts.</p>",
 		"image": "/images/resources/alaska/wasilla-farmers-market.avif",
 		"address": {
 			"street": "300 N Boundary",
@@ -222,6 +222,331 @@
 			"sunday": ""
 		},
 		"externalUrl": "http://www.wkhsociety.org/wasilla-farmer-s-market.html",
+		"sponsored": false
+	},
+	{
+		"id": "10",
+		"title": "Old Town Scottsdale Farmers Market",
+		"description": "Seasonal market in Old Town Scottsdale featuring over 100 local growers and specialty food producers.",
+		"longDescription": "<p>The Old Town Scottsdale Farmers Market, established in 2009, features more than 100 local growers and specialty food producers. Find organic and pesticide-free produce, seasonal specialties, flowers, meats, eggs, cheese, artisan breads, jams, and more. Family friendly and well-mannered pets welcome. SNAP, DUFB, WIC, and Senior Nutrition programs accepted. Open Saturdays, October–April 8am–1pm, May 8am–12pm, Summer 7–10am.</p>",
+		"image": "/images/resources/arizona/old-town-scottsdale-farmers-market.avif",
+		"address": {
+			"street": "3806 N. Brown Ave.",
+			"city": "Scottsdale",
+			"state": "Arizona",
+			"zip": "85251"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "See website for seasonal hours",
+			"sunday": ""
+		},
+		"externalUrl": "https://arizonacommunityfarmersmarkets.com/old-town-scottsdale",
+		"sponsored": false
+	},
+	{
+		"id": "11",
+		"title": "Uptown Farmers Market",
+		"description": "Year-round Saturday market in Phoenix with local produce, food, and artisan goods.",
+		"longDescription": "<p>Uptown Farmers Market is a vibrant, year-round market in Phoenix, Arizona, featuring local produce, food, and artisan goods. Open Saturdays 7am–11am (summer), with additional Wednesday hours in winter. Located at North Phoenix Baptist Church, 5757 N Central Ave.</p>",
+		"image": "/images/resources/arizona/uptown-farmers-market.avif",
+		"address": {
+			"street": "5757 N Central Ave",
+			"city": "Phoenix",
+			"state": "Arizona",
+			"zip": "85012"
+		},
+		"phone": "+1 602-859-5648",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "Closed for summer",
+			"thursday": "",
+			"friday": "",
+			"saturday": "7:00 AM - 11:00 AM",
+			"sunday": ""
+		},
+		"externalUrl": "https://uptownmarketaz.com/",
+		"sponsored": false
+	},
+	{
+		"id": "12",
+		"title": "Gilbert Farmers Market",
+		"description": "Downtown Gilbert market with over 100 vendors, featuring local produce, eggs, meat, cheese, bread, and artisan products.",
+		"longDescription": "<p>Gilbert Farmers Market is located in Downtown Gilbert, just west of the iconic Water Tower. Open every Saturday, the market features over 100 vendors year-round, offering local, chemical-free, organic produce, farm-fresh eggs, meat, cheese, bread, sweets, coffee, sauces, and artisan products. Summer hours: 7am–11am; Winter hours: 8am–12pm.</p>",
+		"image": "/images/resources/arizona/gilbert-farmers-market.avif",
+		"address": {
+			"street": "222 N. Ash St.",
+			"city": "Gilbert",
+			"state": "Arizona",
+			"zip": "85234"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "See website for seasonal hours",
+			"sunday": ""
+		},
+		"externalUrl": "https://gilbertmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "13",
+		"title": "Superstition Ranch Farmers Market",
+		"description": "Family-owned market in Mesa, AZ, offering fresh produce, local honey, bakery, deli, and grocery items.",
+		"longDescription": "<p>Superstition Ranch Farmers Market is a family-owned market serving the Mesa area for over 50 years. Known for great quality produce at low prices, the market also offers local honey, bakery, deli, and grocery items. Open Monday–Saturday 7:30am–7pm, Sunday 8am–5:30pm.</p>",
+		"image": "/images/resources/arizona/superstition-ranch.avif",
+		"address": {
+			"street": "4755 E Main St",
+			"city": "Mesa",
+			"state": "Arizona",
+			"zip": "85205"
+		},
+		"phone": "+1 480-832-3421",
+		"hours": {
+			"monday": "7:30 AM - 7:00 PM",
+			"tuesday": "7:30 AM - 7:00 PM",
+			"wednesday": "7:30 AM - 7:00 PM",
+			"thursday": "7:30 AM - 7:00 PM",
+			"friday": "7:30 AM - 7:00 PM",
+			"saturday": "7:30 AM - 7:00 PM",
+			"sunday": "8:00 AM - 5:30 PM"
+		},
+		"externalUrl": "https://www.superstitionranchmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "14",
+		"title": "Downtown Phoenix Farmers Market",
+		"description": "Downtown Phoenix market offering local produce, food, and artisan goods. Accepts EBT, WIC, and Double Up Food Bucks.",
+		"longDescription": "<p>The Downtown Phoenix Farmers Market is a community-focused market offering local produce, food, and artisan goods. Open Saturdays, main season (Oct–May) 8am–1pm, summer season (May–Oct) 7:30am–11:30am. Accepts cash, credit, EBT, WIC, and Double Up Food Bucks.</p>",
+		"image": "/images/resources/arizona/downtown-phoenix-farmers-market.avif",
+		"address": {
+			"street": "720 N 5th Street",
+			"city": "Phoenix",
+			"state": "Arizona",
+			"zip": "85004"
+		},
+		"phone": "+1 602-625-6736",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "See website for seasonal hours",
+			"sunday": ""
+		},
+		"externalUrl": "https://downtownphoenixfarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "15",
+		"title": "Roadrunner Farmers Market",
+		"description": "Seasonal Phoenix market with local growers, specialty foods, and artisan vendors. SNAP, WIC, and Senior Nutrition accepted.",
+		"longDescription": "<p>Roadrunner Farmers Market in Phoenix features local growers, specialty foods, and artisan vendors. SNAP, WIC, and Senior Nutrition programs accepted. Open Saturdays, October–April 8am–1pm, May 8am–12pm, Summer 7–10am.</p>",
+		"image": "/images/resources/arizona/roadrunner-farmers-market.avif",
+		"address": {
+			"street": "3502 E Cactus Rd",
+			"city": "Phoenix",
+			"state": "Arizona",
+			"zip": "85032"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "See website for seasonal hours",
+			"sunday": ""
+		},
+		"externalUrl": "https://arizonacommunityfarmersmarkets.com/roadrunner-farmers-mkt",
+		"sponsored": false
+	},
+	{
+		"id": "16",
+		"title": "Prescott Farmers Market",
+		"description": "Producer-only market in Prescott, AZ, featuring local produce, meats, eggs, baked goods, and artisan products.",
+		"longDescription": "<p>Prescott Farmers Market is a producer-only market supporting local farmers and food producers in the Prescott area. Shop for fresh produce, meats, eggs, baked goods, honey, flowers, and artisan products. SNAP/EBT and Double Up Food Bucks accepted. Open Saturdays year-round, with seasonal hours and locations.</p>",
+		"image": "/images/resources/arizona/prescott-farmers-market.avif",
+		"address": {
+			"street": "900 Iron Springs Rd",
+			"city": "Prescott",
+			"state": "Arizona",
+			"zip": "86305"
+		},
+		"phone": "+1 928-713-1227",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "See website for seasonal hours",
+			"sunday": ""
+		},
+		"externalUrl": "https://prescottfarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "17",
+		"title": "Amadio Ranch",
+		"description": "Family farm in Laveen, AZ, offering farm stand produce, pies, preserves, and events.",
+		"longDescription": "<p>Amadio Ranch is a family farm in Laveen, Arizona, offering a farm stand with fresh produce, homemade pies, preserves, eggs, and more. The ranch hosts seasonal events and is dedicated to sustainable, local agriculture.</p>",
+		"image": "/images/resources/arizona/amadio-ranch.avif",
+		"address": {
+			"street": "4701 W Dobbins Rd",
+			"city": "Laveen Village",
+			"state": "Arizona",
+			"zip": "85339"
+		},
+		"phone": "+1 602-237-3311",
+		"hours": {
+			"monday": "Closed",
+			"tuesday": "Closed",
+			"wednesday": "Closed",
+			"thursday": "Closed",
+			"friday": "8:00 AM - 6:00 PM",
+			"saturday": "8:00 AM - 6:00 PM",
+			"sunday": "8:00 AM - 6:00 PM"
+		},
+		"externalUrl": "https://amadioranch.com/",
+		"sponsored": false
+	},
+	{
+		"id": "18",
+		"title": "Ahwatukee Farmers Market",
+		"description": "Community market in Phoenix, AZ, featuring local produce, food, and artisan vendors. SNAP, WIC, and Senior Nutrition accepted.",
+		"longDescription": "<p>Ahwatukee Farmers Market is a community market in Phoenix, Arizona, offering local produce, food, and artisan vendors. SNAP, WIC, and Senior Nutrition programs accepted. Open Sundays, October–April 9am–1pm, May 8am–11am, closed summer.</p>",
+		"image": "/images/resources/arizona/ahwatukee-farmers-market.avif",
+		"address": {
+			"street": "4700 E Warner Rd",
+			"city": "Phoenix",
+			"state": "Arizona",
+			"zip": "85044"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": "See website for seasonal hours"
+		},
+		"externalUrl": "https://arizonacommunityfarmersmarkets.com/ahwatukee-farmers-market",
+		"sponsored": false
+	},
+	{
+		"id": "19",
+		"title": "Heirloom Farmers Markets",
+		"description": "Network of farmers markets in Tucson and Southern Arizona, supporting local growers and food producers.",
+		"longDescription": "<p>Heirloom Farmers Markets operates several markets in Tucson and Southern Arizona, supporting local growers and food producers. Markets include Rillito Park, Oro Valley, Green Valley, and more. SNAP/EBT accepted.</p>",
+		"image": "/images/resources/arizona/heirloom-farmers-markets.avif",
+		"address": {
+			"street": "Multiple locations",
+			"city": "Tucson",
+			"state": "Arizona",
+			"zip": ""
+		},
+		"phone": "+1 520-882-2157",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "See website for locations/hours",
+			"sunday": "See website for locations/hours"
+		},
+		"externalUrl": "https://www.heirloomfm.org/",
+		"sponsored": false
+	},
+	{
+		"id": "20",
+		"title": "Tolmachoff Farms",
+		"description": "Family farm in Glendale, AZ, offering U-pick produce, farm stand, and seasonal events.",
+		"longDescription": "<p>Tolmachoff Farms is a family farm in Glendale, Arizona, offering U-pick produce, a farm stand, and seasonal events like pumpkin days and corn mazes.</p>",
+		"image": "/images/resources/arizona/tolmachoff-farms.avif",
+		"address": {
+			"street": "5726 N 75th Ave",
+			"city": "Glendale",
+			"state": "Arizona",
+			"zip": "85303"
+		},
+		"phone": "+1 623-386-1301",
+		"hours": {
+			"monday": "Closed",
+			"tuesday": "Closed",
+			"wednesday": "Closed",
+			"thursday": "Closed",
+			"friday": "9:00 AM - 5:00 PM",
+			"saturday": "9:00 AM - 5:00 PM",
+			"sunday": "9:00 AM - 5:00 PM"
+		},
+		"externalUrl": "https://www.tolmachoff-farms.com/",
+		"sponsored": false
+	},
+	{
+		"id": "21",
+		"title": "Tempe Farmers Market",
+		"description": "Indoor market and cafe in Tempe, AZ, offering local produce, groceries, and prepared foods.",
+		"longDescription": "<p>Tempe Farmers Market is an indoor market and cafe in downtown Tempe, Arizona, offering local produce, groceries, prepared foods, and vegan options. Open daily.</p>",
+		"image": "/images/resources/arizona/tempe-farmers-market.avif",
+		"address": {
+			"street": "805 S Farmer Ave",
+			"city": "Tempe",
+			"state": "Arizona",
+			"zip": "85281"
+		},
+		"phone": "+1 480-858-2709",
+		"hours": {
+			"monday": "8:00 AM - 8:00 PM",
+			"tuesday": "8:00 AM - 8:00 PM",
+			"wednesday": "8:00 AM - 8:00 PM",
+			"thursday": "8:00 AM - 8:00 PM",
+			"friday": "8:00 AM - 8:00 PM",
+			"saturday": "8:00 AM - 8:00 PM",
+			"sunday": "8:00 AM - 8:00 PM"
+		},
+		"externalUrl": "https://www.tempefarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "22",
+		"title": "Downtown Chandler Farmers Market",
+		"description": "Seasonal market in downtown Chandler, AZ, featuring local produce, food, and artisan vendors.",
+		"longDescription": "<p>The Downtown Chandler Farmers Market is a seasonal market featuring local produce, food, and artisan vendors. Open Saturdays, October–May, 9am–1pm.</p>",
+		"image": "/images/resources/arizona/downtown-chandler-farmers-market.avif",
+		"address": {
+			"street": "3 S Arizona Ave",
+			"city": "Chandler",
+			"state": "Arizona",
+			"zip": "85225"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "9:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://downtownchandler.org/events/farmers-market",
 		"sponsored": false
 	}
 ]
