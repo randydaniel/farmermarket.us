@@ -123,5 +123,105 @@
 		},
 		"externalUrl": "https://tuscaloosafarmersmarket.com/",
 		"sponsored": false
+	},
+	{
+		"id": "6",
+		"title": "Orrville Farmers Market",
+		"description": "Local market offering fresh produce, artisan foods, jar goods, snacks, home and garden items, and gifts in Orrville, Alabama.",
+		"longDescription": "<p>The Orrville Farmers Market connects consumers with locally grown, fresh produce, artisan foods, agricultural products, and prepared foods. The market also features jar goods, snacks, home and garden items, gifts, and health and beauty products. Enjoy breakfast and lunch service, and shop for Alabama peanuts, preserves, and more. The market fosters relationships between farmers and customers, cultivating community and loyalty.</p>",
+		"image": "/images/resources/alabama/orrville-farmers-market.avif",
+		"address": {
+			"street": "14560 Main Street",
+			"city": "Orrville",
+			"state": "Alabama",
+			"zip": "36767"
+		},
+		"phone": "+1 334-996-8301",
+		"hours": {
+			"monday": "",
+			"tuesday": "7:00 AM - 3:00 PM",
+			"wednesday": "7:00 AM - 3:00 PM",
+			"thursday": "7:00 AM - 3:00 PM",
+			"friday": "7:00 AM - 3:00 PM",
+			"saturday": "7:00 AM - 3:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://orrvillefarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "7",
+		"title": "Tanana Valley Farmers Market",
+		"description": "Alaska's oldest established farmers market, featuring Alaska Grown produce, plants, and Made in Alaska arts and crafts in Fairbanks.",
+		"longDescription": "<p>The Tanana Valley Farmers Market in Fairbanks, Alaska, showcases a wide variety of Alaska Grown produce, plants, and Made in Alaska and Silver Hand arts and crafts. As the oldest established farmers market in Alaska, it operates from its own permanent building and brings together growers and artisans from across the Tanana Valley. Open May through September, the market offers fresh vegetables, local products, and a vibrant community atmosphere. <a href='https://www.tvfmarket.com/' target='_blank' rel='noopener'>Learn more</a>.</p>",
+		"image": "/images/resources/alaska/tanana-valley-farmers-market.avif",
+		"address": {
+			"street": "2600 College Road",
+			"city": "Fairbanks",
+			"state": "Alaska",
+			"zip": "99708"
+		},
+		"phone": "+1 907-456-3276",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "11:00 AM - 4:00 PM",
+			"thursday": "",
+			"friday": "",
+			"saturday": "9:00 AM - 4:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.tvfmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "8",
+		"title": "Homer Farmers Market",
+		"description": "Weekly market in Homer, Alaska, supporting local growers and artisans with fresh produce, food, crafts, and community events.",
+		"longDescription": "<p>The Homer Farmers Market welcomes all growers of farm, garden, and greenhouse produce to participate in a weekly market. Established in 2000, the market supports a sustainable local agricultural community and offers fresh produce, food, crafts, and regular events like cooking demos and live music. SNAP, WIC, and Senior Benefits accepted. Open May through September. <a href='https://homerfarmersmarket.org/' target='_blank' rel='noopener'>Learn more</a>.</p>",
+		"image": "/images/resources/alaska/homer-farmers-market.avif",
+		"address": {
+			"street": "1211 Ocean Drive",
+			"city": "Homer",
+			"state": "Alaska",
+			"zip": "99603"
+		},
+		"phone": "+1 907-299-7540",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "2:00 PM - 5:00 PM",
+			"thursday": "",
+			"friday": "",
+			"saturday": "10:00 AM - 3:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://homerfarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "9",
+		"title": "Wasilla Farmers Market",
+		"description": "Summer market in Wasilla, Alaska, offering local produce, baked goods, jams, crafts, and Alaskan-made gifts.",
+		"longDescription": "<p>The Wasilla Farmers Market, sponsored by the Wasilla Knik Historical Society, runs every summer from June through mid-September. Local farmers, gardeners, bakers, and artisans sell fresh produce, jams, breads, and Alaskan-made gifts. Open Wednesdays at Iditapark, the market is a great place to find local flavors and crafts. <a href='http://www.wkhsociety.org/wasilla-farmer-s-market.html' target='_blank' rel='noopener'>Learn more</a>.</p>",
+		"image": "/images/resources/alaska/wasilla-farmers-market.avif",
+		"address": {
+			"street": "300 N Boundary",
+			"city": "Wasilla",
+			"state": "Alaska",
+			"zip": "99654"
+		},
+		"phone": "+1 907-376-7755",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "10:00 AM - 5:00 PM",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "http://www.wkhsociety.org/wasilla-farmer-s-market.html",
+		"sponsored": false
 	}
 ]
