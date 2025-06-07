@@ -1546,7 +1546,7 @@
 			"saturday": "See website for seasonal hours",
 			"sunday": ""
 		},
-		"externalUrl": "",
+		"externalUrl": "https://www.spreadgoodkarmafoundation.org/thebrandywineparkfarmersmarket",
 		"sponsored": false
 	},
 	{
@@ -1571,7 +1571,7 @@
 			"saturday": "",
 			"sunday": ""
 		},
-		"externalUrl": "",
+		"externalUrl": "https://downtownwilmingtonde.com/initiatives-blog/2015/8/4/farmers-market",
 		"sponsored": false
 	},
 	{
@@ -1596,7 +1596,7 @@
 			"saturday": "9:00 AM - 1:00 PM",
 			"sunday": ""
 		},
-		"externalUrl": "",
+		"externalUrl": "https://www.downtownmilford.org/riverwalk-farmers-market",
 		"sponsored": false
 	},
 	{
@@ -1621,7 +1621,207 @@
 			"saturday": "",
 			"sunday": "9:30 AM - 2:00 PM"
 		},
-		"externalUrl": "",
+		"externalUrl": "https://www.newark.coop/farmers-market",
+		"sponsored": false
+	},
+	{
+		"id": "66",
+		"title": "Cape Coral Farmers Market",
+		"description": "Award-winning downtown farmers market voted Best of the Cape for 6 consecutive years, featuring fresh produce, baked goods, and artisanal foods.",
+		"longDescription": "<p>The Cape Coral Farmers Market is a vibrant community gathering place voted Best of the Cape for Farmers Markets for the last 6 years. Located in downtown Cape Coral at Club Square, this market is always overflowing with fresh, local, and healthy produce, fruits, and foods, along with melt-in-your-mouth baked goods, made-on-site guacamole, salsas, homemade jams & jellies, pickles & olive mixes, cheeses, take-home foods and much more. With over 40 vendors, the market provides a friendly, welcoming atmosphere every Saturday morning year-round.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "SE 47th Terrace & SE 10th Place",
+			"city": "Cape Coral",
+			"state": "Florida",
+			"zip": "33904"
+		},
+		"phone": "(239) 549-6900",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://capecoralfarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "67",
+		"title": "Winter Garden Farmers Market",
+		"description": "Award-winning year-round farmers market in historic downtown Winter Garden, featuring local produce, artisanal goods, and a vibrant community atmosphere.",
+		"longDescription": "<p>The award-winning Winter Garden Farmers Market takes place every Saturday year-round from 8:00 am to 1:00 pm at the Downtown Pavilion. Located in the heart of historic downtown Winter Garden, the market is surrounded by quaint boutiques, shops, restaurants, bakeries, coffee cafes, museums, and an art gallery. Visitors can extend their outing beyond the market to enjoy the downtown area, including the Interactive Fountain and adjacent Butterfly Sculpture Park. The market features a diverse selection of vendors offering fresh produce, artisanal foods, handcrafted goods, and more in a family-friendly environment.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "104 S. Lakeview Avenue",
+			"city": "Winter Garden",
+			"state": "Florida",
+			"zip": "34787"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.wintergardenfarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "68",
+		"title": "St. Petersburg Saturday Morning Market",
+		"description": "One of Florida's largest farmers markets featuring over 130 vendors with farm-fresh produce, artisanal foods, and unique crafts in downtown St. Petersburg.",
+		"longDescription": "<p>The St. Petersburg Saturday Morning Market is a vibrant celebration of all things local, featuring farm-fresh produce, artisanal food products, and a wide range of arts and crafts. Known as \"The Heart of St. Petersburg,\" this market has become one of Florida's largest with over 130 vendors. Visitors can wander through rows of vendors, sampling delicious treats from food trucks or picking up unique pieces of jewelry or art. The market's friendly atmosphere and diverse offerings make it a popular destination for both locals and visitors from around the world. During summer months (June-August), the market relocates to Williams Park with adjusted hours.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "350 2nd Ave",
+			"city": "St. Petersburg",
+			"state": "Florida",
+			"zip": "33701"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "9:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://saturdaymorningmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "69",
+		"title": "Yellow Green Farmers Market",
+		"description": "South Florida's largest indoor/outdoor farmers market with over 300 vendors offering fresh produce, prepared foods, and artisanal goods in Hollywood.",
+		"longDescription": "<p>Yellow Green Farmers Market is South Florida's largest farmers market, spanning 100,000 square feet with over 300 booths in an indoor/outdoor setting. Located in Hollywood, this year-round market offers a diverse selection of fresh produce, prepared foods, artisanal goods, and unique crafts from local vendors. The market creates a vibrant community space where visitors can shop, dine, and connect with local producers and artisans. Open every Saturday and Sunday, Yellow Green Farmers Market provides a one-stop destination for those seeking fresh, local products in a lively atmosphere with plenty of parking and amenities for a full day of shopping and exploration.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "3080 Sheridan Street",
+			"city": "Hollywood",
+			"state": "Florida",
+			"zip": "33021"
+		},
+		"phone": "(954) 513-3990",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "10:00 AM - 6:30 PM",
+			"sunday": "10:00 AM - 6:30 PM"
+		},
+		"externalUrl": "https://ygfarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "70",
+		"title": "Marco Island Farmers Market",
+		"description": "Seasonal farmers market at Veterans Community Park featuring fresh produce, baked goods, and artisanal products from November through April.",
+		"longDescription": "<p>The Marco Island Farmers Market is a seasonal community gathering place operating every Wednesday from November through April at Veterans Community Park. This popular market features a diverse array of vendors offering fresh produce, flowers, baked goods, seafood, and artisanal products. Visitors can browse through stalls of locally grown fruits and vegetables, homemade jams and jellies, fresh-cut flowers, and handcrafted items while enjoying the beautiful Marco Island weather. The market has become a beloved tradition for both residents and visitors, providing access to fresh, local products in a friendly, open-air environment.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "901 Park Avenue",
+			"city": "Marco Island",
+			"state": "Florida",
+			"zip": "34145"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "7:30 AM - 1:00 PM",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.cityofmarcoisland.com/page/farmers-market",
+		"sponsored": false
+	},
+	{
+		"id": "71",
+		"title": "Orlando Farmers Market at Lake Eola",
+		"description": "Weekly Sunday market at Lake Eola Park featuring fresh produce, plants, food vendors, and artisanal goods in downtown Orlando.",
+		"longDescription": "<p>The Orlando Farmers Market at Lake Eola Park, also known as the \"Orlando Farmers Market at Lake Eola,\" is a weekly Sunday tradition in downtown Orlando. Set against the picturesque backdrop of Lake Eola, this market features a diverse selection of vendors offering fresh produce, plants, baked goods, prepared foods, and artisanal crafts. Visitors can browse through stalls while enjoying live music and the scenic park atmosphere. The market creates a vibrant community space where locals and tourists alike can connect with local farmers and artisans, sample delicious foods, and enjoy a relaxing Sunday in one of Orlando's most beloved parks.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "20 N Eola Drive",
+			"city": "Orlando",
+			"state": "Florida",
+			"zip": "32801"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": "10:00 AM - 3:00 PM"
+		},
+		"externalUrl": "https://www.orlandofarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "72",
+		"title": "Coconut Grove Organic Farmers Market",
+		"description": "Miami's original organic farmers market operating since 1996, featuring fresh produce, raw foods, and wellness products in a tropical setting.",
+		"longDescription": "<p>The Coconut Grove Organic Farmers Market, established in 1996, is Miami's original and longest-running organic market. Located in the historic and bohemian Coconut Grove neighborhood, this market specializes in organic and locally grown produce, raw foods, vegan options, and wellness products. The market creates a tropical oasis where visitors can shop for fresh fruits and vegetables, sample organic prepared foods, and discover unique artisanal products in a laid-back atmosphere. Operating year-round on Saturdays, the Coconut Grove Organic Farmers Market has become a beloved institution for health-conscious shoppers and those seeking sustainable, locally produced goods in the Miami area.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "3300 Grand Avenue",
+			"city": "Miami",
+			"state": "Florida",
+			"zip": "33133"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "10:00 AM - 7:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.glaserorganicfarms.com/",
+		"sponsored": false
+	},
+	{
+		"id": "73",
+		"title": "Sarasota Farmers Market",
+		"description": "Year-round downtown market operating since 1979, featuring over 70 vendors with fresh produce, prepared foods, and artisanal goods.",
+		"longDescription": "<p>The Sarasota Farmers Market has been a downtown tradition since 1979, operating year-round every Saturday morning. This producer-only market features over 70 vendors offering a diverse selection of fresh produce, plants, prepared foods, and artisanal products. Located in the heart of downtown Sarasota, the market creates a vibrant community gathering place where visitors can connect with local farmers and artisans while enjoying live music and the charming downtown atmosphere. The Sarasota Farmers Market is committed to supporting local agriculture and small businesses, providing residents and visitors with access to fresh, locally produced goods in a festive, open-air environment.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "1 N Lemon Avenue",
+			"city": "Sarasota",
+			"state": "Florida",
+			"zip": "34236"
+		},
+		"phone": "(941) 225-9256",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "7:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.sarasotafarmersmarket.org/",
 		"sponsored": false
 	}
 ]
