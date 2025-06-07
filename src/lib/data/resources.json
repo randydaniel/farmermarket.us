@@ -673,5 +673,505 @@
 		},
 		"externalUrl": "https://mainstreetsiloam.org/farmersmarket/",
 		"sponsored": false
+	},
+	{
+		"id": "28",
+		"title": "Ferry Plaza Farmers' Market",
+		"description": "Premier farmers' market at San Francisco's Ferry Building featuring local farmers, food artisans, and renowned chefs.",
+		"longDescription": "<p>The Ferry Plaza Farmers' Market is a triweekly California Certified Farmers Market operated by Foodwise at the San Francisco Ferry Building. Since 1993, the market has served as a crucial link between urban dwellers and local farmers, renowned for its diverse offering of delicious, high-quality products from California's cutting-edge sustainable growers, food makers, and chefs. With over 100 vendors on Saturdays and smaller weekday markets, it's a must-visit culinary destination in San Francisco.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "1 Ferry Building",
+			"city": "San Francisco",
+			"state": "California",
+			"zip": "94111"
+		},
+		"phone": "+1 415-291-3276",
+		"hours": {
+			"monday": "",
+			"tuesday": "10:00 AM - 2:00 PM",
+			"wednesday": "",
+			"thursday": "10:00 AM - 2:00 PM",
+			"friday": "",
+			"saturday": "8:00 AM - 2:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://foodwise.org/markets/ferry-plaza-farmers-market/",
+		"sponsored": false
+	},
+	{
+		"id": "29",
+		"title": "Hollywood Farmers' Market",
+		"description": "One of LA's largest and most diverse farmers' markets featuring over 160 farmers, food vendors, and artisans.",
+		"longDescription": "<p>The Hollywood Farmers' Market, founded in 1991, was one of just a few farmers' markets in all of California when it opened. Today, it's the largest in Los Angeles, hosting over 160 farmers, producers, food vendors, and artisans who specialize in a wide variety of crops grown seasonally around the state. Everyone from local families to Southern California's most respected chefs use the market for their weekly shopping. The market also features live music, activities for children, and book-signings by celebrated food authors.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "1600 Ivar Avenue",
+			"city": "Los Angeles",
+			"state": "California",
+			"zip": "90028"
+		},
+		"phone": "+1 323-463-3171",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": "8:00 AM - 1:00 PM"
+		},
+		"externalUrl": "https://foodaccessla.org/hollywood",
+		"sponsored": false
+	},
+	{
+		"id": "30",
+		"title": "The Original Farmers Market",
+		"description": "Historic Los Angeles landmark since 1934 with over 100 gourmet grocers, restaurants, and specialty shops.",
+		"longDescription": "<p>A favorite destination among locals and tourists since 1934, LA's world-famous Original Farmers Market offers over 100 gourmet grocers, restaurants, and specialty shops. Located at the corner of 3rd Street and Fairfax Avenue in the Fairfax District, this iconic market provides a diverse culinary experience with vendors offering everything from fresh produce to international cuisine. The market maintains its historic charm while serving as a vibrant community gathering place.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "6333 W. 3rd Street",
+			"city": "Los Angeles",
+			"state": "California",
+			"zip": "90036"
+		},
+		"phone": "+1 323-933-9211",
+		"hours": {
+			"monday": "9:00 AM - 9:00 PM",
+			"tuesday": "9:00 AM - 9:00 PM",
+			"wednesday": "9:00 AM - 9:00 PM",
+			"thursday": "9:00 AM - 9:00 PM",
+			"friday": "9:00 AM - 9:00 PM",
+			"saturday": "10:00 AM - 9:00 PM",
+			"sunday": "10:00 AM - 7:00 PM"
+		},
+		"externalUrl": "https://farmersmarketla.com/",
+		"sponsored": false
+	},
+	{
+		"id": "31",
+		"title": "Santa Monica Farmers' Market",
+		"description": "Premier farmers' market where top LA chefs source ingredients, featuring certified organic produce and street food.",
+		"longDescription": "<p>The Santa Monica Farmers' Market includes multiple markets throughout the week, with the Wednesday Downtown market established in 1981 and widely recognized as one of the largest and most diverse Certified Farmers Markets in the nation. Local residents, visitors, celebrities, and many of Los Angeles' best-known chefs shop at this location which features over 60 California farms. The Saturday market, established in 1991, presents the largest percentage of certified organic growers of Santa Monica's four markets with over 40 farm stands.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "155-199 Arizona Avenue",
+			"city": "Santa Monica",
+			"state": "California",
+			"zip": "90401"
+		},
+		"phone": "+1 310-458-8712",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "8:00 AM - 1:00 PM",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.santamonica.gov/places/farmers-markets/downtown-farmers-market",
+		"sponsored": false
+	},
+	{
+		"id": "32",
+		"title": "Hillcrest Farmers Market",
+		"description": "San Diego's vibrant market with over 175 vendors offering locally grown produce, artisan foods, and crafts.",
+		"longDescription": "<p>The Hillcrest Farmers Market in San Diego features over 175 vendors offering a wide variety of locally grown produce, gifts, arts and crafts, flowers, and clothing. Located on University Avenue between Herbert Street and Park Boulevard, this Sunday market has become a community institution. The market is open year-round, rain or shine, from 9am to 2pm, making it a perfect weekend destination for both locals and visitors looking for fresh, locally-sourced products.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "1601 University Avenue",
+			"city": "San Diego",
+			"state": "California",
+			"zip": "92103"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": "9:00 AM - 2:00 PM"
+		},
+		"externalUrl": "https://hillcrestfarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "33",
+		"title": "Marin Farmers' Market",
+		"description": "One of California's largest farmers' markets featuring local farmers, ranchers, and artisans in a scenic Frank Lloyd Wright setting.",
+		"longDescription": "<p>The Marin Farmers' Market at the Marin Civic Center includes two weekly markets. The Sunday market, with over 150 year-round vendors, is the third largest weekly market in California, offering organic produce, grass-fed meats, hand-crafted baked goods, and local artisans. The Thursday market, known as the \"Chef's Market,\" is frequented by local restaurateurs and food producers looking to source their ingredients. Both markets are nestled in the hills of the Marin County Civic Center—Frank Lloyd Wright's largest and final public project.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "3501 Civic Center Drive",
+			"city": "San Rafael",
+			"state": "California",
+			"zip": "94903"
+		},
+		"phone": "+1 415-472-6100",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "8:00 AM - 1:00 PM",
+			"friday": "",
+			"saturday": "",
+			"sunday": "8:00 AM - 1:00 PM"
+		},
+		"externalUrl": "https://www.agriculturalinstitute.org/sunday-marin",
+		"sponsored": false
+	},
+	{
+		"id": "34",
+		"title": "Sacramento Sunday Farmers' Market",
+		"description": "One of the largest certified farmers' markets in California featuring fresh produce, exotic ingredients, and local specialties.",
+		"longDescription": "<p>The Sacramento Sunday Farmers' Market is one of the largest certified farmers' markets in California, located at the intersection of W and 8th streets in downtown Sacramento. Open year-round from 8am to noon, this market offers a taste experience that ranges from the exotic to the familiar, with fresh Thai lemongrass, black Spanish radishes, and Tokyo turnips sitting right next to fat tomatoes, mounds of juicy berries, and takeaway treats like fresh pastries and golden waffles. The market accepts EBT and provides a vibrant community gathering space.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "8th & W Streets",
+			"city": "Sacramento",
+			"state": "California",
+			"zip": "95818"
+		},
+		"phone": "+1 916-688-0100",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": "8:00 AM - 12:00 PM"
+		},
+		"externalUrl": "https://marketlocations.com/market-times-locations/",
+		"sponsored": false
+	},
+	{
+		"id": "35",
+		"title": "San Luis Obispo Farmers' Market",
+		"description": "Vibrant Thursday evening market with over 100 vendors, famous BBQ, live entertainment, and fresh local produce.",
+		"longDescription": "<p>The Downtown SLO Farmers' Market is San Luis Obispo's signature event, taking place every Thursday from 6-9 PM on Higuera Street. This five-block market features over 100 vendors offering fresh produce, famous BBQ, delicious meals, crafts, baked goods, and entertainment. The event is anchored by a collection of massive circular barbecue setups, and the aroma of sizzling pork shoulder, ribs, chicken, lamb, and tri-tip—as well as batches of artichokes and corn on the cob—will wake up any appetite. It's a popular destination for both locals and visitors.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Higuera Street",
+			"city": "San Luis Obispo",
+			"state": "California",
+			"zip": "93401"
+		},
+		"phone": "+1 805-541-0286",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "6:00 PM - 9:00 PM",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://downtownslo.com/farmers-market",
+		"sponsored": false
+	},
+	{
+		"id": "36",
+		"title": "Davis Farmers Market",
+		"description": "Award-winning market in a university town featuring local produce, artisan foods, and popular Picnic in the Park events.",
+		"longDescription": "<p>The Davis Farmers Market, established in the heart of this university town, is consistently voted Best Fresh Produce and Best Community Event in The Davis Enterprise's Readers' Choice Awards. Located in Central Park, the market offers an array of fruits and vegetables, including certified organic produce, choice meats, chicken, seafood, wine, local eggs and honey, fresh-baked goods, plants, flowers and gifts. The Wednesday evening Picnic in the Park (mid-March through October) features wine and beer tastings, global food booths, local bands, and pony rides, making it a favorite community gathering spot.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "301 C Street",
+			"city": "Davis",
+			"state": "California",
+			"zip": "95616"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "4:00 PM - 8:00 PM (May-Sep), 3:00 PM - 6:00 PM (Oct-Apr)",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.davisfarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "37",
+		"title": "The Vegetable Shop at Chino Family Farm",
+		"description": "Legendary farm stand known for exceptional quality produce sought after by top chefs and food enthusiasts.",
+		"longDescription": "<p>The Vegetable Shop at Chino Family Farm in Rancho Santa Fe is a legendary produce destination that has been championed by renowned chefs like Alice Waters and Wolfgang Puck. Opened on a 45-acre plot of land by Junzo and Hatsuyo Chino at the close of World War II, this farm stand sells only produce grown on the family farm. The shop is known for exceptional quality, unique varieties like French strawberries, and unusual offerings such as strawberry figs, red carrots, and watermelon radishes. It's a must-visit for food enthusiasts seeking the finest quality seasonal produce in Southern California.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "6123 Calzada Del Bosque",
+			"city": "Rancho Santa Fe",
+			"state": "California",
+			"zip": "92091"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "10:00 AM - 3:30 PM",
+			"thursday": "10:00 AM - 3:30 PM",
+			"friday": "10:00 AM - 3:30 PM",
+			"saturday": "10:00 AM - 3:30 PM",
+			"sunday": "10:00 AM - 1:00 PM"
+		},
+		"externalUrl": "https://www.instagram.com/chinofarms/",
+		"sponsored": false
+	},
+	{
+		"id": "38",
+		"title": "Boulder Farmers Market",
+		"description": "Producer-only market with the longest season in Colorado, offering specialty foods, a food court, and acoustic entertainment.",
+		"longDescription": "<p>The popular Boulder Farmers Market boasts the longest season in Colorado, running from April to mid-November. Find out-of-the-ordinary goods such as specialty chocolate, goat milk and crayfish, along with a full food court and acoustic entertainment. Don't miss Masa Seed Foundation, which focuses on growing bio-regional seed banks for local and national distribution. The market is producer-only, meaning all vendors must grow or produce what they sell.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "13th Street between Arapahoe Ave & Canyon Boulevard",
+			"city": "Boulder",
+			"state": "Colorado",
+			"zip": "80302"
+		},
+		"phone": "+1 303-910-2236",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "May 7 - October 8, 3:30 pm - 7:30 pm",
+			"thursday": "",
+			"friday": "",
+			"saturday": "April 5 - November 22, 8 am - 2 pm",
+			"sunday": ""
+		},
+		"externalUrl": "https://bcfm.org/",
+		"sponsored": false
+	},
+	{
+		"id": "39",
+		"title": "Cherry Creek Fresh Market",
+		"description": "Denver's largest farmers market offering local produce, artisan products, and gourmet cuisine in an upscale shopping district.",
+		"longDescription": "<p>Denver's largest farmers market offers a colorful mix of beautiful flowers from local farmers, local produce, artisan products and delicious cuisine, plus all the high-end shopping your heart (and wallet) can handle. Many food businesses and food-related causes have started here, so if you're looking for the next best gourmet treat, chances are you'll find it at this market! Located on the east side of the Cherry Creek Shopping Center, the market is open rain, snow, or shine and offers free validated parking.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Cherry Creek Shopping Center, East Side",
+			"city": "Denver",
+			"state": "Colorado",
+			"zip": "80206"
+		},
+		"phone": "+1 303-442-1837",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "May 3 - October 11, 9 am - 2 pm",
+			"sunday": ""
+		},
+		"externalUrl": "https://coloradofreshmarkets.com/",
+		"sponsored": false
+	},
+	{
+		"id": "40",
+		"title": "Vail Farmers' Market and Art Show",
+		"description": "Colorado's largest farmers market with 155+ tents offering local produce, international cuisine, art, and live music in scenic Vail Village.",
+		"longDescription": "<p>The largest farmers market in Colorado offers 155+ tents packed with garden goodies, regional fare, international cuisines, art, wellness products and home goods. Add the live music, huge roasted turkey legs, Mexican street corn and kids play areas, and the Sunday market resembles a (very stylish) county fair. Located in beautiful Vail Village, the market runs from Father's Day through early October, creating a vibrant community gathering space for locals and visitors alike.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "E. Meadow Drive",
+			"city": "Vail",
+			"state": "Colorado",
+			"zip": "81657"
+		},
+		"phone": "+1 970-401-3320",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "June 19 - September 18, 1:00 pm - 5:30 pm",
+			"friday": "",
+			"saturday": "",
+			"sunday": "June 15 - October 5, 9:30 am - 3:30 pm"
+		},
+		"externalUrl": "https://www.vailfarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "41",
+		"title": "South Pearl Street Farmers Market",
+		"description": "A highly curated neighborhood market with a loyal following, featuring Western Slope produce, food trucks, and regular special events.",
+		"longDescription": "<p>This highly curated neighborhood market has a loyal following of vendors and visitors that all add to the unique personality of this community. In addition to juicy late-summer Western Slope peaches and apples, baked treats, kombuchas, cacti and food truck offerings that make your mouth water, each Sunday brings live music as well as special events including a pet fair, flea market, chili cook-off and Halloween parade. The market is open rain, snow or shine and all holidays.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "1400 & 1500 blocks of South Pearl Street",
+			"city": "Denver",
+			"state": "Colorado",
+			"zip": "80210"
+		},
+		"phone": "+1 303-734-0718",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": "May 4 - November 9, 9 am - 1 pm"
+		},
+		"externalUrl": "https://www.southpearlstreet.com/farmers-market/",
+		"sponsored": false
+	},
+	{
+		"id": "42",
+		"title": "Alamosa Farmers' Market",
+		"description": "San Luis Valley market featuring local dairy, meat, and produce, with a focus on food assistance programs and cooking demonstrations.",
+		"longDescription": "<p>San Luis Valley dairy and meat producers offer home-crafted cheeses and grass-fed beef, lamb and yak at the Alamosa Farmers' Market. Nibble samples from valley growers and score Colorado recipes and tips at free cooking demos. The open-air roasted chiles are a must-try. The market also participates in the Double Up Food Bucks program, which matches SNAP benefits to help more community members access fresh, local food.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Corner of Ross and 6th Street",
+			"city": "Alamosa",
+			"state": "Colorado",
+			"zip": "81101"
+		},
+		"phone": "+1 719-480-4365",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "July 5 - October 11, 8 am - 1:30 pm",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.alamosafarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "43",
+		"title": "Crested Butte Farmers Market",
+		"description": "Mountain market offering wild-caught fish, local dairy, and seasonal harvest suppers sourced entirely from local foods.",
+		"longDescription": "<p>In addition to wild-caught fish, ciders, wines and massages, this mountain market brings visitors a genuine field-to-fork experience with seasonal harvest suppers. The meals are sourced entirely from local foods, down to the table salt. If you can't experience the harvest supper, make sure to bring some goodies home from Laz Ewe 2 Bar Goat Dairy, like its yak cheese. Located at the Top of Elk Avenue in downtown Crested Butte, this market showcases the best of Colorado's mountain agriculture.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Top of Elk Avenue (100 and Zero Blocks)",
+			"city": "Crested Butte",
+			"state": "Colorado",
+			"zip": "81224"
+		},
+		"phone": "+1 970-901-4413",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": "May 25 - October 5, 9 am - 2 pm"
+		},
+		"externalUrl": "https://cbfarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "44",
+		"title": "Dillon Farmers Market",
+		"description": "Lakeside market featuring artistic glass jewelry, handmade pottery, boutique soaps, cheeses, pastries, and live music.",
+		"longDescription": "<p>Located in Town Park, this lakeside bazaar features artistic glass jewelry, handmade pottery, boutique soaps, cheeses, pastries and a full line-up of live music to boot. Grab a fresh-squeezed lemonade and some walnut cranberry bread, then explore Lake Dillon on a historical boat tour with departures from Dillon Marina. The market is home to over 100 vendors and offers yoga sessions every Friday morning for a suggested donation.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Town Park along Buffalo and LaBonte Streets",
+			"city": "Dillon",
+			"state": "Colorado",
+			"zip": "80435"
+		},
+		"phone": "+1 970-262-3400",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "June 6 - September 12, 9 am - 2 pm",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.townofdillon.com/events/dillon-farmers-market",
+		"sponsored": false
+	},
+	{
+		"id": "45",
+		"title": "Telluride Farmers Market",
+		"description": "Organic market in downtown Telluride featuring high-quality local produce, animal products, and artisan crafts from within 100 miles.",
+		"longDescription": "<p>Telluride keeps the jovial vibe alive at its market with free music and presentations, along with pottery, clothing and woodcraft vendors. The market's goal is to not only provide the community with high-quality, locally produced food and artisan craft, but also create a space where customers come face-to-face with the hardworking producers and crafters. All goods are produced within 100 miles of Telluride, ensuring a truly local shopping experience in the heart of this beautiful mountain town.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "South Oak Street",
+			"city": "Telluride",
+			"state": "Colorado",
+			"zip": "81435"
+		},
+		"phone": "+1 970-433-4699",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "June - October, 10:30 am - 3:30 pm",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.thetelluridefarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "46",
+		"title": "Colorado Springs Farmers' Markets",
+		"description": "Multiple market locations throughout Colorado Springs offering fresh produce, artisan goods, and community events.",
+		"longDescription": "<p>Colorado Springs Farmer's Markets runs more than a dozen summer markets, from the Backyard Market to Monument to Woodland Park, all filled with fine artisan goods as well as organic produce, infused vinegars, pet treats and wellness products. The Briargate location operates on Wednesdays, while the Cordera market runs on Sundays, giving shoppers multiple opportunities to find fresh, local products throughout the week. With an average of about 35 vendors at each location, you can look forward to seeing many booths including local produce, dairy, honey, baked goods, and crafts.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "7610 North Union Blvd",
+			"city": "Colorado Springs",
+			"state": "Colorado",
+			"zip": "80920"
+		},
+		"phone": "+1 719-592-9420",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "May 28 - September 24, 9 am - 2 pm (Briargate)",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": "May 25 - August 31, 10 am - 2 pm (Cordera)"
+		},
+		"externalUrl": "https://www.springsfarmersmarkets.com/",
+		"sponsored": false
+	},
+	{
+		"id": "47",
+		"title": "Durango Farmers Market",
+		"description": "Local market in southwest Colorado featuring fresh produce, artisan foods, and handcrafted goods from the region.",
+		"longDescription": "<p>Located in the beautiful mountain town of Durango, this market offers a wide variety of locally grown produce, artisan foods, and handcrafted goods. The market has a strong community focus and provides a platform for local farmers and producers to connect directly with consumers. Running from May through October at the TBK Bank location, the Durango Farmers Market has become a Saturday morning tradition for locals and visitors alike, showcasing the agricultural bounty of southwest Colorado.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "259 W 9th St (TBK Bank)",
+			"city": "Durango",
+			"state": "Colorado",
+			"zip": "81301"
+		},
+		"phone": "+1 970-749-1653",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "May 10 - October 25, 8 am - 12 pm",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.durangofarmersmarket.com/",
+		"sponsored": false
 	}
 ]
