@@ -940,10 +940,10 @@
 		"hours": {
 			"monday": "",
 			"tuesday": "",
-			"wednesday": "May 7 - October 8, 3:30 pm - 7:30 pm",
+			"wednesday": "3:30 PM - 7:30 PM",
 			"thursday": "",
 			"friday": "",
-			"saturday": "April 5 - November 22, 8 am - 2 pm",
+			"saturday": "8:00 AM - 2:00 PM",
 			"sunday": ""
 		},
 		"externalUrl": "https://bcfm.org/",
@@ -968,7 +968,7 @@
 			"wednesday": "",
 			"thursday": "",
 			"friday": "",
-			"saturday": "May 3 - October 11, 9 am - 2 pm",
+			"saturday": "9:00 AM - 2:00 PM",
 			"sunday": ""
 		},
 		"externalUrl": "https://coloradofreshmarkets.com/",
@@ -991,10 +991,10 @@
 			"monday": "",
 			"tuesday": "",
 			"wednesday": "",
-			"thursday": "June 19 - September 18, 1:00 pm - 5:30 pm",
+			"thursday": "1:00 PM - 5:30 PM",
 			"friday": "",
 			"saturday": "",
-			"sunday": "June 15 - October 5, 9:30 am - 3:30 pm"
+			"sunday": "9:30 AM - 3:30 PM"
 		},
 		"externalUrl": "https://www.vailfarmersmarket.com/",
 		"sponsored": false
@@ -1019,7 +1019,7 @@
 			"thursday": "",
 			"friday": "",
 			"saturday": "",
-			"sunday": "May 4 - November 9, 9 am - 1 pm"
+			"sunday": "9:00 AM - 1:00 PM"
 		},
 		"externalUrl": "https://www.southpearlstreet.com/farmers-market/",
 		"sponsored": false
@@ -1043,7 +1043,7 @@
 			"wednesday": "",
 			"thursday": "",
 			"friday": "",
-			"saturday": "July 5 - October 11, 8 am - 1:30 pm",
+			"saturday": "8:00 AM - 1:30 PM",
 			"sunday": ""
 		},
 		"externalUrl": "https://www.alamosafarmersmarket.org/",
@@ -1069,7 +1069,7 @@
 			"thursday": "",
 			"friday": "",
 			"saturday": "",
-			"sunday": "May 25 - October 5, 9 am - 2 pm"
+			"sunday": "9:00 AM - 2:00 PM"
 		},
 		"externalUrl": "https://cbfarmersmarket.org/",
 		"sponsored": false
@@ -1092,7 +1092,7 @@
 			"tuesday": "",
 			"wednesday": "",
 			"thursday": "",
-			"friday": "9:00 am - 2:00 pm",
+			"friday": "9:00 AM - 2:00 PM",
 			"saturday": "",
 			"sunday": ""
 		},
@@ -1117,7 +1117,7 @@
 			"tuesday": "",
 			"wednesday": "",
 			"thursday": "",
-			"friday": "10:30 am - 3:30 pm",
+			"friday": "10:30 AM - 3:30 PM",
 			"saturday": "",
 			"sunday": ""
 		},
@@ -1140,11 +1140,11 @@
 		"hours": {
 			"monday": "",
 			"tuesday": "",
-			"wednesday": "May 28 - September 24, 9 am - 2 pm (Briargate)",
+			"wednesday": "9:00 AM - 2:00 PM",
 			"thursday": "",
 			"friday": "",
 			"saturday": "",
-			"sunday": "May 25 - August 31, 10 am - 2 pm (Cordera)"
+			"sunday": "10:00 AM - 2:00 PM"
 		},
 		"externalUrl": "https://www.springsfarmersmarkets.com/",
 		"sponsored": false
@@ -1168,10 +1168,460 @@
 			"wednesday": "",
 			"thursday": "",
 			"friday": "",
-			"saturday": "May 10 - October 25, 8 am - 12 pm",
+			"saturday": "8:00 AM - 12:00 PM",
 			"sunday": ""
 		},
 		"externalUrl": "https://www.durangofarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "48",
+		"title": "Westport Farmers' Market",
+		"description": "A premier farmers' market in Fairfield County founded by Paul Newman and Michel Nischan, featuring 50+ curated vendors and the highest vendor standards in Connecticut.",
+		"longDescription": "<p>The Westport Farmers' Market was founded by Paul Newman and Michel Nischan in June 2006. Under the leadership of Executive Director Lori Cochran-Dougall, the market is recognized in Connecticut for implementing the highest vendor standards and guidelines in the state. With 50+ highly curated vendors, the market welcomes thousands of shoppers into the community every week. The market is 98% plastic-free and features bakers, cheese mongers, food trucks, GMO-free vendors, pizza, chef demos, flowers, seeds, and fresh, local, healthy, and seasonal food.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "50 Imperial Ave",
+			"city": "Westport",
+			"state": "Connecticut",
+			"zip": "06880"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "10:00 AM - 2:00 PM",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.westportfarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "49",
+		"title": "Coventry Farmers Market at Hale Homestead",
+		"description": "Connecticut's largest farmers' market featuring the best CT-grown, CT-made products in one of the state's most beautiful countryside settings.",
+		"longDescription": "<p>Open every Sunday from June - October, the Coventry Farmers' Market is hosting the 21st season on the grounds of Nathan Hale Homestead in Coventry. The market carries the tradition of being the largest farmers' markets in Connecticut, featuring some of the best of CT-grown, CT-made products around at one of the most unspoiled countryside settings in the state. The market features themed weekends throughout the season including BBQ and Libations, Berry Jubilee, Annual Corn Roast, and Pumpkin Harvest Celebration.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "2299 South St",
+			"city": "Coventry",
+			"state": "Connecticut",
+			"zip": "06238"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": "10:00 AM - 1:00 PM"
+		},
+		"externalUrl": "https://coventryfarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "50",
+		"title": "CitySeed Farmers Markets - Wooster Square",
+		"description": "Year-round farmers' market in New Haven's historic Wooster Square neighborhood, providing direct connection to 50+ Connecticut vendors.",
+		"longDescription": "<p>CitySeed operates a series of vibrant, year-round Farmers Markets throughout New Haven, CT. The Wooster Square market provides a direct connection to more than 50 Connecticut vendors, including farms, nurseries, bakeries, cheese makers, and specialty food producers. CitySeed's mission is to engage the community in growing a local food system that promotes economic development, community development, and sustainable agriculture. The markets provide vital economic opportunities for regional farmers, helping to keep the local food system healthy and strong.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Wooster Square",
+			"city": "New Haven",
+			"state": "Connecticut",
+			"zip": "06511"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "9:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://cityseed.org/cityseed-markets/",
+		"sponsored": false
+	},
+	{
+		"id": "51",
+		"title": "CitySeed Farmers Markets - Edgewood Park",
+		"description": "Sunday farmers' market in New Haven's Edgewood Park, part of CitySeed's network of year-round markets connecting the community to local food.",
+		"longDescription": "<p>The Edgewood Park Farmers Market is part of CitySeed's network of vibrant, year-round Farmers Markets throughout New Haven, CT. Located in the beautiful Edgewood Park, this market provides a direct connection to more than 50 Connecticut vendors, including farms, nurseries, bakeries, cheese makers, and specialty food producers. The market serves as a vital community gathering place while supporting regional farmers and promoting sustainable agriculture in the New Haven area.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Edgewood Park",
+			"city": "New Haven",
+			"state": "Connecticut",
+			"zip": "06511"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": "10:00 AM - 1:00 PM"
+		},
+		"externalUrl": "https://cityseed.org/cityseed-markets/",
+		"sponsored": false
+	},
+	{
+		"id": "52",
+		"title": "West Hartford Farmers' Market",
+		"description": "Year-round Saturday farmers' market in West Hartford featuring local produce, artisan goods, and community events.",
+		"longDescription": "<p>The West Hartford Farmers' Market operates year-round on Saturdays, providing the community with access to fresh, local produce and artisan goods throughout all seasons. Located in the heart of West Hartford, this market serves as a vital community gathering place where residents can connect with local farmers and food producers. The market features a variety of vendors offering everything from seasonal produce to baked goods, supporting the local food economy and promoting sustainable agriculture practices.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "West Hartford Center",
+			"city": "West Hartford",
+			"state": "Connecticut",
+			"zip": "06107"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "9:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "",
+		"sponsored": false
+	},
+	{
+		"id": "53",
+		"title": "New Canaan Farmers Market",
+		"description": "Long-running Saturday farmers' market in New Canaan featuring local farms, artisan vendors, and seasonal specialties.",
+		"longDescription": "<p>The New Canaan Farmers Market is a beloved community institution that operates on Saturdays from April through December. This market brings together local farms and artisan vendors to provide the New Canaan community with fresh, seasonal produce and handcrafted goods. The market serves as a central gathering place for the community, fostering connections between residents and local food producers while supporting sustainable agriculture and local businesses in the region.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Elm Street",
+			"city": "New Canaan",
+			"state": "Connecticut",
+			"zip": "06840"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "10:00 AM - 2:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "",
+		"sponsored": false
+	},
+	{
+		"id": "54",
+		"title": "Stonington Village Farmers' Market",
+		"description": "Coastal farmers' market in historic Stonington Village offering fresh produce, baked goods, seafood, and local crafts.",
+		"longDescription": "<p>The Stonington Village Farmers' Market operates in the picturesque coastal setting of historic Stonington Village. From Memorial Weekend to mid-October, this market offers a wide variety of fresh produce, baked goods, cheese, meat, seafood, flowers, and hand-made crafts. The market takes advantage of its coastal location to feature fresh seafood alongside traditional farm products, creating a unique shopping experience that reflects the maritime heritage of the area while supporting local farmers and artisans.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Cannon Square",
+			"city": "Stonington",
+			"state": "Connecticut",
+			"zip": "06378"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "9:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "",
+		"sponsored": false
+	},
+	{
+		"id": "55",
+		"title": "Litchfield Farmers Market",
+		"description": "Saturday farmers' market in historic Litchfield featuring local farms, artisan vendors, and community atmosphere.",
+		"longDescription": "<p>The Litchfield Farmers Market operates on Saturdays from March through October in the historic town of Litchfield. This market brings together local farms and artisan vendors to serve the Litchfield Hills community with fresh, seasonal produce and handcrafted goods. Set in one of Connecticut's most picturesque towns, the market provides a charming atmosphere for community gathering while supporting local agriculture and small businesses in the region.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Litchfield Green",
+			"city": "Litchfield",
+			"state": "Connecticut",
+			"zip": "06759"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "10:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "",
+		"sponsored": false
+	},
+	{
+		"id": "56",
+		"title": "Washington Farmers Market",
+		"description": "Saturday farmers' market in Washington, Connecticut, featuring local produce, artisan goods, and community events.",
+		"longDescription": "<p>The Washington Farmers Market operates on Saturdays from May through November in the charming town of Washington, Connecticut. This market serves the local community by connecting residents with regional farmers and artisan vendors offering fresh, seasonal produce and handcrafted goods. The market fosters a strong sense of community while supporting sustainable agriculture and local businesses in the scenic Litchfield Hills region.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Bryan Memorial Town Hall",
+			"city": "Washington",
+			"state": "Connecticut",
+			"zip": "06793"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "9:30 AM - 12:30 PM",
+			"sunday": ""
+		},
+		"externalUrl": "",
+		"sponsored": false
+	},
+	{
+		"id": "57",
+		"title": "Downtown Milford Farmers Market",
+		"description": "Saturday farmers' market in downtown Milford featuring local farms, fresh produce, and artisan vendors.",
+		"longDescription": "<p>The Downtown Milford Farmers Market operates on Saturdays from June through October in the heart of downtown Milford. This market brings together local farms and artisan vendors to provide the Milford community with fresh, seasonal produce and handcrafted goods. Located in the downtown area, the market serves as a vibrant community gathering place while supporting local agriculture and small businesses, contributing to the economic vitality of downtown Milford.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Downtown Milford",
+			"city": "Milford",
+			"state": "Connecticut",
+			"zip": "06460"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:30 AM - 12:30 PM",
+			"sunday": ""
+		},
+		"externalUrl": "",
+		"sponsored": false
+	},
+	{
+		"id": "58",
+		"title": "Rehoboth Beach Farmers Market",
+		"description": "Delaware's #1 Farmers Market as ranked by TripAdvisor, featuring 40+ vendors offering fresh food, local produce, flowers, and handmade goods.",
+		"longDescription": "<p>Welcome to the Rehoboth Beach Farmers Market! Ranked as Delaware's #1 Farmers Market by TripAdvisor, we offer a variety of fresh food, local produce, flowers, handmade goods, and more from local sellers in our community. Located in Grove Park adjacent to the Visitors Center and next to the Rehoboth Beach Museum, our market operates every Tuesday from May through October, rain or shine. With over 40 vendors, we provide a vibrant community gathering place that supports local agriculture and artisans.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "501 Rehoboth Avenue",
+			"city": "Rehoboth Beach",
+			"state": "Delaware",
+			"zip": "19971"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "10:00 AM - 2:00 PM",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.rbfarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "59",
+		"title": "Historic Lewes Farmers Market",
+		"description": "Producer-only farmers market with multiple locations in Lewes, featuring fresh produce, flowers, kombucha, oysters, clams, and local goods.",
+		"longDescription": "<p>The Historic Lewes Farmers Market (HLFM) is a nonprofit organization committed to nurturing a vibrant local food system in Delmarva that is sustainable and socially responsible. We bring together our community and farmers that grow our food through our producer-only farmers markets. Operating at multiple locations throughout Lewes during the summer months, we feature fresh produce, flowers, locally brewed kombucha, oysters, clams, and other local goods. Our goal is an equitable distribution system that increases healthy food access, reduces food waste, and benefits our entire community.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Johnson & Dupont Aves",
+			"city": "Lewes",
+			"state": "Delaware",
+			"zip": "19958"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "8:00 AM - 11:30 AM",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.historiclewesfarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "60",
+		"title": "New Castle Farmers Market",
+		"description": "Indoor/outdoor market voted 'Best in Delaware' by Delaware Today, featuring Pennsylvania Dutch foods, fresh produce, and over 70 shops.",
+		"longDescription": "<p>A feast for the senses since 1954, the New Castle Farmers Market offers the finest and freshest of Pennsylvania Dutch foods and much, much more. Located at the historic 'Hare's Corner' intersection of Route 13 & 273, our market features over 70 individual owner-operated shops including a beautiful PA Dutch section with fresh Lancaster County meats, baked goods, produce and more. Voted 'Best in Delaware' by Delaware Today magazine, we offer amazing food, value and fun for the entire family with knowledgeable merchants bringing you uncommon values and personal service every weekend.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "110 N Dupont Hwy",
+			"city": "New Castle",
+			"state": "Delaware",
+			"zip": "19720"
+		},
+		"phone": "(302) 588-8928",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "9:00 AM - 3:00 PM",
+			"friday": "9:00 AM - 8:00 PM",
+			"saturday": "9:00 AM - 8:00 PM",
+			"sunday": "10:00 AM - 5:00 PM"
+		},
+		"externalUrl": "https://www.newcastlefarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "61",
+		"title": "Dutch Country Farmers Market",
+		"description": "Year-round Amish market in Middletown featuring fresh produce, dairy, deli selections, handcrafted gifts, and furniture.",
+		"longDescription": "<p>Welcome to Dutch Country Farmers Market, located in Middletown, Delaware. All the pleasures of Amish country in one place! Stock up for the week with the freshest produce, dairy, and deli selections. Sit down for a homestyle meal at our restaurant or tantalize your taste buds with a tour of our merchants' most delectable dishes. Open Thursday, Friday, and Saturday, our market features a wide variety of merchants for your tastes and interests. Alongside our amazing food vendors, you'll find handcrafted gifts and furniture, small appliance sales and repairs, and more. With so much to offer, Dutch Country Farmers Market has something for everyone!</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "701 N Broad St",
+			"city": "Middletown",
+			"state": "Delaware",
+			"zip": "19709"
+		},
+		"phone": "(302) 285-0851",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "8:30 AM - 6:00 PM",
+			"friday": "8:30 AM - 6:00 PM",
+			"saturday": "8:00 AM - 4:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://delawarefarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "62",
+		"title": "Brandywine Park Farmers Market",
+		"description": "New farmers market in Wilmington bringing local vendors and farmers to Brandywine Park on Saturdays through October.",
+		"longDescription": "<p>Brand-new to Wilmington in 2025, the Brandywine Park Farmers Market is a collaboration between the Friends of Wilmington Parks and the Spread Good Karma Foundation that brings local vendors and farmers to the fountain in Brandywine Park on Saturdays. After a successful opening day on May 3, the farmers market takes place weekly through October 25. In the event Brandywine Park is occupied by another event on Saturday, the market will take place on the following Sunday instead. This market serves as a vibrant community gathering place while supporting local agriculture and food producers in the Wilmington area.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "1000 North Park Drive",
+			"city": "Wilmington",
+			"state": "Delaware",
+			"zip": "19802"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "See website for seasonal hours",
+			"sunday": ""
+		},
+		"externalUrl": "",
+		"sponsored": false
+	},
+	{
+		"id": "63",
+		"title": "Downtown Farmers Market at Rodney Square",
+		"description": "Wednesday farmers market in downtown Wilmington featuring food trucks, fresh produce, flowers, herbs, and handmade crafts.",
+		"longDescription": "<p>On Wednesdays from 10 a.m. to 2 p.m., Wilmington residents flock to Rodney Square for the Downtown Farmers Market. This vibrant market features food truck fare, fresh produce, flowers and herbs, handmade crafts, and more. The season runs from May through October, providing downtown workers and residents with convenient access to fresh, local products. Located in the heart of downtown Wilmington, this market serves as an important community gathering place that supports local vendors and brings fresh food access to the urban core.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Rodney Square",
+			"city": "Wilmington",
+			"state": "Delaware",
+			"zip": "19801"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "10:00 AM - 2:00 PM",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "",
+		"sponsored": false
+	},
+	{
+		"id": "64",
+		"title": "Riverwalk Farmers Market",
+		"description": "Downtown Milford's market celebrating 30 years of serving the community with local farmers, bakers, and artisans.",
+		"longDescription": "<p>Downtown Milford's Riverwalk Farmers Market celebrates 30 years of serving the community. This beloved market helps preserve the small-town community feel of Milford while supporting local farmers, bakers, and artisans. Operating on Saturdays from 9 a.m. to 1 p.m. through October, visitors can shop local in style along the scenic riverwalk. The market features a variety of vendors offering fresh produce, baked goods, and handcrafted items, making it a cornerstone of the downtown Milford community and a destination for those seeking quality local products.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "1 South Walnut Street",
+			"city": "Milford",
+			"state": "Delaware",
+			"zip": "19963"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "9:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "",
+		"sponsored": false
+	},
+	{
+		"id": "65",
+		"title": "Newark Natural Foods Co-Op Farmers Market",
+		"description": "Sunday farmers market at Newark Natural Foods Co-Op featuring locally sourced foods and fresh produce from May to November.",
+		"longDescription": "<p>The Newark Natural Foods Co-Op offers Newark residents a place to find locally sourced foods and fresh produce all year round. On Sundays from May to November, the Co-Op hosts an open-air market in the shopping center parking lot from 9:30 a.m. to 2 p.m. This market provides an opportunity to support local businesses and foster relationships with the folks behind the products you buy. Located at the Newark Shopping Center, the market serves the University of Delaware community and surrounding areas with access to fresh, local, and organic products.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "230 East Main Street",
+			"city": "Newark",
+			"state": "Delaware",
+			"zip": "19711"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": "9:30 AM - 2:00 PM"
+		},
+		"externalUrl": "",
 		"sponsored": false
 	}
 ]
