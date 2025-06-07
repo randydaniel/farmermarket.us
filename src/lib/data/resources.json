@@ -548,5 +548,130 @@
 		},
 		"externalUrl": "https://downtownchandler.org/events/farmers-market",
 		"sponsored": false
+	},
+	{
+		"id": "23",
+		"title": "Hot Springs Farmers Market",
+		"description": "Homegrown, homemade, and handcrafted market in Hot Springs, AR. Open Saturdays, rain or shine.",
+		"longDescription": "<p>Hot Springs Farmers Market brings together local farmers, artisans, and food producers every Saturday, rain or shine. Enjoy fresh produce, homemade goods, and handcrafted items. SNAP is accepted year-round, and the market supports Double Up Food Bucks. Located at 121 Orange Street, the market is a vibrant community hub for fresh, local food and fun.</p>",
+		"image": "/images/resources/arkansas/hot-springs-farmers-market.avif",
+		"address": {
+			"street": "121 Orange Street",
+			"city": "Hot Springs",
+			"state": "Arkansas",
+			"zip": "71901"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "7:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.hotspringsfarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "24",
+		"title": "Me & McGee Market",
+		"description": "Highly rated market just outside North Little Rock, AR, offering local meats, produce, plants, honey, jams, and more.",
+		"longDescription": "<p>Me & McGee Market provides a relaxing environment for local farmers and producers to offer meats, plants, eggs, honey, fresh produce, jams, jellies, and more. The market is known for its community spirit and support for the Larry McGee Foundation. Located on Highway 70, it's a destination for fresh, local Arkansas products and a welcoming market experience.</p>",
+		"image": "/images/resources/arkansas/me-and-mcgee-market.avif",
+		"address": {
+			"street": "10409 Highway 70",
+			"city": "North Little Rock",
+			"state": "Arkansas",
+			"zip": "72117"
+		},
+		"phone": "+1 501-355-6222",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "See website for seasonal hours",
+			"sunday": "See website for seasonal hours"
+		},
+		"externalUrl": "https://meandmcgeemarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "25",
+		"title": "Fort Smith Farmers Market",
+		"description": "Popular farmers market in downtown Fort Smith, AR, offering local produce, food, and artisan goods.",
+		"longDescription": "<p>The Fort Smith Farmers Market is a vibrant downtown market featuring local produce, food, and artisan goods. It's a community gathering place for fresh food and local products, supporting area farmers and makers. Located on Garrison Avenue, the market is a must-visit for residents and visitors alike.</p>",
+		"image": "/images/resources/arkansas/fort-smith-farmers-market.avif",
+		"address": {
+			"street": "524 Garrison Ave",
+			"city": "Fort Smith",
+			"state": "Arkansas",
+			"zip": "72901"
+		},
+		"phone": "+1 479-783-8888",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "7:00 AM - 12:00 PM",
+			"thursday": "",
+			"friday": "",
+			"saturday": "7:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.discoverfortsmith.com/listing/fort-smith-farmers-market/278/",
+		"sponsored": false
+	},
+	{
+		"id": "26",
+		"title": "1894 City Market",
+		"description": "Historic market and event venue in downtown Texarkana, AR, offering unique spaces and local events.",
+		"longDescription": "<p>The Historic 1894 City Market in Texarkana, Arkansas, is a unique venue for events, markets, and community gatherings. Located in a historic building, it offers a blend of local history, art, and vibrant market experiences. The market is a hub for local culture and special events in downtown Texarkana.</p>",
+		"image": "/images/resources/arkansas/1894-city-market.avif",
+		"address": {
+			"street": "105 Olive St",
+			"city": "Texarkana",
+			"state": "Arkansas",
+			"zip": "71854"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "See website for seasonal hours",
+			"sunday": "See website for seasonal hours"
+		},
+		"externalUrl": "http://www.1894citymarket.com/home.html",
+		"sponsored": false
+	},
+	{
+		"id": "27",
+		"title": "Siloam Springs Farmers Market",
+		"description": "Producers-only market in Siloam Springs, AR, offering local food, artisan goods, and community events.",
+		"longDescription": "<p>The Siloam Springs Farmers Market is a producers-only market in downtown Siloam Springs, Arkansas. Shop for local produce, pasture-raised meats, baked goods, and artisan wares. The market features SNAP and Double Your Dollar programs, Kids Day events, and a vibrant community atmosphere. Located in Memorial Park, it's a Saturday morning tradition for the community.</p>",
+		"image": "/images/resources/arkansas/siloam-springs-farmers-market.avif",
+		"address": {
+			"street": "311 S Mt. Olive St",
+			"city": "Siloam Springs",
+			"state": "Arkansas",
+			"zip": "72761"
+		},
+		"phone": "+1 479-524-4556",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "See website for seasonal hours",
+			"sunday": "See website for seasonal hours"
+		},
+		"externalUrl": "https://mainstreetsiloam.org/farmersmarket/",
+		"sponsored": false
 	}
 ]
