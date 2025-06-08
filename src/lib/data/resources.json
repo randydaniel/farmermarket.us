@@ -3023,5 +3023,1005 @@
 		},
 		"externalUrl": "https://www.grinnelliowa.gov/farmers-market",
 		"sponsored": false
+	},
+	{
+		"id": "122",
+		"title": "Overland Park Farmers Market",
+		"description": "Consistently named one of the best farmers markets in the country by Cooking Light, celebrating 40 years of farm-to-table excellence.",
+		"longDescription": "<p>The Overland Park Farmers Market is a vibrant public gathering place that builds community pride and spirit by bringing together shoppers of all ages and interests. For 40 years, vendors have been providing farm-to-table food at this exceptional Downtown Overland Park market. Consistently named one of the best farmers markets in the country by Cooking Light magazine, this market offers shoppers a wide variety of products including fresh produce, local foods, and unique specialty items. The Farmers Market helps you eat locally and in season while supporting your community. Operating at the Matt Ross Community Center during the 2025 season to allow for construction of the Clock Tower Landing, the market continues its tradition of excellence with both Saturday and Wednesday operations during peak season.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "8101 Marty St",
+			"city": "Overland Park",
+			"state": "Kansas",
+			"zip": "66204"
+		},
+		"phone": "+1 913-895-6000",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "7:30 AM - 1:00 PM",
+			"thursday": "",
+			"friday": "",
+			"saturday": "7:30 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.opkansas.org/recreation-fun/farmers-market/",
+		"sponsored": false
+	},
+	{
+		"id": "123",
+		"title": "Kansas Grown! Farmers Market - Wichita",
+		"description": "Kansas' largest member-owned farmers market with over 100 vendors weekly, serving the Wichita community since its founding.",
+		"longDescription": "<p>Kansas Grown! Inc. operates Kansas' largest member-owned farmers market with over 100 vendors weekly in Wichita and Derby. The Wichita location serves as the flagship market, bringing together local growers and producers to offer the finest Kansas-grown products to the community. Operating every Saturday from April through October, this market showcases the agricultural bounty of Kansas with fresh produce, meats, baked goods, and artisan products all grown or made by local vendors. The market's commitment to supporting local agriculture and providing fresh, seasonal products has made it a cornerstone of the Wichita community, connecting consumers directly with the farmers and producers who grow their food.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "7001 W 21st St N",
+			"city": "Wichita",
+			"state": "Kansas",
+			"zip": "67205"
+		},
+		"phone": "+1 316-722-3627",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "7:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.kansas-grown.com/",
+		"sponsored": false
+	},
+	{
+		"id": "124",
+		"title": "City Market Farmers Market",
+		"description": "The region's largest farmers market operating year-round in Kansas City's historic River Market district.",
+		"longDescription": "<p>Located in Kansas City's historic River Market district, the City Market Farmers Market is the region's largest farmers market, operating daily throughout the year with all local vendors. This historic marketplace connects local businesses and regional growers to the community, offering an eclectic mix of shops, restaurants, produce stands, spices, and imported grocers. The farmers market operates on Saturdays and Sundays under three sheds in the center of City Market, featuring vendors who accept SNAP/EBT benefits with Double Up Food Bucks matching available from May through October. Visitors can experience a world of sights, sounds, and attractions while gathering fresh food and imported ingredients in this vibrant community gathering place that celebrates Kansas City's agricultural heritage.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "20 E 5th St",
+			"city": "Kansas City",
+			"state": "Missouri",
+			"zip": "64106"
+		},
+		"phone": "+1 816-842-1271",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "6:00 AM - 3:00 PM",
+			"sunday": "8:00 AM - 3:00 PM"
+		},
+		"externalUrl": "https://thecitymarketkc.org/",
+		"sponsored": false
+	},
+	{
+		"id": "125",
+		"title": "Downtown Farmers Market of Manhattan",
+		"description": "Established in 1979, one of the oldest farmers markets in Kansas with over 40 years of serving the Manhattan community.",
+		"longDescription": "<p>Established in 1979, the Downtown Farmers Market of Manhattan is one of the oldest markets in the state of Kansas, serving the community for more than 40 years. This historic market has a rich tradition of local producers bringing fresh meats, vegetables, breads, and baked goods to the Manhattan area each week. Located at 3rd and Leavenworth in the Dillard's west parking lot, the market operates every Saturday throughout the entire year, closing only the two Saturdays closest to and after Christmas Day. Visitors will discover many local crafters bringing handmade jewelry, soaps, woodworking, and other art mediums to the market. The market welcomes leashed pets and operates year-round with seasonal hour adjustments, making it a true community staple in the Manhattan area.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "300 N 3rd St",
+			"city": "Manhattan",
+			"state": "Kansas",
+			"zip": "66502"
+		},
+		"phone": "+1 785-706-1563",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "4:00 PM - 7:00 PM",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://manhattanfarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "126",
+		"title": "Kansas Grown! Farmers Market - Derby",
+		"description": "Sister location to the Wichita market, serving the Derby community with local Kansas-grown products from June through October.",
+		"longDescription": "<p>The Kansas Grown! Farmers Market in Derby serves as the sister location to the flagship Wichita market, bringing the same commitment to local Kansas-grown products to the Derby community. Operating every Saturday from June through October, this market features local growers and producers offering fresh produce, meats, baked goods, and artisan products. As part of Kansas' largest member-owned farmers market organization, the Derby location maintains the high standards and community focus that have made Kansas Grown! a trusted name in local agriculture. The market provides Derby residents with convenient access to fresh, seasonal products while supporting local farmers and producers throughout the region.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "512 E Madison Ave",
+			"city": "Derby",
+			"state": "Kansas",
+			"zip": "67037"
+		},
+		"phone": "+1 316-722-3627",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.kansas-grown.com/",
+		"sponsored": false
+	},
+	{
+		"id": "127",
+		"title": "Liberty Farmers Market",
+		"description": "Recently voted the best farmers market of the Northland, serving the Liberty community every Saturday from May through October.",
+		"longDescription": "<p>The Liberty Farmers Market has recently been voted the best farmers market of the Northland, earning recognition for its quality vendors and community atmosphere. Operating every Saturday from 7 AM to noon during the season from May through October, this market serves the Liberty community with fresh, local products and artisan goods. Located at 1 Courthouse Square in the heart of Liberty, the market provides a convenient and vibrant gathering place for residents to connect with local farmers and producers. The market's recognition as the best in the Northland reflects its commitment to quality, community engagement, and supporting local agriculture in the greater Kansas City metropolitan area.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "1 Courthouse Sq",
+			"city": "Liberty",
+			"state": "Missouri",
+			"zip": "64068"
+		},
+		"phone": "+1 816-439-4325",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "7:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.ci.liberty.mo.us/farmers-market",
+		"sponsored": false
+	},
+	{
+		"id": "128",
+		"title": "Atchison Farmers Market",
+		"description": "Historic farmers market serving the Atchison community with local produce and artisan goods in a charming riverside setting.",
+		"longDescription": "<p>The Atchison Farmers Market serves the historic community of Atchison, Kansas, with fresh local produce and artisan goods in a charming riverside setting. This market brings together local farmers and producers to offer the community access to fresh, seasonal products while supporting the local agricultural economy. Operating during the traditional farmers market season, the Atchison market provides residents and visitors with an authentic farmers market experience in one of Kansas' most historic communities. The market reflects Atchison's commitment to preserving its agricultural heritage while providing modern access to fresh, locally grown products for the community.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "200 S 10th St",
+			"city": "Atchison",
+			"state": "Kansas",
+			"zip": "66002"
+		},
+		"phone": "+1 913-367-2427",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.atchisonkansas.net/farmers-market",
+		"sponsored": false
+	},
+	{
+		"id": "129",
+		"title": "Lenexa Farmers Market",
+		"description": "Community-focused farmers market serving Lenexa with fresh local produce and family-friendly atmosphere in the Kansas City metro area.",
+		"longDescription": "<p>The Lenexa Farmers Market serves the Lenexa community in the Kansas City metropolitan area with a focus on fresh local produce and maintaining a family-friendly atmosphere. This market brings together local farmers and artisans to provide residents with access to high-quality, locally grown products while fostering community connections. Operating during the traditional farmers market season, the Lenexa market has earned recognition among the top farmers markets in the Kansas City area for its quality vendors and community engagement. The market reflects Lenexa's commitment to supporting local agriculture and providing residents with convenient access to fresh, seasonal products in a welcoming community environment.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "13420 Oak St",
+			"city": "Lenexa",
+			"state": "Kansas",
+			"zip": "66215"
+		},
+		"phone": "+1 913-477-7500",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.lenexa.com/farmers-market",
+		"sponsored": false
+	},
+	{
+		"id": "130",
+		"title": "Lexington Farmers Market - Downtown",
+		"description": "Year-round farmers market in downtown Lexington offering fresh local produce, meats, and artisan goods with multiple weekly locations.",
+		"longDescription": "<p>The Lexington Farmers Market operates multiple locations throughout the week, with the flagship Downtown location serving as the heart of Lexington's local food scene. Located at 251 W Main Street, this year-round market operates every Saturday, providing the community with consistent access to fresh, locally sourced produce, meats, eggs, and artisan goods. During spring, summer, and fall months, the market runs from 8 AM to 2 PM, while winter hours (November through March) are adjusted to 9 AM to 1 PM. The market serves as a vital connection point between local farmers and the Lexington community, supporting sustainable agriculture and providing residents with the freshest seasonal products available in the region.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "251 W Main St",
+			"city": "Lexington",
+			"state": "Kentucky",
+			"zip": "40507"
+		},
+		"phone": "+1 859-258-3290",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 2:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.lexingtonfarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "131",
+		"title": "Berea Farmers Market",
+		"description": "Kentucky's oldest 'Producer Only' market operating year-round in historic Berea, where if a farmer sells it, they raised it.",
+		"longDescription": "<p>The Berea Farmers Market is Kentucky's oldest 'Producer Only' market, operating year-round in the historic town of Berea. Located at 635 Chestnut Street in the Chestnut Street Pavilion across from Just Love Coffee, this market operates every Saturday from 9 AM to 1 PM. As a true producer-only market, everything sold here follows the principle that if a farmer sells it, they raised it! The market provides fresh and local fruits, vegetables, plants, eggs, meats, and more, along with value-added vendors offering prepared foods like breads, desserts, kombucha tea, and coffee beans. Local artisans complete the market experience by selling uniquely crafted artwork and handmade items like soap, jewelry, and sewn goods, all following the same producer-only principle.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "635 Chestnut St",
+			"city": "Berea",
+			"state": "Kentucky",
+			"zip": "40403"
+		},
+		"phone": "+1 859-986-2540",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "9:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.bereafarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "132",
+		"title": "Bardstown Road Farmers Market",
+		"description": "Since 1991, Louisville's original and most popular farmers market with almost 30 vendors offering diverse, high-quality local products.",
+		"longDescription": "<p>Since 1991, The Original Bardstown Road Farmers Market has been Louisville's premier farmers market, hosting almost 30 vendors every week and offering a diverse, high-quality selection of locally-grown, locally-made products. Operating year-round on Saturdays, this market has grown into the most popular market in the Louisville area. The market's mission extends beyond providing a fun and diverse shopping experience to supporting local agriculture through awareness and consumer education. Vendors offer seasonal fruits and vegetables, cut flowers and potted plants, pastured beef, pork, poultry, sausage and eggs, baked goods, pastries, granola, omelets made to order, jams, jellies, salsas, fresh local honey, kombucha, milk kefir, and sourdough bread. The market accepts SNAP, credit, and debit cards, making fresh local food accessible to all community members.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "1311 Bardstown Rd",
+			"city": "Louisville",
+			"state": "Kentucky",
+			"zip": "40204"
+		},
+		"phone": "+1 502-456-4971",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "9:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "http://www.bardstownroadfarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "133",
+		"title": "Douglass Loop Farmers Market",
+		"description": "Non-profit outreach mission supporting sustainable agriculture and organic products, operating as a community-focused market in Louisville.",
+		"longDescription": "<p>The Douglass Loop Farmers Market operates as a non-profit outreach mission of Douglass Boulevard Christian Church, dedicated to supporting local farmers practicing sustainable agriculture and providing organic products. Running from April 12 through December 20, this community-focused market operates every Saturday from 10:00 AM to 2:00 PM. The market serves multiple stakeholders including local farmers, customers, the local community, and the church, which advocates for a healthy lifestyle and concern for the environment. The church does not derive any income from the market beyond operating expenses, ensuring that the focus remains on supporting local agriculture and building community connections. This mission-driven approach creates a unique atmosphere where food and community come together to support sustainable farming practices.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "2005 Douglass Blvd",
+			"city": "Louisville",
+			"state": "Kentucky",
+			"zip": "40205"
+		},
+		"phone": "+1 502-451-3735",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "10:00 AM - 2:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.douglassloopfarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "134",
+		"title": "Lexington Farmers Market - Southland Drive",
+		"description": "Sunday farmers market location serving the Lexington community with fresh local products from April through October.",
+		"longDescription": "<p>The Lexington Farmers Market's Southland Drive location provides Sunday shopping opportunities for the Lexington community, operating from April 7 through October 27 each year. This seasonal market runs every Sunday from 10 AM to 2 PM, offering residents an alternative day to shop for fresh, locally sourced produce, meats, eggs, and artisan goods. As part of the larger Lexington Farmers Market network, this location maintains the same commitment to supporting local farmers and providing the community with access to high-quality, seasonal products. The Sunday schedule makes fresh local food accessible to those who cannot attend the Saturday downtown market, ensuring that more community members can participate in the local food economy.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "3049 Fieldstone Way",
+			"city": "Lexington",
+			"state": "Kentucky",
+			"zip": "40513"
+		},
+		"phone": "+1 859-258-3290",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": "10:00 AM - 2:00 PM"
+		},
+		"externalUrl": "https://www.lexingtonfarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "135",
+		"title": "St Matthews Farmers Market",
+		"description": "Seasonal farmers market serving the St Matthews community from May through September at Beargrass Christian Church.",
+		"longDescription": "<p>The St Matthews Farmers Market serves the St Matthews community with a seasonal market that operates from the second Saturday in May through the last Saturday in September. Located at 4100 Shelbyville Road at Beargrass Christian Church, this market runs every Saturday from 8 AM to 12 noon during its season. The market provides residents of St Matthews and surrounding areas with access to fresh, locally grown produce and artisan goods during the peak growing season. Operating in partnership with Beargrass Christian Church, the market creates a community gathering space where residents can connect with local farmers and enjoy the bounty of Kentucky's agricultural season in a welcoming, family-friendly environment.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "4100 Shelbyville Rd",
+			"city": "Louisville",
+			"state": "Kentucky",
+			"zip": "40207"
+		},
+		"phone": "+1 502-895-6102",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "http://smfarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "136",
+		"title": "Old Lou Farmers Market",
+		"description": "Old Louisville's first official farmers market returning in summer 2025 with fresh produce, local baked goods, and live music.",
+		"longDescription": "<p>Old Lou Farmers Market represents Old Louisville's first official farmers market, making its return in summer 2025 after establishing itself as a beloved community institution. Operating on select Saturdays, this market brings together fresh produce, local baked goods, live music, and community spirit to the historic Old Louisville neighborhood. Located at 251 W Ormsby Avenue, the market serves as a gathering place for residents and visitors to experience the unique character of Old Louisville while supporting local farmers and artisans. The combination of fresh local products and live music creates a vibrant atmosphere that celebrates both the agricultural heritage and cultural richness of the Louisville area.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "251 W Ormsby Ave",
+			"city": "Louisville",
+			"state": "Kentucky",
+			"zip": "40203"
+		},
+		"phone": "+1 502-635-5244",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "See website for seasonal hours",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.oldloufarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "137",
+		"title": "East End Farmers Market",
+		"description": "Community farmers market serving Louisville's East End with fresh local produce and artisan goods in a family-friendly atmosphere.",
+		"longDescription": "<p>The East End Farmers Market serves Louisville's East End community with a focus on providing fresh local produce and artisan goods in a welcoming, family-friendly atmosphere. This market brings together local farmers and producers to offer residents convenient access to high-quality, locally sourced products while fostering community connections. Operating during the traditional farmers market season, the East End market provides an important service to its neighborhood by supporting local agriculture and giving residents the opportunity to shop for fresh, seasonal products close to home. The market's commitment to community building and local food access makes it an integral part of Louisville's diverse farmers market network.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "9608 Taylorsville Rd",
+			"city": "Louisville",
+			"state": "Kentucky",
+			"zip": "40299"
+		},
+		"phone": "+1 502-267-8333",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.eastendfm.com/",
+		"sponsored": false
+	},
+	{
+		"id": "138",
+		"title": "Lafayette Farmers & Artisans Market",
+		"description": "Farm fresh produce and artisan goods at Moncus Park featuring the award-winning Cajun Jam music experience every Saturday.",
+		"longDescription": "<p>The Lafayette Farmers & Artisans Market is located at Moncus Park in Lafayette, Louisiana, operating every Saturday from 8 AM to 12 noon. This vibrant market offers farm fresh produce grown with love, along with handcrafted art and gifts from local artisans. The market features the award-winning Cajun Jam, a lively music experience that embodies the rich cultural heritage of Louisiana, encouraging musicians of all levels to bring their instruments and join in creating a fun and communal atmosphere. The market is preparing for the opening of the Paul A. Doerle Sr. Farmers Market Pavilion in 2025, which will include bathrooms, covered space for 30 vendors, and an outdoor patio, serving as a beautiful anchor for the weekly market and enhancing the shopping experience for visitors.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "2913 Johnston St",
+			"city": "Lafayette",
+			"state": "Louisiana",
+			"zip": "70503"
+		},
+		"phone": "+1 337-291-8362",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://marketatmoncuspark.com/",
+		"sponsored": false
+	},
+	{
+		"id": "139",
+		"title": "Shreveport Farmers Market",
+		"description": "Voted #1 farmers market in Louisiana by American Farmland Trust, celebrating 39 years of serving the Shreveport community.",
+		"longDescription": "<p>The Shreveport Farmers Market has been recognized as the number one farmers market in Louisiana by the American Farmland Trust in both 2022 and 2024, earning this prestigious honor through public votes across the nation. Celebrating its 39th year of operation, this award-winning market operates every Saturday from 8:00 AM to 12:00 PM during its season from May 31st through August 23rd. Located at Riverview Hall, the market has consistently beaten out farmers markets in New Orleans, Baton Rouge, and the rest of the state to take top honors. The market's success stems from its strong community support, quality vendors, and the vibrant atmosphere that has made it a beloved institution in the Shreveport-Bossier area for nearly four decades.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "600 Clyde Fant Pkwy",
+			"city": "Shreveport",
+			"state": "Louisiana",
+			"zip": "71101"
+		},
+		"phone": "+1 318-673-7727",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.shreveportla.gov/farmers-market",
+		"sponsored": false
+	},
+	{
+		"id": "140",
+		"title": "Crescent City Farmers Market - Uptown",
+		"description": "New Orleans' premier farmers market operated by Market Umbrella, serving the Uptown community every Tuesday at The Batture.",
+		"longDescription": "<p>The Crescent City Farmers Market Uptown location is operated by Market Umbrella and serves as one of New Orleans' premier farmers markets. Located at The Batture at 25 Walnut Street, this market operates every Tuesday from 8 AM to 12 PM, providing the Uptown community with access to fresh, local produce and artisan goods. As part of Market Umbrella's mission to cultivate the power of farmers markets, this location creates a lively community space where shoppers and food producers connect. The market features local farmers, prepared food vendors, and artisans, all contributing to the vibrant food culture that makes New Orleans unique. The Uptown location serves as an important gathering place for the community while supporting local agriculture and small businesses.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "25 Walnut St",
+			"city": "New Orleans",
+			"state": "Louisiana",
+			"zip": "70118"
+		},
+		"phone": "+1 504-861-5898",
+		"hours": {
+			"monday": "",
+			"tuesday": "8:00 AM - 12:00 PM",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.crescentcityfarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "141",
+		"title": "Red Stick Farmers Market",
+		"description": "Baton Rouge's flagship farmers market operated by BREADA, connecting farmers and families in downtown Baton Rouge every Saturday.",
+		"longDescription": "<p>The Red Stick Farmers Market is BREADA's flagship market, held every Saturday from 8 AM to noon in the heart of downtown Baton Rouge at 5th & Main Streets. With the largest number of vendors across all BREADA market locations, this farmers market is supported by the Main Street Market on the same street during weekdays. The market creates a close-knit community of local farmers, small businesses, and patrons who are dedicated to shopping local. BREADA (Baton Rouge Economic and Agricultural Development Alliance) operates this market as part of their mission to connect farmers and families, supporting local agriculture while providing the community with access to fresh, locally grown produce and artisan goods. The Saturday market serves as the cornerstone of Baton Rouge's local food movement.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "5th & Main St",
+			"city": "Baton Rouge",
+			"state": "Louisiana",
+			"zip": "70801"
+		},
+		"phone": "+1 225-336-4110",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://breada.org/",
+		"sponsored": false
+	},
+	{
+		"id": "142",
+		"title": "Crescent City Farmers Market - Mid-City",
+		"description": "Thursday evening farmers market in New Orleans' Mid-City neighborhood at the scenic Lafitte Greenway Plaza.",
+		"longDescription": "<p>The Crescent City Farmers Market Mid-City location operates every Thursday from 3 PM to 7 PM at the scenic Lafitte Greenway Plaza, located at 500 N. Norman C. Francis Parkway at the Bayou. This evening market serves the Mid-City neighborhood of New Orleans, providing residents with convenient access to fresh, local produce and artisan goods after work hours. As part of Market Umbrella's network of farmers markets, this location maintains the organization's commitment to creating lively community spaces where shoppers and food producers connect. The Thursday evening schedule makes this market particularly popular with working families and young professionals who appreciate the opportunity to shop for fresh, local products in a relaxed, community-focused atmosphere along the beautiful Lafitte Greenway.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "500 N Norman C Francis Pkwy",
+			"city": "New Orleans",
+			"state": "Louisiana",
+			"zip": "70119"
+		},
+		"phone": "+1 504-861-5898",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "3:00 PM - 7:00 PM",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.crescentcityfarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "143",
+		"title": "Crescent City Farmers Market - City Park",
+		"description": "Sunday farmers market in New Orleans' City Park, offering fresh local produce in a beautiful park setting.",
+		"longDescription": "<p>The Crescent City Farmers Market City Park location operates every Sunday from 8 AM to 12 PM at the City Putt Parking Lot, located at 33 Dreyfous Drive within New Orleans' beloved City Park. This Sunday market provides families and weekend shoppers with access to fresh, local produce and artisan goods in one of the city's most beautiful settings. As part of Market Umbrella's mission to cultivate the power of farmers markets, this location creates a perfect weekend destination where visitors can combine shopping for fresh, local products with enjoying the natural beauty and recreational opportunities of City Park. The Sunday schedule makes this market particularly popular with families looking to make farmers market shopping part of their weekend routine while supporting local farmers and small businesses.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "33 Dreyfous Dr",
+			"city": "New Orleans",
+			"state": "Louisiana",
+			"zip": "70124"
+		},
+		"phone": "+1 504-861-5898",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": "8:00 AM - 12:00 PM"
+		},
+		"externalUrl": "https://www.crescentcityfarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "144",
+		"title": "Abita Springs Art & Farmers Market",
+		"description": "Charming market in historic Abita Springs combining fresh local produce with local art and crafts in a small-town atmosphere.",
+		"longDescription": "<p>The Abita Springs Art & Farmers Market combines the best of local agriculture and artisan crafts in the charming historic town of Abita Springs, Louisiana. This market provides residents and visitors with access to fresh, locally grown produce while showcasing the creative talents of local artists and craftspeople. Located in the heart of this picturesque small town known for its artesian springs and creative community, the market creates a unique shopping experience that celebrates both the agricultural heritage and artistic spirit of the region. The combination of fresh produce and handmade art makes this market a popular destination for both locals and tourists exploring the Louisiana Northshore, offering an authentic taste of small-town Louisiana culture and community.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "22049 Main St",
+			"city": "Abita Springs",
+			"state": "Louisiana",
+			"zip": "70420"
+		},
+		"phone": "+1 985-892-0711",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.abitasprings.com/farmers-market",
+		"sponsored": false
+	},
+	{
+		"id": "145",
+		"title": "Ruston Farmers Market",
+		"description": "North Louisiana farmers market serving the Ruston community with fresh local produce and supporting regional agriculture.",
+		"longDescription": "<p>The Ruston Farmers Market serves the North Louisiana community with fresh, locally grown produce and artisan goods, supporting regional agriculture and small businesses. Located in the university town of Ruston, home to Louisiana Tech University, this market provides both residents and students with access to high-quality, locally sourced products. The market plays an important role in connecting urban consumers with rural producers in the region, fostering relationships between farmers and families while supporting the local economy. Operating during the traditional farmers market season, the Ruston market contributes to the vibrant community life of this North Louisiana town, offering residents the opportunity to shop for fresh, seasonal products while supporting sustainable agriculture practices in the region.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "401 N Trenton St",
+			"city": "Ruston",
+			"state": "Louisiana",
+			"zip": "71270"
+		},
+		"phone": "+1 318-255-6404",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.ruston.org/farmers-market",
+		"sponsored": false
+	},
+	{
+		"id": "146",
+		"title": "Portland Farmers Market",
+		"description": "Historic farmers market feeding Portland Maine since 1768, operating in beautiful Deering Oaks Park with SNAP/EBT benefits doubled.",
+		"longDescription": "<p>The Portland Farmers Market has been feeding Portland Maine since 1768, making it one of the oldest continuously operating farmers markets in the United States. Located in the beautiful Deering Oaks Park, the market operates outdoor markets every Wednesday and Saturday from 7 AM to 1 PM during the season from April through November. The market welcomes SNAP/EBT benefits and doubles them at the Market Info Booth, making fresh, local produce accessible to all community members. With its long history and commitment to supporting local agriculture, the Portland Farmers Market serves as a cornerstone of the local food movement in Maine's largest city, connecting urban consumers with rural producers while fostering community connections in the heart of Portland.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Deering Oaks Park",
+			"city": "Portland",
+			"state": "Maine",
+			"zip": "04102"
+		},
+		"phone": "+1 207-756-8118",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "7:00 AM - 1:00 PM",
+			"thursday": "",
+			"friday": "",
+			"saturday": "7:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.portlandmainefarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "147",
+		"title": "Brunswick-Topsham Land Trust Farmers Market",
+		"description": "One of Maine's largest farmers markets established in 1999, located at Crystal Spring Farm and featured in Yankee Magazine.",
+		"longDescription": "<p>The Brunswick-Topsham Land Trust Farmers Market was established in 1999 to advance the Land Trust's mission of supporting local agriculture. Located on Crystal Spring Farm, a 331-acre property owned by the Land Trust, the Market is now one of the largest in Maine. With over thirty vendors, many of whom have been with the Market since its inception, the Saturday morning Market offers an exceptional variety of local, fresh products including vegetables, fruits, seedlings, dairy, meat, seafood, cut flowers, mushrooms, baked goods, and artisanal and prepared foods. The Market has been widely acclaimed not only for the exceptional array of products but also for the festive and community atmosphere, often hosting live music, educational demonstrations, and a kids activity table. Featured in Yankee Magazine, this market operates rain or shine every Saturday from 8:30 AM to 12:30 PM from May through October.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "277 Pleasant Hill Rd",
+			"city": "Brunswick",
+			"state": "Maine",
+			"zip": "04011"
+		},
+		"phone": "+1 207-729-7694",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:30 AM - 12:30 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.btlt.org/farmers-market/",
+		"sponsored": false
+	},
+	{
+		"id": "148",
+		"title": "Rockland Farmers Market",
+		"description": "MidCoast Maine farmers market serving beautiful Rockland with year-round operations and SNAP benefits matched with Maine Harvest Bucks.",
+		"longDescription": "<p>The Rockland Farmers Market serves the MidCoast communities around beautiful Rockland, Maine, operating year-round with seasonal locations. From May through October, the market operates at Harbor Park (1 Pleasant St) every Thursday from 9 AM to 1 PM, providing a scenic waterfront setting for shopping fresh, local products. During November and December, the market moves indoors to the Flanagan Community Center (61 Limerock St) with Thursday hours from 9 AM to 11:30 AM. The market accepts SNAP benefits and matches them with Maine Harvest Bucks, providing $1 in Maine Harvest Bucks for every $1 spent, making fresh, local food accessible to all community members. This commitment to food access, combined with its year-round operation and beautiful locations, makes the Rockland Farmers Market a vital part of the MidCoast Maine community.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "1 Pleasant St",
+			"city": "Rockland",
+			"state": "Maine",
+			"zip": "04841"
+		},
+		"phone": "+1 207-594-0405",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "9:00 AM - 1:00 PM",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.rocklandfarmersmarket.me/",
+		"sponsored": false
+	},
+	{
+		"id": "149",
+		"title": "Brewer Farmers Market",
+		"description": "Multi-day farmers market in Brewer serving the greater Bangor area with Saturday, Tuesday, and Thursday operations from mid-May through October.",
+		"longDescription": "<p>The Brewer Farmers Market operates multiple days per week to serve the greater Bangor area, running every Saturday from mid-May through October with additional Tuesday and Thursday markets beginning in June. The market operates from 8:30 AM to 1:00 PM, with extended hours on Saturdays. Located in the City of Brewer, this market provides residents of the greater Bangor area with convenient access to fresh, local produce and artisan goods throughout the growing season. The multi-day schedule makes it one of the most accessible farmers markets in the region, allowing customers to shop for fresh, local products multiple times per week. The market's commitment to serving the community with frequent market days demonstrates its important role in supporting local agriculture and providing fresh food access in central Maine.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "216 Parkway S",
+			"city": "Brewer",
+			"state": "Maine",
+			"zip": "04412"
+		},
+		"phone": "+1 207-989-7000",
+		"hours": {
+			"monday": "",
+			"tuesday": "8:30 AM - 1:00 PM",
+			"wednesday": "",
+			"thursday": "8:30 AM - 1:00 PM",
+			"friday": "",
+			"saturday": "8:30 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://brewermaine.gov/community/brewer-farmers-market/",
+		"sponsored": false
+	},
+	{
+		"id": "150",
+		"title": "Bangor Farmers Market",
+		"description": "Central Maine farmers market serving the Bangor area with fresh local produce and supporting regional agriculture.",
+		"longDescription": "<p>The Bangor Farmers Market serves central Maine's largest city, providing residents with access to fresh, locally grown produce and artisan goods. As a member of the Maine Federation of Farmers Markets, this market maintains high standards for local production and community engagement. Located in Bangor, the market serves as an important hub for connecting urban consumers with rural producers throughout the region. The market supports local agriculture while providing the community with access to fresh, seasonal products including vegetables, fruits, baked goods, and artisan crafts. Operating during the traditional farmers market season, the Bangor Farmers Market plays a vital role in the local food system and community life in central Maine's economic and cultural center.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "73 Harlow St",
+			"city": "Bangor",
+			"state": "Maine",
+			"zip": "04401"
+		},
+		"phone": "+1 207-947-1018",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.bangormaine.gov/farmers-market",
+		"sponsored": false
+	},
+	{
+		"id": "151",
+		"title": "Bar Harbor's Eden Farmers Market",
+		"description": "Coastal Maine farmers market serving the Bar Harbor area and Acadia National Park region with fresh local products and artisan goods.",
+		"longDescription": "<p>Bar Harbor's Eden Farmers Market serves the beautiful coastal community of Bar Harbor and the surrounding Acadia National Park region. This market provides both residents and the many visitors to this popular tourist destination with access to fresh, locally grown produce and Maine-made artisan goods. Located in one of Maine's most scenic areas, the market offers a unique shopping experience that combines the natural beauty of the region with the bounty of local agriculture. As a member of the Maine Federation of Farmers Markets, the Eden Farmers Market maintains high standards for local production while supporting the regional economy. The market serves as an important gathering place for the community and provides visitors with an authentic taste of Maine's agricultural heritage in one of the state's most beautiful settings.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "99 Eden St",
+			"city": "Bar Harbor",
+			"state": "Maine",
+			"zip": "04609"
+		},
+		"phone": "+1 207-288-3338",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "9:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.barharbormaine.gov/farmers-market",
+		"sponsored": false
+	},
+	{
+		"id": "152",
+		"title": "United Farmers Market of Maine",
+		"description": "Belfast's premier farmers market bringing together multiple local producers under one roof to serve the MidCoast Maine community.",
+		"longDescription": "<p>The United Farmers Market of Maine, located in Belfast, brings together multiple local producers under one roof to serve the MidCoast Maine community. This unique market concept allows customers to shop from various local farms and producers in a single location, making it convenient to access a wide variety of fresh, local products year-round. Located in the charming coastal town of Belfast, the market serves as a hub for local agriculture and artisan production in the region. The United Farmers Market supports local farmers and food producers while providing the community with consistent access to fresh, locally sourced products. This innovative approach to farmers market retail has made it a popular destination for both locals and visitors exploring the beautiful MidCoast Maine region.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "18 Spring St",
+			"city": "Belfast",
+			"state": "Maine",
+			"zip": "04915"
+		},
+		"phone": "+1 207-338-9898",
+		"hours": {
+			"monday": "9:00 AM - 6:00 PM",
+			"tuesday": "9:00 AM - 6:00 PM",
+			"wednesday": "9:00 AM - 6:00 PM",
+			"thursday": "9:00 AM - 6:00 PM",
+			"friday": "9:00 AM - 6:00 PM",
+			"saturday": "9:00 AM - 6:00 PM",
+			"sunday": "10:00 AM - 5:00 PM"
+		},
+		"externalUrl": "https://www.unitedfarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "153",
+		"title": "Augusta Winter Farmers Market",
+		"description": "Year-round indoor farmers market at The Buker Center offering grass-fed beef, honey, baked goods, and fresh vegetables during winter months.",
+		"longDescription": "<p>The Augusta Winter Farmers Market operates at The Buker Center on 22 Armory Street, providing the Augusta community with access to fresh, local products during the winter months when most outdoor markets are closed. This indoor market specializes in winter-hardy products including grass-fed beef, local honey, fresh baked goods, and winter vegetables, ensuring that residents can continue to support local agriculture and access fresh, local food year-round. The winter market concept addresses the challenge of seasonal food access in Maine's harsh winter climate, providing a vital service to both consumers and local producers. Located in Maine's capital city, the Augusta Winter Farmers Market serves as an important example of how communities can maintain local food systems throughout the year, supporting both agricultural sustainability and food security in the region.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "22 Armory St",
+			"city": "Augusta",
+			"state": "Maine",
+			"zip": "04330"
+		},
+		"phone": "+1 207-626-2352",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "9:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.augustamaine.gov/farmers-market",
+		"sponsored": false
+	},
+	{
+		"id": "154",
+		"title": "The Baltimore Farmers Market",
+		"description": "Maryland's largest farmers market since 1977, a producer-only market managed by BOPA with quiet shopping hours and year-round operation.",
+		"longDescription": "<p>Since 1977, The Baltimore Farmers Market has been a cherished hub for locals, offering more than just fresh produce. It's a bustling community space where Baltimoreans gather to eat, shop, and connect with local businesses, organizations, and performers. Managed by the Baltimore Office of Promotion & The Arts (BOPA), a non-profit organization dedicated to nurturing arts and culture in the city, the market exemplifies a dedication to building a vibrant community. Located at the intersection of Jones Falls Expressway (JFX) and Holliday and Saratoga Streets, this producer-only market offers a diverse range of fresh produce, artisanal meats, dairy, and seafood, along with handcrafted goods from clothing and home furnishings to bath products and unique artworks. The market features quiet shopping hours from 7:00 AM to 9:00 AM and operates rain or shine on Sundays from April through December.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Holliday & Saratoga St",
+			"city": "Baltimore",
+			"state": "Maryland",
+			"zip": "21202"
+		},
+		"phone": "+1 410-752-8632",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": "7:00 AM - 12:00 PM"
+		},
+		"externalUrl": "https://farmersmarketbaltimore.org/",
+		"sponsored": false
+	},
+	{
+		"id": "155",
+		"title": "Bethesda Central Farm Market",
+		"description": "One of the region's largest farmers markets with over 100 vendors, operating year-round in bustling downtown Bethesda with tastings and demos.",
+		"longDescription": "<p>Bethesda Central Farm Market is located in bustling downtown Bethesda, on the lot of Bethesda Elementary School. The market is one of the largest farmers markets in the region, hosting over 100 vendors and artisan food producers year-round. Operating every Sunday with seasonal hours (9:30 AM-1:30 PM January-February, 9 AM-1:30 PM March-December), the market is open rain or shine and features table seating, live music, local Maryland winery and farm brewery tastings, kids club activities, chef demonstrations, and much more. Located at 7600 Arlington Road, the market provides convenient access with limited free parking on the school lot and additional free parking available at nearby St. Elmo Garage and Woodmont Corner Garage. This year-round operation makes it a cornerstone of the local food movement in the Washington DC metro area.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "7600 Arlington Rd",
+			"city": "Bethesda",
+			"state": "Maryland",
+			"zip": "20814"
+		},
+		"phone": "+1 301-656-7300",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": "9:00 AM - 1:30 PM"
+		},
+		"externalUrl": "https://www.centralfarmmarkets.com/bethesda",
+		"sponsored": false
+	},
+	{
+		"id": "156",
+		"title": "Bel Air Farmers Market",
+		"description": "Producer-only market serving Harford County since 1975, celebrating 50 years with over 60 local vendors and seasonal plus winter operations.",
+		"longDescription": "<p>The Bel Air Farmers Market has been serving the Harford County area since 1975 and is celebrating its 50th season in 2025. This producer-only market ensures that everything sold is grown, raised, or made by their over 60 local vendors from the Harford County Maryland area. The market offers a diverse range of products including seasonal fresh produce, non-GMO meats, eggs, dairy products, baked goods, breads, pet treats, jarred foods, flowers, honey products, mushrooms, herbs, olive oil, various sundries, as well as locally crafted beers, wines, and spirits. Operating every Saturday from April 12 to November 22 (8 AM to 12 PM) with a winter market from November 29 to December 20 (9 AM to 11 AM), the market welcomes everyone including furry and feathered friends. Located at 2 S Bond Street in downtown Bel Air, the market will host a special summer festival on June 21, 2025, to celebrate their milestone 50th season.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "2 S Bond St",
+			"city": "Bel Air",
+			"state": "Maryland",
+			"zip": "21014"
+		},
+		"phone": "+1 410-638-3327",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.belairfarmersmarketmd.com/",
+		"sponsored": false
+	},
+	{
+		"id": "157",
+		"title": "Rockville Farmers Market",
+		"description": "Invitation-only farmers market for growers and specialty food producers, conveniently located near Metro with free parking garage access.",
+		"longDescription": "<p>The Rockville Farmers Market operates every Saturday from May 17 to November 22, from 9 AM to 1 PM, located at the corner of Route 28 and Monroe Street in downtown Rockville. This invitation-only market is open exclusively to growers and producers of specialty food and beverage items, maintaining high standards for local production. The market is conveniently accessible via the Metro red line to Rockville Station, with a pedestrian bridge crossing over Rockville Pike to Monroe Street. Free parking is available in the Montgomery County Parking Garage on Monroe Street, with accessible parking located in the Monroe Street lot. The market offers farm-fresh fruits and vegetables, bedding plants, cut flowers, preserves, honey, herbs, baked goods, and more, with all items picked fresh and locally produced. The market's selective vendor policy ensures quality while supporting local agriculture in the greater Washington DC metropolitan area.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Monroe St & E Jefferson St",
+			"city": "Rockville",
+			"state": "Maryland",
+			"zip": "20850"
+		},
+		"phone": "+1 240-314-8620",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "9:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.rockvillemd.gov/664/Farmers-Market",
+		"sponsored": false
+	},
+	{
+		"id": "158",
+		"title": "UMD Farmers Market",
+		"description": "University of Maryland campus farmers market featuring local vendors from within 250 miles, operating during spring and fall academic seasons.",
+		"longDescription": "<p>The UMD Farmers Market is hosted on the University of Maryland campus every Wednesday from 11:00 AM to 3:00 PM during the spring and fall seasons. This campus market features local vendors from within 250 miles of College Park, supporting regional agriculture while providing the university community with access to fresh, locally sourced products. The market serves students, faculty, staff, and the broader College Park community, creating an educational opportunity about local food systems while supporting sustainable agriculture practices. Operating during the academic year, the market provides a convenient way for the campus community to access fresh produce, artisan goods, and specialty food items between classes and during lunch hours. The market's commitment to sourcing from within 250 miles ensures that products are truly local while supporting farmers and producers throughout the Mid-Atlantic region.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "University of Maryland Campus",
+			"city": "College Park",
+			"state": "Maryland",
+			"zip": "20742"
+		},
+		"phone": "+1 301-405-2681",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "11:00 AM - 3:00 PM",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://dining.umd.edu/sustainability/farmers-market",
+		"sponsored": false
+	},
+	{
+		"id": "159",
+		"title": "Takoma Park Farmers Market",
+		"description": "Community-focused farmers market in the progressive city of Takoma Park, supporting local agriculture and sustainable food systems.",
+		"longDescription": "<p>The Takoma Park Farmers Market serves the progressive community of Takoma Park, Maryland, known for its commitment to environmental sustainability and local food systems. This community-focused market provides residents with access to fresh, locally grown produce and artisan goods while supporting regional farmers and small businesses. Located in this unique city that straddles the Maryland-DC border, the market reflects the community's values of sustainability, social justice, and environmental stewardship. The market operates during the traditional farmers market season, providing a gathering place for residents to connect with local producers and each other. Takoma Park's reputation as a forward-thinking community makes this market an important hub for promoting sustainable agriculture, organic farming practices, and local food security in the greater Washington DC metropolitan area.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "7500 Maple Ave",
+			"city": "Takoma Park",
+			"state": "Maryland",
+			"zip": "20912"
+		},
+		"phone": "+1 301-891-7100",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "10:00 AM - 2:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://takomaparkmd.gov/farmers-market",
+		"sponsored": false
+	},
+	{
+		"id": "160",
+		"title": "Annapolis Farmers Market",
+		"description": "Historic capital city farmers market serving the Annapolis area with fresh local produce and artisan goods in a scenic waterfront setting.",
+		"longDescription": "<p>The Annapolis Farmers Market serves Maryland's historic capital city, providing residents and visitors with access to fresh, locally grown produce and artisan goods in a scenic waterfront setting. Located in this charming colonial city known for the U.S. Naval Academy and its rich maritime heritage, the market offers a unique shopping experience that combines local agriculture with historic ambiance. The market supports local farmers and producers from the Chesapeake Bay region while serving both the year-round Annapolis community and the many tourists who visit this historic destination. Operating during the traditional farmers market season, the market provides an authentic taste of Maryland's agricultural heritage in one of the state's most beautiful and historically significant cities. The market's location in the state capital makes it an important showcase for Maryland agriculture and local food systems.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "2002 Annapolis Mall",
+			"city": "Annapolis",
+			"state": "Maryland",
+			"zip": "21401"
+		},
+		"phone": "+1 410-263-7940",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.annapolis.gov/farmers-market",
+		"sponsored": false
+	},
+	{
+		"id": "161",
+		"title": "Frederick Farmers Market",
+		"description": "Historic market serving Frederick County with local produce and artisan goods, supporting regional agriculture in Maryland's scenic countryside.",
+		"longDescription": "<p>The Frederick Farmers Market serves the historic city of Frederick and surrounding Frederick County, providing the community with access to fresh, locally grown produce and artisan goods from Maryland's scenic countryside. Located in this charming city known for its well-preserved historic downtown and proximity to both Baltimore and Washington DC, the market supports regional agriculture while serving both residents and visitors exploring the area. Frederick County's rich agricultural heritage and fertile farmland make this market an important showcase for local farming, featuring seasonal produce, baked goods, artisan crafts, and specialty food items. The market operates during the traditional farmers market season, providing a gathering place for the community while supporting sustainable agriculture practices in one of Maryland's most productive farming regions. The market's location in historic Frederick makes it a popular destination for both locals and tourists seeking authentic Maryland agricultural products.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "317 N Market St",
+			"city": "Frederick",
+			"state": "Maryland",
+			"zip": "21701"
+		},
+		"phone": "+1 301-600-1499",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.frederickmd.gov/farmers-market",
+		"sponsored": false
 	}
 ]
