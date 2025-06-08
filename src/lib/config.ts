@@ -7,7 +7,7 @@ export const config = {
 	contactEmail: 'hqdirectory@gmail.com',
 	// Ad placement configuration
 	ads: {
-		enabled: false,
+		enabled: true,
 		// Directory page ads
 		placementRow: 1, // Insert ad after this row (1-based)
 		itemsPerRow: 4, // Should match your grid columns (lg:grid-cols-4)
@@ -16,9 +16,9 @@ export const config = {
 		// Custom ads pool - randomly selected
 		customAds: [
 			{
-				id: 'soc-compliance',
-				image: '/ads/soc.png',
-				url: 'https://randy.digital'
+				id: 'custom-og',
+				image: '/ads/custom-og.png',
+				url: 'customog.com?ref=hqdirectory'
 			}
 		],
 		// Google Ads configuration (for future use)

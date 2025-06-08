@@ -5223,5 +5223,405 @@
 		},
 		"externalUrl": "https://www.norfolkne.gov/",
 		"sponsored": false
+	},
+	{
+		"id": "210",
+		"title": "Las Vegas Farmers Market - Downtown Summerlin",
+		"description": "One of Las Vegas' most popular farmers markets located in the heart of Summerlin, offering fresh produce and artisan goods.",
+		"longDescription": "<p>The Las Vegas Farmers Market at Downtown Summerlin stands as one of Las Vegas' most popular and well-established farmers markets, operating every Saturday from 9 AM to 2 PM in the vibrant heart of the Summerlin community. Located at 1825 Festival Plaza Drive, this market has become a cornerstone of the Las Vegas Valley's local food movement, bringing together farmers, artisans, and food producers from across Nevada and the surrounding region to offer fresh, high-quality products in the desert Southwest. Despite Nevada's challenging agricultural climate, this market showcases an impressive variety of locally and regionally grown produce, artisanal foods, handcrafted goods, and prepared foods that reflect both the entrepreneurial spirit of Las Vegas and the growing demand for fresh, sustainable products. The market's location in Downtown Summerlin provides an ideal setting with ample parking, beautiful landscaping, and proximity to shopping, dining, and entertainment venues, making it a perfect destination for families and food enthusiasts. The Saturday morning schedule allows visitors to combine their market shopping with exploring the broader Summerlin area, while the market's commitment to supporting local agriculture and small businesses helps strengthen Nevada's emerging local food economy and provides residents with access to fresh, healthy options in America's fastest-growing metropolitan area.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "1825 Festival Plaza Dr",
+			"city": "Las Vegas",
+			"state": "Nevada",
+			"zip": "89135"
+		},
+		"phone": "+1 702-341-5977",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "9:00 AM - 2:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.summerlin.com/",
+		"sponsored": false
+	},
+	{
+		"id": "211",
+		"title": "Fresh52 Farmers & Artisan Market - Skye Canyon",
+		"description": "Lively open air market in northwest Las Vegas providing the community with farm-fresh produce and handcrafted artisan goods.",
+		"longDescription": "<p>Fresh52 Farmers & Artisan Market at Skye Canyon represents one of Southern Nevada's most dynamic and community-focused farmers markets, operating every Thursday from 2 PM to 8 PM at Skye Canyon Park in northwest Las Vegas. As part of the Fresh52 network of markets throughout the Las Vegas Valley, this location serves the rapidly growing Skye Canyon community with a lively open air market experience where neighbors and friends come together to celebrate and empower their community through local commerce and connection. The market features vendors offering real, farm-fresh produce and handcrafted artisan goods, creating an authentic marketplace experience in the heart of the Mojave Desert. The Thursday evening schedule makes this market particularly unique, allowing working families and professionals to visit after work and school, while the park setting provides a beautiful backdrop with mountain views and open spaces for families to enjoy. Fresh52's commitment to supporting local farmers, artisans, and food producers helps strengthen Nevada's local food system while providing residents with access to fresh, high-quality products that might otherwise be difficult to find in the desert Southwest. The market's community-focused approach and evening hours make it a vital gathering place for the Skye Canyon neighborhood and surrounding areas.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "10111 W Skye Canyon Pkwy",
+			"city": "Las Vegas",
+			"state": "Nevada",
+			"zip": "89116"
+		},
+		"phone": "+1 702-523-5200",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "2:00 PM - 8:00 PM",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.fresh52.com/",
+		"sponsored": false
+	},
+	{
+		"id": "212",
+		"title": "Riverside Farmers Market",
+		"description": "Reno's truly local farmers market featuring vendors within the tightest radius, committed to pesticide-free produce and sustainable farming.",
+		"longDescription": "<p>The Riverside Farmers Market stands as Reno's truly local farmers market, operating every Sunday from 8 AM to 1 PM at Idlewild Park along the Truckee River. This unique market distinguishes itself by featuring only vendors who grow, raise, or make their goods within the tightest possible radius around Reno, creating an authentically local marketplace that showcases the agricultural potential of the high desert region. The market's strong commitment to high-quality, sustainable products means visitors can always count on finding pesticide-free produce, pasture-raised meats and eggs, and prepared foods made with organic and unprocessed ingredients. The Riverside Farmers Market serves as both a taste of how traditional open-air markets and bazaars once operated and a vision of the future, connecting conscious consumers with local organic and regenerative farmers, ranchers, and talented makers of beautiful and delicious products. The market's location at Idlewild Park provides a scenic setting along the Truckee River, with mature trees and green spaces that create a refreshing oasis in the high desert landscape. This market represents Reno's commitment to supporting small, local, and sustainable agriculture while providing residents and visitors with access to the finest locally produced foods and goods, making it an essential destination for anyone seeking an authentic connection to the land and community in the Truckee Meadows.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "1900 Idlewild Dr",
+			"city": "Reno",
+			"state": "Nevada",
+			"zip": "89509"
+		},
+		"phone": "+1 775-334-2262",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": "8:00 AM - 1:00 PM"
+		},
+		"externalUrl": "https://www.renofarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "213",
+		"title": "Henderson Cornerstone Park Farmers Market",
+		"description": "City of Henderson's premier farmers market offering fresh produce and healthy handmade products from local merchants.",
+		"longDescription": "<p>The Henderson Cornerstone Park Farmers Market serves as the City of Henderson's premier farmers market, operating every Saturday from 9 AM to 2 PM at the beautiful Cornerstone Park located at 1600 Wigwam Parkway. This city-operated market brings together a curated collective of local merchants offering fresh produce, healthy handmade products, and artisanal goods that reflect the growing demand for local, sustainable options in Southern Nevada. The market's location at Cornerstone Park provides an ideal setting with ample green space, mature landscaping, and recreational facilities that make it a perfect destination for families to combine their weekly shopping with outdoor activities and community connection. Henderson's commitment to supporting local agriculture and small businesses is evident in the market's careful vendor selection and focus on quality products that serve the health and wellness needs of the community. The Saturday morning schedule allows residents to make the farmers market a regular part of their weekend routine, while the park setting encourages visitors to stay and enjoy the beautiful Southern Nevada weather and mountain views. The market accepts various forms of payment including SNAP and EBT benefits, ensuring accessibility for all community members and supporting Henderson's commitment to food equity and community health.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "1600 Wigwam Pkwy",
+			"city": "Henderson",
+			"state": "Nevada",
+			"zip": "89074"
+		},
+		"phone": "+1 702-267-4000",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "9:00 AM - 2:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.cityofhenderson.com/",
+		"sponsored": false
+	},
+	{
+		"id": "214",
+		"title": "Fresh52 Farmers & Artisan Market - Bruce Trent Park",
+		"description": "Weekly Wednesday evening farmers market in central Las Vegas providing fresh produce and artisan goods in a park setting.",
+		"longDescription": "<p>Fresh52 Farmers & Artisan Market at Bruce Trent Park offers Las Vegas residents a unique mid-week farmers market experience, operating every Wednesday from 2 PM to 8 PM at 1600 N Rampart Boulevard in central Las Vegas. As part of the Fresh52 network of community-focused markets throughout Southern Nevada, this location serves the central Las Vegas area with a vibrant open air market that brings neighbors and friends together to celebrate local agriculture and artisan craftsmanship. The Wednesday evening schedule makes this market particularly valuable for working families and professionals who want to access fresh, locally sourced products during the week, while the park setting provides a beautiful and relaxing environment for shopping and community connection. The market features vendors offering farm-fresh produce, handcrafted artisan goods, prepared foods, and other locally made products that reflect the entrepreneurial spirit and cultural diversity of Las Vegas. Bruce Trent Park's central location makes it easily accessible from throughout the Las Vegas Valley, while the evening hours allow visitors to enjoy the market during the more comfortable temperatures of late afternoon and early evening. Fresh52's commitment to empowering local communities through support of farmers, artisans, and small businesses helps strengthen Nevada's local food economy while providing residents with access to high-quality, fresh products in the heart of the desert Southwest.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "1600 N Rampart Blvd",
+			"city": "Las Vegas",
+			"state": "Nevada",
+			"zip": "89108"
+		},
+		"phone": "+1 702-523-5200",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "2:00 PM - 8:00 PM",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.fresh52.com/",
+		"sponsored": false
+	},
+	{
+		"id": "215",
+		"title": "Las Vegas Farmers Market - The District at Green Valley Ranch",
+		"description": "Popular Thursday farmers market in Henderson serving the Green Valley Ranch community with fresh produce and local goods.",
+		"longDescription": "<p>The Las Vegas Farmers Market at The District at Green Valley Ranch provides Henderson residents and visitors with a popular Thursday farmers market experience, operating from 10 AM to 2 PM at 2240 Village Walk Drive in the heart of the Green Valley Ranch community. This market location takes advantage of The District's vibrant shopping and entertainment complex to create a unique farmers market experience that combines fresh, local products with the convenience and amenities of a modern retail destination. The Thursday mid-day schedule serves both retirees and working professionals who can visit during lunch breaks or flexible work schedules, while the location's proximity to restaurants, shops, and services makes it easy to combine market shopping with other errands and activities. The market features vendors offering fresh produce, artisanal foods, handcrafted goods, and prepared foods that reflect both the agricultural potential of the region and the diverse culinary traditions of Las Vegas' multicultural community. The District's beautiful outdoor setting, with its Mediterranean-inspired architecture and landscaping, provides an attractive backdrop for the market while offering ample parking and accessibility features. This market serves the rapidly growing Henderson area and eastern Las Vegas Valley, providing residents with convenient access to fresh, local products while supporting Nevada's emerging local food economy and small business community.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "2240 Village Walk Dr",
+			"city": "Henderson",
+			"state": "Nevada",
+			"zip": "89052"
+		},
+		"phone": "+1 702-564-8595",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "10:00 AM - 2:00 PM",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.thedistrict.com/",
+		"sponsored": false
+	},
+	{
+		"id": "216",
+		"title": "Las Vegas Farmers Market - Uncommons",
+		"description": "Sunday farmers market in southwest Las Vegas offering fresh produce and artisan goods in a modern community setting.",
+		"longDescription": "<p>The Las Vegas Farmers Market at Uncommons serves the southwest Las Vegas community with a Sunday farmers market experience, operating from 10 AM to 2 PM at 6880 Helen Toland Street in this modern, master-planned community. This market location provides residents of southwest Las Vegas and surrounding areas with convenient access to fresh, locally sourced produce, artisanal foods, handcrafted goods, and prepared foods in a contemporary community setting that reflects the area's rapid growth and development. The Sunday morning schedule makes this market perfect for families and individuals who want to make farmers market shopping a regular part of their weekend routine, while the Uncommons location offers modern amenities, ample parking, and beautiful landscaping that create an attractive and comfortable shopping environment. The market features vendors who bring the best of Nevada's agricultural production and artisan craftsmanship to this growing area of Las Vegas, helping to establish a sense of community and connection to local food sources in a rapidly developing region. The Uncommons development's focus on walkability, sustainability, and community gathering spaces makes it an ideal location for a farmers market that serves both practical shopping needs and social connection goals. This market helps bridge the gap between Las Vegas' urban growth and the desire for fresh, local products while supporting Nevada's small farmers, artisans, and food producers.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "6880 Helen Toland St",
+			"city": "Las Vegas",
+			"state": "Nevada",
+			"zip": "89113"
+		},
+		"phone": "+1 702-463-9876",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": "10:00 AM - 2:00 PM"
+		},
+		"externalUrl": "https://www.uncommonslv.com/",
+		"sponsored": false
+	},
+	{
+		"id": "217",
+		"title": "Intuitive Forager Farmers Market",
+		"description": "Downtown Las Vegas farmers market featuring local vendors and fresh produce in the heart of the city's urban core.",
+		"longDescription": "<p>The Intuitive Forager Farmers Market brings fresh, local products to downtown Las Vegas, operating every Friday from 9 AM to 2 PM at 816 Commerce Street in the heart of the city's urban core. This market serves the growing downtown Las Vegas community, including residents of the Arts District, downtown condominiums, and surrounding neighborhoods, with access to fresh produce, artisanal foods, handcrafted goods, and prepared foods that might otherwise be difficult to find in the urban environment. The Friday morning schedule serves both working professionals who can visit during flexible work arrangements and residents who want to start their weekend with fresh, local shopping in an authentic urban setting. The market's downtown location reflects Las Vegas' ongoing urban revitalization and the growing demand for walkable, community-oriented amenities that connect residents with local food sources and small businesses. Commerce Street's location in the Arts District provides an ideal backdrop for a farmers market that celebrates both agricultural and artistic creativity, while the urban setting attracts vendors who specialize in products that appeal to city dwellers and food enthusiasts. The Intuitive Forager Farmers Market helps establish downtown Las Vegas as a destination for fresh, local products while supporting Nevada's small farmers, artisans, and food entrepreneurs who are working to build a more sustainable and connected local food system in the heart of the desert Southwest.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "816 Commerce St",
+			"city": "Las Vegas",
+			"state": "Nevada",
+			"zip": "89101"
+		},
+		"phone": "+1 702-385-3354",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "9:00 AM - 2:00 PM",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.intuitiveforager.com/",
+		"sponsored": false
+	},
+	{
+		"id": "218",
+		"title": "Concord Farmers Market",
+		"description": "One of New Hampshire's oldest farmers markets, founded in 1981, featuring 40+ vendors and famous for fresh bakery products.",
+		"longDescription": "<p>The Concord Farmers Market stands as one of New Hampshire's oldest and most established farmers markets, founded by a group of local farmers in 1981 and operating continuously for over four decades in the heart of the state's capital city. Located on Capitol Street in downtown Concord, this market operates every Saturday from 8:30 AM to 12:00 PM during its season from May 3 through October 25, 2025, providing residents and visitors with access to the freshest and best selection of local products in central New Hampshire. During peak season, the market features more than 40 vendors offering an impressive variety of fresh fruits and vegetables, high-quality meats, plants, honey, maple products, potted plants, cut flowers, wood products, artisanal cheeses, dog treats, body care products, and the super fresh bakery products that have made the market famous throughout the region. Many of the vendors are certified organic, reflecting the market's commitment to sustainable agriculture and healthy food options. The market's location in downtown Concord makes it easily accessible to residents throughout the capital region and beyond, while its long history and reputation for quality have made it a beloved Saturday morning tradition for thousands of families. The Concord Farmers Market represents the best of New Hampshire's agricultural heritage and community spirit, providing a vital connection between local farmers and consumers while supporting the state's rural economy and sustainable food system.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Capitol St",
+			"city": "Concord",
+			"state": "New Hampshire",
+			"zip": "03301"
+		},
+		"phone": "+1 603-224-3317",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:30 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://concordfarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "219",
+		"title": "Salem NH Farmers Market",
+		"description": "Year-round producers-only farmers market operating at Rockingham Park, featuring locally grown, baked, and handmade products.",
+		"longDescription": "<p>The Salem NH Farmers Market operates as a unique year-round producers-only farmers market located at The Mall at Rockingham Park at 77 Rockingham Park Boulevard in Salem, New Hampshire. This distinctive market runs every Sunday with seasonal schedules - a Winter Market from November through April operating from 10 AM to 1 PM, and a Summer Market from May through October running from 10 AM to 2 PM. The market's commitment to being producers-only means that all items sold must be locally grown, baked, prepared, and/or handmade by the vendor, ensuring authenticity and supporting local agriculture and artisans throughout New England. The market's vendors change with the seasons, providing customers with fresh discoveries and seasonal specialties year-round, while maintaining the highest standards for local production and craftsmanship. Located in the parking area between Dick's House of Sport and Cinemark at Rockingham Park, the market provides convenient access and ample parking for visitors from throughout southern New Hampshire and northern Massachusetts. The Salem NH Farmers Market's year-round operation makes it particularly valuable to the community, providing consistent access to fresh, local products even during New Hampshire's challenging winter months, while its producers-only policy ensures that every purchase directly supports local farmers, bakers, and artisans who are the backbone of the region's food system and creative economy.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "77 Rockingham Park Blvd",
+			"city": "Salem",
+			"state": "New Hampshire",
+			"zip": "03079"
+		},
+		"phone": "+1 603-898-1200",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": "10:00 AM - 2:00 PM"
+		},
+		"externalUrl": "https://www.salemnhfarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "220",
+		"title": "Bedford Farmers Market",
+		"description": "Established in 2002, this rain-or-shine market specializes in local meats, seafood, produce, and artisan goods in Bedford.",
+		"longDescription": "<p>The Bedford Farmers Market has been serving the Bedford community and surrounding areas since its establishment in 2002, operating as a rain-or-shine market that provides reliable access to the finest local foods and crafts in southern New Hampshire. Located in the Murphy's Taproom area of Bedford, this market has built a reputation as the premier destination for discerning shoppers seeking the best in local meats, poultry, and seafood, along with fresh vegetables and fruits, artisanal baked goods, honey, maple products, craft beers and wines, specialty spices, and gourmet oils and vinegars. The market also caters to immediate needs with ready-to-eat snacks, pet treats, heat-and-serve meals, and take-out options from their hosts at Murphy's Taproom, making it both a shopping destination and a community gathering place. Beyond food offerings, the Bedford Farmers Market showcases exceptional local craftsmanship including pottery, woodcraft, jewelry, hand-knitted items, photography, and fresh flowers, reflecting the rich artistic traditions of New Hampshire's creative community. The market's commitment to operating rain or shine demonstrates its dedication to serving the community consistently, while its focus on local products supports the regional economy and provides customers with the freshest, highest-quality goods available. The Bedford Farmers Market represents the best of New Hampshire's agricultural and artisan traditions, creating a vibrant marketplace that strengthens community connections and celebrates local food and craft production.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "123 Route 101",
+			"city": "Bedford",
+			"state": "New Hampshire",
+			"zip": "03110"
+		},
+		"phone": "+1 603-472-8100",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "9:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://bedfordnhfarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "221",
+		"title": "Portsmouth Farmers Market",
+		"description": "Southern New Hampshire's premier seacoast farmers market, ranked among the top in the state by visitors and locals.",
+		"longDescription": "<p>The Portsmouth Farmers Market serves as southern New Hampshire's premier seacoast farmers market, consistently ranked among the top farmers markets in the state by both visitors and local residents. Located in the historic seaport city of Portsmouth, this market takes advantage of the area's rich agricultural heritage and coastal location to offer a unique marketplace experience that combines traditional New Hampshire farm products with the fresh seafood and maritime culture of the Seacoast region. The market features local farmers, fishermen, bakers, and artisans who bring the best of both land and sea to create a diverse and vibrant marketplace that reflects the unique character of New Hampshire's coastal communities. Portsmouth's location as a regional hub makes this market easily accessible to residents throughout the Seacoast area, while the city's historic charm and tourist appeal attract visitors from throughout New England who come to experience authentic local products in one of America's most beautiful historic seaports. The market's reputation for quality and variety has made it a must-visit destination for food enthusiasts and supporters of local agriculture, while its role in the community extends beyond commerce to serve as a gathering place where neighbors connect and the traditions of local food production are celebrated and preserved. The Portsmouth Farmers Market represents the best of New Hampshire's coastal agricultural heritage and community spirit.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "1 Junkins Ave",
+			"city": "Portsmouth",
+			"state": "New Hampshire",
+			"zip": "03801"
+		},
+		"phone": "+1 603-436-2848",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.portsmouthfarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "222",
+		"title": "Hannah Grimes Marketplace",
+		"description": "Ranked #1 farmers market in New Hampshire by TripAdvisor, located in Keene and featuring local producers and artisans.",
+		"longDescription": "<p>Hannah Grimes Marketplace holds the distinction of being ranked as the #1 farmers market in New Hampshire by TripAdvisor, operating in Keene as a premier destination for local products and community connection in the southwestern part of the state. Named after Hannah Grimes, a historical figure who embodied the entrepreneurial spirit and community dedication that defines this marketplace, the market serves as both a farmers market and a year-round community hub that supports local producers, artisans, and food entrepreneurs throughout the Monadnock region. The marketplace features carefully selected vendors who represent the best of New Hampshire's agricultural and artisan traditions, offering fresh, locally grown produce, handcrafted goods, prepared foods, and specialty items that reflect the creativity and quality that have earned this market its top ranking. Located in Keene, a vibrant college town and regional center, Hannah Grimes Marketplace benefits from both a strong local customer base and visitors drawn to the area's natural beauty and cultural attractions. The market's success reflects its commitment to supporting local economic development while providing customers with exceptional products and experiences that celebrate the agricultural heritage and creative spirit of southwestern New Hampshire. Hannah Grimes Marketplace represents the gold standard for farmers markets in New Hampshire, combining quality, community focus, and innovation to create a marketplace that serves as a model for rural economic development and local food systems.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "3 Gilbo Ave",
+			"city": "Keene",
+			"state": "New Hampshire",
+			"zip": "03431"
+		},
+		"phone": "+1 603-352-6862",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "9:00 AM - 2:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.hannahgrimes.com/",
+		"sponsored": false
+	},
+	{
+		"id": "223",
+		"title": "Lebanon Farmers Market",
+		"description": "Upper Valley farmers market serving the Lebanon area with fresh local produce and artisan goods from New Hampshire and Vermont.",
+		"longDescription": "<p>The Lebanon Farmers Market serves the Upper Valley region of New Hampshire, operating in the vibrant community of Lebanon to provide residents and visitors with access to fresh local produce and artisan goods from both New Hampshire and neighboring Vermont. Located in this important regional center near Dartmouth College and Dartmouth-Hitchcock Medical Center, the market benefits from a diverse customer base that includes college students, medical professionals, families, and visitors to the Upper Valley region. The market's location in the Connecticut River Valley, one of New England's most fertile agricultural regions, allows it to showcase exceptional produce and products from farms on both sides of the river, creating a unique marketplace that represents the best of both states' agricultural traditions. Lebanon's position as a regional hub makes this market easily accessible to residents throughout the Upper Valley, while the area's natural beauty and recreational opportunities attract visitors who appreciate the connection between local agriculture and the region's high quality of life. The Lebanon Farmers Market plays an important role in supporting the local food system and rural economy of the Upper Valley, while providing a gathering place where community members can connect with local farmers and producers. The market represents the collaborative spirit and agricultural abundance of the Connecticut River Valley, serving as a bridge between New Hampshire and Vermont's farming communities and the consumers who value fresh, locally produced food.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Colburn Park",
+			"city": "Lebanon",
+			"state": "New Hampshire",
+			"zip": "03766"
+		},
+		"phone": "+1 603-448-1203",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "4:00 PM - 7:00 PM",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.lebanonfarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "224",
+		"title": "Exeter Farmers Market",
+		"description": "Historic seacoast town farmers market featuring local New Hampshire producers and artisans in a charming downtown setting.",
+		"longDescription": "<p>The Exeter Farmers Market operates in the historic seacoast town of Exeter, New Hampshire, providing a charming downtown setting for local producers and artisans to showcase their finest products to residents and visitors throughout the region. Located in this picturesque town that combines rich colonial history with modern community vitality, the market takes advantage of Exeter's position in the heart of the Seacoast region to serve customers from throughout southeastern New Hampshire and beyond. The market features carefully selected vendors who represent the agricultural and artisan traditions of the region, offering fresh, locally grown produce, handcrafted goods, prepared foods, and specialty items that reflect the quality and creativity that define New Hampshire's local food movement. Exeter's historic downtown provides an ideal backdrop for the farmers market, with its tree-lined streets, historic buildings, and walkable community creating an atmosphere that enhances the shopping experience while celebrating the town's heritage and community spirit. The market serves not only as a place to purchase fresh, local products but also as a gathering place where neighbors connect and the traditions of local agriculture and craftsmanship are celebrated and preserved. The Exeter Farmers Market represents the best of New Hampshire's seacoast agricultural heritage, combining the charm of a historic New England town with the vitality of a thriving local food system that supports both producers and consumers throughout the region.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Swasey Pkwy",
+			"city": "Exeter",
+			"state": "New Hampshire",
+			"zip": "03833"
+		},
+		"phone": "+1 603-772-4741",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "2:30 PM - 6:00 PM",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.exeterfarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "225",
+		"title": "Peterborough Farmers Market",
+		"description": "Monadnock region farmers market in the charming town of Peterborough, featuring local producers and community atmosphere.",
+		"longDescription": "<p>The Peterborough Farmers Market serves the Monadnock region of southwestern New Hampshire, operating in the charming town of Peterborough to provide residents and visitors with access to fresh local produce and artisan goods in one of New England's most picturesque settings. Located in this vibrant community that has long been known for its commitment to the arts, local agriculture, and sustainable living, the market reflects the values and character that make Peterborough a model for small-town New England life. The market features local farmers, bakers, and artisans who represent the best of the Monadnock region's agricultural and creative traditions, offering products that range from fresh, seasonal produce and artisanal foods to handcrafted goods and specialty items that reflect the area's commitment to quality and sustainability. Peterborough's location in the shadow of Mount Monadnock, surrounded by farms, forests, and scenic countryside, provides an ideal setting for a farmers market that celebrates the connection between local agriculture and the natural beauty that defines this region. The market serves as both a practical shopping destination and a community gathering place where neighbors connect and the traditions of local food production and craftsmanship are celebrated and preserved. The Peterborough Farmers Market represents the best of New Hampshire's rural heritage and community spirit, providing a vital link between local producers and consumers while supporting the sustainable agriculture and artisan traditions that are essential to the region's character and economy.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Depot Square",
+			"city": "Peterborough",
+			"state": "New Hampshire",
+			"zip": "03458"
+		},
+		"phone": "+1 603-924-3411",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "3:00 PM - 6:00 PM",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.peterboroughfarmersmarket.org/",
+		"sponsored": false
 	}
 ]
