@@ -5823,5 +5823,205 @@
 		},
 		"externalUrl": "https://www.wildwoodfarmersmarket.com/",
 		"sponsored": false
+	},
+	{
+		"id": "234",
+		"title": "Santa Fe Farmers Market - Railyard",
+		"description": "Regularly voted among the top ten markets in the country, featuring 130+ local farmers and producers from Northern New Mexico.",
+		"longDescription": "<p>The Santa Fe Farmers Market is regularly voted among the top ten markets in the country, hosting up to 130 local farmers and producers from 15 Northern New Mexico counties. Operating year-round at the historic Railyard District, this market embodies the #TrulyLocal philosophy where vendors only sell agricultural products that they grow themselves, or crafts and processed items that they make with agricultural products from the area. You won't find anything from out of state, making the Santa Fe Farmers Market truly local. The market features fresh produce, artisan breads, local honey, grass-fed meats, and handcrafted items in a vibrant community atmosphere.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "1607 Paseo de Peralta",
+			"city": "Santa Fe",
+			"state": "New Mexico",
+			"zip": "87501"
+		},
+		"phone": "+1 505-983-4098",
+		"hours": {
+			"monday": "",
+			"tuesday": "8:00 AM - 1:00 PM",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://santafefarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "235",
+		"title": "Las Cruces Farmers & Crafts Market",
+		"description": "Rated one of the top farmers markets in the country, operating for over 50 years with hundreds of vendors selling locally made food, crafts, and produce.",
+		"longDescription": "<p>For over 50 years, the Farmers & Crafts Markets of Las Cruces has featured hundreds of vendors selling locally made food, crafts, and produce. Rated as one of the top farmers markets in the country, this market offers visitors an opportunity to experience the people and culture of the Mesilla Valley. From southwest inspired art to chile-infused foods and live music, the market is family-friendly and showcases Southern New Mexico's rich farming and ranching tradition. All goods sold are hand-made and local, with everything from jewelry and metalwork to paintings and fiber art produced in the State of New Mexico. The market features a steady supply of local produce growers offering organic options, farm fresh eggs, grass fed beef, and assorted cheeses.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "640 N Main St",
+			"city": "Las Cruces",
+			"state": "New Mexico",
+			"zip": "88001"
+		},
+		"phone": "+1 575-541-2287",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "8:30 AM - 1:00 PM",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:30 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.farmersandcraftsmarketoflascruces.com/",
+		"sponsored": false
+	},
+	{
+		"id": "236",
+		"title": "Taos Farmers Market",
+		"description": "One of New Mexico's most diverse and visited farmers markets, ranked #1 by TripAdvisor, supporting stewardship of Northern New Mexico lands.",
+		"longDescription": "<p>Welcome to one of New Mexico's most diverse and visited farmers markets! The Taos Farmers Market operates year-round at the Taos County Courthouse, bringing together local farmers and artisans in the heart of historic Taos. Whether you're a tourist or a bonafide Taoseño, this market offers an authentic taste of Northern New Mexico. In supporting our farmers, we support stewardship of our beautiful Northern New Mexico lands. The market features fresh produce from local counties, artisan goods, and prepared foods, all while offering comprehensive food assistance programs including EBT/SNAP exchanges, Double Up Food Bucks, and FreshRX partnerships with El Centro Health Clinic.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "105 Albright St",
+			"city": "Taos",
+			"state": "New Mexico",
+			"zip": "87571"
+		},
+		"phone": "+1 575-751-7575",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 12:30 PM",
+			"sunday": ""
+		},
+		"externalUrl": "http://taosfarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "237",
+		"title": "Corrales Growers Market",
+		"description": "Supporting traditional agricultural economics of Corrales Village with 29+ vendors offering locally grown food and sustainable agricultural products.",
+		"longDescription": "<p>The Corrales Growers Market operates to support the traditional agricultural economics of the Village of Corrales and to provide community access to sustainable sources of locally grown food. Operating every Sunday, this market supports the preservation of farmland, the sustainability of family farms and local agricultural production by providing agricultural producers a marketing facility for the sale of their products directly to consumers. With 29+ vendors including farms, artisans, and food producers, the market features everything from spring green garlic and fresh herbs to grass-fed beef, artisan breads, and honey products. The market emphasizes natural farming techniques and works in concert with the local ecosystem.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "500 Jones Rd",
+			"city": "Corrales",
+			"state": "New Mexico",
+			"zip": "87048"
+		},
+		"phone": "+1 505-898-8926",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": "9:00 AM - 12:00 PM"
+		},
+		"externalUrl": "https://corralesgrowersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "238",
+		"title": "Rail Yards Market ABQ",
+		"description": "Albuquerque's premier Sunday farmers market with 200+ farm, food, and art vendors in the historic Barelas Rail Yards district.",
+		"longDescription": "<p>The Rail Yards Market of Albuquerque operates as a non-profit run growers market in the historic Barelas Rail Yards district. Operating Sundays from May through October, this vibrant market features over 200 farm, food, and art vendors, making it one of Albuquerque's premier community gathering places. The market emphasizes local agriculture, artisan crafts, and prepared foods while accepting EBT/SNAP benefits to ensure community access. Located in the revitalized Rail Yards area, the market combines historic charm with contemporary community spirit, offering everything from fresh produce and baked goods to handcrafted art and live entertainment.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "777 1st St SW",
+			"city": "Albuquerque",
+			"state": "New Mexico",
+			"zip": "87102"
+		},
+		"phone": "+1 505-243-7417",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": "10:00 AM - 2:00 PM"
+		},
+		"externalUrl": "https://railyardsmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "239",
+		"title": "Downtown Growers Market",
+		"description": "Albuquerque's downtown farmers market bringing fresh, local produce and artisan goods to the heart of the city.",
+		"longDescription": "<p>The Downtown Growers Market serves as Albuquerque's central farmers market, bringing fresh, local produce and artisan goods to the heart of the city. This market focuses on connecting urban consumers with local agricultural producers, offering a convenient location for downtown residents and workers to access fresh, locally grown food. The market features seasonal produce from New Mexico farms, artisan breads, local honey, and handcrafted goods. Operating in downtown Albuquerque, this market serves as an important community gathering place while supporting local agriculture and small businesses throughout the region.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "400 2nd St SW",
+			"city": "Albuquerque",
+			"state": "New Mexico",
+			"zip": "87102"
+		},
+		"phone": "+1 505-764-3948",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.visitalbuquerque.org/farmers-markets/",
+		"sponsored": false
+	},
+	{
+		"id": "240",
+		"title": "Los Ranchos Growers Market",
+		"description": "Village of Los Ranchos farmers market featuring local agricultural products and artisan goods in a charming rural setting.",
+		"longDescription": "<p>The Los Ranchos Growers Market operates in the charming Village of Los Ranchos de Albuquerque, maintaining the area's agricultural heritage while serving the greater Albuquerque community. This market emphasizes locally grown produce, artisan crafts, and traditional New Mexican products in a rural village setting. The market supports local farmers and artisans while preserving the agricultural character of Los Ranchos, one of New Mexico's oldest communities. Visitors can enjoy fresh seasonal produce, baked goods, local honey, and handcrafted items while experiencing the historic charm of this traditional farming community.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "6718 Rio Grande Blvd NW",
+			"city": "Los Ranchos de Albuquerque",
+			"state": "New Mexico",
+			"zip": "87107"
+		},
+		"phone": "+1 505-898-7493",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "9:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.visitalbuquerque.org/farmers-markets/",
+		"sponsored": false
+	},
+	{
+		"id": "241",
+		"title": "Española Farmers Market",
+		"description": "Northern New Mexico farmers market serving the Española Valley with traditional agricultural products and local crafts.",
+		"longDescription": "<p>The Española Farmers Market serves the historic Española Valley in Northern New Mexico, an area known for its rich agricultural heritage and traditional farming practices. This market brings together local farmers, artisans, and food producers from the Española Valley and surrounding areas, offering fresh seasonal produce, traditional New Mexican foods, and handcrafted goods. The market emphasizes the region's cultural heritage, featuring products that reflect the area's Hispanic and Native American traditions. Visitors can find everything from fresh chile and traditional breads to local honey and handwoven textiles, all while supporting the agricultural economy of Northern New Mexico.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "405 N Paseo de Oñate",
+			"city": "Española",
+			"state": "New Mexico",
+			"zip": "87532"
+		},
+		"phone": "+1 505-747-6100",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://farmersmarketsnm.org/",
+		"sponsored": false
 	}
 ]
