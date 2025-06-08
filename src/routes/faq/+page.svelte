@@ -25,6 +25,49 @@
 <li class="mb-2"><strong>Engage with customers:</strong> Be friendly, answer questions, and share information about your products and farm/business.</li>
 </ol>
 <p>Contact your local market manager for specific requirements and support. Many markets also offer resources or workshops for new vendors.</p>`
+		},
+		{
+			title: `Do I need insurance to sell at a farmers market?`,
+			content: `<p>Yes, you'll typically need insurance to sell at a farmers market, though requirements vary by location and market. Here's what you should know:</p>
+
+<h2 class="mt-8 text-base font-bold">Common Insurance Requirements:</h2>
+<ul class="my-2">
+<li class="mb-2"><strong>General Liability Insurance</strong> – Most markets require this to cover accidents, injuries, or property damage at your booth (usually $1–2 million coverage)</li>
+<li class="mb-2"><strong>Product Liability Insurance</strong> – Essential if selling food or consumable products, covers issues from products you sell</li>
+<li class="mb-2"><strong>Business License/Permit</strong> – Usually required at city/county level</li>
+</ul>
+
+<h2 class="mt-8 text-base font-bold">What Markets Typically Require:</h2>
+<ul class="my-2">
+<li class="mb-2">Certificate of insurance naming the market/city as "additional insured"</li>
+<li class="mb-2">Proof of current business license</li>
+<li class="mb-2">Food handler's permit (for food vendors)</li>
+<li class="mb-2">Some markets provide umbrella coverage you can pay into</li>
+</ul>
+
+<h2 class="mt-8 text-base font-bold">Where to Get Coverage:</h2>
+<ul class="my-2">
+<li class="mb-2"><strong>Farm Bureau Insurance</strong> – Often the most affordable for agricultural vendors</li>
+<li class="mb-2"><strong>Small business insurance providers</strong> like NEXT, Hiscox, or The Hartford</li>
+<li class="mb-2"><strong>Food vendor specific insurers</strong> like Special Event Insurance or RV Nuccio</li>
+<li class="mb-2"><strong>Local insurance agents</strong> familiar with farmers market requirements</li>
+</ul>
+
+<h2 class="mt-8 text-base font-bold">Costs:</h2>
+<ul class="my-2">
+<li class="mb-2">Basic general liability: $200–600 annually</li>
+<li class="mb-2">Product liability: Additional $200–400</li>
+<li class="mb-2">Some markets offer day-of coverage for $25–50</li>
+</ul>
+
+<h2 class="mt-8 text-base font-bold">Action Steps:</h2>
+<ol>
+<li class="mb-2">Contact your target markets for their specific insurance requirements</li>
+<li class="mb-2">Check if your homeowner's/renter's policy covers any business activity</li>
+<li class="mb-2">Get quotes from Farm Bureau and 2–3 other providers</li>
+<li class="mb-2">Ensure your policy covers farmers markets specifically</li>
+</ol>
+<p>Each market will give you their insurance requirements when you apply – don't assume they're all the same.</p>`
 		}
 	];
 </script>
