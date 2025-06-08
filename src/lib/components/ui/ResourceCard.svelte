@@ -9,8 +9,8 @@
 	// Import shared slugify function
 	import { slugify } from '$lib/utils/slugify';
 
-	// For internal link using slugified title
-	$: internalUrl = `/${category.toLowerCase()}/${slugify(title)}`;
+	// For internal link using slugified state and title
+	$: internalUrl = `/${slugify(category)}/${slugify(title)}`;
 
 	// Import icons
 	import { SealCheck, Info, ArrowUpRight } from 'phosphor-svelte';

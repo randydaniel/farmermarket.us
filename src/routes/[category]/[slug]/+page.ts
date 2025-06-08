@@ -7,9 +7,9 @@ import type { PageLoad } from './$types';
 export const load: PageLoad = ({ params, url }) => {
 	const { category, slug } = params;
 
-	// Find the resource that matches both state and slugified title, case-insensitive for state
+	// Find the resource that matches both slugified state and slugified title
 	const resource = resources.find(
-		(r) => r.address.state.toLowerCase() === category.toLowerCase() && slugify(r.title) === slug
+		(r) => slugify(r.address.state) === category && slugify(r.title) === slug
 	);
 
 	if (!resource) {

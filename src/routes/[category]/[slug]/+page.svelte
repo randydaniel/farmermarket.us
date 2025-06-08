@@ -19,6 +19,22 @@
 
 	// Set random ad on mount
 	randomAd = getRandomAd();
+
+	// Utility to add mt-4 to all <p> except the first
+	function addMt4ToParagraphs(html: string): string {
+		if (!html) return html;
+		let count = 0;
+		return html.replace(/<p(\s|>)/g, (match) => {
+			count++;
+			if (count === 1) return match;
+			// Always close the tag properly
+			return "<p class='mt-4'>";
+		});
+	}
+
+	// Compute processed longDescription outside the render block
+	let processedLongDescription = '';
+	$: processedLongDescription = addMt4ToParagraphs(resource.longDescription);
 </script>
 
 <svelte:head>
@@ -166,7 +182,7 @@
 		<div
 			class="text-md max-w-full leading-normal font-normal text-slate-600 md:max-w-[80%] dark:text-slate-300"
 		>
-			{@html resource.longDescription}
+			{@html processedLongDescription}
 		</div>
 	{:else if resource.description}
 		<div
