@@ -4023,5 +4023,605 @@
 		},
 		"externalUrl": "https://www.frederickmd.gov/farmers-market",
 		"sponsored": false
+	},
+	{
+		"id": "162",
+		"title": "Copley Square Farmers Market",
+		"description": "Premier Boston farmers market operated by Mass Farmers Markets, offering twice-weekly operations in the heart of Back Bay with SNAP and HIP benefits.",
+		"longDescription": "<p>The Copley Square Farmers Market is operated by Mass Farmers Markets, a 501(c)(3) charitable non-profit organization that has been growing farmers markets since 1978. Located in the heart of Boston's Back Bay at 227-230 Dartmouth Street, this premier market operates twice weekly on Tuesdays and Fridays from 11 AM to 6 PM, running from May 16 to November 25, 2025. The market partners with farmers, consumers, and communities to improve the health of individuals, strengthen community vitality, and enhance local farm viability through farmers markets. SNAP and HIP benefits are accepted, making fresh, local produce accessible to all community members. The market's prime location near Copley Square makes it easily accessible to both residents and visitors, serving as a vital hub for local agriculture in one of Boston's most vibrant neighborhoods.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "227-230 Dartmouth St",
+			"city": "Boston",
+			"state": "Massachusetts",
+			"zip": "02116"
+		},
+		"phone": "+1 617-626-7327",
+		"hours": {
+			"monday": "",
+			"tuesday": "11:00 AM - 6:00 PM",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "11:00 AM - 6:00 PM",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.massfarmersmarkets.org/",
+		"sponsored": false
+	},
+	{
+		"id": "163",
+		"title": "Davis Square Farmers Market",
+		"description": "Vibrant Somerville farmers market operated by Mass Farmers Markets, serving the Davis Square community with SNAP benefits and local produce.",
+		"longDescription": "<p>The Davis Square Farmers Market is operated by Mass Farmers Markets and serves the vibrant Davis Square community in Somerville. Located at Day Street and Herbert Street, this market operates every Wednesday from 12 PM to 6 PM, running from May 21 to November 26, 2025. The market accepts SNAP, HIP, and SNAP/P-EBT Match benefits, ensuring that fresh, local produce is accessible to all community members. Davis Square is known for its eclectic mix of restaurants, shops, and cultural venues, making this farmers market a perfect addition to the neighborhood's commitment to local, sustainable living. The market serves as a gathering place for the community while supporting local farmers and producers throughout the greater Boston area. Mass Farmers Markets' mission to improve individual health, strengthen community vitality, and enhance local farm viability is perfectly embodied in this bustling Somerville location.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Day St & Herbert St",
+			"city": "Somerville",
+			"state": "Massachusetts",
+			"zip": "02144"
+		},
+		"phone": "+1 617-626-7327",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "12:00 PM - 6:00 PM",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.massfarmersmarkets.org/",
+		"sponsored": false
+	},
+	{
+		"id": "164",
+		"title": "Lexington Farmers Market",
+		"description": "Producer-only market in historic Lexington ensuring fresh, local, sustainably raised products with summer and winter operations.",
+		"longDescription": "<p>The Lexington Farmers Market is a producer-only market that ensures everything found at the market is fresh and local, sustainably raised and carefully crafted. Located in historic Lexington, Massachusetts, the market operates its main Summer Market every Tuesday from May 27 to October 28, 2025, from 2:00 PM to 6:30 PM at the Worthen Road Practice Field. The market also operates a Thanksgiving FEASTival and a Small Yet Mighty Winter Market, providing year-round access to local products. The LFM's commitment to being producer-only means that customers can trust they are getting the freshest, most local products available while directly supporting regional farmers and artisans. The market serves the greater Lexington community and surrounding areas, embodying the town's historic commitment to independence and self-sufficiency through support of local agriculture and sustainable food systems.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Worthen Road Practice Field",
+			"city": "Lexington",
+			"state": "Massachusetts",
+			"zip": "02421"
+		},
+		"phone": "+1 781-862-0500",
+		"hours": {
+			"monday": "",
+			"tuesday": "2:00 PM - 6:30 PM",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.lexingtonfarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "165",
+		"title": "Newton Farmers Market - Cold Spring Park",
+		"description": "City of Newton's Tuesday farmers market featuring diverse vendors from Freitas Farm to Uncle Joey's Cannoli in beautiful Cold Spring Park.",
+		"longDescription": "<p>The Newton Farmers Market at Cold Spring Park is operated by the City of Newton and serves the Newton Centre community every Tuesday from June 17 to October 28, from 1:30 PM to 6:00 PM. Located at 1189 Beacon Street in the beautiful Cold Spring Park setting, this market features an impressive array of vendors including Freitas Farm (a family-owned Middleboro farm for 4 generations), Clear Flour Bakery, Copicut Farms, Heavens Harvest (USDA-certified organic), Dick's Market Gardens, and Uncle Joey's Cannoli. The market also features international cuisine with vendors like Bombay Brunch, Nepalian Cuisine, and Mei Mei Dumplings, along with specialty items from Tick Tock Chocolates and Boston Sword and Tuna. This diverse vendor mix makes the Newton market a destination for both fresh produce and artisan goods, serving the community's commitment to supporting local agriculture and small businesses.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "1189 Beacon St",
+			"city": "Newton",
+			"state": "Massachusetts",
+			"zip": "02459"
+		},
+		"phone": "+1 617-796-1000",
+		"hours": {
+			"monday": "",
+			"tuesday": "1:30 PM - 6:00 PM",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.newtonma.gov/government/parks-recreation-culture/recreation-programs/farmers-market",
+		"sponsored": false
+	},
+	{
+		"id": "166",
+		"title": "Central Square Farmers Market",
+		"description": "Cambridge farmers market operated by Mass Farmers Markets, serving the diverse Central Square community with SNAP benefits and local produce.",
+		"longDescription": "<p>The Central Square Farmers Market is operated by Mass Farmers Markets and serves the diverse Central Square community in Cambridge. Located at Norfolk Street and Bishop Allen Drive, this market operates every Monday from 12 PM to 6 PM, running from May 19 to November 24, 2025. The market accepts SNAP, HIP, and SNAP Match benefits, ensuring that fresh, local produce is accessible to all community members. Central Square is known for its cultural diversity, vibrant arts scene, and commitment to social justice, making this farmers market an important resource for the community's food security and local economy. The market serves as a gathering place where residents can connect with local farmers and producers while supporting sustainable agriculture practices. Mass Farmers Markets' long history of growing farmers markets since 1978 brings expertise and community focus to this important Cambridge location.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Norfolk St & Bishop Allen Dr",
+			"city": "Cambridge",
+			"state": "Massachusetts",
+			"zip": "02139"
+		},
+		"phone": "+1 617-626-7327",
+		"hours": {
+			"monday": "12:00 PM - 6:00 PM",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.massfarmersmarkets.org/",
+		"sponsored": false
+	},
+	{
+		"id": "167",
+		"title": "Kendall Square Farmers Market",
+		"description": "Tech hub farmers market operated by Mass Farmers Markets, bringing fresh local produce to Cambridge's innovation district with SNAP benefits.",
+		"longDescription": "<p>The Kendall Square Farmers Market is operated by Mass Farmers Markets and serves Cambridge's renowned innovation district and tech hub. Located at 350 Kendall Street, this market operates every Thursday from 12 PM to 6 PM, running from May 29 to October 30, 2025. The market accepts SNAP, HIP, and SNAP/P-EBT Match benefits, making fresh, local produce accessible to the diverse community of tech workers, researchers, students, and residents in the area. Kendall Square is home to MIT, numerous biotech companies, and startups, making this farmers market an important resource for busy professionals seeking healthy, local food options. The market provides a welcome respite from the fast-paced tech environment while supporting local agriculture and sustainable food systems. The convenient location and hours make it easy for the working community to access fresh, local products during lunch breaks or after work.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "350 Kendall St",
+			"city": "Cambridge",
+			"state": "Massachusetts",
+			"zip": "02142"
+		},
+		"phone": "+1 617-626-7327",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "12:00 PM - 6:00 PM",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.massfarmersmarkets.org/",
+		"sponsored": false
+	},
+	{
+		"id": "168",
+		"title": "Fish & Farm Market",
+		"description": "Waterfront Boston farmers market operated by Mass Farmers Markets, combining fresh seafood and farm products in the Seaport District.",
+		"longDescription": "<p>The Fish & Farm Market is operated by Mass Farmers Markets and uniquely combines fresh seafood with farm products in Boston's vibrant Seaport District. Located at 212 Northern Avenue, this market operates every Saturday from 11 AM to 6 PM, running from June 7 to November 1, 2025. The market accepts SNAP and SNAP/P-EBT Match benefits, ensuring accessibility for all community members. This innovative market concept brings together the best of both land and sea, offering fresh, locally sourced seafood alongside traditional farmers market produce and artisan goods. The Seaport District location provides a scenic waterfront setting that attracts both residents and tourists, making it a destination market that showcases the best of New England's agricultural and maritime heritage. The market serves the growing Seaport community while providing a unique shopping experience that celebrates the region's diverse food traditions.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "212 Northern Ave",
+			"city": "Boston",
+			"state": "Massachusetts",
+			"zip": "02210"
+		},
+		"phone": "+1 617-626-7327",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "11:00 AM - 6:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.massfarmersmarkets.org/",
+		"sponsored": false
+	},
+	{
+		"id": "169",
+		"title": "Newton Farmers Market - Newton North High School",
+		"description": "Saturday farmers market operated by the City of Newton at Newton North High School, serving Newtonville with diverse local vendors.",
+		"longDescription": "<p>The Newton Farmers Market at Newton North High School is operated by the City of Newton and serves the Newtonville community every Saturday from June 28 to October 25, from 9:30 AM to 12:30 PM. Located at 352 Lowell Avenue, this market provides convenient weekend access to fresh, local produce and artisan goods for families and weekend shoppers. The market features the same diverse array of vendors as the Tuesday Cold Spring Park location, including family farms like Freitas Farm and Nicewicz Family Farm, specialty food vendors like Mei Mei Dumplings and Uncle Joey's Cannoli, and artisan producers. The high school location provides ample parking and easy access for families doing their weekend shopping. This Saturday market complements Newton's Tuesday market, giving residents multiple opportunities throughout the week to support local agriculture and access fresh, healthy food options while building community connections.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "352 Lowell Ave",
+			"city": "Newton",
+			"state": "Massachusetts",
+			"zip": "02460"
+		},
+		"phone": "+1 617-796-1000",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "9:30 AM - 12:30 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.newtonma.gov/government/parks-recreation-culture/recreation-programs/farmers-market",
+		"sponsored": false
+	},
+	{
+		"id": "170",
+		"title": "Ann Arbor Farmers Market",
+		"description": "Historic 106-year-old producer-only market featuring 125 Michigan vendors with year-round operations in the Kerrytown District.",
+		"longDescription": "<p>The Ann Arbor Farmers Market is a historic 106-year-old producer-only market celebrating its 106th birthday in 2025. Located at 315 Detroit Street in the vibrant Kerrytown District, this market features 125 vendors exclusively from Michigan, ensuring all products are grown, produced, or made by the vendors themselves. The market operates year-round with seasonal hours: May through December on Saturdays and Wednesdays from 7 AM to 3 PM, and January through April on Saturdays from 8 AM to 3 PM. Visitors will find seasonal fruits and vegetables, mushrooms, herbs, microgreens, farm fresh eggs, pastured meat and poultry, flowers, plants, honey, maple syrup, cheese, bread, prepared foods, and artisan goods. The market accepts cash, debit/credit, mobile pay, SNAP/EBT, Double Up Food Bucks, Prescription for Health, and Senior Project Fresh food assistance programs, making fresh local produce accessible to all community members.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "315 Detroit St",
+			"city": "Ann Arbor",
+			"state": "Michigan",
+			"zip": "48104"
+		},
+		"phone": "+1 734-794-6255",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "7:00 AM - 3:00 PM",
+			"thursday": "",
+			"friday": "",
+			"saturday": "7:00 AM - 3:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.a2gov.org/parks-and-recreation/parks-and-places/ann-arbor-farmers-market/",
+		"sponsored": false
+	},
+	{
+		"id": "171",
+		"title": "Eastern Market",
+		"description": "Historic Detroit market nourishing the city since 1891, featuring 250+ vendors in one of the nation's most authentic urban market experiences.",
+		"longDescription": "<p>Eastern Market is a historic six-block public market that has been nourishing Detroit since 1891, making it one of the oldest and largest year-round markets in the United States. Located in Detroit's Eastern Market District, this market offers one of the most authentic urban adventures in the nation with more than 250 independent vendors and merchants processing, wholesaling, and retailing food. Every Saturday, the market transforms into a vibrant marketplace with hundreds of open-air stalls offering great selections of fruits, vegetables, fresh-cut flowers, locally produced specialty food products, and pasture and/or grass-fed meat. The market also operates Detroit Eastern Market Tuesdays and Sunday Street Market seasonally from mid-spring through autumn months. Eastern Market serves as the heart of Detroit's food distribution system while providing a unique cultural experience that attracts thousands of visitors weekly, making it a cornerstone of Detroit's food culture and community gathering place.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "2934 Russell St",
+			"city": "Detroit",
+			"state": "Michigan",
+			"zip": "48207"
+		},
+		"phone": "+1 313-833-1560",
+		"hours": {
+			"monday": "",
+			"tuesday": "See website for seasonal hours",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "7:00 AM - 4:00 PM",
+			"sunday": "See website for seasonal hours"
+		},
+		"externalUrl": "https://www.easternmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "172",
+		"title": "Farmington Farmers Market",
+		"description": "Award-winning market in downtown Farmington offering healthy, local and sustainable produce with vibrant community programming and music.",
+		"longDescription": "<p>The Farmington Farmers Market is an award-winning market and trusted source of healthy, local and sustainable produce located in downtown Farmington. Operating at the Sundquist Pavilion at 33113 Grand River Avenue, this vibrant marketplace runs every Saturday from 9 AM to 2 PM, from May through the first Saturday in November. The market offers fresh produce, artisanal foods, and local makers while creating a nourishing community connection through music and special programs. Market Manager Walt Gajewski emphasizes the market's role in bringing the community together and highlighting the positive aspects of life in a Michigan small town. The market works in partnership with Farmington's Downtown Development Association to create a comprehensive downtown experience, including events like Art on the Grand that transforms Grand River into a street of artist booths, making the entire downtown an open marketplace for families to enjoy.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "33113 Grand River Ave",
+			"city": "Farmington",
+			"state": "Michigan",
+			"zip": "48335"
+		},
+		"phone": "+1 248-473-7000",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "9:00 AM - 2:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.farmingtonfarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "173",
+		"title": "Boyne City Farmers Market",
+		"description": "Best year-round Northern Michigan farmers market celebrating 40 years, offering fresh local products and community events in downtown Boyne City.",
+		"longDescription": "<p>The Boyne City Farmers Market is recognized as the best year-round farmers market in Northern Michigan, celebrating 40 years of serving the community in 2025. Located in the heart of downtown Boyne City at Veterans Park, this market operates year-round with seasonal schedules: summer season (mid-May through mid-October) on Wednesdays and Saturdays from 8 AM to noon, and winter season (mid-October through mid-May) on Saturdays from 9 AM to 12 PM at the Veterans Park Pavilion. The market features a vibrant array of goods from local small-scale farmers, artisans, and entrepreneurs, including fresh fruits and vegetables, herbs, baked goods, fresh flowers, pasture-raised meat, maple syrup, honey, and handmade artwork. Beyond shopping, the market serves as a community gathering space with live music, locally made treats, and weekly activities at the Kid's Corner, making it a destination for the whole family to experience the magic of Northern Michigan.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "319 N Lake St",
+			"city": "Boyne City",
+			"state": "Michigan",
+			"zip": "49712"
+		},
+		"phone": "+1 231-582-0851",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "8:00 AM - 12:00 PM",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://boynecityfarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "174",
+		"title": "Fulton Street Farmers Market",
+		"description": "Grand Rapids seasonal open-air market offering fresh fruits, vegetables, and crafts with multiple weekly market days during summer season.",
+		"longDescription": "<p>The Fulton Street Farmers Market is a seasonal, open-air market serving Grand Rapids with fresh fruits, vegetables, eggs, baked goods, crafts, and more. Located in downtown Grand Rapids, this market operates with seasonal schedules to serve the community year-round: from January through April on Saturdays from 10 AM to 1 PM, and during the summer market season from the first Saturday in May through the last Saturday before Christmas in December on Tuesdays, Wednesdays, Fridays, and Saturdays from 8 AM to 3 PM. The market encourages early arrival as some vendors start leaving as early as 2 PM, ensuring the best selection for shoppers. This beautiful outdoor market provides an excellent opportunity to enjoy the outdoors while supporting local farmers and artisans, making it a cornerstone of Grand Rapids' local food scene and community gathering place for residents and visitors alike.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "1145 Fulton St E",
+			"city": "Grand Rapids",
+			"state": "Michigan",
+			"zip": "49503"
+		},
+		"phone": "+1 616-456-3696",
+		"hours": {
+			"monday": "",
+			"tuesday": "8:00 AM - 3:00 PM",
+			"wednesday": "8:00 AM - 3:00 PM",
+			"thursday": "",
+			"friday": "8:00 AM - 3:00 PM",
+			"saturday": "8:00 AM - 3:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.experiencegr.com/listings/fulton-street-farmers-market/",
+		"sponsored": false
+	},
+	{
+		"id": "175",
+		"title": "Holland Farmers Market",
+		"description": "Vibrant market featuring 90+ local farmers and vendors with food court, street performers, and diverse offerings from fresh produce to artisan goods.",
+		"longDescription": "<p>The Holland Farmers Market is a vibrant marketplace featuring more than 90 local farmers and vendors selling everything from fresh fruits and vegetables to plants, baked goods, floral arrangements, dairy products, and much more. Located in Holland, Michigan, this market operates on Wednesdays and Saturdays from 8 AM to 3 PM, running from May 18 through December 10. Beyond the diverse vendor offerings, the market features a food court with dining options for breakfast and lunch, as well as street performers who entertain visitors with music, magic, and other shows, creating a festive atmosphere for the whole family. The market celebrates Holland's rich agricultural heritage while showcasing the area's commitment to local food systems and community gathering. Dutch heritage and tulips aren't the only things to love about Holland - this farmers market adds to the city's charm and provides a wonderful way to experience local culture while supporting regional farmers and artisans.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "150 W 8th St",
+			"city": "Holland",
+			"state": "Michigan",
+			"zip": "49423"
+		},
+		"phone": "+1 616-355-1130",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "8:00 AM - 3:00 PM",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 3:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.hollandfarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "176",
+		"title": "Flint Farmers Market",
+		"description": "Year-round market with 50 diverse vendors featuring produce, meat market, bakery, wine shop, art gallery, and international groceries.",
+		"longDescription": "<p>The Flint Farmers Market is a comprehensive year-round market featuring 50 diverse vendors that make it a one-stop destination for fresh and delicious fare. Located in Flint, Michigan, this market operates on Tuesdays, Thursdays, and Saturdays, offering an impressive variety of vendors including several produce distributors, a great meat market, poultry, breads and baked goods, cheese, a wine shop, an art gallery, a café, Middle Eastern and Mexican groceries, and many unique gifts. The market's diverse vendor mix reflects Flint's multicultural community while providing access to fresh, local, and international foods year-round. Whether you're looking for fresh produce, specialty meats, artisan breads, or unique gifts, the Flint Farmers Market serves as a vital community resource that brings together local farmers, food producers, and artisans under one roof, making it an essential destination for residents seeking quality food and community connection.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "300 E 1st St",
+			"city": "Flint",
+			"state": "Michigan",
+			"zip": "48502"
+		},
+		"phone": "+1 810-232-1399",
+		"hours": {
+			"monday": "",
+			"tuesday": "9:00 AM - 5:00 PM",
+			"wednesday": "",
+			"thursday": "9:00 AM - 5:00 PM",
+			"friday": "",
+			"saturday": "8:00 AM - 5:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.flintfarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "177",
+		"title": "Marquette Farmers & Artists Market",
+		"description": "Upper Peninsula market combining local produce with artist displays, participating in WIC's Project Fresh program for nutritional access.",
+		"longDescription": "<p>The Marquette Farmers & Artists Market is a thriving Upper Peninsula market that continues to grow strong, serving the Marquette community every Saturday from mid-May through October in the Marquette Commons Parking Lot. This unique market combines the best local produce the Upper Peninsula has to offer with delightful displays from local artists, creating a vibrant marketplace that celebrates both agriculture and creativity. The market participates in WIC's 'Project Fresh' program, which makes fresh produce available to low-income, nutritionally-at-risk consumers through Michigan farmers' markets, demonstrating its commitment to community health and food access. Located in downtown Marquette, this market serves as a gathering place for residents and visitors to experience the best of Upper Peninsula agriculture and artistry while supporting local farmers and artists in one of Michigan's most scenic regions.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "300 W Baraga Ave",
+			"city": "Marquette",
+			"state": "Michigan",
+			"zip": "49855"
+		},
+		"phone": "+1 906-228-9475",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "9:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.marquettefarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "178",
+		"title": "Saint Paul Farmers Market",
+		"description": "Historic farmers market serving the Twin Cities since 1854, offering locally grown produce and community connection in downtown Saint Paul.",
+		"longDescription": "<p>The Saint Paul Farmers Market has been serving the Twin Cities community with locally grown produce since 1854, making it one of Minnesota's oldest and most established farmers markets. Located at 290 5th St. E in downtown Saint Paul, this market operates every Saturday from 7 AM to 1 PM and every Sunday from 8 AM to 1 PM throughout the season. The market provides free parking at 420 E. Prince St. and has partnered with Metro Transit to offer free rides to the market, demonstrating its commitment to accessibility and community service. With over 170 years of operation, the Saint Paul Farmers Market has become a cornerstone of the local food system, connecting farmers directly with consumers while fostering community relationships. The market features a diverse array of vendors offering fresh seasonal produce, flowers, plants, baked goods, and artisan products, all while maintaining its historic charm and commitment to supporting local agriculture in the greater Twin Cities metropolitan area.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "290 5th St E",
+			"city": "Saint Paul",
+			"state": "Minnesota",
+			"zip": "55101"
+		},
+		"phone": "+1 651-227-8101",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "7:00 AM - 1:00 PM",
+			"sunday": "8:00 AM - 1:00 PM"
+		},
+		"externalUrl": "https://stpaulfarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "179",
+		"title": "Mill City Farmers Market",
+		"description": "Year-round Minneapolis farmers market offering local and sustainable groceries with SNAP benefits doubling and community programming.",
+		"longDescription": "<p>Mill City Farmers Market is Minneapolis' trusted source for local and sustainable groceries, combining a vibrant marketplace with nourishing community connection since its founding in 2006. Located at 750 S 2nd St. between the Mill City Museum and the Guthrie Theater in Minneapolis' Downtown East neighborhood, this year-round market operates with seasonal schedules: summer (May-September) Saturdays 8 AM to 1 PM, fall (October) Saturdays 9 AM to 1 PM, and winter (November-April) first and third Saturdays 10 AM to 1 PM indoors at the Mill City Museum. The market features over 100 vendors offering prepared food, produce, body care, and crafts, along with exceptional community programming including free cooking classes with local chefs, children's activities, a zero-waste compostable dishware initiative, free outdoor yoga, live music from buskers, and excellent views of the Mississippi River. SNAP/EBT recipients receive double matched purchases (buy $10, get $30) each market day, demonstrating the market's commitment to food access and community health.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "750 S 2nd St",
+			"city": "Minneapolis",
+			"state": "Minnesota",
+			"zip": "55401"
+		},
+		"phone": "+1 612-341-7580",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.millcityfarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "180",
+		"title": "Minneapolis Farmers Market on Lyndale",
+		"description": "Minnesota's largest farmer-managed farmers market since 1876, featuring over 100 vendors under iconic red sheds with diverse international offerings.",
+		"longDescription": "<p>The Minneapolis Farmers Market on Lyndale is the largest farmer-managed farmers market in Minnesota, with a rich history dating back to 1876 when it first opened in downtown Minneapolis before relocating to its current location at Lyndale and Glenwood Avenue North in 1937. Operating Wednesday through Sunday (7 AM to 1 PM weekdays and 6 AM to 1 PM weekends), this market features well over 100 vendors—some with over five generations of local farming experience—under the iconic red sheds that protect shoppers and farmers from the elements. The market boasts one of the most diverse collections of market vendors in the Upper Midwest, with vendors hailing from all over the world including Laos, Trinidad, and California. With over 170 permanent and rotating vendors, shoppers will find the full rainbow of local produce, flowers and plants, plus eggs, locally raised beef, pork, buffalo, poultry, goat, lamb, fresh and smoked trout, Alaskan salmon, codfish, baked goods, hummus, maple syrup, honey, pickles, artisan cheeses, jams, jellies, wild rice, and pasta. The market offers abundant free parking and serves as a cornerstone of Minneapolis' local food system.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "312 E Lyndale Ave N",
+			"city": "Minneapolis",
+			"state": "Minnesota",
+			"zip": "55405"
+		},
+		"phone": "+1 612-333-1718",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "7:00 AM - 1:00 PM",
+			"thursday": "7:00 AM - 1:00 PM",
+			"friday": "7:00 AM - 1:00 PM",
+			"saturday": "6:00 AM - 1:00 PM",
+			"sunday": "6:00 AM - 1:00 PM"
+		},
+		"externalUrl": "https://www.mplsfarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "181",
+		"title": "Kingfield Farmers Market",
+		"description": "Neighborhood farmers market serving Minneapolis' Kingfield community with local produce and artisan goods in a welcoming atmosphere.",
+		"longDescription": "<p>The Kingfield Farmers Market is a beloved neighborhood farmers market that serves Minneapolis' vibrant Kingfield community, creating a welcoming gathering space for residents to connect with local farmers and artisans. Located in the heart of the Kingfield neighborhood, this market operates seasonally and features a carefully curated selection of vendors offering fresh, locally grown produce, baked goods, prepared foods, and handcrafted items. The market emphasizes community building and sustainable agriculture while providing an accessible venue for neighbors to shop for high-quality, locally sourced products. With its focus on supporting small-scale farmers and food producers from the greater Twin Cities area, the Kingfield Farmers Market has become an integral part of the neighborhood's identity, fostering relationships between producers and consumers while contributing to the local food economy. The market's intimate scale and community-focused approach make it a perfect destination for families and individuals seeking fresh, seasonal ingredients and unique artisan products in a friendly, neighborhood setting.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "4310 Nicollet Ave",
+			"city": "Minneapolis",
+			"state": "Minnesota",
+			"zip": "55409"
+		},
+		"phone": "+1 612-823-5285",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:30 AM - 12:30 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.kingfieldfarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "182",
+		"title": "Linden Hills Farmers Market",
+		"description": "Charming neighborhood market in Minneapolis' Linden Hills area offering fresh local produce and community connection in a scenic lakeside setting.",
+		"longDescription": "<p>The Linden Hills Farmers Market is a charming neighborhood market that serves the picturesque Linden Hills area of Minneapolis, offering residents and visitors a delightful shopping experience in one of the city's most scenic neighborhoods. Located near beautiful Lake Harriet, this seasonal market creates a perfect blend of fresh, local produce shopping and community gathering in an idyllic lakeside setting. The market features carefully selected vendors who offer high-quality fruits and vegetables, artisan baked goods, prepared foods, flowers, and handcrafted items, all while maintaining the intimate, neighborhood feel that makes Linden Hills special. Operating during the growing season, the market provides an excellent opportunity for families to enjoy the outdoors while supporting local farmers and food producers from the Twin Cities region. The Linden Hills Farmers Market has become a beloved tradition for residents who appreciate both the quality of the products and the strong sense of community that the market fosters, making it an essential part of the neighborhood's character and local food culture.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "2813 W 43rd St",
+			"city": "Minneapolis",
+			"state": "Minnesota",
+			"zip": "55410"
+		},
+		"phone": "+1 612-926-7337",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": "10:00 AM - 2:00 PM"
+		},
+		"externalUrl": "https://www.lindenhillsfarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "183",
+		"title": "Midtown Farmers Market",
+		"description": "Urban farmers market serving Minneapolis' Midtown community with fresh produce, prepared foods, and cultural diversity reflecting the neighborhood.",
+		"longDescription": "<p>The Midtown Farmers Market is a vibrant urban farmers market that serves Minneapolis' diverse Midtown community, reflecting the cultural richness and energy of this dynamic neighborhood. Located in the heart of Midtown Minneapolis, this market operates seasonally and features a diverse array of vendors offering fresh, locally grown produce, international prepared foods, baked goods, and artisan crafts that celebrate the multicultural character of the area. The market serves as both a source of fresh, affordable food and a community gathering space where neighbors from different backgrounds come together to shop, eat, and connect. With its commitment to accessibility and cultural diversity, the Midtown Farmers Market provides an important service to residents while supporting local farmers and food entrepreneurs from the Twin Cities region. The market's urban setting and diverse vendor mix make it a unique destination that showcases the best of Minneapolis' local food scene while fostering community connections and celebrating the rich cultural tapestry that defines the Midtown neighborhood.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "2225 E Lake St",
+			"city": "Minneapolis",
+			"state": "Minnesota",
+			"zip": "55407"
+		},
+		"phone": "+1 612-724-7457",
+		"hours": {
+			"monday": "",
+			"tuesday": "3:00 PM - 7:00 PM",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.midtownfarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "184",
+		"title": "Rochester Downtown Farmers Market",
+		"description": "Southern Minnesota's premier farmers market serving Rochester with fresh local produce and community events in the heart of downtown.",
+		"longDescription": "<p>The Rochester Downtown Farmers Market is southern Minnesota's premier farmers market, serving the Rochester community and surrounding areas with fresh, locally grown produce and artisan goods in the heart of downtown Rochester. This vibrant market operates seasonally and features a wide variety of vendors offering everything from seasonal fruits and vegetables to baked goods, prepared foods, flowers, plants, and handcrafted items. Located in downtown Rochester, the market provides convenient access for residents and visitors while supporting local farmers and food producers from southeastern Minnesota and neighboring areas. The market serves as both a vital source of fresh, local food and a community gathering space where families and individuals can connect with the people who grow their food while enjoying the bustling atmosphere of downtown Rochester. With its commitment to supporting local agriculture and fostering community connections, the Rochester Downtown Farmers Market has become an essential part of the city's food culture and economic vitality, attracting shoppers from throughout the region who appreciate high-quality, locally sourced products and the vibrant community atmosphere.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "15 3rd Ave SW",
+			"city": "Rochester",
+			"state": "Minnesota",
+			"zip": "55902"
+		},
+		"phone": "+1 507-328-2525",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "4:00 PM - 7:00 PM",
+			"friday": "",
+			"saturday": "8:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.rochesterfarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "185",
+		"title": "Bloomington Farmers Market",
+		"description": "Suburban Twin Cities farmers market offering fresh local produce and family-friendly atmosphere in the heart of Bloomington.",
+		"longDescription": "<p>The Bloomington Farmers Market is a thriving suburban farmers market that serves the Bloomington community and surrounding Twin Cities metro area with fresh, locally grown produce and artisan goods in a family-friendly atmosphere. Located in Bloomington, this seasonal market features a diverse selection of vendors offering high-quality fruits and vegetables, baked goods, prepared foods, flowers, plants, and handcrafted items from local farmers and artisans throughout the greater Twin Cities region. The market operates during the growing season and provides a convenient shopping destination for families seeking fresh, local ingredients while supporting sustainable agriculture and small-scale food production. With its suburban setting and focus on community building, the Bloomington Farmers Market has become a beloved gathering place where neighbors can connect with local farmers, discover new seasonal products, and enjoy the social atmosphere that makes farmers markets special. The market's commitment to quality, community, and supporting local agriculture makes it an important part of Bloomington's food culture and a valuable resource for residents who appreciate fresh, locally sourced products and the opportunity to build relationships with the people who grow their food.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "1800 W Old Shakopee Rd",
+			"city": "Bloomington",
+			"state": "Minnesota",
+			"zip": "55431"
+		},
+		"phone": "+1 952-563-8877",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "3:00 PM - 7:00 PM",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.bloomingtonfarmersmarket.org/",
+		"sponsored": false
 	}
 ]
