@@ -2623,5 +2623,405 @@
 		},
 		"externalUrl": "https://www.peoriariverfrontmarket.com/",
 		"sponsored": false
+	},
+	{
+		"id": "106",
+		"title": "Broad Ripple Farmers Market",
+		"description": "Indiana's largest farmers market operating year-round since 1994 with 80+ vendors outdoors and 60+ vendors indoors.",
+		"longDescription": "<p>Supporting farmers since 1994, the Broad Ripple Farmers Market is the largest in Indiana and operates year-round with exceptional community support. The market features 80+ local vendors operating outdoors from May to October, and 60+ vendors indoors from November to April. Located in the vibrant Broad Ripple Cultural District, visitors can shop for the freshest, tastiest food of the season including farm-fresh fruits and vegetables, eggs, meat, fish, cheese, groceries, flowers, and plants. The market always features live music, breakfast foods and drinks, and a comfortable seating area. As a non-profit organization, the market participates in the SNAP program and serves as a vital community gathering place.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "6001 N Rural St",
+			"city": "Indianapolis",
+			"state": "Indiana",
+			"zip": "46220"
+		},
+		"phone": "+1 317-251-2740",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.broadrippleindy.org/farmers-market/",
+		"sponsored": false
+	},
+	{
+		"id": "107",
+		"title": "Carmel Farmers Market",
+		"description": "Indiana's #1 farmers market celebrating 27 years with over 80 vendors offering the finest grown and produced products from Indiana.",
+		"longDescription": "<p>Welcome to the Carmel Farmers Market, proudly celebrating its 27th year as Indiana's #1 farmers market. Located at Carter Green, this exceptional market features over 80 of Indiana's best vendors offering the freshest and finest grown and produced products from across the state. Operating every Saturday from May through September (8:00 AM to 11:30 AM), the market prioritizes food safety with every vendor carefully researched and evaluated before joining. Presented by IU Health North Hospital, the market is more than just shopping—it's a family and community gathering event featuring weekly musical talent, breakfast options, and a welcoming atmosphere where visitors can 'Get Fresh on Saturday!'</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "1 Civic Sq",
+			"city": "Carmel",
+			"state": "Indiana",
+			"zip": "46032"
+		},
+		"phone": "+1 317-571-2441",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 11:30 AM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.carmelfarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "108",
+		"title": "Fishers Farmers Market",
+		"description": "Ranked 6th in Indiana by American Farmland Trust, this dog-friendly market features 80+ vendors and free weekly activities.",
+		"longDescription": "<p>The Fishers Farmers Market, presented by IU Health Fishers, is ranked 6th in the state by the American Farmland Trust: Farmers Market Coalition and has become a growing success year after year. Operating every Saturday from 8:00 AM to noon (May through September) at the Nickel Plate District Amphitheater in downtown Fishers, this market features more than 80 juried vendors specializing in food and plants. As one of the only dog-friendly markets in the North Indianapolis area, it caters to all visitors young, old, and furry. Each morning kicks off with free yoga or fitness, features live music from local musicians, and includes hands-on interactive activities for children. The market hosts specialty themed days throughout the season including Health & Wellness Expo, Nonprofit Day, and Biz Kids Day.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "6 Municipal Dr",
+			"city": "Fishers",
+			"state": "Indiana",
+			"zip": "46038"
+		},
+		"phone": "+1 317-595-3155",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://fishersparks.com/activities-events/fishers-farmers-market/",
+		"sponsored": false
+	},
+	{
+		"id": "109",
+		"title": "Zionsville Farmers Market",
+		"description": "Historic main street farmers market established in 1997, celebrating over 25 years of bringing fresh local produce to the community.",
+		"longDescription": "<p>The Zionsville Farmers Market was established in 1997 by volunteers who saw an opportunity to bring fresh, local produce to the Zionsville community. Since then, it has grown into a staple of Zionsville summers, operating every Saturday from 8:00 AM to 11:30 AM (May 17 through September 27). Located at the corner of Main Street and Pine on historic main street, this market provides more than just groceries—it's a community gathering spot where people come together, share stories, and enjoy local music while shopping for fresh and healthy food. The market features a diverse group of vendors offering produce, baked goods, and freshly prepared food, and operates rain or shine with live entertainment throughout the season.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Corner of Main St & Pine St",
+			"city": "Zionsville",
+			"state": "Indiana",
+			"zip": "46077"
+		},
+		"phone": "+1 317-445-4417",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 11:30 AM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.zionsvillefarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "110",
+		"title": "Original Farmers Market at Indianapolis City Market",
+		"description": "One of central Indiana's longest-running farmers markets, operating downtown on Monument Circle since the historic City Market era.",
+		"longDescription": "<p>The Original Farmers Market at Indianapolis City Market is one of central Indiana's longest-running farmers markets, perfectly situated in the heart of the Midwest where Indianapolis farmers offer outstanding produce, dairy products, meats, and more. Operating every Wednesday from 10:00 AM to 1:30 PM (May 7 through September 24) on Monument Circle in downtown Indianapolis, this market brings fresh, in-season foods selected at their peak directly to downtown employees and residents. The market features fruits and vegetables, meats and cheeses, baked goods, and unique spices and herbs from local growers dedicated to providing the freshest foods available. The market participates in SNAP with dollar-for-dollar matching through the Fresh Bucks program.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Monument Circle",
+			"city": "Indianapolis",
+			"state": "Indiana",
+			"zip": "46204"
+		},
+		"phone": "+1 317-634-9266",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "10:00 AM - 1:30 PM",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.indycm.com/original-farmers-market/",
+		"sponsored": false
+	},
+	{
+		"id": "111",
+		"title": "Chesterton's European Market",
+		"description": "Northwest Indiana's premier artisan market featuring vendors from Indiana, Michigan, and Illinois in historic downtown Chesterton.",
+		"longDescription": "<p>Chesterton's European Market is a vibrant artisan market that brings together quality vendors, live entertainment, and a welcoming community atmosphere every Saturday from May through October (8:00 AM to 2:00 PM). Located at Broadway and Third Street in historic downtown Chesterton, just two miles south of the Indiana Dunes at Lake Michigan, this market features talented artists, chefs, merchants, and farmers from Indiana, Michigan, and Illinois. Visitors can discover artisan breads and pastries, boutique creamery cheeses, gourmet foods, locally crafted art, fresh meats and spices, clothing and accessories, handcrafted jewelry, and farm-fresh produce and flowers. The market includes live performances from Duneland's finest musicians and promotes healthy, sustainable lifestyles within the community.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Broadway & 3rd St",
+			"city": "Chesterton",
+			"state": "Indiana",
+			"zip": "46304"
+		},
+		"phone": "+1 219-926-5513",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 2:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.dunelandchamber.org/about-the-european-market/",
+		"sponsored": false
+	},
+	{
+		"id": "112",
+		"title": "Garfield Park Farmers Market",
+		"description": "Indianapolis neighborhood farmers market featuring around three dozen vendors with organic honey, meats, and artisan breads.",
+		"longDescription": "<p>The Garfield Park Farmers Market serves the Indianapolis community with a focused selection of high-quality vendors, typically featuring around three dozen carefully curated vendors. This neighborhood market specializes in organic honey, organic meats, artisan breads, and fresh local produce, creating an intimate shopping experience that emphasizes quality over quantity. Located in the historic Garfield Park area, this market provides a community-focused atmosphere where shoppers can develop personal relationships with local farmers and artisans. The market operates seasonally and has become a beloved destination for Indianapolis residents seeking authentic, locally-sourced products in a welcoming neighborhood setting.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "2345 Pagoda Dr",
+			"city": "Indianapolis",
+			"state": "Indiana",
+			"zip": "46203"
+		},
+		"phone": "+1 317-327-7431",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.indy.gov/activity/garfield-park-farmers-market",
+		"sponsored": false
+	},
+	{
+		"id": "113",
+		"title": "Pike Farmers Market",
+		"description": "Indianapolis community farmers market serving the Pike Township area with fresh local produce and artisan goods.",
+		"longDescription": "<p>The Pike Farmers Market serves the Pike Township area of Indianapolis, providing the community with access to fresh, locally-grown produce and artisan goods. This market operates seasonally and focuses on connecting local farmers and food producers with residents of northwest Indianapolis. The market features a variety of vendors offering seasonal fruits and vegetables, baked goods, honey, and handcrafted items, creating a vibrant community gathering place. Operating with a commitment to supporting local agriculture and small businesses, the Pike Farmers Market has become an important part of the Pike Township community, offering residents convenient access to fresh, healthy food options while supporting the local economy.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "6701 Zionsville Rd",
+			"city": "Indianapolis",
+			"state": "Indiana",
+			"zip": "46268"
+		},
+		"phone": "+1 317-327-7431",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "See website for seasonal hours",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.indy.gov/activity/pike-farmers-market",
+		"sponsored": false
+	},
+	{
+		"id": "114",
+		"title": "Downtown Des Moines Farmers Market",
+		"description": "Celebrating 50 years, one of the best farmers markets in Iowa and the U.S. with 300 vendors spanning nine city blocks.",
+		"longDescription": "<p>The Downtown Des Moines Farmers Market, presented by UnityPoint Health, is celebrating its 50th season in 2025! For five decades, this exceptional market has supported farmers, growers, and artisan food entrepreneurs from all around the state of Iowa, creating a vibrant gathering place in the heart of the city. Touted as one of the best farmers markets in Iowa and the U.S., the market brings together 300 diverse vendors and 25,000 visitors every Saturday morning between May and October. The vendors represent 50 counties across the state, and the market spans nine city blocks in Downtown Des Moines' Historic Court District, offering an incredible variety of fresh food, home-baked goods, live music, local vendors, arts and crafts, and more.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Historic Court District",
+			"city": "Des Moines",
+			"state": "Iowa",
+			"zip": "50309"
+		},
+		"phone": "+1 515-286-4950",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "7:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.dsmpartnership.com/desmoinesfarmersmarket/",
+		"sponsored": false
+	},
+	{
+		"id": "115",
+		"title": "Iowa City Farmers Market",
+		"description": "Open-air market featuring local handcrafted, homemade, and homegrown products with Wednesday nights and Saturday mornings.",
+		"longDescription": "<p>The Iowa City Farmers Market is managed by the Iowa City Parks and Recreation Department and operates as an open-air market held in the Chauncey Swan parking ramp, Chauncey Swan Park, and on E. Washington St. in downtown Iowa City. Running from May through October, the market strives to serve all populations by providing access to fresh, locally produced products. Operating on both Wednesday nights and Saturday mornings (7:30 AM to noon), visitors can load up on local handcrafted, homemade, and homegrown products and produce. The market features vendors serving everything from sweet treats to spicy Mexican dishes, and accepts various payment options including cash, credit/debit cards, EBT/SNAP cards, and DUFB (Double Up Food Bucks) tokens available at the Information Table.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "415 E Washington St",
+			"city": "Iowa City",
+			"state": "Iowa",
+			"zip": "52240"
+		},
+		"phone": "+1 319-356-5213",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "5:00 PM - 7:30 PM",
+			"thursday": "",
+			"friday": "",
+			"saturday": "7:30 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.icgov.org/government/departments-and-divisions/parks-and-recreation/farmers-market",
+		"sponsored": false
+	},
+	{
+		"id": "116",
+		"title": "Cedar Rapids Downtown Farmers Market",
+		"description": "Award-winning market celebrating 20 years, rated 'Best in Class' by American Farmland Trust with 200 vendors and 12,000 weekly attendance.",
+		"longDescription": "<p>The Cedar Rapids Downtown Farmers Market is celebrating its 20th annual market season in 2025, featuring entertainment, food, and 200 amazing market vendors. Recognized as one of the largest and most popular open-air markets in the Midwest, this award-winning market has been rated 'Best in Class' Farmers Market by American Farmland Trust. Operating on select Saturday mornings in downtown Cedar Rapids, the market attracts an average of 12,000 visitors each week and features 200 local Iowa vendors offering fresh produce, flowers, meats, artisan gifts, live cooking demonstrations, musical performances, and a wide array of children's activities. The market operates twice monthly during the summer season, making it THE premier summer event in downtown Cedar Rapids.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "501 1st St SE",
+			"city": "Cedar Rapids",
+			"state": "Iowa",
+			"zip": "52401"
+		},
+		"phone": "+1 319-398-5009",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.cedarrapids.org/economic-alliance-events/downtown-farmers-market/",
+		"sponsored": false
+	},
+	{
+		"id": "117",
+		"title": "Dubuque Farmers Market",
+		"description": "Iowa's longest-running farmers market dating back to 1858, celebrating all things local for over 165 years.",
+		"longDescription": "<p>Experience Iowa's longest-running farmers market, which dates back to 1858 and has celebrated all things local for over 165 years. The Dubuque Farmers Market operates every Saturday morning from May through September, bringing together the community in historic Dubuque for fresh produce and local crafts. Visitors can find unique offerings like lavender lemonade, breakfast donut sandwiches, and locally made maple syrup, alongside traditional farmers market fare. This historic market has been a cornerstone of the Dubuque community for more than a century and a half, maintaining its commitment to supporting local farmers and artisans while providing residents and visitors with access to the finest local products the region has to offer.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "13th & Iowa St",
+			"city": "Dubuque",
+			"state": "Iowa",
+			"zip": "52001"
+		},
+		"phone": "+1 563-589-4263",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "7:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.cityofdubuque.org/1302/Farmers-Market",
+		"sponsored": false
+	},
+	{
+		"id": "118",
+		"title": "Sioux City Farmers Market",
+		"description": "Producer-only market connecting visitors with local rural family farms, featuring products grown by the person selling them.",
+		"longDescription": "<p>Connect with local, rural family farms at Sioux City's farmers market, held in the parking lot of the Tyson Events Center every Wednesday and Saturday from May through October. This true producer-only market ensures that all locally grown produce and handcrafted art are produced or grown by the person selling them, creating authentic connections between farmers and consumers. Visitors can purchase fresh, locally grown produce, handcrafted art, and enjoy an abundance of baked goods, all while supporting rural family farms in the Sioux City area. This community event celebrates its farmers and patrons, providing a genuine farm-to-market experience that highlights the agricultural heritage of western Iowa and the surrounding region.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "888 Line Dr",
+			"city": "Sioux City",
+			"state": "Iowa",
+			"zip": "51104"
+		},
+		"phone": "+1 712-279-4850",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "4:00 PM - 7:00 PM",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.siouxcityfarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "119",
+		"title": "Freight House Farmers Market",
+		"description": "Scenic Mississippi Riverfront market in Davenport featuring goods grown in the Mississippi Valley with gorgeous Iowa views.",
+		"longDescription": "<p>Featuring goods grown in the Mississippi Valley, the Freight House Farmers Market offers great produce along with some gorgeous Iowa views. Held each Wednesday, Saturday, and Sunday from May through October on the scenic Mississippi Riverfront in Davenport, visitors can find crafts, treats, and fresh produce including meat and eggs, as well as an abundance of tasty samples. The vendors switch out on the weekends so visitors can find something new each day they visit. This unique market combines the beauty of the Mississippi River setting with the bounty of the Mississippi Valley, creating a shopping experience that celebrates both the natural beauty of the region and the agricultural excellence of local farmers and artisans.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "421 W River Dr",
+			"city": "Davenport",
+			"state": "Iowa",
+			"zip": "52801"
+		},
+		"phone": "+1 563-322-4069",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "4:00 PM - 7:00 PM",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 1:00 PM",
+			"sunday": "10:00 AM - 2:00 PM"
+		},
+		"externalUrl": "https://www.freighthousefarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "120",
+		"title": "Clear Lake Farmers Market",
+		"description": "Northern Iowa's charming market at the historic Surf Ballroom with 25-45 local vendors and live music.",
+		"longDescription": "<p>Though small, the Clear Lake Farmers Market has a big selection of some of northern Iowa's best produce. Held in the historic Surf Ballroom's parking lot, this charming market features anywhere from 25 to 45 local vendors each Saturday from May through October. Visitors can find fresh produce alongside perennials, homemade soaps and candles, Iowa-made maple syrup, art, textiles, and jewelry. The market also features kids' activities and live music, creating a family-friendly atmosphere in the heart of Clear Lake. The unique setting at the legendary Surf Ballroom adds historical significance to this community gathering, making it both a shopping destination and a cultural experience that celebrates northern Iowa's agricultural and musical heritage.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "460 N Shore Dr",
+			"city": "Clear Lake",
+			"state": "Iowa",
+			"zip": "50428"
+		},
+		"phone": "+1 641-357-2159",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.clearlakeiowa.com/farmers-market",
+		"sponsored": false
+	},
+	{
+		"id": "121",
+		"title": "Grinnell Farmers Market",
+		"description": "100% producer market recognized as one of Iowa's largest small-community markets with Thursday evenings and Saturday mornings.",
+		"longDescription": "<p>Recognized as a 100% producer market, guests will find the freshest produce at Grinnell's farmers market. As one of Iowa's largest small-community markets, Grinnell's vendors offer fresh produce, baked goods, honey, jams, plants, and flowers, all produced by the vendors themselves. Operating both Thursday evenings and Saturday mornings from May through October, this market provides multiple opportunities each week for the community to support central Iowa's vendors. The 100% producer designation ensures that everything sold at the market is grown, made, or produced by the vendor selling it, guaranteeing authenticity and freshness while supporting local agriculture and small businesses in the Grinnell area.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "833 4th Ave",
+			"city": "Grinnell",
+			"state": "Iowa",
+			"zip": "50112"
+		},
+		"phone": "+1 641-236-6555",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "4:00 PM - 7:00 PM",
+			"friday": "",
+			"saturday": "8:00 AM - 11:00 AM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.grinnelliowa.gov/farmers-market",
+		"sponsored": false
 	}
 ]
