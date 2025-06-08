@@ -1823,5 +1823,805 @@
 		},
 		"externalUrl": "https://www.sarasotafarmersmarket.org/",
 		"sponsored": false
+	},
+	{
+		"id": "74",
+		"title": "Grant Park Farmers Market",
+		"description": "Award-winning Sunday market voted Best Farmers Market by Creative Loafing and Atlanta Magazine, featuring celebrity chef demonstrations.",
+		"longDescription": "<p>The Grant Park Farmers Market has been voted Best Farmers Market in Creative Loafing and Atlanta Magazine. This vibrant Sunday market features weekly free celebrity chef demonstrations with top chefs including Hugh Acheson, Kevin Gillespie, Steven Satterfield, and Virginia Willis. Located across from the Beacon ATL, the market offers locally-grown vegetables, meats, breads, and artisanal foods with plenty of seating and picnic areas for the community to enjoy.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "1040 Grant St SE",
+			"city": "Atlanta",
+			"state": "Georgia",
+			"zip": "30315"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": "9:00 AM - 1:00 PM"
+		},
+		"externalUrl": "https://cfmatl.org/grantpark/",
+		"sponsored": false
+	},
+	{
+		"id": "75",
+		"title": "Athens Farmers Market",
+		"description": "Year-round farmers market with two locations in Athens, featuring local, organic, and sustainable produce with live music and community events.",
+		"longDescription": "<p>The Athens Farmers Market operates year-round with two locations: Saturdays at Bishop Park and Wednesdays at Creature Comforts Brewing Co. Known for their commitment to local, organic, and sustainable practices, the market features live music at every market, children's activities, cooking demonstrations, and special events throughout the year. They offer SNAP matching programs and FARMRx produce prescription programs, providing over $50,000 of free produce to the community annually.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "705 Sunset Dr",
+			"city": "Athens",
+			"state": "Georgia",
+			"zip": "30606"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "5:00 PM - 8:00 PM",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "http://athensfarmersmarket.net/",
+		"sponsored": false
+	},
+	{
+		"id": "76",
+		"title": "Morningside Farmers Market",
+		"description": "Atlanta's first and only certified organic-only farmers market, serving the community since 1995 with high-quality organic produce and local goods.",
+		"longDescription": "<p>Established in 1995, the Morningside Farmers Market is Atlanta's first and only farmers market that requires all produce to be certified organic. Located at Morningside Presbyterian Church, this intimate community market prides itself on supporting local businesses and offering the highest quality food you can trust. All market produce is grown using organic practices or certified naturally grown, creating a family-friendly environment where neighbors can connect with local farmers and artisans.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "1411 N Morningside Dr NE",
+			"city": "Atlanta",
+			"state": "Georgia",
+			"zip": "30306"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 11:30 AM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.morningsidemarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "77",
+		"title": "East Atlanta Village Farmers Market",
+		"description": "One of Atlanta's longest-standing markets since 2006, offering fresh seasonal produce, organic meats, dairy, eggs, and artisan goods.",
+		"longDescription": "<p>Started in 2006, the East Atlanta Village Farmers Market is one of Atlanta's longest-standing markets. Located at 572 Stokeswood Avenue, this Thursday market offers fresh, seasonal produce, organic meats, dairy, eggs, artisan breads, and handmade goods like soaps and jewelry. The market features chef-led cooking demos that highlight local ingredients and flavors, and is easily accessible via MARTA bus lines. Open March through November, with parking available behind the pub or along Stokeswood Avenue.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "572 Stokeswood Ave",
+			"city": "Atlanta",
+			"state": "Georgia",
+			"zip": "30316"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "4:00 PM - 8:00 PM",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://cfmatl.org/eastatlanta/",
+		"sponsored": false
+	},
+	{
+		"id": "78",
+		"title": "Freedom Farmers Market",
+		"description": "Year-round Saturday market near the Jimmy Carter Presidential Library, bringing sustainably grown local foods to intown Atlanta for over a decade.",
+		"longDescription": "<p>Located outside the Jimmy Carter Presidential Library near Freedom Park, the Freedom Farmers Market has been bringing sustainably grown, local foods to intown Atlanta for more than a decade. Open year-round on Saturdays from 8:30 a.m. to noon, visitors will find fresh produce, dairy, grass-fed meats, handmade pasta, preserves, and baked goods. The market offers coffee and pastries while browsing and features live music. Accessible via walking or biking trails from Downtown to Little Five Points, Candler Park, and nearby MARTA bus lines.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "453 Freedom Parkway NE",
+			"city": "Atlanta",
+			"state": "Georgia",
+			"zip": "30307"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:30 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://cfmatl.org/freedom/",
+		"sponsored": false
+	},
+	{
+		"id": "79",
+		"title": "Emory Farmers Market",
+		"description": "University community market at McDonough Plaza bringing fresh, locally sourced produce and artisan goods to students, faculty, and visitors.",
+		"longDescription": "<p>The Emory Farmers Market brings fresh, locally sourced produce and artisan goods to the university community at McDonough Plaza. This market offers an opportunity for students, faculty, and visitors to connect with local vendors while enjoying a variety of seasonal fruits, vegetables, baked goods, and sustainable products. Located at the Cox Hall Pedestrian Bridge at 569 Asbury Circle, the market creates a vibrant community space on the Emory University campus.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "569 Asbury Circle",
+			"city": "Atlanta",
+			"state": "Georgia",
+			"zip": "30322"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "See website for seasonal hours",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://cfmatl.org/emory/",
+		"sponsored": false
+	},
+	{
+		"id": "80",
+		"title": "Downtown Valdosta Farm Days",
+		"description": "Producers-only farmers market in downtown Valdosta featuring local farmers and artisans in a vibrant community setting.",
+		"longDescription": "<p>Downtown Valdosta Farm Days is a producers-only farmers market that brings local farmers and artisans to downtown Valdosta. This market emphasizes direct relationships between consumers and the people who grow and make their products, ensuring freshness and supporting the local agricultural community. Located in the heart of downtown Valdosta, the market creates a vibrant community gathering space where residents can access fresh, locally produced goods while supporting regional farmers and food producers.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Downtown Valdosta",
+			"city": "Valdosta",
+			"state": "Georgia",
+			"zip": "31601"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "See website for seasonal hours",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.valdostamainstreet.com/farm-days",
+		"sponsored": false
+	},
+	{
+		"id": "81",
+		"title": "Oakhurst Farmers Market",
+		"description": "Community-focused farmers market in Decatur's Oakhurst neighborhood, part of the Community Farmers Markets network.",
+		"longDescription": "<p>The Oakhurst Farmers Market serves the Decatur community in the charming Oakhurst neighborhood. As part of the Community Farmers Markets network, this market focuses on building community connections while providing access to fresh, local produce and artisan goods. The market creates a welcoming space for neighbors to gather, shop for quality local products, and support regional farmers and food producers in a family-friendly environment.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Oakhurst Neighborhood",
+			"city": "Decatur",
+			"state": "Georgia",
+			"zip": "30030"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "See website for seasonal hours",
+			"sunday": ""
+		},
+		"externalUrl": "https://cfmatl.org/oakhurst/",
+		"sponsored": false
+	},
+	{
+		"id": "82",
+		"title": "KCC Farmers Market",
+		"description": "Award-winning farmers market at Kapiolani Community College, voted Best of Hawaii 2020 & 2021 by KITV4.",
+		"longDescription": "<p>The KCC Farmers Market at Kapiolani Community College is one of Hawaii's most celebrated farmers markets, winning Best of Hawaii awards in both 2020 and 2021 by KITV4. Located in the heart of Honolulu with stunning Diamond Head views, this Saturday market features over 100 vendors offering fresh local produce, prepared foods, flowers, and artisan goods. The market is known for its authentic Hawaii-grown products and vibrant community atmosphere. Free parking is available in lots A, C, and E.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "4303 Diamond Head Rd",
+			"city": "Honolulu",
+			"state": "Hawaii",
+			"zip": "96816"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "7:30 AM - 11:00 AM",
+			"sunday": ""
+		},
+		"externalUrl": "https://hfbf.org/farmers-markets/kcc/",
+		"sponsored": false
+	},
+	{
+		"id": "83",
+		"title": "Farm Lovers Kaka'ako Farmers Market",
+		"description": "Ranked #3 Best Farmers Market in the USA 2025 by USA Today, featuring Hawaii-grown products in downtown Honolulu.",
+		"longDescription": "<p>Farm Lovers Kaka'ako Farmers Market has achieved national recognition, being ranked #3 Best Farmers Market in the USA for 2025 by USA Today. Located in the vibrant Kaka'ako district of Honolulu, this Saturday market is the heartbeat of the community, offering an incredible selection of only Hawaii-grown products including fresh produce, flowers, plants, beef, pork, poultry, seafood, value-added products, and ready-to-eat foods. The market provides a truly authentic Hawaiian farmers market experience with local vendors and community atmosphere.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "919 & 1011 Ala Moana Blvd",
+			"city": "Honolulu",
+			"state": "Hawaii",
+			"zip": "96814"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.farmloversmarkets.com/",
+		"sponsored": false
+	},
+	{
+		"id": "84",
+		"title": "Hilo Farmers Market",
+		"description": "Big Island's premier farmers market open seven days a week, featuring local produce, prepared foods, and artisan goods.",
+		"longDescription": "<p>The Hilo Farmers Market is the Big Island's most popular farmers market, located at the corner of Mamo Street and Kamehameha Avenue in historic downtown Hilo overlooking Hilo Bay. Open seven days a week from 7:00 AM to 3:00 PM, the market features 'big market days' on Wednesdays and Saturdays with over 200 vendors, while smaller market days (Monday, Tuesday, Thursday, Friday, and Sunday) feature 20-30 vendors. Visitors can find fresh tropical fruits, vegetables, flowers, prepared foods, and local artisan goods. The market is famous for its variety of tropical fruits and authentic Hawaiian atmosphere.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Corner of Kamehameha Ave & Mamo St",
+			"city": "Hilo",
+			"state": "Hawaii",
+			"zip": "96720"
+		},
+		"phone": "+1 808-933-1000",
+		"hours": {
+			"monday": "7:00 AM - 3:00 PM",
+			"tuesday": "7:00 AM - 3:00 PM",
+			"wednesday": "7:00 AM - 3:00 PM",
+			"thursday": "7:00 AM - 3:00 PM",
+			"friday": "7:00 AM - 3:00 PM",
+			"saturday": "7:00 AM - 3:00 PM",
+			"sunday": "7:00 AM - 3:00 PM"
+		},
+		"externalUrl": "http://hilofarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "85",
+		"title": "Farm Lovers Pearlridge Market",
+		"description": "Saturday farmers market at Pearlridge Mall featuring Hawaii-grown products and local vendors.",
+		"longDescription": "<p>Farm Lovers Pearlridge Market is part of the award-winning Farm Lovers Markets network, located at Pearlridge Mall Wai Makai in Aiea. This Saturday market offers an authentic farmers market experience with only Hawaii-grown products including fresh produce, flowers, plants, beef, pork, poultry, seafood, value-added products, and ready-to-eat foods. The market provides convenient shopping for West Oahu residents and visitors, featuring local farmers and artisans in a family-friendly mall setting.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "98-180 Kamehameha Hwy",
+			"city": "Aiea",
+			"state": "Hawaii",
+			"zip": "96701"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.farmloversmarkets.com/",
+		"sponsored": false
+	},
+	{
+		"id": "86",
+		"title": "Farm Lovers Kailua Market",
+		"description": "Sunday farmers market in beautiful Kailua featuring Hawaii-grown products and beachside location.",
+		"longDescription": "<p>Farm Lovers Kailua Market brings the authentic farmers market experience to the beautiful windward side of Oahu. Located next to Adventist Health Castle in Kailua, this Sunday market features only Hawaii-grown products including fresh produce, flowers, plants, beef, pork, poultry, seafood, value-added products, and ready-to-eat foods. The market serves both locals and visitors to the famous Kailua Beach area, offering a perfect opportunity to shop for fresh local products while enjoying the scenic beauty of windward Oahu.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "640 Ulukahiki Street",
+			"city": "Kailua",
+			"state": "Hawaii",
+			"zip": "96734"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": "8:00 AM - 12:00 PM"
+		},
+		"externalUrl": "https://www.farmloversmarkets.com/",
+		"sponsored": false
+	},
+	{
+		"id": "87",
+		"title": "Farm Lovers Hale'iwa Market",
+		"description": "Thursday afternoon farmers market in historic Haleiwa featuring Hawaii-grown products and North Shore charm.",
+		"longDescription": "<p>Farm Lovers Hale'iwa Market brings the authentic farmers market experience to the historic North Shore town of Haleiwa. Located at the Waialua Community Association's Historic Haleiwa Gym, this Thursday afternoon market features only Hawaii-grown products including fresh produce, flowers, plants, beef, pork, poultry, seafood, value-added products, and ready-to-eat foods. The market serves the North Shore community and visitors exploring the famous surfing beaches, offering a unique opportunity to shop for fresh local products in one of Oahu's most charming towns.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "66-434 Kamehameha Highway",
+			"city": "Haleiwa",
+			"state": "Hawaii",
+			"zip": "96712"
+		},
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "2:00 PM - 6:00 PM",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.farmloversmarkets.com/",
+		"sponsored": false
+	},
+	{
+		"id": "88",
+		"title": "Mililani Farmers Market",
+		"description": "Hawaii Farm Bureau farmers market in Mililani featuring authentic Hawaii-grown products.",
+		"longDescription": "<p>The Mililani Farmers Market is operated by the Hawaii Farm Bureau Federation and features an incredible selection of only Hawaii-grown products including fresh produce, flowers, plants, beef, pork, poultry, seafood, value-added products, and ready-to-eat foods. Located in the planned community of Mililani in central Oahu, this market serves residents with authentic local products from Hawaii farmers and producers. The market emphasizes supporting local agriculture and providing fresh, quality products to the community.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "See website for location details",
+			"city": "Mililani",
+			"state": "Hawaii",
+			"zip": ""
+		},
+		"phone": "",
+		"hours": {
+			"monday": "See website for seasonal hours",
+			"tuesday": "See website for seasonal hours",
+			"wednesday": "See website for seasonal hours",
+			"thursday": "See website for seasonal hours",
+			"friday": "See website for seasonal hours",
+			"saturday": "See website for seasonal hours",
+			"sunday": "See website for seasonal hours"
+		},
+		"externalUrl": "https://hfbf.org/farmers-markets/",
+		"sponsored": false
+	},
+	{
+		"id": "89",
+		"title": "Honolulu Farmers Market",
+		"description": "Hawaii Farm Bureau farmers market in Honolulu featuring authentic Hawaii-grown products.",
+		"longDescription": "<p>The Honolulu Farmers Market is operated by the Hawaii Farm Bureau Federation and features an incredible selection of only Hawaii-grown products including fresh produce, flowers, plants, beef, pork, poultry, seafood, value-added products, and ready-to-eat foods. Located in Honolulu, this market serves the urban community with authentic local products from Hawaii farmers and producers. The market emphasizes supporting local agriculture and providing fresh, quality products to residents and visitors in the state capital.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "See website for location details",
+			"city": "Honolulu",
+			"state": "Hawaii",
+			"zip": ""
+		},
+		"phone": "",
+		"hours": {
+			"monday": "See website for seasonal hours",
+			"tuesday": "See website for seasonal hours",
+			"wednesday": "See website for seasonal hours",
+			"thursday": "See website for seasonal hours",
+			"friday": "See website for seasonal hours",
+			"saturday": "See website for seasonal hours",
+			"sunday": "See website for seasonal hours"
+		},
+		"externalUrl": "https://hfbf.org/farmers-markets/",
+		"sponsored": false
+	},
+	{
+		"id": "90",
+		"title": "Boise Farmers Market",
+		"description": "Idaho's premier farmers market featuring locally grown produce, artisan goods, and ready-to-eat foods in downtown Boise.",
+		"longDescription": "<p>The Boise Farmers Market supports a regenerative, healthy food and agricultural system by operating a vibrant marketplace featuring locally grown and crafted products. Located at 1500 Shoreline Drive, the market offers fresh local seasonal vegetables and fruit, many types of locally raised protein, breads and pastries, honey, jams and sauces, fresh-roasted coffee, and a delicious selection of ready-to-eat foods. Operating every Saturday from April through October, this market embodies their motto: 'Farmers you can trust, food you can trace.'</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "1500 Shoreline Dr",
+			"city": "Boise",
+			"state": "Idaho",
+			"zip": "83702"
+		},
+		"phone": "+1 208-608-7300",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "9:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://theboisefarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "91",
+		"title": "Nampa Farmers Market",
+		"description": "Award-winning farmers market voted Best in Idaho, 11th Best in America, and Best in the Pacific Region.",
+		"longDescription": "<p>The Nampa Farmers Market has been a cornerstone of downtown Nampa since 1989, operating every Saturday at Lloyd Square Park from April through November. This exceptional market has earned prestigious recognition as the Best Farmers Market in Idaho, ranked 11th Best in America, and Best in the Pacific Region. Everything at the market is sourced from within a 100-mile radius, ensuring the freshest local produce, handcrafted goods, and artisan foods. The market features online pre-ordering through the Reko app, making it convenient for customers to secure their favorite items from trusted local vendors.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "1100 1st St S",
+			"city": "Nampa",
+			"state": "Idaho",
+			"zip": "83651"
+		},
+		"phone": "+1 208-468-5555",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "9:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "http://nampafarmersmarket.com/",
+		"sponsored": false
+	},
+	{
+		"id": "92",
+		"title": "Moscow Farmers Market",
+		"description": "Nationally ranked farmers market, consistently placing in the top 25 in America and #1 in Idaho.",
+		"longDescription": "<p>The Moscow Farmers Market is a nationally recognized treasure, consistently ranking among the top 25 farmers markets in America and holding the #1 position in Idaho. In 2021, it achieved its best ranking as 8th Nationwide, 2nd in the Pacific Region, and 1st in Idaho. Located in downtown Moscow, this market has been serving the community for over a decade with fresh, locally-grown produce and artisan goods. The market operates year-round with seasonal schedules and has earned recognition from the American Farmland Trust for its exceptional quality and community impact.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "206 E 3rd St",
+			"city": "Moscow",
+			"state": "Idaho",
+			"zip": "83843"
+		},
+		"phone": "+1 208-883-7132",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://markets.farmland.org/market/moscow-farmers-market/",
+		"sponsored": false
+	},
+	{
+		"id": "93",
+		"title": "Idaho Falls Farmers Market",
+		"description": "Beloved local tradition offering fresh produce, meats, baked goods, and crafts every Saturday in Eastern Idaho.",
+		"longDescription": "<p>The Idaho Falls Farmers Market is a beloved local tradition that showcases the best of Eastern Idaho's harvest and creativity. Operating every Saturday, rain or shine, this vibrant market offers a bounty of fresh produce, locally-raised meats, artisan baked goods, handcrafted items, and much more. Visitors can meet the friendly faces behind the stalls, taste the authentic flavors of the region, and support the vibrant community of local growers and artisans. The market also hosts winter indoor markets from January to April, ensuring year-round access to local products.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "1515 E 17th St",
+			"city": "Idaho Falls",
+			"state": "Idaho",
+			"zip": "83404"
+		},
+		"phone": "+1 208-612-8230",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "9:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.idahofallsfarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "94",
+		"title": "Kootenai County Farmers Market - Hayden",
+		"description": "Northern Idaho's premier farmers market serving the community since 1986 with fresh, local, and sustainable products.",
+		"longDescription": "<p>Kootenai County Farmers Market has been serving northern Idaho since 1986, providing communities with fresh, locally-grown produce, sustainable meats, artisan cheeses, and handcrafted breads. The Saturday market in Hayden operates from May through October at the corner of Highway 95 and Prairie Avenue. This producer-only market specializes in vegetable, flower, and native plants along with an ever-changing array of local food products including meats, cheeses, bread, honey, and jams. The market also features the Power of Produce Club (PoP Club), a free program for children ages 5-12 designed to introduce them to healthy fruits and vegetables.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "SE Corner Hwy 95 & Prairie Ave",
+			"city": "Hayden",
+			"state": "Idaho",
+			"zip": "83835"
+		},
+		"phone": "+1 208-772-7912",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "9:00 AM - 1:30 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://kootenaifarmersmarkets.org/",
+		"sponsored": false
+	},
+	{
+		"id": "95",
+		"title": "Kootenai County Farmers Market - Coeur d'Alene",
+		"description": "Wednesday evening farmers market in the heart of Coeur d'Alene at the Village at Riverstone.",
+		"longDescription": "<p>The Wednesday Kootenai County Farmers Market brings fresh, local produce and artisan goods to the heart of Coeur d'Alene at the Village at Riverstone. Operating from May through September, this evening market from 4:00 PM to 7:00 PM offers a perfect opportunity for after-work shopping. The market features the same high-quality, locally-sourced products as its Saturday counterpart, including fresh vegetables, fruits, flowers, native plants, meats, cheeses, bread, honey, and handcrafted items. The scenic Riverstone location provides a beautiful backdrop for community gathering and supporting local agriculture.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "2151 N Main St",
+			"city": "Coeur d'Alene",
+			"state": "Idaho",
+			"zip": "83814"
+		},
+		"phone": "+1 208-772-7912",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "4:00 PM - 7:00 PM",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://kootenaifarmersmarkets.org/",
+		"sponsored": false
+	},
+	{
+		"id": "96",
+		"title": "Eagle Saturday Market",
+		"description": "Handmade market in downtown Eagle featuring local arts, crafts, produce, and specialty foods since 2002.",
+		"longDescription": "<p>Established in 2002, the Eagle Saturday Market is a beloved handmade market located in the heart of downtown Eagle at Eagle City Hall. Operating every Saturday from May through September (9:00 AM to 1:00 PM), this market showcases an impressive array of arts and crafts alongside local produce, herbs, flowers, woodwork, specialty food items, and freshly prepared foods. The market emphasizes handcrafted and locally-made products, creating a unique shopping experience that supports local artisans and farmers. Located at Eagle City Hall, the market provides convenient parking and easy access for visitors exploring downtown Eagle.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "660 E Civic Ln",
+			"city": "Eagle",
+			"state": "Idaho",
+			"zip": "83616"
+		},
+		"phone": "+1 208-939-6813",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "9:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.cityofeagle.org/170/Eagle-Saturday-Market",
+		"sponsored": false
+	},
+	{
+		"id": "97",
+		"title": "Payette Farmers Market",
+		"description": "Seasonal farmers market in Southwest Idaho offering local produce, baked goods, crafts, and artisan products.",
+		"longDescription": "<p>The Payette Farmers Market serves the Southwest Idaho community with a diverse selection of local and handmade products. Operating from July through September, this seasonal market offers fresh fruits and vegetables, baked goods, canned and preserved items, crafts and woodworking pieces, fresh and dried herbs, and locally-produced wine, spirits, and beer. The market provides an authentic small-town farmers market experience with plenty of on-site parking and a welcoming atmosphere. Rain or shine, the market continues to operate, demonstrating the dedication of local vendors and the community's commitment to supporting local agriculture and craftsmanship.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "1130 3rd Ave N",
+			"city": "Payette",
+			"state": "Idaho",
+			"zip": "83661"
+		},
+		"phone": "+1 208-642-2362",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "See website for seasonal hours",
+			"sunday": ""
+		},
+		"externalUrl": "https://payettechamber.com/farmers-market/",
+		"sponsored": false
+	},
+	{
+		"id": "98",
+		"title": "Logan Square Farmers Market",
+		"description": "Award-winning Chicago farmers market voted Best in Illinois by USA Today and Best Farmers Market by Chicago Reader.",
+		"longDescription": "<p>Since 2005, the Logan Square Farmers Market has been an open-air food market and weekly community gathering powered by the Logan Square Chamber of Commerce. This exceptional market has earned prestigious recognition, being honored as the Best Farmers Market in Illinois by USA Today in 2017 and voted 'Best Farmers' Market' in Chicago Reader's 'Best of Chicago 2019.' Operating every Sunday from May through October, the market features over 50 vendors offering fresh, local produce, artisanal foods, and handcrafted goods. Located on N. Kedzie Boulevard between Logan Boulevard and Fullerton Avenue, this vibrant market embodies the spirit of community and supports local agriculture and small businesses.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "N Kedzie Blvd between Logan Blvd & Fullerton Ave",
+			"city": "Chicago",
+			"state": "Illinois",
+			"zip": "60618"
+		},
+		"phone": "+1 773-489-3222",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": "8:30 AM - 3:00 PM"
+		},
+		"externalUrl": "https://www.logansquarefarmersmarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "99",
+		"title": "Green City Market - Lincoln Park",
+		"description": "Chicago's premier sustainable farmers market operating since 1999 with two locations in Lincoln Park and West Loop.",
+		"longDescription": "<p>Green City Market is Chicago's sustainable farmers market, nourishing the city since 1999. The Lincoln Park location operates year-round with outdoor markets every Saturday from 7:00 AM to 1:00 PM and Wednesdays from May through October at 1817 N Clark Street. This market is dedicated to making good food accessible to all, welcoming and triple matching SNAP benefits through their partnership with Link Up Illinois Program. Green City Market features the finest local farmers, sustainable producers, and artisan food makers, creating a vibrant marketplace that supports regenerative agriculture and builds community connections around fresh, local food.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "1817 N Clark St",
+			"city": "Chicago",
+			"state": "Illinois",
+			"zip": "60614"
+		},
+		"phone": "+1 773-880-1266",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "7:00 AM - 1:00 PM",
+			"thursday": "",
+			"friday": "",
+			"saturday": "7:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.greencitymarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "100",
+		"title": "Green City Market - West Loop",
+		"description": "West Loop location of Chicago's sustainable farmers market featuring local farmers and artisan food makers.",
+		"longDescription": "<p>Green City Market's West Loop location brings sustainable, local food to downtown Chicago every Saturday from 8:00 AM to 1:00 PM. Located at 900 W. Monroe Street, just north of Mary Bartelme Park, this market operates from May through November, providing convenient access to fresh, locally-sourced produce and artisan goods for downtown residents and workers. The market features the same commitment to sustainability and community as its Lincoln Park counterpart, supporting local farmers and food producers while making healthy, fresh food accessible to all through programs like SNAP benefit matching.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "900 W Monroe St",
+			"city": "Chicago",
+			"state": "Illinois",
+			"zip": "60607"
+		},
+		"phone": "+1 773-880-1266",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.greencitymarket.org/",
+		"sponsored": false
+	},
+	{
+		"id": "101",
+		"title": "Evanston Farmers Market",
+		"description": "Celebrating 50 years in 2025, this historic farmers market serves the North Shore with fresh local produce and community spirit.",
+		"longDescription": "<p>The Evanston Farmers Market celebrates its 50th anniversary in 2025, making it one of Illinois' most established and beloved farmers markets. Operating every Saturday from May 3 through November 1, the market runs from 7:30 AM to 1:00 PM with early access at 7:00 AM for seniors and adults with disabilities. Located at University Avenue and Oak Street behind the Hilton Garden Inn, this market features up to 58 Midwest vendors selling fresh fruits, vegetables, meat, dairy, baked goods, and artisan crafts. Free parking is available in the Maple Avenue garage with ticket validation, and accessible parking is provided on E Railroad Avenue.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "University Ave at Oak St",
+			"city": "Evanston",
+			"state": "Illinois",
+			"zip": "60201"
+		},
+		"phone": "+1 847-448-8045",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "7:30 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.cityofevanston.org/residents/farmers-market",
+		"sponsored": false
+	},
+	{
+		"id": "102",
+		"title": "Farmers Market+ at The Dole",
+		"description": "Award-winning Crystal Lake farmers market voted Best of the Fox Farmers Market 3 years in a row and most popular in Illinois.",
+		"longDescription": "<p>Farmers Market+ at The Dole in Crystal Lake has earned exceptional recognition, being voted 'Best of the Fox Farmers Market' for three consecutive years and named the most popular farmers market in Illinois by the American Farmland Trust and Farmers Market Coalition. Operating every Sunday from May 25 through October 26 (10:00 AM to 2:00 PM), this market is located on the front lawn of the historic Dole Mansion at 401 Country Club Road. The market features over 50 farmers, food purveyors, artisans, and food trucks, creating a vibrant community gathering that goes beyond a traditional farmers market with live acoustic music, local artists, and special events.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "401 Country Club Rd",
+			"city": "Crystal Lake",
+			"state": "Illinois",
+			"zip": "60014"
+		},
+		"phone": "+1 815-455-8000",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": "10:00 AM - 2:00 PM"
+		},
+		"externalUrl": "https://www.farmersmarketatthedole.org/",
+		"sponsored": false
+	},
+	{
+		"id": "103",
+		"title": "Old Capitol Farmers Market",
+		"description": "Springfield's longest-running farmers market operating twice weekly in the heart of downtown near the historic Old State Capitol.",
+		"longDescription": "<p>The Old Capitol Farmers Market, presented by HSHS St. John's, is Springfield's longest-running and most popular farmers market, operating in downtown Springfield near the historic Old State Capitol. The market runs twice weekly - Wednesdays and Saturdays from 8:00 AM to 12:00 PM - providing consistent access to fresh, local produce and artisan goods. Located at 4th and Adams Streets, this market has been a cornerstone of the Springfield community, connecting local farmers and producers with residents and visitors. The market features seasonal produce, baked goods, crafts, and specialty items, making it a vibrant hub of community activity in the heart of Illinois' capital city.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "4th & Adams St",
+			"city": "Springfield",
+			"state": "Illinois",
+			"zip": "62701"
+		},
+		"phone": "+1 217-544-1723",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "8:00 AM - 12:00 PM",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.facebook.com/OldCapitolFarmersMarket",
+		"sponsored": false
+	},
+	{
+		"id": "104",
+		"title": "Champaign Farmers Market",
+		"description": "Tuesday evening farmers market in the heart of Champaign featuring local produce, artisan goods, and community atmosphere.",
+		"longDescription": "<p>The Champaign Farmers Market brings fresh, local produce and artisan goods to the heart of Champaign every Tuesday from 3:00 PM to 6:00 PM. This evening market provides a perfect opportunity for after-work shopping and community gathering, featuring local farmers, bakers, and artisans from the Champaign-Urbana area. The market operates seasonally and focuses on connecting the university community and local residents with fresh, locally-grown produce and handcrafted goods. The convenient evening hours make it accessible for working families and students, creating a vibrant community atmosphere in downtown Champaign.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "Neil St & Church St",
+			"city": "Champaign",
+			"state": "Illinois",
+			"zip": "61820"
+		},
+		"phone": "+1 217-403-8800",
+		"hours": {
+			"monday": "",
+			"tuesday": "3:00 PM - 6:00 PM",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "",
+			"sunday": ""
+		},
+		"externalUrl": "https://champaignparks.com/facilities/farmers-market/",
+		"sponsored": false
+	},
+	{
+		"id": "105",
+		"title": "Peoria RiverFront Market",
+		"description": "Saturday morning farmers market along the Illinois River featuring local produce, artisan goods, and scenic riverfront location.",
+		"longDescription": "<p>The Peoria RiverFront Market operates every Saturday from 8:00 AM to 12:00 PM along the scenic Illinois River, providing a beautiful backdrop for shopping fresh, local produce and artisan goods. This market brings together local farmers, bakers, and craftspeople from central Illinois, creating a vibrant community gathering place in downtown Peoria. The riverfront location offers stunning views and a unique shopping experience, with vendors offering seasonal produce, baked goods, handcrafted items, and specialty foods. The market serves as both a source of fresh, local products and a community hub that celebrates Peoria's agricultural heritage and riverfront beauty.</p>",
+		"image": "/images/resources/image-soon.png",
+		"address": {
+			"street": "100 Water St",
+			"city": "Peoria",
+			"state": "Illinois",
+			"zip": "61602"
+		},
+		"phone": "+1 309-494-8900",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "8:00 AM - 12:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.peoriariverfrontmarket.com/",
+		"sponsored": false
 	}
 ]
