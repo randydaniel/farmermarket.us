@@ -237,11 +237,15 @@
 	</script>`}
 </svelte:head>
 
-<Hero align="center" background="/hero.png" backgroundMobile="/hero-mobile.png">
-	<h1 class="mb-2 text-2xl font-medium text-slate-950 mix-blend-difference md:text-4xl">
+<Hero align="center" background="/hero.avif" backgroundMobile="/hero-mobile.avif">
+	<h1
+		class="mb-2 text-2xl font-medium text-slate-50 mix-blend-difference text-shadow-lg text-shadow-slate-950 md:text-4xl"
+	>
 		Farmers Market Directory
 	</h1>
-	<p class="max-w-xl text-sm font-light text-slate-700 mix-blend-difference md:text-lg">
+	<p
+		class="max-w-xl text-sm font-light text-slate-100 mix-blend-difference text-shadow-md text-shadow-slate-950 md:text-lg"
+	>
 		Find fresh, local produce and artisanal goods in your area with market hours, locations, and
 		vendor information.
 	</p>

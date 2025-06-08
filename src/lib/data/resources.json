@@ -679,7 +679,7 @@
 		"title": "Ferry Plaza Farmers' Market",
 		"description": "Premier farmers' market at San Francisco's Ferry Building featuring local farmers, food artisans, and renowned chefs.",
 		"longDescription": "<p>The Ferry Plaza Farmers' Market is a triweekly California Certified Farmers Market operated by Foodwise at the San Francisco Ferry Building. Since 1993, the market has served as a crucial link between urban dwellers and local farmers, renowned for its diverse offering of delicious, high-quality products from California's cutting-edge sustainable growers, food makers, and chefs. With over 100 vendors on Saturdays and smaller weekday markets, it's a must-visit culinary destination in San Francisco.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/california/ferry-plaza-farmers-market.avif",
 		"address": {
 			"street": "1 Ferry Building",
 			"city": "San Francisco",
@@ -704,7 +704,7 @@
 		"title": "Hollywood Farmers' Market",
 		"description": "One of LA's largest and most diverse farmers' markets featuring over 160 farmers, food vendors, and artisans.",
 		"longDescription": "<p>The Hollywood Farmers' Market, founded in 1991, was one of just a few farmers' markets in all of California when it opened. Today, it's the largest in Los Angeles, hosting over 160 farmers, producers, food vendors, and artisans who specialize in a wide variety of crops grown seasonally around the state. Everyone from local families to Southern California's most respected chefs use the market for their weekly shopping. The market also features live music, activities for children, and book-signings by celebrated food authors.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/california/hollywood-farmers-market.avif",
 		"address": {
 			"street": "1600 Ivar Avenue",
 			"city": "Los Angeles",
@@ -729,7 +729,7 @@
 		"title": "The Original Farmers Market",
 		"description": "Historic Los Angeles landmark since 1934 with over 100 gourmet grocers, restaurants, and specialty shops.",
 		"longDescription": "<p>A favorite destination among locals and tourists since 1934, LA's world-famous Original Farmers Market offers over 100 gourmet grocers, restaurants, and specialty shops. Located at the corner of 3rd Street and Fairfax Avenue in the Fairfax District, this iconic market provides a diverse culinary experience with vendors offering everything from fresh produce to international cuisine. The market maintains its historic charm while serving as a vibrant community gathering place.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/california/original-farmers-market.avif",
 		"address": {
 			"street": "6333 W. 3rd Street",
 			"city": "Los Angeles",
@@ -754,7 +754,7 @@
 		"title": "Santa Monica Farmers' Market",
 		"description": "Premier farmers' market where top LA chefs source ingredients, featuring certified organic produce and street food.",
 		"longDescription": "<p>The Santa Monica Farmers' Market includes multiple markets throughout the week, with the Wednesday Downtown market established in 1981 and widely recognized as one of the largest and most diverse Certified Farmers Markets in the nation. Local residents, visitors, celebrities, and many of Los Angeles' best-known chefs shop at this location which features over 60 California farms. The Saturday market, established in 1991, presents the largest percentage of certified organic growers of Santa Monica's four markets with over 40 farm stands.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/california/santa-monica-farmers-market.avif",
 		"address": {
 			"street": "155-199 Arizona Avenue",
 			"city": "Santa Monica",
@@ -779,7 +779,7 @@
 		"title": "Hillcrest Farmers Market",
 		"description": "San Diego's vibrant market with over 175 vendors offering locally grown produce, artisan foods, and crafts.",
 		"longDescription": "<p>The Hillcrest Farmers Market in San Diego features over 175 vendors offering a wide variety of locally grown produce, gifts, arts and crafts, flowers, and clothing. Located on University Avenue between Herbert Street and Park Boulevard, this Sunday market has become a community institution. The market is open year-round, rain or shine, from 9am to 2pm, making it a perfect weekend destination for both locals and visitors looking for fresh, locally-sourced products.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/california/hillcrest-farmers-market.avif",
 		"address": {
 			"street": "1601 University Avenue",
 			"city": "San Diego",
@@ -804,7 +804,7 @@
 		"title": "Marin Farmers' Market",
 		"description": "One of California's largest farmers' markets featuring local farmers, ranchers, and artisans in a scenic Frank Lloyd Wright setting.",
 		"longDescription": "<p>The Marin Farmers' Market at the Marin Civic Center includes two weekly markets. The Sunday market, with over 150 year-round vendors, is the third largest weekly market in California, offering organic produce, grass-fed meats, hand-crafted baked goods, and local artisans. The Thursday market, known as the \"Chef's Market,\" is frequented by local restaurateurs and food producers looking to source their ingredients. Both markets are nestled in the hills of the Marin County Civic Center—Frank Lloyd Wright's largest and final public project.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/california/marin-farmers-market.avif",
 		"address": {
 			"street": "3501 Civic Center Drive",
 			"city": "San Rafael",
@@ -829,7 +829,7 @@
 		"title": "Sacramento Sunday Farmers' Market",
 		"description": "One of the largest certified farmers' markets in California featuring fresh produce, exotic ingredients, and local specialties.",
 		"longDescription": "<p>The Sacramento Sunday Farmers' Market is one of the largest certified farmers' markets in California, located at the intersection of W and 8th streets in downtown Sacramento. Open year-round from 8am to noon, this market offers a taste experience that ranges from the exotic to the familiar, with fresh Thai lemongrass, black Spanish radishes, and Tokyo turnips sitting right next to fat tomatoes, mounds of juicy berries, and takeaway treats like fresh pastries and golden waffles. The market accepts EBT and provides a vibrant community gathering space.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/california/sacramento-sunday-farmers-market.avif",
 		"address": {
 			"street": "8th & W Streets",
 			"city": "Sacramento",
@@ -854,7 +854,7 @@
 		"title": "San Luis Obispo Farmers' Market",
 		"description": "Vibrant Thursday evening market with over 100 vendors, famous BBQ, live entertainment, and fresh local produce.",
 		"longDescription": "<p>The Downtown SLO Farmers' Market is San Luis Obispo's signature event, taking place every Thursday from 6-9 PM on Higuera Street. This five-block market features over 100 vendors offering fresh produce, famous BBQ, delicious meals, crafts, baked goods, and entertainment. The event is anchored by a collection of massive circular barbecue setups, and the aroma of sizzling pork shoulder, ribs, chicken, lamb, and tri-tip—as well as batches of artichokes and corn on the cob—will wake up any appetite. It's a popular destination for both locals and visitors.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/california/san-luis-obispo-farmers-market.avif",
 		"address": {
 			"street": "Higuera Street",
 			"city": "San Luis Obispo",
@@ -879,7 +879,7 @@
 		"title": "Davis Farmers Market",
 		"description": "Award-winning market in a university town featuring local produce, artisan foods, and popular Picnic in the Park events.",
 		"longDescription": "<p>The Davis Farmers Market, established in the heart of this university town, is consistently voted Best Fresh Produce and Best Community Event in The Davis Enterprise's Readers' Choice Awards. Located in Central Park, the market offers an array of fruits and vegetables, including certified organic produce, choice meats, chicken, seafood, wine, local eggs and honey, fresh-baked goods, plants, flowers and gifts. The Wednesday evening Picnic in the Park (mid-March through October) features wine and beer tastings, global food booths, local bands, and pony rides, making it a favorite community gathering spot.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/california/davis-farmers-market.avif",
 		"address": {
 			"street": "301 C Street",
 			"city": "Davis",
@@ -904,7 +904,7 @@
 		"title": "The Vegetable Shop at Chino Family Farm",
 		"description": "Legendary farm stand known for exceptional quality produce sought after by top chefs and food enthusiasts.",
 		"longDescription": "<p>The Vegetable Shop at Chino Family Farm in Rancho Santa Fe is a legendary produce destination that has been championed by renowned chefs like Alice Waters and Wolfgang Puck. Opened on a 45-acre plot of land by Junzo and Hatsuyo Chino at the close of World War II, this farm stand sells only produce grown on the family farm. The shop is known for exceptional quality, unique varieties like French strawberries, and unusual offerings such as strawberry figs, red carrots, and watermelon radishes. It's a must-visit for food enthusiasts seeking the finest quality seasonal produce in Southern California.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/california/chino-family-farm.avif",
 		"address": {
 			"street": "6123 Calzada Del Bosque",
 			"city": "Rancho Santa Fe",
