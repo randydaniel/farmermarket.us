@@ -19,7 +19,7 @@ const entries = [
 	'/sitemap.xml',
 	...resources
 		.filter((resource) => resource.address && resource.address.state)
-		.map((resource) => `/${resource.address.state.toLowerCase()}/${slugify(resource.title)}`)
+		.map((resource) => `/${slugify(resource.address.state)}/${slugify(resource.title)}`)
 ];
 
 module.exports = { entries };

@@ -12,7 +12,7 @@
 	$: ({ resource, siteUrl } = data);
 
 	// Generate the canonical URL using the site URL from load function
-	$: canonicalUrl = `${siteUrl}/${resource.address.state.toLowerCase()}/${slugify(resource.title)}`;
+	$: canonicalUrl = `${siteUrl}/${slugify(resource.address.state)}/${slugify(resource.title)}`;
 
 	// Randomize ad on component mount (for individual resource pages)
 	let randomAd: CustomAd | null = null;
