@@ -18,7 +18,7 @@ export const config = {
 			{
 				id: 'custom-og',
 				image: '/ads/custom-og.png',
-				url: 'customog.com?ref=hqdirectory'
+				url: 'https://customog.com?ref=hqdirectory'
 			}
 		],
 		// Google Ads configuration (for future use)
