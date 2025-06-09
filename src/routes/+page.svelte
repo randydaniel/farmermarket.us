@@ -155,20 +155,38 @@
 		window.scrollTo({ top: 0, behavior: 'smooth' });
 	}
 
-	$: filteredResources = searchActive
-		? allResources.filter((r) => {
-				const q = searchQuery.toLowerCase();
-				return (
-					r.title.toLowerCase().includes(q) ||
-					r.description.toLowerCase().includes(q) ||
-					r.address.state.toLowerCase().includes(q)
-				);
-			})
-		: selectedCategory
-			? allResources.filter(
-					(r) => String(r.address.state).trim() === String(selectedCategory).trim()
-				)
-			: allResources;
+	function shuffle(array) {
+		for (let i = array.length - 1; i > 0; i--) {
+			const j = Math.floor(Math.random() * (i + 1));
+			[array[i], array[j]] = [array[j], array[i]];
+		}
+		return array;
+	}
+
+	$: filteredResources = (() => {
+		let filtered = searchActive
+			? allResources.filter((r) => {
+					const q = searchQuery.toLowerCase();
+					return (
+						r.title.toLowerCase().includes(q) ||
+						r.description.toLowerCase().includes(q) ||
+						r.address.state.toLowerCase().includes(q)
+					);
+				})
+			: selectedCategory
+				? allResources.filter(
+						(r) => String(r.address.state).trim() === String(selectedCategory).trim()
+					)
+				: [...allResources];
+
+		// Shuffle first
+		filtered = shuffle(filtered);
+
+		// Sponsored first, but keep shuffled order within groups
+		filtered.sort((a, b) => (b.sponsored === true) - (a.sponsored === true));
+
+		return filtered;
+	})();
 
 	$: totalPages = Math.ceil(filteredResources.length / itemsPerPage);
 	$: paginatedResources = filteredResources.slice(
