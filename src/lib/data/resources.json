@@ -929,7 +929,7 @@
 		"title": "Boulder Farmers Market",
 		"description": "Producer-only market with the longest season in Colorado, offering specialty foods, a food court, and acoustic entertainment.",
 		"longDescription": "<p>The popular Boulder Farmers Market boasts the longest season in Colorado, running from April to mid-November. Find out-of-the-ordinary goods such as specialty chocolate, goat milk and crayfish, along with a full food court and acoustic entertainment. Don't miss Masa Seed Foundation, which focuses on growing bio-regional seed banks for local and national distribution. The market is producer-only, meaning all vendors must grow or produce what they sell.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/colorado/boulder-farmers-market.avif",
 		"address": {
 			"street": "13th Street between Arapahoe Ave & Canyon Boulevard",
 			"city": "Boulder",
@@ -954,7 +954,7 @@
 		"title": "Cherry Creek Fresh Market",
 		"description": "Denver's largest farmers market offering local produce, artisan products, and gourmet cuisine in an upscale shopping district.",
 		"longDescription": "<p>Denver's largest farmers market offers a colorful mix of beautiful flowers from local farmers, local produce, artisan products and delicious cuisine, plus all the high-end shopping your heart (and wallet) can handle. Many food businesses and food-related causes have started here, so if you're looking for the next best gourmet treat, chances are you'll find it at this market! Located on the east side of the Cherry Creek Shopping Center, the market is open rain, snow, or shine and offers free validated parking.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/colorado/cherry-creek-fresh-market.avif",
 		"address": {
 			"street": "Cherry Creek Shopping Center, East Side",
 			"city": "Denver",
@@ -979,7 +979,7 @@
 		"title": "Vail Farmers' Market and Art Show",
 		"description": "Colorado's largest farmers market with 155+ tents offering local produce, international cuisine, art, and live music in scenic Vail Village.",
 		"longDescription": "<p>The largest farmers market in Colorado offers 155+ tents packed with garden goodies, regional fare, international cuisines, art, wellness products and home goods. Add the live music, huge roasted turkey legs, Mexican street corn and kids play areas, and the Sunday market resembles a (very stylish) county fair. Located in beautiful Vail Village, the market runs from Father's Day through early October, creating a vibrant community gathering space for locals and visitors alike.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/colorado/vail-farmers-market.avif",
 		"address": {
 			"street": "E. Meadow Drive",
 			"city": "Vail",
@@ -1004,7 +1004,7 @@
 		"title": "South Pearl Street Farmers Market",
 		"description": "A highly curated neighborhood market with a loyal following, featuring Western Slope produce, food trucks, and regular special events.",
 		"longDescription": "<p>This highly curated neighborhood market has a loyal following of vendors and visitors that all add to the unique personality of this community. In addition to juicy late-summer Western Slope peaches and apples, baked treats, kombuchas, cacti and food truck offerings that make your mouth water, each Sunday brings live music as well as special events including a pet fair, flea market, chili cook-off and Halloween parade. The market is open rain, snow or shine and all holidays.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/colorado/south-pearl-street-farmers-market.avif",
 		"address": {
 			"street": "1400 & 1500 blocks of South Pearl Street",
 			"city": "Denver",
@@ -1029,7 +1029,7 @@
 		"title": "Alamosa Farmers' Market",
 		"description": "San Luis Valley market featuring local dairy, meat, and produce, with a focus on food assistance programs and cooking demonstrations.",
 		"longDescription": "<p>San Luis Valley dairy and meat producers offer home-crafted cheeses and grass-fed beef, lamb and yak at the Alamosa Farmers' Market. Nibble samples from valley growers and score Colorado recipes and tips at free cooking demos. The open-air roasted chiles are a must-try. The market also participates in the Double Up Food Bucks program, which matches SNAP benefits to help more community members access fresh, local food.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/colorado/alamosa-farmers-market.avif",
 		"address": {
 			"street": "Corner of Ross and 6th Street",
 			"city": "Alamosa",
@@ -1054,7 +1054,7 @@
 		"title": "Crested Butte Farmers Market",
 		"description": "Mountain market offering wild-caught fish, local dairy, and seasonal harvest suppers sourced entirely from local foods.",
 		"longDescription": "<p>In addition to wild-caught fish, ciders, wines and massages, this mountain market brings visitors a genuine field-to-fork experience with seasonal harvest suppers. The meals are sourced entirely from local foods, down to the table salt. If you can't experience the harvest supper, make sure to bring some goodies home from Laz Ewe 2 Bar Goat Dairy, like its yak cheese. Located at the Top of Elk Avenue in downtown Crested Butte, this market showcases the best of Colorado's mountain agriculture.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/colorado/crested-butte-farmers-market.avif",
 		"address": {
 			"street": "Top of Elk Avenue (100 and Zero Blocks)",
 			"city": "Crested Butte",
@@ -1079,7 +1079,7 @@
 		"title": "Dillon Farmers Market",
 		"description": "Lakeside market featuring artistic glass jewelry, handmade pottery, boutique soaps, cheeses, pastries, and live music.",
 		"longDescription": "<p>Located in Town Park, this lakeside bazaar features artistic glass jewelry, handmade pottery, boutique soaps, cheeses, pastries and a full line-up of live music to boot. Grab a fresh-squeezed lemonade and some walnut cranberry bread, then explore Lake Dillon on a historical boat tour with departures from Dillon Marina. The market is home to over 100 vendors and offers yoga sessions every Friday morning for a suggested donation.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/colorado/dillon-farmers-market.avif",
 		"address": {
 			"street": "Town Park along Buffalo and LaBonte Streets",
 			"city": "Dillon",
@@ -1104,7 +1104,7 @@
 		"title": "Telluride Farmers Market",
 		"description": "Organic market in downtown Telluride featuring high-quality local produce, animal products, and artisan crafts from within 100 miles.",
 		"longDescription": "<p>Telluride keeps the jovial vibe alive at its market with free music and presentations, along with pottery, clothing and woodcraft vendors. The market's goal is to not only provide the community with high-quality, locally produced food and artisan craft, but also create a space where customers come face-to-face with the hardworking producers and crafters. All goods are produced within 100 miles of Telluride, ensuring a truly local shopping experience in the heart of this beautiful mountain town.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/colorado/telluride-farmers-market.avif",
 		"address": {
 			"street": "South Oak Street",
 			"city": "Telluride",
@@ -1129,7 +1129,7 @@
 		"title": "Colorado Springs Farmers' Markets",
 		"description": "Multiple market locations throughout Colorado Springs offering fresh produce, artisan goods, and community events.",
 		"longDescription": "<p>Colorado Springs Farmer's Markets runs more than a dozen summer markets, from the Backyard Market to Monument to Woodland Park, all filled with fine artisan goods as well as organic produce, infused vinegars, pet treats and wellness products. The Briargate location operates on Wednesdays, while the Cordera market runs on Sundays, giving shoppers multiple opportunities to find fresh, local products throughout the week. With an average of about 35 vendors at each location, you can look forward to seeing many booths including local produce, dairy, honey, baked goods, and crafts.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/colorado/colorado-springs-farmers-market.avif",
 		"address": {
 			"street": "7610 North Union Blvd",
 			"city": "Colorado Springs",
@@ -1154,7 +1154,7 @@
 		"title": "Durango Farmers Market",
 		"description": "Local market in southwest Colorado featuring fresh produce, artisan foods, and handcrafted goods from the region.",
 		"longDescription": "<p>Located in the beautiful mountain town of Durango, this market offers a wide variety of locally grown produce, artisan foods, and handcrafted goods. The market has a strong community focus and provides a platform for local farmers and producers to connect directly with consumers. Running from May through October at the TBK Bank location, the Durango Farmers Market has become a Saturday morning tradition for locals and visitors alike, showcasing the agricultural bounty of southwest Colorado.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/colorado/durango-farmers-market.avif",
 		"address": {
 			"street": "259 W 9th St (TBK Bank)",
 			"city": "Durango",
