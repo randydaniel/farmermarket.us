@@ -53,7 +53,7 @@
 		"id": "3",
 		"title": "Peach Park",
 		"description": "Down-home farm eatery offering traditional American dishes & desserts, plus a market & gift shop.",
-		"longDescription": "<p>Peach Park in Clanton, Alabama, is a beloved destination for locals and travelers alike. Known for its fresh peaches, homemade ice cream (especially their signature cantaloupe ice cream), and classic Southern fare like BBQ sandwiches and fried chicken, Peach Park also features a market, bakery, boutique, and gift shop. The park offers a spacious outdoor area with picnic tables, a playground for kids, a goldfish pond, and shaded spots for relaxing. With a welcoming, family-friendly atmosphere, Peach Park is perfect for a meal, a sweet treat, or picking up local produce and unique gifts. The staff is known for outstanding service, and the park is open year-round. <a href='https://peach-park.site/' target='_blank' rel='noopener'>Learn more</a>.</p>",
+		"longDescription": "<p>Peach Park in Clanton, Alabama, is a beloved destination for locals and travelers alike. Known for its fresh peaches, homemade ice cream (especially their signature cantaloupe ice cream), and classic Southern fare like BBQ sandwiches and fried chicken.</p><p>Peach Park also features a market, bakery, boutique, and gift shop. The park offers a spacious outdoor area with picnic tables, a playground for kids, a goldfish pond, and shaded spots for relaxing.</p><p>With a welcoming, family-friendly atmosphere, Peach Park is perfect for a meal, a sweet treat, or picking up local produce and unique gifts.</p><p>The staff is known for outstanding service, and the park is open year-round. <a href='https://peach-park.site/' target='_blank' rel='noopener'>Learn more</a>.</p>",
 		"image": "/images/resources/alabama/peach-park.avif",
 		"address": {
 			"street": "2300 7th St S",
@@ -78,7 +78,7 @@
 		"id": "4",
 		"title": "Durbin Farms Market",
 		"description": "Farm market and restaurant offering fresh Chilton County peaches, homemade ice cream, sandwiches, produce, gifts, and more.",
-		"longDescription": "<p>Durbin Farms Market in Clanton, Alabama, is a must-stop destination for travelers and locals alike. Famous for their homegrown Chilton County peaches, the market also features homemade hand-scooped ice cream, a full restaurant menu, fresh produce, jams, jellies, preserves, and a boutique gift shop. Enjoy sandwiches, fried pies, and Southern treats in a family-friendly setting with indoor and outdoor seating. Dogs are welcome at the picnic tables outside. Shop for local honey, sauces, and unique gifts, or pre-order peaches online. Open daily, Durbin Farms Market is a true taste of Alabama hospitality.</p>",
+		"longDescription": "<p>Durbin Farms Market in Clanton, Alabama, is a must-stop destination for travelers and locals alike. Famous for their homegrown Chilton County peaches, the market also features homemade hand-scooped ice cream, a full restaurant menu, fresh produce, jams, jellies, preserves, and a boutique gift shop.</p><p>Enjoy sandwiches, fried pies, and Southern treats in a family-friendly setting with indoor and outdoor seating. Dogs are welcome at the picnic tables outside.</p><p>Shop for local honey, sauces, and unique gifts, or pre-order peaches online.</p><p>Open daily, Durbin Farms Market is a true taste of Alabama hospitality.</p>",
 		"image": "/images/resources/alabama/durbin-farms-market.avif",
 		"address": {
 			"street": "2130 7th St S",
@@ -128,7 +128,7 @@
 		"id": "6",
 		"title": "Orrville Farmers Market",
 		"description": "Local market offering fresh produce, artisan foods, jar goods, snacks, home and garden items, and gifts in Orrville, Alabama.",
-		"longDescription": "<p>The Orrville Farmers Market connects consumers with locally grown, fresh produce, artisan foods, agricultural products, and prepared foods. The market also features jar goods, snacks, home and garden items, gifts, and health and beauty products. Enjoy breakfast and lunch service, and shop for Alabama peanuts, preserves, and more. The market fosters relationships between farmers and customers, cultivating community and loyalty.</p>",
+		"longDescription": "<p>The Orrville Farmers Market connects consumers with locally grown, fresh produce, artisan foods, agricultural products, and prepared foods.</p><p>The market also features jar goods, snacks, home and garden items, gifts, and health and beauty products.</p><p>Enjoy breakfast and lunch service, and shop for Alabama peanuts, preserves, and more.</p><p>The market fosters relationships between farmers and customers, cultivating community and loyalty.</p>",
 		"image": "/images/resources/alabama/orrville-farmers-market.avif",
 		"address": {
 			"street": "14560 Main Street",
