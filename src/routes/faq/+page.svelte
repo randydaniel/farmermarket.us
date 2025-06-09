@@ -76,7 +76,7 @@
 	<title>FAQ | {config.siteName}</title>
 	<meta
 		name="description"
-		content="Frequently asked questions about our resource directory. Find answers to common questions about our curated collection of tools and resources."
+		content="Frequently asked questions from our directory of farmers markets across America. Find fresh, local produce and artisanal goods in your area with market hours, locations, and vendor information."
 	/>
 	<meta
 		name="keywords"
@@ -88,7 +88,7 @@
 	<meta property="og:title" content="FAQ | {config.siteName}" />
 	<meta
 		property="og:description"
-		content="Frequently asked questions about our resource directory. Find answers to common questions about our curated collection of tools and resources."
+		content="Frequently asked questions from our directory of farmers markets across America. Find fresh, local produce and artisanal goods in your area with market hours, locations, and vendor information."
 	/>
 
 	<!-- Twitter -->
@@ -96,7 +96,7 @@
 	<meta property="twitter:title" content="FAQ | {config.siteName}" />
 	<meta
 		property="twitter:description"
-		content="Frequently asked questions about our resource directory. Find answers to common questions about our curated collection of tools and resources."
+		content="Frequently asked questions from our directory of farmers markets across America. Find fresh, local produce and artisanal goods in your area with market hours, locations, and vendor information."
 	/>
 </svelte:head>
 
