@@ -166,7 +166,7 @@
 		</div>
 
 		<!-- Action button -->
-		<div class="mb-2 flex-shrink-0 md:mb-0">
+		<div class="my-2 flex-shrink-0 md:mb-0">
 			<Button
 				variant="primary"
 				size="md"
