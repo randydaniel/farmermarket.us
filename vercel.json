@@ -1,4 +1,11 @@
 {
+	"redirects": [
+		{
+			"source": "/directory/arizona/amadio-ranch",
+			"destination": "/arizona/amadio-ranch",
+			"permanent": true
+		}
+	],
 	"rewrites": [
 		{
 			"source": "/(.*)",
