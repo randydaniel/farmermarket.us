@@ -1804,7 +1804,7 @@
 		"title": "Grant Park Farmers Market",
 		"description": "Award-winning Sunday market voted Best Farmers Market by Creative Loafing and Atlanta Magazine, featuring celebrity chef demonstrations.",
 		"longDescription": "<p>The Grant Park Farmers Market has been voted Best Farmers Market in Creative Loafing and Atlanta Magazine. This vibrant Sunday market features weekly free celebrity chef demonstrations with top chefs including Hugh Acheson, Kevin Gillespie, Steven Satterfield, and Virginia Willis. Located across from the Beacon ATL, the market offers locally-grown vegetables, meats, breads, and artisanal foods with plenty of seating and picnic areas for the community to enjoy.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/georgia/grant-park-farmers-market.avif",
 		"address": {
 			"street": "1040 Grant St SE",
 			"city": "Atlanta",
@@ -1829,7 +1829,7 @@
 		"title": "Athens Farmers Market",
 		"description": "Year-round farmers market with two locations in Athens, featuring local, organic, and sustainable produce with live music and community events.",
 		"longDescription": "<p>The Athens Farmers Market operates year-round with two locations: Saturdays at Bishop Park and Wednesdays at Creature Comforts Brewing Co. Known for their commitment to local, organic, and sustainable practices, the market features live music at every market, children's activities, cooking demonstrations, and special events throughout the year. They offer SNAP matching programs and FARMRx produce prescription programs, providing over $50,000 of free produce to the community annually.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/georgia/athens-farmers-market.avif",
 		"address": {
 			"street": "705 Sunset Dr",
 			"city": "Athens",
@@ -1854,7 +1854,7 @@
 		"title": "Morningside Farmers Market",
 		"description": "Atlanta's first and only certified organic-only farmers market, serving the community since 1995 with high-quality organic produce and local goods.",
 		"longDescription": "<p>Established in 1995, the Morningside Farmers Market is Atlanta's first and only farmers market that requires all produce to be certified organic. Located at Morningside Presbyterian Church, this intimate community market prides itself on supporting local businesses and offering the highest quality food you can trust. All market produce is grown using organic practices or certified naturally grown, creating a family-friendly environment where neighbors can connect with local farmers and artisans.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/georgia/morningside-farmers-market.avif",
 		"address": {
 			"street": "1411 N Morningside Dr NE",
 			"city": "Atlanta",
@@ -1879,7 +1879,7 @@
 		"title": "East Atlanta Village Farmers Market",
 		"description": "One of Atlanta's longest-standing markets since 2006, offering fresh seasonal produce, organic meats, dairy, eggs, and artisan goods.",
 		"longDescription": "<p>Started in 2006, the East Atlanta Village Farmers Market is one of Atlanta's longest-standing markets. Located at 572 Stokeswood Avenue, this Thursday market offers fresh, seasonal produce, organic meats, dairy, eggs, artisan breads, and handmade goods like soaps and jewelry. The market features chef-led cooking demos that highlight local ingredients and flavors, and is easily accessible via MARTA bus lines. Open March through November, with parking available behind the pub or along Stokeswood Avenue.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/georgia/east-atlanta-village-farmers-market.avif",
 		"address": {
 			"street": "572 Stokeswood Ave",
 			"city": "Atlanta",
@@ -1904,7 +1904,7 @@
 		"title": "Freedom Farmers Market",
 		"description": "Year-round Saturday market near the Jimmy Carter Presidential Library, bringing sustainably grown local foods to intown Atlanta for over a decade.",
 		"longDescription": "<p>Located outside the Jimmy Carter Presidential Library near Freedom Park, the Freedom Farmers Market has been bringing sustainably grown, local foods to intown Atlanta for more than a decade. Open year-round on Saturdays from 8:30 a.m. to noon, visitors will find fresh produce, dairy, grass-fed meats, handmade pasta, preserves, and baked goods. The market offers coffee and pastries while browsing and features live music. Accessible via walking or biking trails from Downtown to Little Five Points, Candler Park, and nearby MARTA bus lines.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/georgia/freedom-farmers-market.avif",
 		"address": {
 			"street": "453 Freedom Parkway NE",
 			"city": "Atlanta",
@@ -1929,7 +1929,7 @@
 		"title": "Emory Farmers Market",
 		"description": "University community market at McDonough Plaza bringing fresh, locally sourced produce and artisan goods to students, faculty, and visitors.",
 		"longDescription": "<p>The Emory Farmers Market brings fresh, locally sourced produce and artisan goods to the university community at McDonough Plaza. This market offers an opportunity for students, faculty, and visitors to connect with local vendors while enjoying a variety of seasonal fruits, vegetables, baked goods, and sustainable products. Located at the Cox Hall Pedestrian Bridge at 569 Asbury Circle, the market creates a vibrant community space on the Emory University campus.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/georgia/emory-farmers-market.avif",
 		"address": {
 			"street": "569 Asbury Circle",
 			"city": "Atlanta",
@@ -1954,7 +1954,7 @@
 		"title": "Downtown Valdosta Farm Days",
 		"description": "Producers-only farmers market in downtown Valdosta featuring local farmers and artisans in a vibrant community setting.",
 		"longDescription": "<p>Downtown Valdosta Farm Days is a producers-only farmers market that brings local farmers and artisans to downtown Valdosta. This market emphasizes direct relationships between consumers and the people who grow and make their products, ensuring freshness and supporting the local agricultural community. Located in the heart of downtown Valdosta, the market creates a vibrant community gathering space where residents can access fresh, locally produced goods while supporting regional farmers and food producers.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/georgia/downtown-valdosta-farm-days.avif",
 		"address": {
 			"street": "Downtown Valdosta",
 			"city": "Valdosta",
@@ -1979,7 +1979,7 @@
 		"title": "Oakhurst Farmers Market",
 		"description": "Community-focused farmers market in Decatur's Oakhurst neighborhood, part of the Community Farmers Markets network.",
 		"longDescription": "<p>The Oakhurst Farmers Market serves the Decatur community in the charming Oakhurst neighborhood. As part of the Community Farmers Markets network, this market focuses on building community connections while providing access to fresh, local produce and artisan goods. The market creates a welcoming space for neighbors to gather, shop for quality local products, and support regional farmers and food producers in a family-friendly environment.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/georgia/oakhurst-farmers-market.avif",
 		"address": {
 			"street": "Oakhurst Neighborhood",
 			"city": "Decatur",
