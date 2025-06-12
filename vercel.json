@@ -4,6 +4,11 @@
 			"source": "/directory/arizona/amadio-ranch",
 			"destination": "/arizona/amadio-ranch",
 			"permanent": true
+		},
+		{
+			"source": "/directory/:state/:slug",
+			"destination": "/:state/:slug",
+			"permanent": true
 		}
 	],
 	"rewrites": [
