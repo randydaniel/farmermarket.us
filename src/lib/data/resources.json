@@ -2004,7 +2004,7 @@
 		"title": "KCC Farmers Market",
 		"description": "Award-winning farmers market at Kapiolani Community College, voted Best of Hawaii 2020 & 2021 by KITV4.",
 		"longDescription": "<p>The KCC Farmers Market at Kapiolani Community College is one of Hawaii's most celebrated farmers markets, winning Best of Hawaii awards in both 2020 and 2021 by KITV4. Located in the heart of Honolulu with stunning Diamond Head views, this Saturday market features over 100 vendors offering fresh local produce, prepared foods, flowers, and artisan goods. The market is known for its authentic Hawaii-grown products and vibrant community atmosphere. Free parking is available in lots A, C, and E.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/hawaii/kcc-farmers-market.avif",
 		"address": {
 			"street": "4303 Diamond Head Rd",
 			"city": "Honolulu",
@@ -2029,7 +2029,7 @@
 		"title": "Farm Lovers Kaka'ako Farmers Market",
 		"description": "Ranked #3 Best Farmers Market in the USA 2025 by USA Today, featuring Hawaii-grown products in downtown Honolulu.",
 		"longDescription": "<p>Farm Lovers Kaka'ako Farmers Market has achieved national recognition, being ranked #3 Best Farmers Market in the USA for 2025 by USA Today. Located in the vibrant Kaka'ako district of Honolulu, this Saturday market is the heartbeat of the community, offering an incredible selection of only Hawaii-grown products including fresh produce, flowers, plants, beef, pork, poultry, seafood, value-added products, and ready-to-eat foods. The market provides a truly authentic Hawaiian farmers market experience with local vendors and community atmosphere.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/hawaii/farm-lovers-kakaako-farmers-market.avif",
 		"address": {
 			"street": "919 & 1011 Ala Moana Blvd",
 			"city": "Honolulu",
@@ -2054,7 +2054,7 @@
 		"title": "Hilo Farmers Market",
 		"description": "Big Island's premier farmers market open seven days a week, featuring local produce, prepared foods, and artisan goods.",
 		"longDescription": "<p>The Hilo Farmers Market is the Big Island's most popular farmers market, located at the corner of Mamo Street and Kamehameha Avenue in historic downtown Hilo overlooking Hilo Bay. Open seven days a week from 7:00 AM to 3:00 PM, the market features 'big market days' on Wednesdays and Saturdays with over 200 vendors, while smaller market days (Monday, Tuesday, Thursday, Friday, and Sunday) feature 20-30 vendors. Visitors can find fresh tropical fruits, vegetables, flowers, prepared foods, and local artisan goods. The market is famous for its variety of tropical fruits and authentic Hawaiian atmosphere.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/hawaii/hilo-farmers-market.avif",
 		"address": {
 			"street": "Corner of Kamehameha Ave & Mamo St",
 			"city": "Hilo",
@@ -2079,7 +2079,7 @@
 		"title": "Farm Lovers Pearlridge Market",
 		"description": "Saturday farmers market at Pearlridge Mall featuring Hawaii-grown products and local vendors.",
 		"longDescription": "<p>Farm Lovers Pearlridge Market is part of the award-winning Farm Lovers Markets network, located at Pearlridge Mall Wai Makai in Aiea. This Saturday market offers an authentic farmers market experience with only Hawaii-grown products including fresh produce, flowers, plants, beef, pork, poultry, seafood, value-added products, and ready-to-eat foods. The market provides convenient shopping for West Oahu residents and visitors, featuring local farmers and artisans in a family-friendly mall setting.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/hawaii/farm-lovers-pearlridge-market.avif",
 		"address": {
 			"street": "98-180 Kamehameha Hwy",
 			"city": "Aiea",
@@ -2104,7 +2104,7 @@
 		"title": "Farm Lovers Kailua Market",
 		"description": "Sunday farmers market in beautiful Kailua featuring Hawaii-grown products and beachside location.",
 		"longDescription": "<p>Farm Lovers Kailua Market brings the authentic farmers market experience to the beautiful windward side of Oahu. Located next to Adventist Health Castle in Kailua, this Sunday market features only Hawaii-grown products including fresh produce, flowers, plants, beef, pork, poultry, seafood, value-added products, and ready-to-eat foods. The market serves both locals and visitors to the famous Kailua Beach area, offering a perfect opportunity to shop for fresh local products while enjoying the scenic beauty of windward Oahu.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/hawaii/farm-lovers-kailua-market.avif",
 		"address": {
 			"street": "640 Ulukahiki Street",
 			"city": "Kailua",
@@ -2129,7 +2129,7 @@
 		"title": "Farm Lovers Hale'iwa Market",
 		"description": "Thursday afternoon farmers market in historic Haleiwa featuring Hawaii-grown products and North Shore charm.",
 		"longDescription": "<p>Farm Lovers Hale'iwa Market brings the authentic farmers market experience to the historic North Shore town of Haleiwa. Located at the Waialua Community Association's Historic Haleiwa Gym, this Thursday afternoon market features only Hawaii-grown products including fresh produce, flowers, plants, beef, pork, poultry, seafood, value-added products, and ready-to-eat foods. The market serves the North Shore community and visitors exploring the famous surfing beaches, offering a unique opportunity to shop for fresh local products in one of Oahu's most charming towns.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/hawaii/farm-lovers-haleiwa-market.avif",
 		"address": {
 			"street": "66-434 Kamehameha Highway",
 			"city": "Haleiwa",
@@ -2154,7 +2154,7 @@
 		"title": "Mililani Farmers Market",
 		"description": "Hawaii Farm Bureau farmers market in Mililani featuring authentic Hawaii-grown products.",
 		"longDescription": "<p>The Mililani Farmers Market is operated by the Hawaii Farm Bureau Federation and features an incredible selection of only Hawaii-grown products including fresh produce, flowers, plants, beef, pork, poultry, seafood, value-added products, and ready-to-eat foods. Located in the planned community of Mililani in central Oahu, this market serves residents with authentic local products from Hawaii farmers and producers. The market emphasizes supporting local agriculture and providing fresh, quality products to the community.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/hawaii/mililani-farmers-market.avif",
 		"address": {
 			"street": "See website for location details",
 			"city": "Mililani",
@@ -2179,7 +2179,7 @@
 		"title": "Honolulu Farmers Market",
 		"description": "Hawaii Farm Bureau farmers market in Honolulu featuring authentic Hawaii-grown products.",
 		"longDescription": "<p>The Honolulu Farmers Market is operated by the Hawaii Farm Bureau Federation and features an incredible selection of only Hawaii-grown products including fresh produce, flowers, plants, beef, pork, poultry, seafood, value-added products, and ready-to-eat foods. Located in Honolulu, this market serves the urban community with authentic local products from Hawaii farmers and producers. The market emphasizes supporting local agriculture and providing fresh, quality products to residents and visitors in the state capital.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/hawaii/honolulu-farmers-market.avif",
 		"address": {
 			"street": "See website for location details",
 			"city": "Honolulu",
