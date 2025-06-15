@@ -2404,7 +2404,7 @@
 		"title": "Logan Square Farmers Market",
 		"description": "Award-winning Chicago farmers market voted Best in Illinois by USA Today and Best Farmers Market by Chicago Reader.",
 		"longDescription": "<p>Since 2005, the Logan Square Farmers Market has been an open-air food market and weekly community gathering powered by the Logan Square Chamber of Commerce. This exceptional market has earned prestigious recognition, being honored as the Best Farmers Market in Illinois by USA Today in 2017 and voted 'Best Farmers' Market' in Chicago Reader's 'Best of Chicago 2019.' Operating every Sunday from May through October, the market features over 50 vendors offering fresh, local produce, artisanal foods, and handcrafted goods. Located on N. Kedzie Boulevard between Logan Boulevard and Fullerton Avenue, this vibrant market embodies the spirit of community and supports local agriculture and small businesses.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/illinois/logan-square-farmers-market.avif",
 		"address": {
 			"street": "N Kedzie Blvd between Logan Blvd & Fullerton Ave",
 			"city": "Chicago",
@@ -2429,7 +2429,7 @@
 		"title": "Green City Market - Lincoln Park",
 		"description": "Chicago's premier sustainable farmers market operating since 1999 with two locations in Lincoln Park and West Loop.",
 		"longDescription": "<p>Green City Market is Chicago's sustainable farmers market, nourishing the city since 1999. The Lincoln Park location operates year-round with outdoor markets every Saturday from 7:00 AM to 1:00 PM and Wednesdays from May through October at 1817 N Clark Street. This market is dedicated to making good food accessible to all, welcoming and triple matching SNAP benefits through their partnership with Link Up Illinois Program. Green City Market features the finest local farmers, sustainable producers, and artisan food makers, creating a vibrant marketplace that supports regenerative agriculture and builds community connections around fresh, local food.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/illinois/green-city-market-lincoln-park.avif",
 		"address": {
 			"street": "1817 N Clark St",
 			"city": "Chicago",
@@ -2454,7 +2454,7 @@
 		"title": "Green City Market - West Loop",
 		"description": "West Loop location of Chicago's sustainable farmers market featuring local farmers and artisan food makers.",
 		"longDescription": "<p>Green City Market's West Loop location brings sustainable, local food to downtown Chicago every Saturday from 8:00 AM to 1:00 PM. Located at 900 W. Monroe Street, just north of Mary Bartelme Park, this market operates from May through November, providing convenient access to fresh, locally-sourced produce and artisan goods for downtown residents and workers. The market features the same commitment to sustainability and community as its Lincoln Park counterpart, supporting local farmers and food producers while making healthy, fresh food accessible to all through programs like SNAP benefit matching.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/illinois/green-city-market-west-loop.avif",
 		"address": {
 			"street": "900 W Monroe St",
 			"city": "Chicago",
@@ -2479,7 +2479,7 @@
 		"title": "Evanston Farmers Market",
 		"description": "Celebrating 50 years in 2025, this historic farmers market serves the North Shore with fresh local produce and community spirit.",
 		"longDescription": "<p>The Evanston Farmers Market celebrates its 50th anniversary in 2025, making it one of Illinois' most established and beloved farmers markets. Operating every Saturday from May 3 through November 1, the market runs from 7:30 AM to 1:00 PM with early access at 7:00 AM for seniors and adults with disabilities. Located at University Avenue and Oak Street behind the Hilton Garden Inn, this market features up to 58 Midwest vendors selling fresh fruits, vegetables, meat, dairy, baked goods, and artisan crafts. Free parking is available in the Maple Avenue garage with ticket validation, and accessible parking is provided on E Railroad Avenue.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/illinois/evanston-farmers-market.avif",
 		"address": {
 			"street": "University Ave at Oak St",
 			"city": "Evanston",
@@ -2504,7 +2504,7 @@
 		"title": "Farmers Market+ at The Dole",
 		"description": "Award-winning Crystal Lake farmers market voted Best of the Fox Farmers Market 3 years in a row and most popular in Illinois.",
 		"longDescription": "<p>Farmers Market+ at The Dole in Crystal Lake has earned exceptional recognition, being voted 'Best of the Fox Farmers Market' for three consecutive years and named the most popular farmers market in Illinois by the American Farmland Trust and Farmers Market Coalition. Operating every Sunday from May 25 through October 26 (10:00 AM to 2:00 PM), this market is located on the front lawn of the historic Dole Mansion at 401 Country Club Road. The market features over 50 farmers, food purveyors, artisans, and food trucks, creating a vibrant community gathering that goes beyond a traditional farmers market with live acoustic music, local artists, and special events.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/illinois/farmers-market-the-dole.avif",
 		"address": {
 			"street": "401 Country Club Rd",
 			"city": "Crystal Lake",
@@ -2529,7 +2529,7 @@
 		"title": "Old Capitol Farmers Market",
 		"description": "Springfield's longest-running farmers market operating twice weekly in the heart of downtown near the historic Old State Capitol.",
 		"longDescription": "<p>The Old Capitol Farmers Market, presented by HSHS St. John's, is Springfield's longest-running and most popular farmers market, operating in downtown Springfield near the historic Old State Capitol. The market runs twice weekly - Wednesdays and Saturdays from 8:00 AM to 12:00 PM - providing consistent access to fresh, local produce and artisan goods. Located at 4th and Adams Streets, this market has been a cornerstone of the Springfield community, connecting local farmers and producers with residents and visitors. The market features seasonal produce, baked goods, crafts, and specialty items, making it a vibrant hub of community activity in the heart of Illinois' capital city.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/illinois/old-capitol-farmers-market.avif",
 		"address": {
 			"street": "4th & Adams St",
 			"city": "Springfield",
@@ -2554,7 +2554,7 @@
 		"title": "Champaign Farmers Market",
 		"description": "Tuesday evening farmers market in the heart of Champaign featuring local produce, artisan goods, and community atmosphere.",
 		"longDescription": "<p>The Champaign Farmers Market brings fresh, local produce and artisan goods to the heart of Champaign every Tuesday from 3:00 PM to 6:00 PM. This evening market provides a perfect opportunity for after-work shopping and community gathering, featuring local farmers, bakers, and artisans from the Champaign-Urbana area. The market operates seasonally and focuses on connecting the university community and local residents with fresh, locally-grown produce and handcrafted goods. The convenient evening hours make it accessible for working families and students, creating a vibrant community atmosphere in downtown Champaign.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/illinois/champaign-farmers-market.avif",
 		"address": {
 			"street": "Neil St & Church St",
 			"city": "Champaign",
@@ -2579,7 +2579,7 @@
 		"title": "Peoria RiverFront Market",
 		"description": "Saturday morning farmers market along the Illinois River featuring local produce, artisan goods, and scenic riverfront location.",
 		"longDescription": "<p>The Peoria RiverFront Market operates every Saturday from 8:00 AM to 12:00 PM along the scenic Illinois River, providing a beautiful backdrop for shopping fresh, local produce and artisan goods. This market brings together local farmers, bakers, and craftspeople from central Illinois, creating a vibrant community gathering place in downtown Peoria. The riverfront location offers stunning views and a unique shopping experience, with vendors offering seasonal produce, baked goods, handcrafted items, and specialty foods. The market serves as both a source of fresh, local products and a community hub that celebrates Peoria's agricultural heritage and riverfront beauty.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/illinois/peoria-riverfront-market.avif",
 		"address": {
 			"street": "100 Water St",
 			"city": "Peoria",
