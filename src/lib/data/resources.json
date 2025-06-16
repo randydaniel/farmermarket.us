@@ -2604,7 +2604,7 @@
 		"title": "Broad Ripple Farmers Market",
 		"description": "Indiana's largest farmers market operating year-round since 1994 with 80+ vendors outdoors and 60+ vendors indoors.",
 		"longDescription": "<p>Supporting farmers since 1994, the Broad Ripple Farmers Market is the largest in Indiana and operates year-round with exceptional community support. The market features 80+ local vendors operating outdoors from May to October, and 60+ vendors indoors from November to April. Located in the vibrant Broad Ripple Cultural District, visitors can shop for the freshest, tastiest food of the season including farm-fresh fruits and vegetables, eggs, meat, fish, cheese, groceries, flowers, and plants. The market always features live music, breakfast foods and drinks, and a comfortable seating area. As a non-profit organization, the market participates in the SNAP program and serves as a vital community gathering place.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/indiana/broad-ripple-farmers-market.avif",
 		"address": {
 			"street": "6001 N Rural St",
 			"city": "Indianapolis",
@@ -2629,7 +2629,7 @@
 		"title": "Carmel Farmers Market",
 		"description": "Indiana's #1 farmers market celebrating 27 years with over 80 vendors offering the finest grown and produced products from Indiana.",
 		"longDescription": "<p>Welcome to the Carmel Farmers Market, proudly celebrating its 27th year as Indiana's #1 farmers market. Located at Carter Green, this exceptional market features over 80 of Indiana's best vendors offering the freshest and finest grown and produced products from across the state. Operating every Saturday from May through September (8:00 AM to 11:30 AM), the market prioritizes food safety with every vendor carefully researched and evaluated before joining. Presented by IU Health North Hospital, the market is more than just shopping—it's a family and community gathering event featuring weekly musical talent, breakfast options, and a welcoming atmosphere where visitors can 'Get Fresh on Saturday!'</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/indiana/carmel-farmers-market.avif",
 		"address": {
 			"street": "1 Civic Sq",
 			"city": "Carmel",
@@ -2654,7 +2654,7 @@
 		"title": "Fishers Farmers Market",
 		"description": "Ranked 6th in Indiana by American Farmland Trust, this dog-friendly market features 80+ vendors and free weekly activities.",
 		"longDescription": "<p>The Fishers Farmers Market, presented by IU Health Fishers, is ranked 6th in the state by the American Farmland Trust: Farmers Market Coalition and has become a growing success year after year. Operating every Saturday from 8:00 AM to noon (May through September) at the Nickel Plate District Amphitheater in downtown Fishers, this market features more than 80 juried vendors specializing in food and plants. As one of the only dog-friendly markets in the North Indianapolis area, it caters to all visitors young, old, and furry. Each morning kicks off with free yoga or fitness, features live music from local musicians, and includes hands-on interactive activities for children. The market hosts specialty themed days throughout the season including Health & Wellness Expo, Nonprofit Day, and Biz Kids Day.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/indiana/fishers-farmers-market.avif",
 		"address": {
 			"street": "6 Municipal Dr",
 			"city": "Fishers",
@@ -2679,7 +2679,7 @@
 		"title": "Zionsville Farmers Market",
 		"description": "Historic main street farmers market established in 1997, celebrating over 25 years of bringing fresh local produce to the community.",
 		"longDescription": "<p>The Zionsville Farmers Market was established in 1997 by volunteers who saw an opportunity to bring fresh, local produce to the Zionsville community. Since then, it has grown into a staple of Zionsville summers, operating every Saturday from 8:00 AM to 11:30 AM (May 17 through September 27). Located at the corner of Main Street and Pine on historic main street, this market provides more than just groceries—it's a community gathering spot where people come together, share stories, and enjoy local music while shopping for fresh and healthy food. The market features a diverse group of vendors offering produce, baked goods, and freshly prepared food, and operates rain or shine with live entertainment throughout the season.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/indiana/zionsville-farmers-market.avif",
 		"address": {
 			"street": "Corner of Main St & Pine St",
 			"city": "Zionsville",
@@ -2704,7 +2704,7 @@
 		"title": "Original Farmers Market at Indianapolis City Market",
 		"description": "One of central Indiana's longest-running farmers markets, operating downtown on Monument Circle since the historic City Market era.",
 		"longDescription": "<p>The Original Farmers Market at Indianapolis City Market is one of central Indiana's longest-running farmers markets, perfectly situated in the heart of the Midwest where Indianapolis farmers offer outstanding produce, dairy products, meats, and more. Operating every Wednesday from 10:00 AM to 1:30 PM (May 7 through September 24) on Monument Circle in downtown Indianapolis, this market brings fresh, in-season foods selected at their peak directly to downtown employees and residents. The market features fruits and vegetables, meats and cheeses, baked goods, and unique spices and herbs from local growers dedicated to providing the freshest foods available. The market participates in SNAP with dollar-for-dollar matching through the Fresh Bucks program.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/indiana/original-farmers-market.avif",
 		"address": {
 			"street": "Monument Circle",
 			"city": "Indianapolis",
@@ -2729,7 +2729,7 @@
 		"title": "Chesterton's European Market",
 		"description": "Northwest Indiana's premier artisan market featuring vendors from Indiana, Michigan, and Illinois in historic downtown Chesterton.",
 		"longDescription": "<p>Chesterton's European Market is a vibrant artisan market that brings together quality vendors, live entertainment, and a welcoming community atmosphere every Saturday from May through October (8:00 AM to 2:00 PM). Located at Broadway and Third Street in historic downtown Chesterton, just two miles south of the Indiana Dunes at Lake Michigan, this market features talented artists, chefs, merchants, and farmers from Indiana, Michigan, and Illinois. Visitors can discover artisan breads and pastries, boutique creamery cheeses, gourmet foods, locally crafted art, fresh meats and spices, clothing and accessories, handcrafted jewelry, and farm-fresh produce and flowers. The market includes live performances from Duneland's finest musicians and promotes healthy, sustainable lifestyles within the community.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/indiana/chesterton-european-market.avif",
 		"address": {
 			"street": "Broadway & 3rd St",
 			"city": "Chesterton",
@@ -2754,7 +2754,7 @@
 		"title": "Garfield Park Farmers Market",
 		"description": "Indianapolis neighborhood farmers market featuring around three dozen vendors with organic honey, meats, and artisan breads.",
 		"longDescription": "<p>The Garfield Park Farmers Market serves the Indianapolis community with a focused selection of high-quality vendors, typically featuring around three dozen carefully curated vendors. This neighborhood market specializes in organic honey, organic meats, artisan breads, and fresh local produce, creating an intimate shopping experience that emphasizes quality over quantity. Located in the historic Garfield Park area, this market provides a community-focused atmosphere where shoppers can develop personal relationships with local farmers and artisans. The market operates seasonally and has become a beloved destination for Indianapolis residents seeking authentic, locally-sourced products in a welcoming neighborhood setting.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/indiana/garfield-park-farmers-market.avif",
 		"address": {
 			"street": "2345 Pagoda Dr",
 			"city": "Indianapolis",
@@ -2779,7 +2779,7 @@
 		"title": "Pike Farmers Market",
 		"description": "Indianapolis community farmers market serving the Pike Township area with fresh local produce and artisan goods.",
 		"longDescription": "<p>The Pike Farmers Market serves the Pike Township area of Indianapolis, providing the community with access to fresh, locally-grown produce and artisan goods. This market operates seasonally and focuses on connecting local farmers and food producers with residents of northwest Indianapolis. The market features a variety of vendors offering seasonal fruits and vegetables, baked goods, honey, and handcrafted items, creating a vibrant community gathering place. Operating with a commitment to supporting local agriculture and small businesses, the Pike Farmers Market has become an important part of the Pike Township community, offering residents convenient access to fresh, healthy food options while supporting the local economy.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/indiana/pike-farmers-market.avif",
 		"address": {
 			"street": "6701 Zionsville Rd",
 			"city": "Indianapolis",
