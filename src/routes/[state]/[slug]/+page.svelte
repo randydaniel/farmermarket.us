@@ -4,12 +4,28 @@
 	import { config } from '$lib/config';
 	import Button from '$lib/components/ui/Button.svelte';
 	import Ad from '$lib/components/ui/Ad.svelte';
+	import Breadcrumbs from '$lib/components/ui/Breadcrumbs.svelte';
 	import { getRandomAd } from '$lib/utils/ads';
 	import type { CustomAd } from '$lib/utils/ads';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
 	$: ({ resource, siteUrl } = data);
+
+	// Generate breadcrumb items
+	$: breadcrumbItems = resource
+		? [
+				{ label: 'Home', href: '/' },
+				{
+					label: resource.address.state,
+					href: `/${slugify(resource.address.state)}`
+				},
+				{
+					label: resource.title,
+					current: true
+				}
+			]
+		: [];
 
 	// Generate the canonical URL using the site URL from load function
 	$: canonicalUrl = `${siteUrl}/${slugify(resource.address.state)}/${slugify(resource.title)}`;
@@ -114,6 +130,11 @@
 </svelte:head>
 
 <main class="container mx-auto max-w-[900px] px-4 py-12 xl:px-0 xl:py-24">
+	<!-- Breadcrumbs -->
+	{#if resource}
+		<Breadcrumbs items={breadcrumbItems} />
+	{/if}
+
 	<!-- Image section -->
 	<div class="mb-8">
 		<div class="relative overflow-hidden rounded-xl bg-slate-100">
