@@ -11,7 +11,6 @@
 	import type { CustomAd } from '$lib/utils/ads';
 	import { page } from '$app/stores';
 	import { goto } from '$app/navigation';
-	import { slugify } from '$lib/utils/slugify';
 	import {
 		Rocket,
 		Snowflake,
@@ -59,6 +58,7 @@
 		MagnifyingGlass,
 		X
 	} from 'phosphor-svelte';
+	import { slugify } from '$lib/utils/slugify';
 
 	const filters = [
 		{ label: 'Alabama', icon: Rocket, state: 'Alabama' },
