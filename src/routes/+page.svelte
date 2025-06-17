@@ -306,8 +306,16 @@
 </FilterBar>
 
 <section class="container mx-auto px-4 py-12 xl:px-0">
-	<h2 class="mb-6 text-xl font-semibold">
+	<h2 class="mb-6 flex items-center gap-2 text-xl font-semibold">
 		{searchActive ? `Results for "${searchQuery}"` : selectedLabel}
+		{#if selectedState}
+			<button
+				on:click={() => (selectedState = '')}
+				class="cursor-pointer text-sm text-blue-600 underline"
+			>
+				(Clear)
+			</button>
+		{/if}
 	</h2>
 	{#if paginatedResources.length > 0}
 		<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
