@@ -141,7 +141,11 @@
 	$: if (searchQuery !== undefined) currentPage = 1;
 
 	function selectFilter(state: string) {
-		goto(`/${slugify(state)}`);
+		if (selectedState === state) {
+			goto('/');
+		} else {
+			goto(`/${slugify(state)}`);
+		}
 	}
 
 	$: filteredResources = (() => {

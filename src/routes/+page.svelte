@@ -65,6 +65,7 @@
 	import { slugify } from '$lib/utils/slugify';
 	import TabGroup from '$lib/components/ui/TabGroup.svelte';
 	import ResourceMap from '$lib/components/ui/ResourceMap.svelte';
+	import { page } from '$app/stores';
 
 	// Example: filter options as an array
 	const filters = [
@@ -122,7 +123,6 @@
 
 	const allResources = resources;
 
-	let selectedState = '';
 	let currentPage = 1;
 	const itemsPerPage = 20;
 
@@ -135,6 +135,9 @@
 	let searchMode = false;
 	let searchQuery = '';
 	let searchInput: HTMLInputElement | null = null;
+
+	// Reactive selectedState based on URL params (similar to [state] page)
+	$: selectedState = filters.find((f) => slugify(f.state) === $page.params.state)?.state || '';
 
 	function clearSearch() {
 		searchQuery = '';
@@ -149,7 +152,12 @@
 	}
 
 	function selectFilter(state: string) {
-		goto(`/${slugify(state)}`);
+		// If the clicked state is already selected, deselect it by going to homepage
+		if (selectedState === state) {
+			goto('/');
+		} else {
+			goto(`/${slugify(state)}`);
+		}
 	}
 
 	function handlePageChange(page: number) {
