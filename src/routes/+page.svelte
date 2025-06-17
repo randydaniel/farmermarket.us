@@ -64,61 +64,61 @@
 
 	// Example: filter options as an array
 	const filters = [
-		{ label: 'Alabama', icon: Rocket, category: 'Alabama' },
-		{ label: 'Alaska', icon: Snowflake, category: 'Alaska' },
-		{ label: 'Arizona', icon: Cactus, category: 'Arizona' },
-		{ label: 'Arkansas', icon: Diamond, category: 'Arkansas' },
-		{ label: 'California', icon: Sun, category: 'California' },
-		{ label: 'Colorado', icon: Mountains, category: 'Colorado' },
-		{ label: 'Connecticut', icon: Anchor, category: 'Connecticut' },
-		{ label: 'Delaware', icon: Bank, category: 'Delaware' },
-		{ label: 'Florida', icon: TreePalm, category: 'Florida' },
-		{ label: 'Georgia', icon: Tree, category: 'Georgia' },
-		{ label: 'Hawaii', icon: Island, category: 'Hawaii' },
-		{ label: 'Idaho', icon: Circle, category: 'Idaho' },
-		{ label: 'Illinois', icon: Buildings, category: 'Illinois' },
-		{ label: 'Indiana', icon: FlagCheckered, category: 'Indiana' },
-		{ label: 'Iowa', icon: Acorn, category: 'Iowa' },
-		{ label: 'Kansas', icon: Wind, category: 'Kansas' },
-		{ label: 'Kentucky', icon: Horse, category: 'Kentucky' },
-		{ label: 'Louisiana', icon: MusicNotes, category: 'Louisiana' },
-		{ label: 'Maine', icon: Shrimp, category: 'Maine' },
-		{ label: 'Maryland', icon: Fish, category: 'Maryland' },
-		{ label: 'Massachusetts', icon: GraduationCap, category: 'Massachusetts' },
-		{ label: 'Michigan', icon: Car, category: 'Michigan' },
-		{ label: 'Minnesota', icon: Waves, category: 'Minnesota' },
-		{ label: 'Mississippi', icon: Waves, category: 'Mississippi' },
-		{ label: 'Missouri', icon: Bridge, category: 'Missouri' },
-		{ label: 'Montana', icon: Tent, category: 'Montana' },
-		{ label: 'Nebraska', icon: Leaf, category: 'Nebraska' },
-		{ label: 'Nevada', icon: Cards, category: 'Nevada' },
-		{ label: 'New Hampshire', icon: Leaf, category: 'New Hampshire' },
-		{ label: 'New Jersey', icon: Factory, category: 'New Jersey' },
-		{ label: 'New Mexico', icon: Balloon, category: 'New Mexico' },
-		{ label: 'New York', icon: AppleLogo, category: 'New York' },
-		{ label: 'North Carolina', icon: Airplane, category: 'North Carolina' },
-		{ label: 'North Dakota', icon: Drop, category: 'North Dakota' },
-		{ label: 'Ohio', icon: Nut, category: 'Ohio' },
-		{ label: 'Oklahoma', icon: Lightning, category: 'Oklahoma' },
-		{ label: 'Oregon', icon: Coffee, category: 'Oregon' },
-		{ label: 'Pennsylvania', icon: Bell, category: 'Pennsylvania' },
-		{ label: 'Rhode Island', icon: Lighthouse, category: 'Rhode Island' },
-		{ label: 'South Carolina', icon: Flower, category: 'South Carolina' },
-		{ label: 'South Dakota', icon: Cheese, category: 'South Dakota' },
-		{ label: 'Tennessee', icon: Guitar, category: 'Tennessee' },
-		{ label: 'Texas', icon: Star, category: 'Texas' },
-		{ label: 'Utah', icon: Mountains, category: 'Utah' },
-		{ label: 'Vermont', icon: Tree, category: 'Vermont' },
-		{ label: 'Virginia', icon: Crown, category: 'Virginia' },
-		{ label: 'Washington', icon: Leaf, category: 'Washington' },
-		{ label: 'West Virginia', icon: Hammer, category: 'West Virginia' },
-		{ label: 'Wisconsin', icon: Cheese, category: 'Wisconsin' },
-		{ label: 'Wyoming', icon: Mountains, category: 'Wyoming' }
+		{ label: 'Alabama', icon: Rocket, state: 'Alabama' },
+		{ label: 'Alaska', icon: Snowflake, state: 'Alaska' },
+		{ label: 'Arizona', icon: Cactus, state: 'Arizona' },
+		{ label: 'Arkansas', icon: Diamond, state: 'Arkansas' },
+		{ label: 'California', icon: Sun, state: 'California' },
+		{ label: 'Colorado', icon: Mountains, state: 'Colorado' },
+		{ label: 'Connecticut', icon: Anchor, state: 'Connecticut' },
+		{ label: 'Delaware', icon: Bank, state: 'Delaware' },
+		{ label: 'Florida', icon: TreePalm, state: 'Florida' },
+		{ label: 'Georgia', icon: Tree, state: 'Georgia' },
+		{ label: 'Hawaii', icon: Island, state: 'Hawaii' },
+		{ label: 'Idaho', icon: Circle, state: 'Idaho' },
+		{ label: 'Illinois', icon: Buildings, state: 'Illinois' },
+		{ label: 'Indiana', icon: FlagCheckered, state: 'Indiana' },
+		{ label: 'Iowa', icon: Acorn, state: 'Iowa' },
+		{ label: 'Kansas', icon: Wind, state: 'Kansas' },
+		{ label: 'Kentucky', icon: Horse, state: 'Kentucky' },
+		{ label: 'Louisiana', icon: MusicNotes, state: 'Louisiana' },
+		{ label: 'Maine', icon: Shrimp, state: 'Maine' },
+		{ label: 'Maryland', icon: Fish, state: 'Maryland' },
+		{ label: 'Massachusetts', icon: GraduationCap, state: 'Massachusetts' },
+		{ label: 'Michigan', icon: Car, state: 'Michigan' },
+		{ label: 'Minnesota', icon: Waves, state: 'Minnesota' },
+		{ label: 'Mississippi', icon: Waves, state: 'Mississippi' },
+		{ label: 'Missouri', icon: Bridge, state: 'Missouri' },
+		{ label: 'Montana', icon: Tent, state: 'Montana' },
+		{ label: 'Nebraska', icon: Leaf, state: 'Nebraska' },
+		{ label: 'Nevada', icon: Cards, state: 'Nevada' },
+		{ label: 'New Hampshire', icon: Leaf, state: 'New Hampshire' },
+		{ label: 'New Jersey', icon: Factory, state: 'New Jersey' },
+		{ label: 'New Mexico', icon: Balloon, state: 'New Mexico' },
+		{ label: 'New York', icon: AppleLogo, state: 'New York' },
+		{ label: 'North Carolina', icon: Airplane, state: 'North Carolina' },
+		{ label: 'North Dakota', icon: Drop, state: 'North Dakota' },
+		{ label: 'Ohio', icon: Nut, state: 'Ohio' },
+		{ label: 'Oklahoma', icon: Lightning, state: 'Oklahoma' },
+		{ label: 'Oregon', icon: Coffee, state: 'Oregon' },
+		{ label: 'Pennsylvania', icon: Bell, state: 'Pennsylvania' },
+		{ label: 'Rhode Island', icon: Lighthouse, state: 'Rhode Island' },
+		{ label: 'South Carolina', icon: Flower, state: 'South Carolina' },
+		{ label: 'South Dakota', icon: Cheese, state: 'South Dakota' },
+		{ label: 'Tennessee', icon: Guitar, state: 'Tennessee' },
+		{ label: 'Texas', icon: Star, state: 'Texas' },
+		{ label: 'Utah', icon: Mountains, state: 'Utah' },
+		{ label: 'Vermont', icon: Tree, state: 'Vermont' },
+		{ label: 'Virginia', icon: Crown, state: 'Virginia' },
+		{ label: 'Washington', icon: Leaf, state: 'Washington' },
+		{ label: 'West Virginia', icon: Hammer, state: 'West Virginia' },
+		{ label: 'Wisconsin', icon: Cheese, state: 'Wisconsin' },
+		{ label: 'Wyoming', icon: Mountains, state: 'Wyoming' }
 	];
 
 	const allResources = resources;
 
-	let selectedCategory = '';
+	let selectedState = '';
 	let currentPage = 1;
 	const itemsPerPage = 20;
 
@@ -144,8 +144,8 @@
 		currentPage = 1;
 	}
 
-	function selectFilter(category: string) {
-		selectedCategory = selectedCategory === category ? '' : category;
+	function selectFilter(state: string) {
+		selectedState = selectedState === state ? '' : state;
 		currentPage = 1; // Reset to first page when filtering
 	}
 
@@ -153,14 +153,6 @@
 		currentPage = page;
 		// Scroll to top when page changes
 		window.scrollTo({ top: 0, behavior: 'smooth' });
-	}
-
-	function shuffle(array) {
-		for (let i = array.length - 1; i > 0; i--) {
-			const j = Math.floor(Math.random() * (i + 1));
-			[array[i], array[j]] = [array[j], array[i]];
-		}
-		return array;
 	}
 
 	$: filteredResources = (() => {
@@ -173,17 +165,14 @@
 						r.address.state.toLowerCase().includes(q)
 					);
 				})
-			: selectedCategory
+			: selectedState
 				? allResources.filter(
-						(r) => String(r.address.state).trim() === String(selectedCategory).trim()
+						(r) => String(r.address.state).trim() === String(selectedState).trim()
 					)
 				: [...allResources];
 
-		// Shuffle first
-		filtered = shuffle(filtered);
-
-		// Sponsored first, but keep shuffled order within groups
-		filtered.sort((a, b) => (b.sponsored === true) - (a.sponsored === true));
+		// Sponsored first, but keep original order within groups
+		filtered.sort((a, b) => Number(b.sponsored === true) - Number(a.sponsored === true));
 
 		return filtered;
 	})();
@@ -194,8 +183,8 @@
 		currentPage * itemsPerPage
 	);
 
-	$: selectedLabel = selectedCategory
-		? (filters.find((f) => f.category === selectedCategory)?.label ?? 'All Resources')
+	$: selectedLabel = selectedState
+		? (filters.find((f) => f.state === selectedState)?.label ?? 'All Resources')
 		: 'All Resources';
 
 	// Smart ad placement logic using utility functions
@@ -304,11 +293,11 @@
 			</div>
 		{/if}
 	</svelte:fragment>
-	{#each filters as { label, icon, category }}
+	{#each filters as { label, icon, state }}
 		<Chip
 			leftIcon={{ component: icon, props: { size: 18 } }}
-			active={selectedCategory === category && !searchActive}
-			onclick={() => selectFilter(category)}
+			active={selectedState === state && !searchActive}
+			onclick={() => selectFilter(state)}
 			disabled={searchActive}
 		>
 			{label}
@@ -327,7 +316,7 @@
 				{#if shouldShowAd && randomAd && index === adInsertIndex}
 					<Ad ad={randomAd} />
 				{/if}
-				<ResourceCard {...resource} category={resource.address.state} />
+				<ResourceCard {...resource} state={resource.address.state} />
 			{/each}
 		</div>
 
@@ -352,7 +341,7 @@
 			{:else}
 				<button
 					class="mt-2 rounded-full bg-slate-950 px-6 py-3 font-medium text-slate-50 transition hover:bg-slate-800"
-					on:click={() => (selectedCategory = '')}
+					on:click={() => (selectedState = '')}
 				>
 					View all resources
 				</button>

@@ -2,7 +2,7 @@
 	export let title: string;
 	export let description: string = '';
 	export let image: string;
-	export let category: string;
+	export let state: string;
 	export let externalUrl: string;
 	export let sponsored: boolean = false;
 
@@ -10,7 +10,7 @@
 	import { slugify } from '$lib/utils/slugify';
 
 	// For internal link using slugified state and title
-	$: internalUrl = `/${slugify(category)}/${slugify(title)}`;
+	$: internalUrl = `/${slugify(state)}/${slugify(title)}`;
 
 	// Import icons
 	import { SealCheck, Info, ArrowUpRight } from 'phosphor-svelte';

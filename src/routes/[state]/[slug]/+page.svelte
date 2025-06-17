@@ -103,7 +103,7 @@
 			"name": "${resource.title}",
 			"description": "${resource.description || `Discover ${resource.title} and more resources on ${config.siteName}.`}",
 			"url": "${resource.externalUrl}",
-			"applicationCategory": "${resource.address.state
+			"applicationState": "${resource.address.state
 				.split('-')
 				.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
 				.join(' ')}",
@@ -126,7 +126,7 @@
 		</div>
 	</div>
 
-	<!-- Category badge -->
+	<!-- State badge -->
 	<span
 		class="mb-4 inline-block rounded-full bg-slate-200 px-3 py-1 text-sm font-medium text-slate-700"
 	>

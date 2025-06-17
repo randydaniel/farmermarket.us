@@ -5,11 +5,11 @@ import resources from '$lib/data/resources.json';
 import type { PageLoad } from './$types';
 
 export const load: PageLoad = ({ params, url }) => {
-	const { category, slug } = params;
+	const { state, slug } = params;
 
 	// Find the resource that matches both slugified state and slugified title
 	const resource = resources.find(
-		(r) => slugify(r.address.state) === category && slugify(r.title) === slug
+		(r) => slugify(r.address.state) === state && slugify(r.title) === slug
 	);
 
 	if (!resource) {
