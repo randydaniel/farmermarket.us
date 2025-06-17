@@ -63,6 +63,8 @@
 	import { slide } from 'svelte/transition';
 	import { goto } from '$app/navigation';
 	import { slugify } from '$lib/utils/slugify';
+	import TabGroup from '$lib/components/ui/TabGroup.svelte';
+	import ResourceMap from '$lib/components/ui/ResourceMap.svelte';
 
 	// Example: filter options as an array
 	const filters = [
@@ -193,6 +195,17 @@
 	$: adInsertIndex = getAdInsertIndex();
 
 	$: if (searchMode && searchInput) searchInput.focus();
+
+	let currentView = 'list';
+
+	const tabs = [
+		{ id: 'list', label: 'List' },
+		{ id: 'map', label: 'Map' }
+	];
+
+	function handleTabChange(tabId: string) {
+		currentView = tabId;
+	}
 </script>
 
 <svelte:head>
@@ -306,52 +319,60 @@
 	{/each}
 </FilterBar>
 
-<section class="container mx-auto px-4 py-12 xl:px-0">
-	<h2 class="mb-6 flex items-center gap-2 text-xl font-semibold">
-		{searchActive ? `Results for "${searchQuery}"` : selectedLabel}
-		{#if selectedState}
-			<button on:click={() => goto('/')} class="cursor-pointer text-sm text-blue-600 underline">
-				(Clear)
-			</button>
-		{/if}
-	</h2>
-	{#if paginatedResources.length > 0}
-		<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-			{#each paginatedResources as resource, index}
-				<!-- Insert ad at the specified row position -->
-				{#if shouldShowAd && randomAd && index === adInsertIndex}
-					<Ad ad={randomAd} />
-				{/if}
-				<ResourceCard {...resource} state={resource.address.state} />
-			{/each}
-		</div>
+<section class="container mx-auto py-4 pt-4 pb-12 xl:px-0">
+	<div class="mb-4 flex items-center justify-between">
+		<h2 class="flex items-center gap-2 text-xl font-semibold">
+			{searchActive ? `Results for "${searchQuery}"` : selectedLabel}
+			{#if selectedState}
+				<button on:click={() => goto('/')} class="cursor-pointer text-sm text-blue-600 underline">
+					(Clear)
+				</button>
+			{/if}
+		</h2>
+		<TabGroup activeTab={currentView} {tabs} onTabChange={handleTabChange} />
+	</div>
 
-		<!-- Pagination -->
-		{#if totalPages > 1}
-			<div class="mt-12">
-				<Pagination {currentPage} {totalPages} onPageChange={handlePageChange} />
+	{#if currentView === 'list'}
+		{#if paginatedResources.length > 0}
+			<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+				{#each paginatedResources as resource, index}
+					<!-- Insert ad at the specified row position -->
+					{#if shouldShowAd && randomAd && index === adInsertIndex}
+						<Ad ad={randomAd} />
+					{/if}
+					<ResourceCard {...resource} state={resource.address.state} />
+				{/each}
+			</div>
+
+			<!-- Pagination -->
+			{#if totalPages > 1}
+				<div class="mt-12">
+					<Pagination {currentPage} {totalPages} onPageChange={handlePageChange} />
+				</div>
+			{/if}
+		{:else}
+			<div class="flex flex-col items-center justify-center py-24">
+				<h3 class="text-xl font-medium">
+					{searchActive ? `No resources found for "${searchQuery}"` : 'No resources yet.'}
+				</h3>
+				{#if searchActive}
+					<button
+						class="mt-2 rounded-full bg-slate-950 px-6 py-3 font-medium text-slate-50 transition hover:bg-slate-800"
+						on:click={clearSearch}
+					>
+						Clear search
+					</button>
+				{:else}
+					<button
+						class="mt-2 rounded-full bg-slate-950 px-6 py-3 font-medium text-slate-50 transition hover:bg-slate-800"
+						on:click={() => (selectedState = '')}
+					>
+						View all resources
+					</button>
+				{/if}
 			</div>
 		{/if}
 	{:else}
-		<div class="flex flex-col items-center justify-center py-24">
-			<h3 class="text-xl font-medium">
-				{searchActive ? `No resources found for \"${searchQuery}\"` : 'No resources yet.'}
-			</h3>
-			{#if searchActive}
-				<button
-					class="mt-2 rounded-full bg-slate-950 px-6 py-3 font-medium text-slate-50 transition hover:bg-slate-800"
-					on:click={clearSearch}
-				>
-					Clear search
-				</button>
-			{:else}
-				<button
-					class="mt-2 rounded-full bg-slate-950 px-6 py-3 font-medium text-slate-50 transition hover:bg-slate-800"
-					on:click={() => (selectedState = '')}
-				>
-					View all resources
-				</button>
-			{/if}
-		</div>
+		<ResourceMap resources={filteredResources} />
 	{/if}
 </section>
