@@ -1,7 +1,6 @@
 <script lang="ts">
 	import Hero from '$lib/components/layout/Hero.svelte';
 	import { config } from '$lib/config';
-
 	import FilterBar from '$lib/components/layout/FilterBar.svelte';
 	import Chip from '$lib/components/ui/Chip.svelte';
 	import ResourceCard from '$lib/components/ui/ResourceCard.svelte';
@@ -10,61 +9,57 @@
 	import resources from '$lib/data/resources.json';
 	import { getRandomAd, shouldDisplayAd, getAdInsertIndex } from '$lib/utils/ads';
 	import type { CustomAd } from '$lib/utils/ads';
+	import { page } from '$app/stores';
+	import { goto } from '$app/navigation';
+	import { slugify } from '$lib/utils/slugify';
 	import {
-		Rocket, // Alabama
-		Snowflake, // Alaska
-		Cactus, // Arizona
-		Diamond, // Arkansas
-		Sun, // California
-		Mountains, // Colorado, Utah, Wyoming
-		Anchor, // Connecticut
-		Bank, // Delaware
-		TreePalm, // Florida
-		Tree, // Georgia, Vermont
-		Island, // Hawaii
-		Circle, // Idaho
-		Buildings, // Illinois
-		FlagCheckered, // Indiana
-		Acorn, // Iowa
-		Wind, // Kansas
-		Horse, // Kentucky
-		MusicNotes, // Louisiana
-		Shrimp, // Maine
-		Fish, // Maryland
-		GraduationCap, // Massachusetts
-		Car, // Michigan
-		Waves, // Minnesota, Mississippi
-		Bridge, // Missouri
-		Tent, // Montana
-		Leaf, // Nebraska, New Hampshire, Washington
-		Cards, // Nevada
-		Factory, // New Jersey
-		Balloon, // New Mexico
-		AppleLogo, // New York
-		Airplane, // North Carolina
-		Drop, // North Dakota
-		Nut, // Ohio
-		Lightning, // Oklahoma
-		Coffee, // Oregon
-		Bell, // Pennsylvania
-		Lighthouse, // Rhode Island
-		Flower, // South Carolina
-		Cheese, // South Dakota, Wisconsin
-		Guitar, // Tennessee
-		Star, // Texas
-		Crown, // Virginia
-		Hammer, // West Virginia
+		Rocket,
+		Snowflake,
+		Cactus,
+		Diamond,
+		Sun,
+		Mountains,
+		Anchor,
+		Bank,
+		TreePalm,
+		Tree,
+		Island,
+		Circle,
+		Buildings,
+		FlagCheckered,
+		Acorn,
+		Wind,
+		Horse,
+		MusicNotes,
+		Shrimp,
+		Fish,
+		GraduationCap,
+		Car,
+		Waves,
+		Bridge,
+		Tent,
+		Leaf,
+		Cards,
+		Factory,
+		Balloon,
+		AppleLogo,
+		Airplane,
+		Drop,
+		Nut,
+		Lightning,
+		Coffee,
+		Bell,
+		Lighthouse,
+		Flower,
+		Cheese,
+		Guitar,
+		Star,
+		Crown,
+		Hammer,
 		MagnifyingGlass,
 		X
 	} from 'phosphor-svelte';
-	import { fade } from 'svelte/transition';
-	import { scale } from 'svelte/transition';
-	import { cubicOut } from 'svelte/easing';
-	import { slide } from 'svelte/transition';
-	import { goto } from '$app/navigation';
-	import { slugify } from '$lib/utils/slugify';
 
-	// Example: filter options as an array
 	const filters = [
 		{ label: 'Alabama', icon: Rocket, state: 'Alabama' },
 		{ label: 'Alaska', icon: Snowflake, state: 'Alaska' },
@@ -118,16 +113,10 @@
 		{ label: 'Wyoming', icon: Mountains, state: 'Wyoming' }
 	];
 
-	const allResources = resources;
-
-	let selectedState = '';
 	let currentPage = 1;
 	const itemsPerPage = 20;
 
-	// Randomize ad on component mount
 	let randomAd: CustomAd | null = null;
-
-	// Set random ad on mount
 	randomAd = getRandomAd();
 
 	let searchMode = false;
@@ -140,25 +129,15 @@
 	}
 
 	$: searchActive = searchQuery.trim().length > 0;
-
-	// Reset pagination when search query changes
-	$: if (searchQuery !== undefined) {
-		currentPage = 1;
-	}
+	$: if (searchQuery !== undefined) currentPage = 1;
 
 	function selectFilter(state: string) {
 		goto(`/${slugify(state)}`);
 	}
 
-	function handlePageChange(page: number) {
-		currentPage = page;
-		// Scroll to top when page changes
-		window.scrollTo({ top: 0, behavior: 'smooth' });
-	}
-
 	$: filteredResources = (() => {
 		let filtered = searchActive
-			? allResources.filter((r) => {
+			? resources.filter((r) => {
 					const q = searchQuery.toLowerCase();
 					return (
 						r.title.toLowerCase().includes(q) ||
@@ -166,15 +145,14 @@
 						r.address.state.toLowerCase().includes(q)
 					);
 				})
-			: selectedState
-				? allResources.filter(
-						(r) => String(r.address.state).trim() === String(selectedState).trim()
+			: $page.params.state
+				? resources.filter(
+						(r) =>
+							String(r.address.state).trim() ===
+							(filters.find((f) => slugify(f.state) === $page.params.state)?.state || '')
 					)
-				: [...allResources];
-
-		// Sponsored first, but keep original order within groups
+				: [...resources];
 		filtered.sort((a, b) => Number(b.sponsored === true) - Number(a.sponsored === true));
-
 		return filtered;
 	})();
 
@@ -184,66 +162,15 @@
 		currentPage * itemsPerPage
 	);
 
-	$: selectedLabel = selectedState
-		? (filters.find((f) => f.state === selectedState)?.label ?? 'All Resources')
+	$: selectedLabel = $page.params.state
+		? (filters.find((f) => slugify(f.state) === $page.params.state)?.label ?? 'All Resources')
 		: 'All Resources';
-
-	// Smart ad placement logic using utility functions
 	$: shouldShowAd = shouldDisplayAd(paginatedResources.length);
 	$: adInsertIndex = getAdInsertIndex();
-
 	$: if (searchMode && searchInput) searchInput.focus();
+
+	$: selectedState = filters.find((f) => slugify(f.state) === $page.params.state)?.state || '';
 </script>
-
-<svelte:head>
-	<!-- Primary SEO -->
-	<title>{config.siteName} | Resource Directory</title>
-	<meta name="description" content={config.siteDescription} />
-	<meta
-		name="keywords"
-		content="resources, tools, directory, productivity, creativity, startups, AI, web3, design, development"
-	/>
-	<meta name="author" content={config.siteName} />
-
-	<!-- Open Graph / Facebook -->
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content={`${config.siteName} | Resource Directory`} />
-	<meta property="og:description" content={config.siteDescription} />
-	<meta property="og:site_name" content={config.siteName} />
-
-	<!-- Twitter -->
-	<meta property="twitter:card" content="summary_large_image" />
-	<meta property="twitter:title" content={`${config.siteName} | Resource Directory`} />
-	<meta property="twitter:description" content={config.siteDescription} />
-
-	<!-- Additional SEO -->
-	<meta name="robots" content="index, follow" />
-	<meta name="googlebot" content="index, follow" />
-
-	<!-- JSON-LD Structured Data -->
-	{@html `<script type="application/ld+json">
-	{
-		"@context": "https://schema.org",
-		"@type": "WebSite",
-		"name": "${config.siteName}",
-		"description": "${config.siteDescription}",
-		"url": "${config.defaultSiteUrl}",
-		"potentialAction": {
-			"@type": "SearchAction",
-			"target": {
-				"@type": "EntryPoint",
-				"urlTemplate": "${config.defaultSiteUrl}/?q={search_term_string}"
-			},
-			"query-input": "required name=search_term_string"
-		},
-		"publisher": {
-			"@type": "Organization",
-			"name": "${config.siteName}",
-			"url": "${config.defaultSiteUrl}"
-		}
-	}
-	</script>`}
-</svelte:head>
 
 <Hero align="center" background="/hero.avif" backgroundMobile="/hero-mobile.avif">
 	<h1
@@ -276,7 +203,7 @@
 					active={true}
 					onclick={() => {
 						searchMode = false;
-						searchQuery = ''; // Clear search when closing
+						searchQuery = '';
 					}}
 					ariaLabel="Close search"
 				/>
@@ -318,24 +245,21 @@
 	{#if paginatedResources.length > 0}
 		<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
 			{#each paginatedResources as resource, index}
-				<!-- Insert ad at the specified row position -->
 				{#if shouldShowAd && randomAd && index === adInsertIndex}
 					<Ad ad={randomAd} />
 				{/if}
 				<ResourceCard {...resource} state={resource.address.state} />
 			{/each}
 		</div>
-
-		<!-- Pagination -->
 		{#if totalPages > 1}
 			<div class="mt-12">
-				<Pagination {currentPage} {totalPages} onPageChange={handlePageChange} />
+				<Pagination {currentPage} {totalPages} onPageChange={(page) => (currentPage = page)} />
 			</div>
 		{/if}
 	{:else}
 		<div class="flex flex-col items-center justify-center py-24">
 			<h3 class="text-xl font-medium">
-				{searchActive ? `No resources found for \"${searchQuery}\"` : 'No resources yet.'}
+				{searchActive ? `No resources found for "${searchQuery}"` : 'No resources yet.'}
 			</h3>
 			{#if searchActive}
 				<button
@@ -347,7 +271,7 @@
 			{:else}
 				<button
 					class="mt-2 rounded-full bg-slate-950 px-6 py-3 font-medium text-slate-50 transition hover:bg-slate-800"
-					on:click={() => (selectedState = '')}
+					on:click={() => goto('/')}
 				>
 					View all resources
 				</button>
