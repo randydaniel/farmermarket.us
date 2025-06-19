@@ -4555,7 +4555,7 @@
 	{
 		"id": "158",
 		"title": "Frederick Farmers Market",
-		"description": "Weekly farmers market in the heart of Columbia's vibrant mixed-use district featuring rotating local vendors, artisanal foods, and handcrafted goods every Thursday evening from June through September.",
+		"description": "Historic market serving Frederick County with local produce and artisan goods, supporting regional agriculture in Maryland's scenic countryside.",
 		"longDescription": "<p>The Frederick Farmers Market serves the historic city of Frederick and surrounding Frederick County, providing the community with access to fresh, locally grown produce and artisan goods from Maryland's scenic countryside. Located in this charming city known for its well-preserved historic downtown and proximity to both Baltimore and Washington DC, the market supports regional agriculture while serving both residents and visitors exploring the area. Frederick County's rich agricultural heritage and fertile farmland make this market an important showcase for local farming, featuring seasonal produce, baked goods, artisan crafts, and specialty food items. The market operates during the traditional farmers market season, providing a gathering place for the community while supporting sustainable agriculture practices in one of Maryland's most productive farming regions. The market's location in historic Frederick makes it a popular destination for both locals and tourists seeking authentic Maryland agricultural products.</p>",
 		"image": "/images/resources/maryland/frederick-farmers-market.avif",
 		"phone": "+1 301-600-1499",
@@ -4571,14 +4571,14 @@
 		"externalUrl": "https://www.frederickmd.gov/farmers-market",
 		"sponsored": false,
 		"address": {
-			"street": "10480 Little Patuxent Pkwy",
-			"city": "Columbia",
+			"street": "1215 West Patrick Street",
+			"city": "Frederick",
 			"state": "Maryland",
-			"zip": "21044"
+			"zip": "21701"
 		},
 		"coordinates": {
-			"lat": 39.4126,
-			"lng": -77.4106
+			"lat": 39.41971,
+			"lng": -77.45261
 		}
 	},
 	{
