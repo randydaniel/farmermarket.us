@@ -4,7 +4,6 @@
 	import { page } from '$app/stores';
 
 	// No props needed; use slot for flexibility
-	export let hideGradients: boolean = false;
 	let scrollEl: HTMLDivElement;
 	let isDown = false;
 	let startX: number;
@@ -144,9 +143,6 @@
 	class="sticky top-[68px] z-30 w-full border-b border-slate-200 bg-white dark:border-slate-800 dark:bg-slate-950"
 >
 	<div class="container mx-auto flex items-center gap-3 px-4 py-4 xl:px-0">
-		<!-- Fixed search icon/input -->
-		<slot name="search" />
-
 		<!-- Horizontally scrollable chips area with arrows -->
 		<div class="relative min-w-0 flex-1">
 			<!-- Left arrow -->
@@ -189,13 +185,13 @@
 				</button>
 			{/if}
 
-			<!-- Optional gradients (keeping for backward compatibility) -->
-			{#if !hideGradients && showLeft}
+			<!-- Optional gradients -->
+			{#if showLeft}
 				<div
 					class="pointer-events-none absolute top-0 left-0 h-full w-12 bg-gradient-to-r from-white/90 to-transparent dark:from-slate-950/90"
 				></div>
 			{/if}
-			{#if !hideGradients && showRight}
+			{#if showRight}
 				<div
 					class="pointer-events-none absolute top-0 right-0 h-full w-12 bg-gradient-to-l from-white/90 to-transparent dark:from-slate-950/90"
 				></div>

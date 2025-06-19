@@ -54,9 +54,7 @@
 		Guitar,
 		Star,
 		Crown,
-		Hammer,
-		MagnifyingGlass,
-		X
+		Hammer
 	} from 'phosphor-svelte';
 	import { slugify } from '$lib/utils/slugify';
 
@@ -122,19 +120,7 @@
 	let randomAd: CustomAd | null = null;
 	randomAd = getRandomAd();
 
-	let searchMode = false;
-	let searchQuery = '';
-	let searchInput: HTMLInputElement | null = null;
-
 	let currentView: 'list' | 'map' = 'list';
-
-	function clearSearch() {
-		searchQuery = '';
-		searchMode = false;
-	}
-
-	$: searchActive = searchQuery.trim().length > 0;
-	$: if (searchQuery !== undefined) currentPage = 1;
 
 	function selectFilter(state: string) {
 		if (selectedState === state) {
@@ -144,38 +130,18 @@
 		}
 	}
 
-	function addressMatchesQuery(address: any, query: string): boolean {
-		if (typeof address === 'object' && address && 'state' in address) {
-			const state = String(address.state || '');
-			return state.toLowerCase().includes(query);
-		}
-		if (typeof address === 'string') {
-			return address.toLowerCase().includes(query);
-		}
-		return false;
-	}
-
 	$: filteredResources = (() => {
-		let filtered = searchActive
+		let filtered = $page.params.state
 			? resources.filter((r) => {
-					const q = searchQuery.toLowerCase();
-					return (
-						r.title.toLowerCase().includes(q) ||
-						(r.description && r.description.toLowerCase().includes(q)) ||
-						addressMatchesQuery(r.address, q)
-					);
+					if (typeof r.address === 'object' && r.address && 'state' in r.address) {
+						return (
+							String(r.address.state).trim() ===
+							(filters.find((f) => slugify(f.state) === $page.params.state)?.state || '')
+						);
+					}
+					return false;
 				})
-			: $page.params.state
-				? resources.filter((r) => {
-						if (typeof r.address === 'object' && r.address && 'state' in r.address) {
-							return (
-								String(r.address.state).trim() ===
-								(filters.find((f) => slugify(f.state) === $page.params.state)?.state || '')
-							);
-						}
-						return false;
-					})
-				: [...resources];
+			: [...resources];
 		filtered.sort((a, b) => Number(b.sponsored === true) - Number(a.sponsored === true));
 		return filtered;
 	})();
@@ -191,7 +157,6 @@
 		: 'All Resources';
 	$: shouldShowAd = shouldDisplayAd(paginatedResources.length);
 	$: adInsertIndex = getAdInsertIndex();
-	$: if (searchMode && searchInput) searchInput.focus();
 
 	$: selectedState = filters.find((f) => slugify(f.state) === $page.params.state)?.state || '';
 
@@ -227,48 +192,12 @@
 		vendor information.
 	</p>
 </Hero>
-<FilterBar hideGradients={searchMode}>
-	<svelte:fragment slot="search">
-		{#if !searchMode}
-			<Chip
-				leftIcon={{ component: MagnifyingGlass, props: { size: 18 } }}
-				active={searchActive}
-				onclick={() => {
-					searchMode = true;
-				}}
-				ariaLabel="Open search"
-			/>
-		{:else}
-			<div class="flex w-full items-center gap-3">
-				<Chip
-					leftIcon={{ component: X, props: { size: 20 } }}
-					active={true}
-					onclick={() => {
-						searchMode = false;
-						searchQuery = '';
-					}}
-					ariaLabel="Close search"
-				/>
-				<input
-					class="flex-1 rounded-full border border-slate-200 bg-slate-50 px-4 py-3 text-sm text-slate-950 shadow-sm focus:border-slate-400 focus:outline-none dark:border-slate-800 dark:bg-slate-950 dark:text-slate-50"
-					type="text"
-					placeholder="Search resources..."
-					bind:value={searchQuery}
-					bind:this={searchInput}
-					on:keydown={(e) => {
-						if (e.key === 'Escape') clearSearch();
-					}}
-					style="min-width: 0;"
-				/>
-			</div>
-		{/if}
-	</svelte:fragment>
+<FilterBar>
 	{#each filters as { label, icon, state }}
 		<Chip
 			leftIcon={{ component: icon, props: { size: 18 } }}
-			active={selectedState === state && !searchActive}
+			active={selectedState === state}
 			onclick={() => selectFilter(state)}
-			disabled={searchActive}
 		>
 			{label}
 		</Chip>
@@ -305,24 +234,13 @@
 			{/if}
 		{:else}
 			<div class="flex flex-col items-center justify-center py-24">
-				<h3 class="text-xl font-medium">
-					{searchActive ? `No resources found for "${searchQuery}"` : 'No resources yet.'}
-				</h3>
-				{#if searchActive}
-					<button
-						class="mt-2 rounded-full bg-slate-950 px-6 py-3 font-medium text-slate-50 transition hover:bg-slate-800"
-						on:click={clearSearch}
-					>
-						Clear search
-					</button>
-				{:else}
-					<button
-						class="mt-2 rounded-full bg-slate-950 px-6 py-3 font-medium text-slate-50 transition hover:bg-slate-800"
-						on:click={() => goto('/')}
-					>
-						View all resources
-					</button>
-				{/if}
+				<h3 class="text-xl font-medium">No resources yet.</h3>
+				<button
+					class="mt-2 rounded-full bg-slate-950 px-6 py-3 font-medium text-slate-50 transition hover:bg-slate-800"
+					on:click={() => goto('/')}
+				>
+					View all resources
+				</button>
 			</div>
 		{/if}
 	{:else}
