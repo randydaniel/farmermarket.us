@@ -19,6 +19,31 @@
 		currentMarkers = [];
 	}
 
+	// Helper function to get resource state from different address formats
+	function getResourceState(resource: any): string {
+		if (typeof resource.address === 'object' && resource.address && 'state' in resource.address) {
+			return resource.address.state || '';
+		} else if (typeof resource.address === 'string') {
+			// For string addresses, try to extract state from the end
+			const parts = resource.address.split(',').map((part: string) => part.trim());
+			if (parts.length >= 2) {
+				const statePart = parts[parts.length - 2];
+				return statePart.split(' ')[0] || '';
+			}
+		}
+		return '';
+	}
+
+	// Helper function to get formatted address string
+	function getAddressString(resource: any): string {
+		if (typeof resource.address === 'object' && resource.address && 'street' in resource.address) {
+			return `${resource.address.street}, ${resource.address.city}, ${resource.address.state}`;
+		} else if (typeof resource.address === 'string') {
+			return resource.address;
+		}
+		return '';
+	}
+
 	// Function to add markers to the map
 	function addMarkersToMap(resourcesToMap: any[]) {
 		if (!map || !isLoaded) return;
@@ -60,18 +85,34 @@
 					title: resource.title
 				});
 
-				// Create info window content
+				// Create info window content with image
 				const infoContent = `
-					<div style="padding: 12px; min-width: 200px; max-width: 300px;">
-						<h3 style="font-weight: 600; margin: 0 0 8px 0; color: #1f2937; font-size: 16px;">${resource.title}</h3>
-						<p style="font-size: 14px; color: #6b7280; margin: 0 0 8px 0; line-height: 1.4;">${resource.description}</p>
-						<p style="font-size: 12px; color: #9ca3af; margin: 0 0 12px 0;">${resource.address.street}, ${resource.address.city}, ${resource.address.state}</p>
-						<a href="/${slugify(resource.address.state)}/${slugify(resource.title)}" 
-						   style="color: #2563eb; text-decoration: underline; font-size: 14px; display: inline-block; padding: 4px 0;"
-						   onmouseover="this.style.color='#1d4ed8'"
-						   onmouseout="this.style.color='#2563eb'">
-						   View Details →
-						</a>
+					<div style="padding: 0; min-width: 250px; max-width: 320px; overflow: hidden;">
+						${
+							resource.image
+								? `
+							<div style="position: relative; width: 100%; height: 120px; overflow: hidden;">
+								<img 
+									src="${resource.image}" 
+									alt="${resource.title}"
+									style="width: 100%; height: 100%; object-fit: cover; display: block;"
+									loading="lazy"
+								/>
+							</div>
+						`
+								: ''
+						}
+						<div style="padding: 12px 16px 12px 12px; box-sizing: border-box;">
+							<h3 style="font-weight: 600; margin: 0 0 8px 0; color: #1f2937; font-size: 16px; line-height: 1.3;">${resource.title}</h3>
+							<p style="font-size: 14px; color: #6b7280; margin: 0 0 6px 0; line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;">${resource.description || ''}</p>
+							<p style="font-size: 12px; color: #9ca3af; margin: 0 0 12px 0;">${getAddressString(resource)}</p>
+							<a href="/${slugify(getResourceState(resource))}/${slugify(resource.title)}" 
+							   style="color: #2563eb; text-decoration: underline; font-size: 14px; display: inline-block; padding: 4px 0; font-weight: 500;"
+							   onmouseover="this.style.color='#1d4ed8'"
+							   onmouseout="this.style.color='#2563eb'">
+							   View Details →
+							</a>
+						</div>
 					</div>
 				`;
 
@@ -186,9 +227,16 @@
 	/* Custom styling for Google Maps info windows */
 	:global(.gm-style-iw) {
 		border-radius: 8px !important;
+		padding: 0 !important;
 	}
 
 	:global(.gm-style-iw-d) {
 		overflow: hidden !important;
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+
+	:global(.gm-style-iw-c) {
+		padding: 0 !important;
 	}
 </style>
