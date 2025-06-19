@@ -2,6 +2,8 @@ import type { RequestHandler } from './$types';
 import { slugify } from '$lib/utils/slugify';
 import resources from '$lib/data/resources.json';
 
+export const prerender = true;
+
 export const GET: RequestHandler = async () => {
 	// All US states for state-level pages
 	const states = [

@@ -17,6 +17,7 @@ const entries = [
 	'/privacy',
 	'/terms',
 	'/sitemap.xml',
+	'/llms.txt',
 	...resources
 		.filter((resource) => resource.address && resource.address.state)
 		.map((resource) => `/${slugify(resource.address.state)}/${slugify(resource.title)}`)
