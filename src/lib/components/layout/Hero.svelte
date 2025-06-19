@@ -162,10 +162,8 @@
 
 			<!-- Avatar Group -->
 			{#if showAvatars && avatarImages.length > 0}
-				<div
-					class={`mt-6 flex ${align === 'center' ? 'justify-center' : align === 'right' ? 'justify-end' : 'justify-start'}`}
-				>
-					<div class="flex -space-x-2">
+				<div class={`mt-6 flex flex-col items-center lg:flex-row lg:items-start`}>
+					<div class="mb-2 flex -space-x-2 lg:mb-0">
 						{#each avatarImages.slice(0, 5) as avatar, index}
 							<img
 								src={avatar}
@@ -182,7 +180,7 @@
 							</div>
 						{/if}
 					</div>
-					<div class={`ml-4 text-left`}>
+					<div class={`ml-0 text-left lg:ml-4`}>
 						<p class="text-sm font-medium text-slate-800 dark:text-white/90">
 							Join 7,318+ Farmers Market Enthusiasts
 						</p>
