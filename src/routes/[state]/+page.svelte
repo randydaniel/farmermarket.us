@@ -281,7 +281,7 @@
 					<ResourceCard
 						title={resource.title}
 						description={resource.description || ''}
-						image={resource.image || '/images/image-soon.png'}
+						image={resource.image || '/images/resources/image-soon.png'}
 						state={typeof resource.address === 'object' &&
 						resource.address &&
 						'state' in resource.address
