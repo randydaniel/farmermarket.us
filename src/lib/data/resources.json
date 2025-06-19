@@ -3658,7 +3658,7 @@
 		"title": "Lexington Farmers Market - Downtown",
 		"description": "Year-round farmers market in downtown Lexington offering fresh local produce, meats, and artisan goods with multiple weekly locations.",
 		"longDescription": "<p>The Lexington Farmers Market operates multiple locations throughout the week, with the flagship Downtown location serving as the heart of Lexington's local food scene. Located at 251 W Main Street, this year-round market operates every Saturday, providing the community with consistent access to fresh, locally sourced produce, meats, eggs, and artisan goods. During spring, summer, and fall months, the market runs from 8 AM to 2 PM, while winter hours (November through March) are adjusted to 9 AM to 1 PM. The market serves as a vital connection point between local farmers and the Lexington community, supporting sustainable agriculture and providing residents with the freshest seasonal products available in the region.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/kentucky/lexington-farmers-market-downtown.avif",
 		"phone": "+1 859-258-3290",
 		"hours": {
 			"monday": "",
@@ -3687,7 +3687,7 @@
 		"title": "Berea Farmers Market",
 		"description": "Kentucky's oldest 'Producer Only' market operating year-round in historic Berea, where if a farmer sells it, they raised it.",
 		"longDescription": "<p>The Berea Farmers Market is Kentucky's oldest 'Producer Only' market, operating year-round in the historic town of Berea. Located at 635 Chestnut Street in the Chestnut Street Pavilion across from Just Love Coffee, this market operates every Saturday from 9 AM to 1 PM. As a true producer-only market, everything sold here follows the principle that if a farmer sells it, they raised it! The market provides fresh and local fruits, vegetables, plants, eggs, meats, and more, along with value-added vendors offering prepared foods like breads, desserts, kombucha tea, and coffee beans. Local artisans complete the market experience by selling uniquely crafted artwork and handmade items like soap, jewelry, and sewn goods, all following the same producer-only principle.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/kentucky/berea-farmers-market.avif",
 		"phone": "+1 859-986-2540",
 		"hours": {
 			"monday": "",
@@ -3716,7 +3716,7 @@
 		"title": "Bardstown Road Farmers Market",
 		"description": "Since 1991, Louisville's original and most popular farmers market with almost 30 vendors offering diverse, high-quality local products.",
 		"longDescription": "<p>Since 1991, The Original Bardstown Road Farmers Market has been Louisville's premier farmers market, hosting almost 30 vendors every week and offering a diverse, high-quality selection of locally-grown, locally-made products. Operating year-round on Saturdays, this market has grown into the most popular market in the Louisville area. The market's mission extends beyond providing a fun and diverse shopping experience to supporting local agriculture through awareness and consumer education. Vendors offer seasonal fruits and vegetables, cut flowers and potted plants, pastured beef, pork, poultry, sausage and eggs, baked goods, pastries, granola, omelets made to order, jams, jellies, salsas, fresh local honey, kombucha, milk kefir, and sourdough bread. The market accepts SNAP, credit, and debit cards, making fresh local food accessible to all community members.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/kentucky/bardstown-road-farmers-market.avif",
 		"phone": "+1 502-456-4971",
 		"hours": {
 			"monday": "",
@@ -3745,7 +3745,7 @@
 		"title": "Douglass Loop Farmers Market",
 		"description": "Non-profit outreach mission supporting sustainable agriculture and organic products, operating as a community-focused market in Louisville.",
 		"longDescription": "<p>The Douglass Loop Farmers Market operates as a non-profit outreach mission of Douglass Boulevard Christian Church, dedicated to supporting local farmers practicing sustainable agriculture and providing organic products. Running from April 12 through December 20, this community-focused market operates every Saturday from 10:00 AM to 2:00 PM. The market serves multiple stakeholders including local farmers, customers, the local community, and the church, which advocates for a healthy lifestyle and concern for the environment. The church does not derive any income from the market beyond operating expenses, ensuring that the focus remains on supporting local agriculture and building community connections. This mission-driven approach creates a unique atmosphere where food and community come together to support sustainable farming practices.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/kentucky/douglass-loop-farmers-market.avif",
 		"phone": "+1 502-451-3735",
 		"hours": {
 			"monday": "",
@@ -3774,7 +3774,7 @@
 		"title": "Lexington Farmers Market - Southland Drive",
 		"description": "Sunday farmers market location serving the Lexington community with fresh local products from April through October.",
 		"longDescription": "<p>The Lexington Farmers Market's Southland Drive location provides Sunday shopping opportunities for the Lexington community, operating from April 7 through October 27 each year. This seasonal market runs every Sunday from 10 AM to 2 PM, offering residents an alternative day to shop for fresh, locally sourced produce, meats, eggs, and artisan goods. As part of the larger Lexington Farmers Market network, this location maintains the same commitment to supporting local farmers and providing the community with access to high-quality, seasonal products. The Sunday schedule makes fresh local food accessible to those who cannot attend the Saturday downtown market, ensuring that more community members can participate in the local food economy.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/kentucky/lexington-farmers-market-southland-drive.avif",
 		"phone": "+1 859-258-3290",
 		"hours": {
 			"monday": "",
@@ -3803,7 +3803,7 @@
 		"title": "St Matthews Farmers Market",
 		"description": "Seasonal farmers market serving the St Matthews community from May through September at Beargrass Christian Church.",
 		"longDescription": "<p>The St Matthews Farmers Market serves the St Matthews community with a seasonal market that operates from the second Saturday in May through the last Saturday in September. Located at 4100 Shelbyville Road at Beargrass Christian Church, this market runs every Saturday from 8 AM to 12 noon during its season. The market provides residents of St Matthews and surrounding areas with access to fresh, locally grown produce and artisan goods during the peak growing season. Operating in partnership with Beargrass Christian Church, the market creates a community gathering space where residents can connect with local farmers and enjoy the bounty of Kentucky's agricultural season in a welcoming, family-friendly environment.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/kentucky/st-matthews-farmers-market.avif",
 		"phone": "+1 502-895-6102",
 		"hours": {
 			"monday": "",
@@ -3832,7 +3832,7 @@
 		"title": "Old Lou Farmers Market",
 		"description": "Old Louisville's first official farmers market returning in summer 2025 with fresh produce, local baked goods, and live music.",
 		"longDescription": "<p>Old Lou Farmers Market represents Old Louisville's first official farmers market, making its return in summer 2025 after establishing itself as a beloved community institution. Operating on select Saturdays, this market brings together fresh produce, local baked goods, live music, and community spirit to the historic Old Louisville neighborhood. Located at 251 W Ormsby Avenue, the market serves as a gathering place for residents and visitors to experience the unique character of Old Louisville while supporting local farmers and artisans. The combination of fresh local products and live music creates a vibrant atmosphere that celebrates both the agricultural heritage and cultural richness of the Louisville area.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/kentucky/old-lou-farmers-market.avif",
 		"phone": "+1 502-635-5244",
 		"hours": {
 			"monday": "",
@@ -3861,7 +3861,7 @@
 		"title": "East End Farmers Market",
 		"description": "Community farmers market serving Louisville's East End with fresh local produce and artisan goods in a family-friendly atmosphere.",
 		"longDescription": "<p>The East End Farmers Market serves Louisville's East End community with a focus on providing fresh local produce and artisan goods in a welcoming, family-friendly atmosphere. This market brings together local farmers and producers to offer residents convenient access to high-quality, locally sourced products while fostering community connections. Operating during the traditional farmers market season, the East End market provides an important service to its neighborhood by supporting local agriculture and giving residents the opportunity to shop for fresh, seasonal products close to home. The market's commitment to community building and local food access makes it an integral part of Louisville's diverse farmers market network.</p>",
-		"image": "/images/resources/image-soon.png",
+		"image": "/images/resources/kentucky/east-end-farmers-market.avif",
 		"phone": "+1 502-267-8333",
 		"hours": {
 			"monday": "",
