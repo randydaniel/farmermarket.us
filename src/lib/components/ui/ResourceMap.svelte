@@ -221,6 +221,7 @@
 	bind:this={mapContainer}
 	class="relative h-[600px] w-full overflow-hidden rounded-lg border border-slate-200 dark:border-slate-700"
 	class:hidden={!isLoaded}
+	data-map-container
 ></div>
 
 <style>

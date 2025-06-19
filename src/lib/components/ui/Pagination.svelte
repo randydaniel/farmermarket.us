@@ -38,7 +38,7 @@
 	}
 </script>
 
-<nav class="flex items-center justify-center gap-2" aria-label="Pagination">
+<nav class="flex items-center justify-center gap-2" aria-label="Pagination" data-pagination>
 	<!-- Previous button -->
 	<button
 		type="button"

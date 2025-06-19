@@ -63,8 +63,9 @@
 	import { slide } from 'svelte/transition';
 	import { goto } from '$app/navigation';
 	import { slugify } from '$lib/utils/slugify';
-	import TabGroup from '$lib/components/ui/TabGroup.svelte';
+
 	import ResourceMap from '$lib/components/ui/ResourceMap.svelte';
+	import FloatingViewToggle from '$lib/components/ui/FloatingViewToggle.svelte';
 	import { page } from '$app/stores';
 
 	// Example: filter options as an array
@@ -172,14 +173,21 @@
 					const q = searchQuery.toLowerCase();
 					return (
 						r.title.toLowerCase().includes(q) ||
-						r.description.toLowerCase().includes(q) ||
-						r.address.state.toLowerCase().includes(q)
+						(r.description && r.description.toLowerCase().includes(q)) ||
+						(typeof r.address === 'object' &&
+							r.address &&
+							'state' in r.address &&
+							r.address.state.toLowerCase().includes(q)) ||
+						(typeof r.address === 'string' && r.address.toLowerCase().includes(q))
 					);
 				})
 			: selectedState
-				? allResources.filter(
-						(r) => String(r.address.state).trim() === String(selectedState).trim()
-					)
+				? allResources.filter((r) => {
+						if (typeof r.address === 'object' && r.address && 'state' in r.address) {
+							return String(r.address.state).trim() === String(selectedState).trim();
+						}
+						return false;
+					})
 				: [...allResources];
 
 		// Sponsored first, but keep original order within groups
@@ -204,15 +212,11 @@
 
 	$: if (searchMode && searchInput) searchInput.focus();
 
-	let currentView = 'list';
+	let currentView: 'list' | 'map' = 'list';
 
-	const tabs = [
-		{ id: 'list', label: 'List' },
-		{ id: 'map', label: 'Map' }
-	];
-
-	function handleTabChange(tabId: string) {
-		currentView = tabId;
+	function handleFloatingToggle(view: 'list' | 'map') {
+		currentView = view;
+		currentPage = 1; // Reset page when switching views
 	}
 </script>
 
@@ -266,7 +270,34 @@
 	</script>`}
 </svelte:head>
 
-<Hero align="center" background="/hero.avif" backgroundMobile="/hero-mobile.avif">
+<!-- Enhanced Hero with Video Background (replace videoBackground with your video path) -->
+<Hero
+	align="center"
+	videoBackground="/farmer-market.mp4"
+	background="/hero.avif"
+	backgroundMobile="/hero-mobile.avif"
+	showAvatars={true}
+	avatarImages={[
+		'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face',
+		'https://images.unsplash.com/photo-1517841905240-472988babdf9?w=100&h=100&fit=crop&crop=face',
+		'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face',
+		'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face',
+		'https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?w=100&h=100&fit=crop&crop=face',
+		'https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=100&h=100&fit=crop&crop=face'
+	]}
+	height="h-80"
+>
+	<h1 class="text-2xl font-medium text-slate-900 lg:text-4xl dark:text-white">
+		Farmers Market Directory
+	</h1>
+	<p class="text- max-w-lg font-light text-slate-700 dark:text-white/90">
+		Find fresh, local produce and artisanal goods in your area with market hours, locations, and
+		vendor information.
+	</p>
+</Hero>
+
+<!-- Current Hero with Images (keep this as fallback) -->
+<!-- <Hero align="center" background="/hero.avif" backgroundMobile="/hero-mobile.avif">
 	<h1
 		class="mb-2 text-2xl font-medium text-slate-50 mix-blend-difference text-shadow-lg text-shadow-slate-950 md:text-4xl"
 	>
@@ -278,7 +309,8 @@
 		Find fresh, local produce and artisanal goods in your area with market hours, locations, and
 		vendor information.
 	</p>
-</Hero>
+</Hero> -->
+
 <FilterBar hideGradients={searchMode}>
 	<svelte:fragment slot="search">
 		{#if !searchMode}
@@ -327,19 +359,7 @@
 	{/each}
 </FilterBar>
 
-<section class="container mx-auto py-4 pt-4 pb-12 xl:px-0">
-	<div class="mb-4 flex items-center justify-between">
-		<h2 class="flex items-center gap-2 text-xl font-semibold">
-			{searchActive ? `Results for "${searchQuery}"` : selectedLabel}
-			{#if selectedState}
-				<button on:click={() => goto('/')} class="cursor-pointer text-sm text-blue-600 underline">
-					(Clear)
-				</button>
-			{/if}
-		</h2>
-		<TabGroup activeTab={currentView} {tabs} onTabChange={handleTabChange} />
-	</div>
-
+<section class="container mx-auto py-8 xl:px-0">
 	{#if currentView === 'list'}
 		{#if paginatedResources.length > 0}
 			<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
@@ -348,7 +368,18 @@
 					{#if shouldShowAd && randomAd && index === adInsertIndex}
 						<Ad ad={randomAd} />
 					{/if}
-					<ResourceCard {...resource} state={resource.address.state} />
+					<ResourceCard
+						title={resource.title}
+						description={resource.description || ''}
+						image={resource.image || '/images/image-soon.png'}
+						state={typeof resource.address === 'object' &&
+						resource.address &&
+						'state' in resource.address
+							? resource.address.state
+							: ''}
+						externalUrl={resource.externalUrl || '#'}
+						sponsored={resource.sponsored || false}
+					/>
 				{/each}
 			</div>
 
@@ -384,3 +415,6 @@
 		<ResourceMap resources={filteredResources} />
 	{/if}
 </section>
+
+<!-- Floating View Toggle (Wander-style with pagination awareness) -->
+<FloatingViewToggle {currentView} onViewChange={handleFloatingToggle} />
