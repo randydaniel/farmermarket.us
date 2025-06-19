@@ -129,7 +129,7 @@
 	</script>`}
 </svelte:head>
 
-<main class="container mx-auto max-w-[900px] px-4 py-12 xl:px-0 xl:py-24">
+<main class="container mx-auto max-w-[900px] px-4 py-12 lg:px-0 lg:py-24">
 	<!-- Breadcrumbs -->
 	{#if resource}
 		<Breadcrumbs items={breadcrumbItems} />

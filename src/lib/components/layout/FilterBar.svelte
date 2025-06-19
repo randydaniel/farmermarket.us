@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { CaretLeft, CaretRight } from 'phosphor-svelte';
-	import { onMount } from 'svelte';
+	import { onMount, afterUpdate } from 'svelte';
+	import { page } from '$app/stores';
 
 	// No props needed; use slot for flexibility
 	export let hideGradients: boolean = false;
@@ -10,6 +11,17 @@
 	let scrollLeft: number;
 	let showLeft = false;
 	let showRight = false;
+
+	// Store scroll position in sessionStorage to persist across route changes
+	const SCROLL_STORAGE_KEY = 'filterbar-scroll-position';
+	let shouldAutoScrollToActive = false;
+	let currentRoute = '';
+
+	// Track route changes to know when we should auto-scroll to active chip
+	$: if ($page.url.pathname !== currentRoute) {
+		currentRoute = $page.url.pathname;
+		shouldAutoScrollToActive = true;
+	}
 
 	function handleMouseDown(e: MouseEvent) {
 		isDown = true;
@@ -48,6 +60,46 @@
 		showRight = scrollEl.scrollLeft + scrollEl.clientWidth < scrollEl.scrollWidth - 1;
 	}
 
+	function saveScrollPosition() {
+		if (!scrollEl) return;
+		sessionStorage.setItem(SCROLL_STORAGE_KEY, scrollEl.scrollLeft.toString());
+	}
+
+	function restoreScrollPosition() {
+		if (!scrollEl) return;
+		const savedPosition = sessionStorage.getItem(SCROLL_STORAGE_KEY);
+		if (savedPosition) {
+			scrollEl.scrollLeft = parseInt(savedPosition, 10);
+			updateArrows();
+		}
+	}
+
+	function scrollToActiveChip() {
+		if (!scrollEl || !shouldAutoScrollToActive) return;
+
+		// Find the active chip element
+		const activeChip = scrollEl.querySelector('[data-active="true"]') as HTMLElement;
+		if (activeChip) {
+			const chipRect = activeChip.getBoundingClientRect();
+			const containerRect = scrollEl.getBoundingClientRect();
+
+			// Check if the active chip is not fully visible
+			const isChipVisible =
+				chipRect.left >= containerRect.left && chipRect.right <= containerRect.right;
+
+			if (!isChipVisible) {
+				// Scroll to center the active chip
+				const chipCenter = activeChip.offsetLeft + activeChip.offsetWidth / 2;
+				const containerCenter = scrollEl.clientWidth / 2;
+				scrollEl.scrollLeft = chipCenter - containerCenter;
+				updateArrows();
+			}
+
+			// Reset the flag after we've handled the auto-scroll
+			shouldAutoScrollToActive = false;
+		}
+	}
+
 	function scrollToLeft() {
 		if (!scrollEl) return;
 		// Scroll by the visible width minus some overlap for context
@@ -62,12 +114,29 @@
 		scrollEl.scrollBy({ left: scrollAmount, behavior: 'smooth' });
 	}
 
-	// Update arrows on scroll and resize
-	$: scrollEl && (scrollEl.onscroll = updateArrows);
+	// Update arrows on scroll and resize, and save scroll position
+	$: scrollEl &&
+		(scrollEl.onscroll = () => {
+			updateArrows();
+			saveScrollPosition();
+		});
 	$: scrollEl && (window.onresize = updateArrows);
 
 	onMount(() => {
 		updateArrows();
+		currentRoute = $page.url.pathname;
+		// Restore scroll position after initial render
+		setTimeout(restoreScrollPosition, 100);
+	});
+
+	// After each update, check if we need to scroll to the active chip (only on route changes)
+	afterUpdate(() => {
+		if (shouldAutoScrollToActive) {
+			// Small delay to ensure DOM is fully updated
+			setTimeout(() => {
+				scrollToActiveChip();
+			}, 50);
+		}
 	});
 </script>
 

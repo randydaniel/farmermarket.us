@@ -167,6 +167,24 @@
 		window.scrollTo({ top: 0, behavior: 'smooth' });
 	}
 
+	function getAddressState(address: any): string {
+		if (typeof address === 'object' && address && 'state' in address) {
+			return String(address.state || '');
+		}
+		return '';
+	}
+
+	function addressMatchesQuery(address: any, query: string): boolean {
+		if (typeof address === 'object' && address && 'state' in address) {
+			const state = String(address.state || '');
+			return state.toLowerCase().includes(query);
+		}
+		if (typeof address === 'string') {
+			return address.toLowerCase().includes(query);
+		}
+		return false;
+	}
+
 	$: filteredResources = (() => {
 		let filtered = searchActive
 			? allResources.filter((r) => {
@@ -174,11 +192,7 @@
 					return (
 						r.title.toLowerCase().includes(q) ||
 						(r.description && r.description.toLowerCase().includes(q)) ||
-						(typeof r.address === 'object' &&
-							r.address &&
-							'state' in r.address &&
-							r.address.state.toLowerCase().includes(q)) ||
-						(typeof r.address === 'string' && r.address.toLowerCase().includes(q))
+						addressMatchesQuery(r.address, q)
 					);
 				})
 			: selectedState
@@ -359,7 +373,7 @@
 	{/each}
 </FilterBar>
 
-<section class="container mx-auto py-8 xl:px-0">
+<section class="container mx-auto px-4 py-8 lg:px-0">
 	{#if currentView === 'list'}
 		{#if paginatedResources.length > 0}
 			<div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">

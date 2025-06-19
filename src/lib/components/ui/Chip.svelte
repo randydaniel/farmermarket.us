@@ -25,6 +25,7 @@
 	{disabled}
 	on:click={handleClick}
 	aria-label={ariaLabel}
+	data-active={active}
 >
 	{#if leftIcon}
 		<span class="flex items-center">

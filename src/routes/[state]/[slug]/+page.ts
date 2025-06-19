@@ -16,11 +16,12 @@ export const load: PageLoad = ({ params, url }) => {
 		// Handle different address formats
 		let resourceState = '';
 		if (typeof r.address === 'object' && r.address && 'state' in r.address) {
-			resourceState = r.address.state || '';
-		} else if (typeof r.address === 'string') {
+			resourceState = String(r.address.state || '');
+		} else if (typeof r.address === 'string' && r.address) {
 			// For string addresses, try to extract state from the end
 			// This is a simple heuristic - addresses typically end with "State ZIP"
-			const parts = r.address.split(',').map((part) => part.trim());
+			const addressStr: string = r.address;
+			const parts = addressStr.split(',').map((part: string) => part.trim());
 			if (parts.length >= 2) {
 				// Look for state in the second-to-last part
 				const statePart = parts[parts.length - 2];
