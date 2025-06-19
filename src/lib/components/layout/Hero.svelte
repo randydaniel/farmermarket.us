@@ -4,8 +4,6 @@
 	import { writable } from 'svelte/store';
 
 	export let align: 'left' | 'center' | 'right' = 'center';
-	export let background: string = '';
-	export let backgroundMobile: string = '';
 	export let videoBackground: string = '';
 	export let videoBackgroundMobile: string = '';
 	export let showAvatars: boolean = false;
@@ -47,7 +45,7 @@
 		: 'background: linear-gradient(to top, rgba(255,255,255,0.9) 0%, transparent 100%);';
 </script>
 
-<section class="bg-background-color relative flex {height} items-center overflow-hidden px-4">
+<section class="relative flex {height} items-center overflow-hidden bg-slate-900 px-4">
 	<!-- Video Background -->
 	{#if videoBackground}
 		<!-- Desktop Video -->
@@ -57,16 +55,9 @@
 			muted
 			loop
 			playsinline
-			poster={background}
+			preload="auto"
 		>
 			<source src={videoBackground} type="video/mp4" />
-			<!-- Fallback to background image if video fails -->
-			{#if background}
-				<div
-					class="absolute inset-0 h-full w-full bg-cover bg-center"
-					style={`background-image: url('${background}');`}
-				></div>
-			{/if}
 		</video>
 
 		<!-- Mobile Video -->
@@ -77,16 +68,9 @@
 				muted
 				loop
 				playsinline
-				poster={backgroundMobile}
+				preload="auto"
 			>
 				<source src={videoBackgroundMobile} type="video/mp4" />
-				<!-- Fallback to mobile background image if video fails -->
-				{#if backgroundMobile}
-					<div
-						class="absolute inset-0 h-full w-full bg-cover bg-center"
-						style={`background-image: url('${backgroundMobile}');`}
-					></div>
-				{/if}
 			</video>
 		{:else}
 			<!-- Use desktop video on mobile if no mobile video provided -->
@@ -96,7 +80,7 @@
 				muted
 				loop
 				playsinline
-				poster={backgroundMobile || background}
+				preload="auto"
 			>
 				<source src={videoBackground} type="video/mp4" />
 			</video>
@@ -131,22 +115,6 @@
 			class="absolute inset-x-0 bottom-0 z-30 hidden h-24 dark:block"
 			style="background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 100%);"
 		></div>
-	{:else}
-		<!-- Fallback to Image Backgrounds (existing functionality) -->
-		<!-- Mobile Background image -->
-		{#if backgroundMobile}
-			<div
-				class="absolute inset-0 z-0 bg-cover bg-center sm:hidden"
-				style={`background-image: url('${backgroundMobile}');`}
-			></div>
-		{/if}
-		<!-- Desktop Background image -->
-		{#if background}
-			<div
-				class="absolute inset-0 z-0 hidden bg-cover bg-center sm:block"
-				style={`background-image: url('${background}');`}
-			></div>
-		{/if}
 	{/if}
 
 	<!-- Content Container -->

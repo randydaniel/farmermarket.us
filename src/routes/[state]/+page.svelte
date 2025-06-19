@@ -207,9 +207,7 @@
 
 <Hero
 	align="center"
-	background="/hero.avif"
-	backgroundMobile="/hero-mobile.avif"
-	videoBackground="/farmer-market.mp4"
+	videoBackground="/farmer-market.mp4?v=2"
 	height="h-80"
 	showAvatars={true}
 	avatarImages={[

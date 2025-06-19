@@ -287,9 +287,7 @@
 <!-- Enhanced Hero with Video Background (replace videoBackground with your video path) -->
 <Hero
 	align="center"
-	videoBackground="/farmer-market.mp4"
-	background="/hero.avif"
-	backgroundMobile="/hero-mobile.avif"
+	videoBackground="/farmer-market.mp4?v=2"
 	showAvatars={true}
 	avatarImages={[
 		'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face',
