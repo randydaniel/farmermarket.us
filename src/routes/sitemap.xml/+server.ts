@@ -5,6 +5,60 @@ import resources from '$lib/data/resources.json';
 
 const site = config.defaultSiteUrl.replace(/\/$/, ''); // Remove trailing slash if present
 
+// All US states for state-level pages
+const states = [
+	'Alabama',
+	'Alaska',
+	'Arizona',
+	'Arkansas',
+	'California',
+	'Colorado',
+	'Connecticut',
+	'Delaware',
+	'Florida',
+	'Georgia',
+	'Hawaii',
+	'Idaho',
+	'Illinois',
+	'Indiana',
+	'Iowa',
+	'Kansas',
+	'Kentucky',
+	'Louisiana',
+	'Maine',
+	'Maryland',
+	'Massachusetts',
+	'Michigan',
+	'Minnesota',
+	'Mississippi',
+	'Missouri',
+	'Montana',
+	'Nebraska',
+	'Nevada',
+	'New Hampshire',
+	'New Jersey',
+	'New Mexico',
+	'New York',
+	'North Carolina',
+	'North Dakota',
+	'Ohio',
+	'Oklahoma',
+	'Oregon',
+	'Pennsylvania',
+	'Rhode Island',
+	'South Carolina',
+	'South Dakota',
+	'Tennessee',
+	'Texas',
+	'Utah',
+	'Vermont',
+	'Virginia',
+	'Washington',
+	'West Virginia',
+	'Wisconsin',
+	'Wyoming'
+];
+
 // Static pages (now as objects)
 const staticPages = [
 	{ loc: '/', changefreq: 'weekly', priority: 1.0 },
@@ -12,6 +66,13 @@ const staticPages = [
 	{ loc: '/privacy', changefreq: 'monthly', priority: 0.7 },
 	{ loc: '/terms', changefreq: 'monthly', priority: 0.7 }
 ];
+
+// State-level pages (e.g., /california, /texas, etc.)
+const statePages = states.map((state) => ({
+	loc: `/${slugify(state)}`,
+	changefreq: 'weekly',
+	priority: 0.8
+}));
 
 // Dynamic resource pages (as objects, using slugified state and title)
 const resourcePages = resources
@@ -22,7 +83,7 @@ const resourcePages = resources
 		priority: 0.5
 	}));
 
-const pages = [...staticPages, ...resourcePages];
+const pages = [...staticPages, ...statePages, ...resourcePages];
 
 /** @type {import('./$types').RequestHandler} */
 export async function GET() {
