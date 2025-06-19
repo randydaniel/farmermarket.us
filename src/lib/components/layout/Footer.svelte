@@ -19,8 +19,8 @@
 						{config.siteName}
 					</a>
 					<p class="text-sm leading-normal font-light text-slate-600 dark:text-slate-300">
-						Your complete directory of farmer's markets across America. Find fresh, local produce
-						and artisanal goods in your area with market hours, locations, and vendor information.
+						Your complete directory of farmers markets across America. Find fresh, local produce and
+						artisanal goods in your area with market hours, locations, and vendor information.
 					</p>
 				</div>
 				<div class="flex max-w-sm flex-col gap-2">
