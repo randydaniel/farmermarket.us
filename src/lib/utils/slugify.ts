@@ -3,7 +3,11 @@
  * @param text The text to convert into a slug
  * @returns A URL-friendly slug
  */
-export function slugify(text: string): string {
+export function slugify(text: string | undefined | null): string {
+	if (!text || typeof text !== 'string') {
+		return '';
+	}
+
 	return text
 		.toLowerCase()
 		.replace(/[^\w\s-]/g, '') // Remove special characters
