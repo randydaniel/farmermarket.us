@@ -168,7 +168,112 @@
 	function handlePageChange(page: number) {
 		currentPage = page;
 	}
+
+	// Generate SEO-friendly description with market names
+	$: marketNames = filteredResources
+		.slice(0, 8)
+		.map((r) => r.title)
+		.join(', ');
+	$: seoDescription =
+		filteredResources.length > 0
+			? `Discover ${filteredResources.length} farmers markets in ${selectedLabel} including ${marketNames}${filteredResources.length > 8 ? ' and more' : ''}. Find fresh produce, local vendors, and market hours.`
+			: `Find farmers markets in ${selectedLabel}. Discover fresh, local produce and artisanal goods with market hours, locations, and vendor information.`;
+
+	$: pageTitle = `${selectedLabel} Farmers Markets | Find Fresh Local Produce`;
+	$: canonicalUrl = `https://farmermarket.us${$page.url.pathname}`;
 </script>
+
+<svelte:head>
+	<!-- Primary SEO -->
+	<title>{pageTitle}</title>
+	<meta name="description" content={seoDescription} />
+	<meta
+		name="keywords"
+		content="farmers market, {selectedLabel.toLowerCase()}, fresh produce, local vendors, organic food, farm to table, {selectedLabel.toLowerCase()} farmers markets"
+	/>
+	<meta name="author" content="FarmerMarket.us" />
+	<link rel="canonical" href={canonicalUrl} />
+
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content={pageTitle} />
+	<meta property="og:description" content={seoDescription} />
+	<meta property="og:url" content={canonicalUrl} />
+	<meta property="og:site_name" content="FarmerMarket.us" />
+	<meta property="og:image" content="https://farmermarket.us/hero.avif" />
+
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:title" content={pageTitle} />
+	<meta property="twitter:description" content={seoDescription} />
+	<meta property="twitter:image" content="https://farmermarket.us/hero.avif" />
+
+	<!-- Additional SEO -->
+	<meta name="robots" content="index, follow" />
+	<meta name="googlebot" content="index, follow" />
+	<meta name="geo.region" content="US-{selectedState?.slice(0, 2).toUpperCase() || ''}" />
+	<meta name="geo.placename" content="{selectedLabel}, United States" />
+
+	<!-- JSON-LD Structured Data -->
+	{@html `<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "CollectionPage",
+		"name": "${pageTitle}",
+		"description": "${seoDescription.replace(/"/g, '\\"')}",
+		"url": "${canonicalUrl}",
+		"mainEntity": {
+			"@type": "ItemList",
+			"name": "${selectedLabel} Farmers Markets",
+			"description": "Directory of farmers markets in ${selectedLabel}",
+			"numberOfItems": ${filteredResources.length},
+			"itemListElement": [
+				${filteredResources
+					.slice(0, 10)
+					.map(
+						(resource, index) => `{
+					"@type": "ListItem",
+					"position": ${index + 1},
+					"item": {
+						"@type": "LocalBusiness",
+						"name": "${resource.title.replace(/"/g, '\\"')}",
+						"description": "${(resource.description || '').replace(/"/g, '\\"')}",
+						"url": "https://farmermarket.us${$page.url.pathname}/${slugify(resource.title)}"
+					}
+				}`
+					)
+					.join(',')}
+			]
+		},
+		"breadcrumb": {
+			"@type": "BreadcrumbList",
+			"itemListElement": [
+				{
+					"@type": "ListItem",
+					"position": 1,
+					"item": {
+						"@id": "https://farmermarket.us",
+						"name": "Home"
+					}
+				},
+				{
+					"@type": "ListItem",
+					"position": 2,
+					"item": {
+						"@id": "${canonicalUrl}",
+						"name": "${selectedLabel} Farmers Markets"
+					}
+				}
+			]
+		},
+		"publisher": {
+			"@type": "Organization",
+			"name": "FarmerMarket.us",
+			"url": "https://farmermarket.us"
+		}
+	}
+	</script>`}
+</svelte:head>
 
 <Hero
 	align="center"
