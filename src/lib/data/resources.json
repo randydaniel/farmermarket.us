@@ -4598,12 +4598,41 @@
 			"sunday": ""
 		},
 		"externalUrl": "https://merriweatherdistrict.com/event/farmers-market/",
-		"sponsored": false,
+		"sponsored": true,
 		"address": {
 			"street": "10480 Little Patuxent Pkwy",
 			"city": "Columbia",
 			"state": "Maryland",
 			"zip": "21044"
+		},
+		"coordinates": {
+			"lat": 39.21232,
+			"lng": -76.86314
+		}
+	},
+	{
+		"id": "159",
+		"title": "Old Ellicott City Farmers Market",
+		"description": "This vibrant community market features local farms offering fresh produce, pastured meats, artisanal foods, fresh flowers, baked goods, coffee, and handcrafted products from vendors across Maryland.",
+		"longDescription": "<p>The Old Ellicott City Farmers Market is a thriving seasonal marketplace that brings together the best of Maryland's local agriculture and artisanal food scene. Located in the newly expanded Tiber Park at 8061 Main Street in historic Ellicott City, the market operates every Saturday from 9:00 AM to 1:00 PM, running from May 24 through October 25.</p><p>This carefully curated market showcases diverse vendors committed to quality and sustainability. Farm vendors include Singh Sugar Maple Farm with their fresh produce and pick-your-own options, Fairy Greens specializing in micro-greens and lavender products, and North Acres Farm offering pastured meats raised through regenerative farming practices. Enchanted Flower Farm provides chemical-free seasonal cut flowers, while Davis Highlands Orchard brings tree fruits, honey, eggs, and gourmet mushrooms from their 18-acre operation.</p><p>The market also features exceptional prepared foods and specialty items, including French-inspired cuisine from La Table du Château, artisanal breads from Great Harvest Bread Co., ethically sourced coffee from Dear Globe Coffee, creative pies from the Baltimore favorite Dangerously Delicious Pies, and authentic French crepes from Crepe Shoppe Café.</p><p>Supported by a $20,000 Enhanced Agricultural Grant from Howard County and community sponsors, the Old Ellicott City Farmers Market serves as a vital hub connecting local producers with the community, promoting sustainable agriculture, supporting small businesses, and fostering neighborhood connections in a welcoming, family-friendly environment.</p>",
+		"image": "/images/resources/maryland/oec-farmers-market.avif",
+		"phone": "",
+		"hours": {
+			"monday": "",
+			"tuesday": "",
+			"wednesday": "",
+			"thursday": "",
+			"friday": "",
+			"saturday": "9:00 AM - 1:00 PM",
+			"sunday": ""
+		},
+		"externalUrl": "https://www.oldellicottcity.org/farmers-market/",
+		"sponsored": true,
+		"address": {
+			"street": "8388 Court Avenue, Suite 100",
+			"city": "Ellicott City",
+			"state": "Maryland",
+			"zip": "21043"
 		},
 		"coordinates": {
 			"lat": 39.21232,
