@@ -2,6 +2,7 @@ export const prerender = true;
 import { config } from '$lib/config';
 import { slugify } from '$lib/utils/slugify';
 import resources from '$lib/data/resources.json';
+import { getAllBlogPosts } from '$lib/services/blog';
 
 const site = config.defaultSiteUrl.replace(/\/$/, ''); // Remove trailing slash if present
 
@@ -62,6 +63,7 @@ const states = [
 // Static pages (now as objects)
 const staticPages = [
 	{ loc: '/', changefreq: 'weekly', priority: 1.0 },
+	{ loc: '/blog', changefreq: 'weekly', priority: 0.8 },
 	{ loc: '/faq', changefreq: 'monthly', priority: 0.7 },
 	{ loc: '/privacy', changefreq: 'monthly', priority: 0.7 },
 	{ loc: '/terms', changefreq: 'monthly', priority: 0.7 }
@@ -83,10 +85,18 @@ const resourcePages = resources
 		priority: 0.5
 	}));
 
-const pages = [...staticPages, ...statePages, ...resourcePages];
-
 /** @type {import('./$types').RequestHandler} */
 export async function GET() {
+	// Get blog posts for sitemap
+	const blogPosts = await getAllBlogPosts();
+	const blogPages = blogPosts.map((post) => ({
+		loc: `/blog/${post.slug}`,
+		changefreq: 'weekly',
+		priority: 0.6
+	}));
+
+	const pages = [...staticPages, ...statePages, ...resourcePages, ...blogPages];
+
 	const body = sitemap(pages);
 	const response = new Response(body);
 	response.headers.set('Cache-Control', 'max-age=0, s-maxage=3600');

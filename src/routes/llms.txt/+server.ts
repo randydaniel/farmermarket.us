@@ -1,6 +1,7 @@
 import type { RequestHandler } from './$types';
 import { slugify } from '$lib/utils/slugify';
 import resources from '$lib/data/resources.json';
+import { getAllBlogPosts } from '$lib/services/blog';
 
 export const prerender = true;
 
@@ -88,6 +89,9 @@ export const GET: RequestHandler = async () => {
 		}
 	];
 
+	// Get blog posts
+	const blogPosts = await getAllBlogPosts();
+
 	const llmsTxt = `# Farmermarket
 
 > Your complete directory of farmers markets across America. Find fresh, local produce and artisanal goods in your area with market hours, locations, and vendor information.
@@ -95,6 +99,18 @@ export const GET: RequestHandler = async () => {
 Farmermarket.us is a comprehensive directory of farmers markets across all 50 US states. Each market listing includes detailed information such as operating hours, exact locations with addresses, vendor information, and seasonal availability. The site helps users discover local farmers markets, support local agriculture, and find fresh produce in their area.
 
 The directory is organized by state for easy navigation, with each state page showing all farmers markets in that region. Individual market pages provide detailed information including contact details, operating schedules, and vendor listings where available.
+
+## Blog & Educational Content
+
+The site features educational content about farmers markets, local food systems, and seasonal eating:
+
+- [Blog](https://farmermarket.us/blog): Educational articles about farmers markets and local food
+
+${blogPosts
+	.map(
+		(post) => `- [${post.title}](https://farmermarket.us/blog/${post.slug}): ${post.description}`
+	)
+	.join('\n')}
 
 ## State Directories
 
