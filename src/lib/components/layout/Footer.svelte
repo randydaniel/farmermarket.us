@@ -56,6 +56,15 @@
 							</li>
 							<li>
 								<a
+									href="/blog"
+									class={`text-sm leading-normal font-light transition-all duration-300
+								${$page.url.pathname === '/faq' ? 'underline-dotted text-slate-950 underline dark:text-slate-50' : 'text-slate-600 hover:text-slate-950 dark:text-slate-300 hover:dark:text-slate-50'}`}
+								>
+									Blog
+								</a>
+							</li>
+							<li>
+								<a
 									href="/faq"
 									class={`text-sm leading-normal font-light transition-all duration-300
 								${$page.url.pathname === '/faq' ? 'underline-dotted text-slate-950 underline dark:text-slate-50' : 'text-slate-600 hover:text-slate-950 dark:text-slate-300 hover:dark:text-slate-50'}`}

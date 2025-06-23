@@ -13,6 +13,7 @@ function slugify(text) {
 // Generate all possible routes for prerendering
 const entries = [
 	'/',
+	'/blog',
 	'/faq',
 	'/privacy',
 	'/terms',
@@ -22,5 +23,8 @@ const entries = [
 		.filter((resource) => resource.address && resource.address.state)
 		.map((resource) => `/${slugify(resource.address.state)}/${slugify(resource.title)}`)
 ];
+
+// Add blog post routes
+entries.push('/blog/your-local-food-adventure-starts-here');
 
 module.exports = { entries };

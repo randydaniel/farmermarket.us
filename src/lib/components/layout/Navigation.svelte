@@ -61,6 +61,15 @@
 				</li>
 				<li>
 					<a
+						href="/blog"
+						class={`text-base font-normal transition-all duration-300
+						${$page.url.pathname.startsWith('/blog') ? 'text-slate-950 underline underline-offset-4 dark:text-slate-50' : 'text-slate-600 hover:text-slate-950 dark:text-slate-100 hover:dark:text-slate-50'}`}
+					>
+						Blog
+					</a>
+				</li>
+				<li>
+					<a
 						href="/faq"
 						class={`text-base font-normal transition-all duration-300
 						${$page.url.pathname === '/faq' ? 'text-slate-950 underline underline-offset-4 dark:text-slate-50' : 'text-slate-600 hover:text-slate-950 dark:text-slate-100 hover:dark:text-slate-50'}`}
@@ -120,6 +129,14 @@
 						on:click={closeMobileMenu}
 					>
 						Directory
+					</a>
+					<a
+						href="/blog"
+						class={`block rounded-lg px-4 py-3 text-base font-medium transition-colors duration-200
+						${$page.url.pathname.startsWith('/blog') ? 'bg-slate-100 text-slate-950' : 'text-slate-600 hover:bg-slate-50 hover:text-slate-950'}`}
+						on:click={closeMobileMenu}
+					>
+						Blog
 					</a>
 					<a
 						href="/faq"
