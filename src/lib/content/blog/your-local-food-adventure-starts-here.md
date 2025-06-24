@@ -27,6 +27,8 @@ Our directory connects you with markets across the country, each one bursting wi
 
 **Community Connection**: Farmers markets are like neighborhood festivals that happen every week. They're places where you run into old friends, make new ones, and feel genuinely connected to your community. Kids love them too—it's like an outdoor classroom where they can learn where food really comes from.
 
+![Merriweather Farmers Market](/images/resources/maryland/merriweather-district-farmers-market.avif 'Merriweather District Farmers Market')
+
 ## Your Farmers Market Adventure Starts Now
 
 Ready to transform the way you think about food shopping? Here's how to make the most of FarmerMarket.us:
