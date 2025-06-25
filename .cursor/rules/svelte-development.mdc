@@ -1,0 +1,624 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# SvelteKit Development PRD
+
+## Product Requirements Document - Best Practices & Implementation Guidelines
+
+### Executive Summary
+
+This PRD establishes comprehensive development standards for SvelteKit applications, focusing on performance optimization, architectural excellence, accessibility, and maintainable code practices.
+
+---
+
+## 1. Performance Optimization Requirements
+
+### 1.1 Loading & Bundle Optimization
+
+**Implementation Standards**:
+
+- **Lazy Loading**: All components not critical for initial render must implement lazy loading using dynamic imports
+- **Code Splitting**: Route-level and component-level code splitting mandatory for bundles >500KB
+- **Tree Shaking**: Eliminate unused code through proper ES6 module imports
+
+**Acceptance Criteria**:
+
+- Initial bundle size <200KB (gzipped)
+- Lazy loaded components reduce initial payload by >40%
+- Core Web Vitals: LCP <2.5s, FID <100ms, CLS <0.1
+
+### 1.2 Server-Side Rendering & Static Generation
+
+**Implementation Standards**:
+
+- **SSR Priority**: All public-facing pages must use server-side rendering
+- **SSG Implementation**: Static content pages must use static site generation
+- **Hybrid Approach**: Dynamic sections within static pages using islands architecture
+
+### 1.3 Asset & Image Optimization
+
+**Implementation Standards**:
+
+- **Modern Formats**: WebP/AVIF with fallbacks for all images
+- **Responsive Images**: srcset implementation for all content images
+- **Image Processing**: Automated optimization pipeline with multiple size variants
+
+### 1.4 Reactivity & State Optimization
+
+**Implementation Standards**:
+
+- **Svelte 5 Runes**: Utilize `$state`, `$derived`, `$effect` for optimal reactivity
+- **Store Optimization**: Implement derived stores to prevent redundant calculations
+- **Update Batching**: Group related state updates to minimize render cycles
+
+## 2. Architectural Patterns & Project Structure
+
+### 2.1 Component Architecture
+
+**Implementation Standards**:
+
+- **Single Responsibility**: Each component handles one specific functionality
+- **Composition Pattern**: Favor composition over inheritance for complex components
+- **Prop Interface**: Strict TypeScript interfaces for all component props
+
+**Directory Structure**:
+
+```
+src/
+├── lib/
+│   ├── components/          # Reusable UI components
+│   │   ├── ui/             # Base UI elements
+│   │   ├── forms/          # Form-specific components
+│   │   └── layout/         # Layout components
+│   ├── stores/             # Global state management
+│   ├── utils/              # Utility functions
+│   ├── types/              # TypeScript type definitions
+│   └── server/             # Server-only utilities
+├── routes/                 # File-based routing
+└── app.html               # HTML shell
+
+```
+
+### 2.2 Routing & Layout System
+
+**Implementation Standards**:
+
+- **Nested Layouts**: Implement layout hierarchy that minimizes code duplication
+- **Route Groups**: Organize related routes using route groups `(auth)`, `(dashboard)`
+- **Layout Boundaries**: Clear data loading boundaries at appropriate layout levels
+- **Error Boundaries**: Comprehensive error handling at route and layout levels
+
+### 2.3 Type Safety & Development Experience
+
+**Implementation Standards**:
+
+- **Strict Mode**: TypeScript strict mode enabled across entire project
+- **Interface Priority**: Prefer interfaces over type aliases for object shapes
+- **Generic Components**: Type-safe generic components for reusable patterns
+- **Runtime Validation**: Zod or similar for runtime type validation
+
+**Acceptance Criteria**:
+
+- 100% TypeScript coverage with no `any` types
+- Build-time type errors prevent deployment
+- IDE provides accurate autocomplete and error detection
+
+## 3. State Management Architecture
+
+### 3.1 Built-in Store System
+
+**Implementation Standards**:
+
+- **Store Hierarchy**: Organized store structure with clear data flow
+- **Derived Stores**: Complex calculations cached through derived stores
+- **Custom Stores**: Domain-specific stores with encapsulated business logic
+- **Store Persistence**: Local storage integration where appropriate
+
+**Store Categories**:
+
+- **User Store**: Authentication and user profile data
+- **UI Store**: Application-wide UI state (modals, notifications)
+- **Data Stores**: Domain-specific data with CRUD operations
+- **Settings Store**: User preferences and configuration
+
+### 3.2 Svelte 5 Runes Integration
+
+**Implementation Standards**:
+
+- **$state**: Local component state management
+- **$derived**: Computed values with automatic dependency tracking
+- **$effect**: Side effects with proper cleanup
+- **$props**: Type-safe prop definitions with defaults
+- **$bindable**: Two-way binding for complex components
+
+## 4. Accessibility Requirements
+
+### 4.1 Semantic HTML & ARIA Implementation
+
+**Implementation Standards**:
+
+- **Semantic Structure**: Proper HTML5 semantic elements for all content
+- **ARIA Labels**: Comprehensive ARIA implementation for complex interactions
+- **Focus Management**: Logical focus flow and visible focus indicators
+- **Screen Reader**: Full screen reader compatibility with meaningful descriptions
+
+**Accessibility Checklist**:
+
+- [ ]  All interactive elements have accessible names
+- [ ]  Color contrast ratios meet WCAG 2.1 AA standards
+- [ ]  Keyboard navigation functions for all interactive elements
+- [ ]  Screen reader announces all state changes
+- [ ]  Form validation errors are accessible
+
+### 4.2 Keyboard & Navigation Support
+
+**Implementation Standards**:
+
+- **Tab Order**: Logical tab sequence throughout application
+- **Keyboard Shortcuts**: Standard keyboard shortcuts for common actions
+- **Skip Links**: "Skip to content" links for improved navigation
+- **Focus Trapping**: Modal dialogs trap focus appropriately
+
+**Acceptance Criteria**:
+
+- 100% keyboard navigability without mouse interaction
+- Screen reader compatibility score >95%
+- WCAG 2.1 AA compliance verification
+
+## 5. Data Fetching & API Architecture
+
+### 5.1 Server-Side Data Loading
+
+**Implementation Standards**:
+
+- **Load Functions**: Server-side data fetching for initial page loads
+- **Error Handling**: Comprehensive error boundaries and fallback states
+- **Caching Strategy**: Appropriate caching headers and invalidation
+- **Parallel Loading**: Multiple data sources loaded simultaneously
+
+**Load Function Example**:
+
+```tsx
+export const load: PageLoad = async ({ fetch, params, url }) => {
+  const [userData, contentData] = await Promise.all([
+    fetchUserData(fetch, params.userId),
+    fetchContent(fetch, url.searchParams.get('category'))
+  ]);
+  return { user: userData, content: contentData };
+};
+
+```
+
+### 5.2 API Route Implementation
+
+**Implementation Standards**:
+
+- **REST Conventions**: Follow RESTful API design principles
+- **Error Responses**: Consistent error response format across all endpoints
+- **Validation**: Request validation using schema validation libraries
+- **Authentication**: Secure authentication middleware for protected routes
+
+---
+
+## 6. Security Implementation
+
+### 6.1 Authentication & Session Management
+
+**Implementation Standards**:
+
+- **HTTP-Only Cookies**: Secure session cookies with SameSite protection
+- **CSRF Protection**: Cross-site request forgery protection for all forms
+- **Session Validation**: Server-side session validation on protected routes
+- **Secure Headers**: Comprehensive security headers implementation
+
+### 6.2 Environment & Configuration Security
+
+**Implementation Standards**:
+
+- **Environment Variables**: All secrets stored in environment variables
+- **Build-time Secrets**: Separate public and private environment variables
+- **API Key Management**: Secure API key rotation and access patterns
+- **Input Sanitization**: All user inputs sanitized and validated
+
+## 7. Development & Quality Assurance
+
+### 7.1 Testing Strategy
+
+**Testing Implementation**:
+
+- **Unit Tests**: Vitest for utility functions and business logic
+- **Component Tests**: Svelte Testing Library for component behavior
+- **Integration Tests**: End-to-end testing with Playwright
+- **Performance Tests**: Load testing and performance regression monitoring
+
+**Testing Coverage Requirements**:
+
+- 90% code coverage for utility functions
+- 80% component test coverage
+- 100% critical user journey coverage in E2E tests
+
+### 7.2 Code Quality & Standards
+
+**Implementation Standards**:
+
+- **ESLint Configuration**: Strict linting rules with Svelte-specific plugins
+- **Prettier Integration**: Consistent code formatting across team
+- **Pre-commit Hooks**: Automated quality checks before commits
+- **Code Review**: Mandatory peer review for all changes
+
+## 8. SEO Optimization for SvelteKit Applications
+
+### 8.1 Static Site Generation (SSG) SEO Advantages
+
+**The Fundamental Advantage**: Pre-Built HTML for Crawlers
+
+**Implementation Standards**:
+
+- **Guaranteed Full HTML**: Utilize SvelteKit's prerendering to build complete HTML documents at build time
+- **No JavaScript Dependency**: Ensure all content is present in initial HTML payload for maximum crawlability
+- **CDN-Ready**: Static files can be served directly from Content Delivery Networks for optimal performance
+
+**Acceptance Criteria**:
+
+- 100% of public pages prerendered with complete HTML
+- All content accessible without JavaScript execution
+- First Contentful Paint <1.5s from CDN
+
+### 8.2 On-Page SEO Elements
+
+**Critical Meta Tag Implementation**
+
+**Implementation Standards**:
+
+- **Dynamic Title Tags**: Unique, descriptive titles for every page using `<svelte:head>`
+- **Meta Descriptions**: Compelling descriptions that accurately represent page content
+- **Canonical URLs**: Prevent duplicate content issues with proper canonical link implementation
+- **Social Media Tags**: Complete Open Graph and Twitter Card implementation
+
+**Character Limits**:
+
+- Page titles: 50-60 characters
+- Meta descriptions: 150-160 characters
+- Open Graph titles: 40 characters
+- Open Graph descriptions: 300 characters
+
+**SEO Meta Tag Implementation Example**:
+
+```
+<svelte:head>
+  <title>{pageTitle} | Your Site Name</title>
+  <meta name="description" content={metaDescription} />
+  <link rel="canonical" href={canonicalUrl} />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content={pageTitle} />
+  <meta property="og:description" content={metaDescription} />
+  <meta property="og:image" content={ogImage} />
+  <meta property="og:url" content={canonicalUrl} />
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content={pageTitle} />
+  <meta name="twitter:description" content={metaDescription} />
+</svelte:head>
+
+```
+
+### 8.3 Performance Optimization for SEO
+
+**Core Web Vitals Excellence**
+
+**Implementation Standards**:
+
+- **Largest Contentful Paint (LCP)**: <2.5s through optimized image loading and critical CSS
+- **First Input Delay (FID)**: <100ms with minimal blocking JavaScript
+- **Cumulative Layout Shift (CLS)**: <0.1 through proper image dimensions and font loading
+
+**Image Optimization Requirements**:
+
+- **Modern Formats**: WebP/AVIF with fallbacks for all images
+- **Responsive Images**: Implement srcset and sizes attributes
+- **Lazy Loading**: Below-the-fold images with loading="lazy"
+- **Proper Sizing**: Explicit width/height attributes to prevent layout shift
+
+**Optimized Image Implementation**:
+
+```
+<picture>
+  <source srcset="/images/hero.avif" type="image/avif" />
+  <source srcset="/images/hero.webp" type="image/webp" />
+  <img
+    src="/images/hero.jpg"
+    alt="Descriptive alt text"
+    width="800"
+    height="600"
+    loading="lazy"
+  />
+</picture>
+
+```
+
+### 8.4 Structured Data Implementation
+
+[**Schema.org](http://schema.org/) JSON-LD for Rich Snippets**
+
+**Implementation Standards**:
+
+- **Article Schema**: For blog posts and content pages
+- **Organization Schema**: For about/contact pages
+- **Product Schema**: For e-commerce products
+- **FAQ Schema**: For frequently asked questions
+- **Breadcrumb Schema**: For navigation context
+
+**JSON-LD Implementation Example**:
+
+```
+<script>
+  export let data;
+
+  $: structuredData = {
+    "@context": "<https://schema.org>",
+    "@type": "Article",
+    "headline": data.title,
+    "description": data.description,
+    "author": {
+      "@type": "Person",
+      "name": data.author
+    },
+    "datePublished": data.publishedDate,
+    "image": data.featuredImage
+  };
+</script>
+
+<svelte:head>
+  <script type="application/ld+json">
+    {@html JSON.stringify(structuredData)}
+  </script>
+</svelte:head>
+
+```
+
+### 8.5 Site Structure and URL Optimization
+
+**SEO-Friendly Architecture**
+
+**Implementation Standards**:
+
+- **Clean URLs**: Utilize SvelteKit's file-based routing for human-readable URLs
+- **URL Normalization**: Consistent trailing slash handling and canonical URLs
+- **Internal Linking**: Strategic contextual links to distribute page authority
+- **Hierarchy**: Clear site structure with logical category organization
+
+**URL Structure Best Practices**:
+
+```
+✅ Good: /blog/sveltekit-seo-guide
+✅ Good: /products/category/product-name
+✅ Good: /about/team
+
+❌ Avoid: /post?id=123&cat=seo
+❌ Avoid: /p/abc123xyz
+❌ Avoid: /blog/2024/01/15/post-title
+
+```
+
+### 8.6 Technical SEO Implementation
+
+**Essential Technical Requirements**
+
+**Implementation Standards**:
+
+- **XML Sitemap**: Auto-generated sitemap.xml for all prerendered pages
+- **Robots.txt**: Proper crawler guidance and directive implementation
+- **Mobile-First Design**: Responsive design with mobile-first indexing optimization
+- **Error Handling**: Custom 404 pages (+error.svelte) that are properly prerendered
+
+**Sitemap Generation Example**:
+
+```jsx
+// scripts/generate-sitemap.js
+import { writeFileSync } from 'fs';
+import { getAllPages } from './get-pages.js';
+
+const pages = getAllPages();
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="<http://www.sitemaps.org/schemas/sitemap/0.9>">
+  ${pages.map(page => `
+    <url>
+      <loc>${page.url}</loc>
+      <lastmod>${page.lastmod}</lastmod>
+      <changefreq>${page.changefreq}</changefreq>
+      <priority>${page.priority}</priority>
+    </url>
+  `).join('')}
+</urlset>`;
+
+writeFileSync('static/sitemap.xml', sitemap);
+
+```
+
+### 8.7 Content Strategy for SEO
+
+**High-Quality Content Standards**
+
+**Implementation Standards**:
+
+- **Keyword Research**: Target relevant, high-value keywords with search intent alignment
+- **Content Depth**: Comprehensive, valuable content that thoroughly addresses user queries
+- **Content Freshness**: Regular updates and new content to maintain search relevance
+- **User Experience**: Clear navigation, readable typography, and engaging content structure
+
+**Content Optimization Checklist**:
+
+- [ ]  Unique, descriptive H1 tag on every page
+- [ ]  Proper heading hierarchy (H1 → H2 → H3)
+- [ ]  Strategic keyword placement in headings and content
+- [ ]  Internal links to related content
+- [ ]  External links to authoritative sources
+- [ ]  Alt text for all images
+- [ ]  Content length appropriate for topic depth
+
+### 8.8 SEO Deployment Considerations
+
+**Build and Update Strategy**
+
+**Implementation Standards**:
+
+- **Automated Rebuilds**: CI/CD pipeline for content updates triggering rebuilds
+- **Cache Invalidation**: Proper CDN cache invalidation for updated content
+- **Staging Environment**: SEO testing environment before production deployment
+- **Performance Monitoring**: Continuous Core Web Vitals and SEO metrics tracking
+
+**Hybrid Approach Considerations**:
+
+- **Static + Dynamic**: SSG for static content, SSR for frequently changing data
+- **Build Optimization**: Incremental builds for large sites with frequent updates
+- **Content Management**: Headless CMS integration with webhook-triggered rebuilds
+
+---
+
+## SEO Success Metrics & KPIs
+
+**Search Performance Metrics**:
+
+- **Organic Traffic**: Month-over-month growth in organic search traffic
+- **Search Rankings**: Target keyword ranking improvements in top 10 positions
+- **Click-Through Rate**: Improved CTR from search results (target >3%)
+- **Impressions**: Increased search visibility and brand awareness
+
+**Technical Performance Metrics**:
+
+- **Core Web Vitals**: All metrics consistently in "Good" range
+- **Page Speed**: LCP <2.5s, FID <100ms, CLS <0.1
+- **Mobile Usability**: Zero mobile usability issues in Search Console
+- **Crawl Efficiency**: Reduced crawl errors and improved indexation rate
+
+**Content Quality Metrics**:
+
+- **Bounce Rate**: Decreased bounce rate indicating content relevance
+- **Time on Page**: Increased engagement with content
+- **Internal Link Clicks**: Improved site navigation and user journey
+- **Social Shares**: Enhanced content reach and backlink potential
+
+---
+
+## Success Metrics & KPIs
+
+### Performance Metrics
+
+- **Page Load Time**: <2s for 95th percentile
+- **Core Web Vitals**: All metrics in "Good" range
+- **Bundle Size**: <300KB initial payload
+- **Build Time**: <2 minutes for full production build
+
+### Quality Metrics
+
+- **Bug Rate**: <1 critical bug per release
+- **Test Coverage**: >85% overall coverage
+- **Accessibility**: WCAG 2.1 AA compliance
+- **Security**: Zero high-severity vulnerabilities
+
+### Developer Experience
+
+- **Development Setup**: <5 minutes from clone to running
+- **Hot Reload**: <100ms for most changes
+- **Type Safety**: 100% TypeScript coverage
+- **Documentation**: All public APIs documented
+
+## SEO Success Metrics & KPIs
+
+**Search Performance Metrics**:
+
+- **Organic Traffic**: Month-over-month growth in organic search traffic
+- **Search Rankings**: Target keyword ranking improvements in top 10 positions
+- **Click-Through Rate**: Improved CTR from search results (target >3%)
+- **Impressions**: Increased search visibility and brand awareness
+
+**Technical Performance Metrics**:
+
+- **Core Web Vitals**: All metrics consistently in "Good" range
+- **Page Speed**: LCP <2.5s, FID <100ms, CLS <0.1
+- **Mobile Usability**: Zero mobile usability issues in Search Console
+- **Crawl Efficiency**: Reduced crawl errors and improved indexation rate
+
+**Content Quality Metrics**:
+
+- **Bounce Rate**: Decreased bounce rate indicating content relevance
+- **Time on Page**: Increased engagement with content
+- **Internal Link Clicks**: Improved site navigation and user journey
+- **Social Shares**: Enhanced content reach and backlink potential
+
+## Enhanced Success Metrics & KPIs
+
+### Performance Metrics
+
+- **Page Load Time**: <2s for 95th percentile
+- **Core Web Vitals**: All metrics in "Good" range (LCP <2.5s, FID <100ms, CLS <0.1)
+- **Bundle Size**: <300KB initial payload
+- **Build Time**: <2 minutes for full production build
+- **Time to First Byte (TTFB)**: <800ms for SSG pages
+- **First Contentful Paint (FCP)**: <1.5s on 3G networks
+
+### Quality Metrics
+
+- **Bug Rate**: <1 critical bug per release
+- **Test Coverage**: >85% overall coverage
+- **Accessibility**: WCAG 2.1 AA compliance (100% automated test pass rate)
+- **Security**: Zero high-severity vulnerabilities
+- **Cross-Browser Compatibility**: 100% functionality across modern browsers
+- **Mobile Responsiveness**: Zero mobile usability issues in Search Console
+
+### Developer Experience
+
+- **Development Setup**: <5 minutes from clone to running
+- **Hot Reload**: <100ms for most changes
+- **Type Safety**: 100% TypeScript coverage
+- **Documentation**: All public APIs documented
+- **Build Pipeline**: Automated SEO validation in CI/CD
+
+### SEO Performance Metrics
+
+- **Organic Search Traffic**: Month-over-month growth >15%
+- **Search Rankings**: Target keywords in top 10 positions (>70% of priority keywords)
+- **Click-Through Rate (CTR)**: >3% average from search results
+- **Search Console Impressions**: Quarterly growth >25%
+- **Featured Snippets**: Capture rate >5% for targeted queries
+- **Local Search Visibility**: Top 3 positions for geo-targeted keywords
+
+### Technical SEO Metrics
+
+- **Crawl Efficiency**: >95% successful crawl rate in Search Console
+- **Index Coverage**: 100% of intended pages indexed
+- **Core Web Vitals Field Data**: >75% "Good" URLs in Search Console
+- **Mobile Usability**: Zero mobile usability errors
+- **Structured Data**: 100% valid schema markup with zero errors
+- **Site Speed**: PageSpeed Insights score >90 for mobile and desktop
+
+### Content Quality & Engagement Metrics
+
+- **Bounce Rate**: <40% average across all pages
+- **Average Session Duration**: >2 minutes for content pages
+- **Pages Per Session**: >2.5 average
+- **Return Visitor Rate**: >30% of total traffic
+- **Internal Link Click Rate**: >15% for contextual links
+- **Social Sharing**: >5% of page views result in social shares
+
+### SEO Technical Implementation Metrics
+
+- **Meta Tag Completion**: 100% of pages have unique title and description
+- **Image Optimization**: 100% of images have alt text and are optimized
+- **Internal Linking**: Every page accessible within 3 clicks from homepage
+- **Canonical Implementation**: 100% of pages have proper canonical tags
+- **Schema Coverage**: 100% of applicable content types have structured data
+- **Sitemap Accuracy**: 100% of live pages included in XML sitemap
+
+### Conversion & Business Impact Metrics
+
+- **Organic Conversion Rate**: >2% for target actions
+- **Search-Driven Revenue**: Month-over-month growth >20%
+- **Brand Search Volume**: Quarterly growth >15%
+- **Backlink Acquisition**: >10 high-quality backlinks per month
+- **Domain Authority Growth**: Quarterly improvement in authority metrics
+- **Competitor Gap Closure**: Reduce ranking gap by >25% for priority keywords
