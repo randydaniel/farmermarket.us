@@ -107,7 +107,7 @@
 						href="https://axcai.gumroad.com/l/axc-0002"
 						target="_blank"
 						class="underline-dotted text-slate-950 underline dark:text-slate-50"
-						>Direx — Web Directory.</a
+						>Direx — Web Directory.z</a
 					>
 				</p>
 			</div>
