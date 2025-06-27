@@ -1,5 +1,7 @@
 # FarmerMarket.us
 
+![FarmerMarket.us](farmermarket-og.png)
+
 [![MadeWithSvelte.com shield](https://madewithsvelte.com/storage/repo-shields/5731-shield.svg)](https://madewithsvelte.com/p/direx/shield-link)
 
 A comprehensive directory of farmer's markets across America built with SvelteKit, featuring state-based filtering, interactive maps, detailed market information, and comprehensive SEO optimization.
