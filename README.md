@@ -1,6 +1,6 @@
 # FarmerMarket.us
 
-![FarmerMarket.us](../static/farmermarket-og.png)
+![FarmerMarket.us](https://raw.githubusercontent.com/randydaniel/farmermarket.us/main/static/farmermarket-og.png)
 
 [![MadeWithSvelte.com shield](https://madewithsvelte.com/storage/repo-shields/5731-shield.svg)](https://madewithsvelte.com/p/direx/shield-link)
 
