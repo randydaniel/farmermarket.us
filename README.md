@@ -1,31 +1,38 @@
-# Direx
+# FarmerMarket.us
 
 [![MadeWithSvelte.com shield](https://madewithsvelte.com/storage/repo-shields/5731-shield.svg)](https://madewithsvelte.com/p/direx/shield-link)
 
-A modern resource directory built with SvelteKit, featuring categorized resource listings, advanced filtering, pagination, and comprehensive SEO optimization.
+A comprehensive directory of farmer's markets across America built with SvelteKit, featuring state-based filtering, interactive maps, detailed market information, and comprehensive SEO optimization.
 
 ---
 
 ## ✨ Features
 
-- **📚 Resource Directory**: Curated collection of tools and resources
-- **🏷️ Category Filtering**: Filter resources by category with toggle functionality
-- **📄 Pagination**: Handle large resource collections with smooth navigation
-- **🔍 SEO Optimized**: Comprehensive meta tags, Open Graph, and structured data
-- **📱 Responsive Design**: Beautiful UI that works on all devices
-- **🏃‍♂️ Fast Performance**: Built with SvelteKit for optimal speed
-- **🎨 Modern Styling**: Tailwind CSS with clean, professional design
+- **🏪 Farmer's Market Directory**: Comprehensive listings of 1000+ farmer's markets across all 50 US states
+- **🗺️ Interactive Maps**: Google Maps integration with geocoding and market locations
+- **🏷️ State-Based Filtering**: Filter markets by US state with custom icons
+- **📄 Pagination**: Handle large market collections with smooth navigation
+- **📍 Detailed Market Info**: Hours, addresses, phone numbers, coordinates, and descriptions
+- **🔍 SEO Optimized**: Comprehensive meta tags, Open Graph, structured data, and sitemaps
+- **📱 Responsive Design**: Beautiful UI that works on all devices with optimized images
+- **🏃‍♂️ Fast Performance**: Static generation with SvelteKit for optimal speed
+- **🎨 Modern Styling**: Tailwind CSS v4 with clean, professional design
+- **📝 Blog System**: Markdown-based blog with gray-matter frontmatter
+- **💰 Ad System**: Configurable custom ads with Google Ads integration
 
 ---
 
 ## 🚀 Tech Stack
 
-- **Framework:** [SvelteKit](https://kit.svelte.dev/)
+- **Framework:** [SvelteKit](https://kit.svelte.dev/) with Static Adapter
 - **Language:** TypeScript
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
 - **Icons:** [Phosphor Icons](https://phosphoricons.com/)
+- **Maps:** Google Maps JavaScript API
+- **Content:** Markdown with [marked](https://marked.js.org/) and [gray-matter](https://github.com/jonschlinkert/gray-matter)
 - **Build Tool:** [Vite](https://vitejs.dev/)
 - **Code Quality:** ESLint, Prettier
+- **Deployment:** Vercel
 
 ---
 
@@ -34,24 +41,41 @@ A modern resource directory built with SvelteKit, featuring categorized resource
 ```
 src/
 ├── routes/
-│   ├── [category]/[slug]/     # Dynamic resource pages
-│   │   ├── +page.svelte       # Resource detail page
-│   │   └── +page.ts          # Resource data loading
-│   ├── +layout.svelte        # Root layout
-│   └── +page.svelte          # Homepage with filters
+│   ├── [state]/[slug]/       # Dynamic farmer's market pages
+│   │   ├── +page.svelte      # Market detail page
+│   │   └── +page.ts          # Market data loading
+│   ├── blog/                 # Blog system
+│   │   ├── +page.svelte      # Blog listing
+│   │   ├── +page.server.ts   # Blog data loading
+│   │   └── [slug]/           # Individual blog posts
+│   ├── +layout.svelte        # Root layout with navigation
+│   └── +page.svelte          # Homepage with state filters
 ├── lib/
 │   ├── components/
 │   │   ├── ui/               # Reusable UI components
-│   │   │   ├── Chip.svelte
+│   │   │   ├── ResourceCard.svelte
+│   │   │   ├── ResourceMap.svelte
 │   │   │   ├── Pagination.svelte
-│   │   │   └── ResourceCard.svelte
-│   │   └── layout/           # Layout components
-│   │       ├── FilterBar.svelte
-│   │       └── Hero.svelte
+│   │   │   ├── Ad.svelte
+│   │   │   └── SEO.svelte
+│   │   ├── layout/           # Layout components
+│   │   │   ├── FilterBar.svelte
+│   │   │   ├── Hero.svelte
+│   │   │   ├── Navigation.svelte
+│   │   │   └── Footer.svelte
+│   │   └── blog/             # Blog components
+│   │       └── BlogCard.svelte
 │   ├── data/
-│   │   └── resources.json    # Resource data
+│   │   └── resources.json    # Farmer's market data (1000+ markets)
+│   ├── content/
+│   │   └── blog/             # Markdown blog posts
 │   ├── utils/
-│   │   └── slugify.ts        # URL slugification
+│   │   ├── slugify.ts        # URL slugification
+│   │   ├── geocoding.ts      # Google Maps utilities
+│   │   ├── markdown.ts       # Markdown processing
+│   │   └── ads.ts            # Ad system utilities
+│   ├── services/
+│   │   └── blog.ts           # Blog service functions
 │   └── config.ts             # Site configuration
 ```
 
@@ -65,9 +89,18 @@ Update the main site settings in `src/lib/config.ts`:
 
 ```typescript
 export const config = {
-	siteName: 'Your Site Name', // Update for your brand
-	siteDescription: 'Your description', // SEO description
-	defaultSiteUrl: 'https://yourdomain.com' // Your production domain
+	siteName: 'FarmerMarket.us',
+	siteDescription: `Your complete directory of farmer's markets across America. Find fresh, local produce and artisanal goods in your area with market hours, locations, and vendor information.`,
+	defaultSiteUrl: 'https://farmermarket.us/',
+	contactEmail: 'hqdirectory@gmail.com',
+	// Ad placement configuration
+	ads: {
+		enabled: true,
+		placementRow: 1, // Insert ad after this row
+		itemsPerRow: 4, // Grid columns
+		showOnResourcePages: true,
+		// ... ad configuration
+	}
 };
 ```
 
@@ -137,7 +170,7 @@ npm run build
 ```bash
 # Clone the repository
 git clone <your-repo-url>
-cd direx
+cd farmermarket.us
 
 # Install dependencies
 npm install
@@ -167,40 +200,74 @@ npm run preview
 
 ## 📝 Content Management
 
-### Adding Resources
+### Adding Farmer's Markets
 
-Edit `src/lib/data/resources.json` to add new resources:
+Edit `src/lib/data/resources.json` to add new farmer's markets:
 
 ```json
 {
 	"id": "unique-id",
-	"title": "Resource Name",
-	"description": "Brief description of the resource",
-	"image": "/images/resource-image.jpg",
-	"category": "category-slug",
-	"externalUrl": "https://external-resource.com",
-	"sponsored": false
+	"title": "Market Name",
+	"description": "Brief description of the farmer's market",
+	"longDescription": "<p>Detailed HTML description</p>",
+	"image": "/images/resources/state/market-image.avif",
+	"phone": "+1 555-123-4567",
+	"hours": {
+		"monday": "8:00 AM - 2:00 PM",
+		"tuesday": "",
+		"wednesday": "8:00 AM - 2:00 PM",
+		"thursday": "",
+		"friday": "8:00 AM - 2:00 PM",
+		"saturday": "7:00 AM - 3:00 PM",
+		"sunday": ""
+	},
+	"externalUrl": "https://market-website.com",
+	"sponsored": false,
+	"address": {
+		"street": "123 Market Street",
+		"city": "City Name",
+		"state": "State Name",
+		"zip": "12345"
+	},
+	"coordinates": {
+		"lat": 40.7128,
+		"lng": -74.0060
+	}
 }
 ```
 
-### Categories
+### State Filters
 
-Update filter categories in `src/routes/+page.svelte`:
+State filters are automatically generated from the market data. Each state has a custom icon defined in `src/routes/+page.svelte`:
 
 ```typescript
 const filters = [
-	{
-		label: 'Category Name',
-		icon: IconComponent,
-		category: 'category-slug'
-	}
-	// Add more categories...
+	{ label: 'Alabama', icon: Rocket, state: 'Alabama' },
+	{ label: 'Alaska', icon: Snowflake, state: 'Alaska' },
+	// ... all 50 states with custom icons
 ];
+```
+
+### Blog Content
+
+Add new blog posts as Markdown files in `src/lib/content/blog/`:
+
+```markdown
+---
+title: "Your Blog Post Title"
+description: "Brief description for SEO"
+date: "2024-01-15"
+author: "Author Name"
+---
+
+# Your Blog Post
+
+Content goes here in Markdown format.
 ```
 
 ### Pagination
 
-Resources are automatically paginated when there are more than 20 items. You can adjust this in `src/routes/+page.svelte`:
+Markets are automatically paginated when there are more than 20 items. You can adjust this in `src/routes/+page.svelte`:
 
 ```typescript
 const itemsPerPage = 20; // Change this value
