@@ -1,6 +1,6 @@
 # FarmerMarket.us
 
-![FarmerMarket.us](farmermarket-og.png)
+![FarmerMarket.us](../farmermarket.us/static/farmermarket-og.png)
 
 [![MadeWithSvelte.com shield](https://madewithsvelte.com/storage/repo-shields/5731-shield.svg)](https://madewithsvelte.com/p/direx/shield-link)
 
@@ -100,7 +100,7 @@ export const config = {
 		enabled: true,
 		placementRow: 1, // Insert ad after this row
 		itemsPerRow: 4, // Grid columns
-		showOnResourcePages: true,
+		showOnResourcePages: true
 		// ... ad configuration
 	}
 };
@@ -233,7 +233,7 @@ Edit `src/lib/data/resources.json` to add new farmer's markets:
 	},
 	"coordinates": {
 		"lat": 40.7128,
-		"lng": -74.0060
+		"lng": -74.006
 	}
 }
 ```
@@ -245,7 +245,7 @@ State filters are automatically generated from the market data. Each state has a
 ```typescript
 const filters = [
 	{ label: 'Alabama', icon: Rocket, state: 'Alabama' },
-	{ label: 'Alaska', icon: Snowflake, state: 'Alaska' },
+	{ label: 'Alaska', icon: Snowflake, state: 'Alaska' }
 	// ... all 50 states with custom icons
 ];
 ```
@@ -256,10 +256,10 @@ Add new blog posts as Markdown files in `src/lib/content/blog/`:
 
 ```markdown
 ---
-title: "Your Blog Post Title"
-description: "Brief description for SEO"
-date: "2024-01-15"
-author: "Author Name"
+title: 'Your Blog Post Title'
+description: 'Brief description for SEO'
+date: '2024-01-15'
+author: 'Author Name'
 ---
 
 # Your Blog Post
