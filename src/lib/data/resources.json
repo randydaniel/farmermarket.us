@@ -567,7 +567,7 @@
 			"sunday": "9:00 AM - 5:00 PM"
 		},
 		"externalUrl": "https://www.tolmachoff-farms.com/",
-		"sponsored": false,
+		"sponsored": true,
 		"address": {
 			"street": "5726 N 75th Ave",
 			"city": "Glendale",
