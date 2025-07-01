@@ -20,6 +20,7 @@ A comprehensive directory of farmer's markets across America built with SvelteKi
 - **🏃‍♂️ Fast Performance**: Static generation with SvelteKit for optimal speed
 - **🎨 Modern Styling**: Tailwind CSS v4 with clean, professional design
 - **📝 Blog System**: Markdown-based blog with gray-matter frontmatter
+- **🆕 Dynamic Navigation**: Latest blog post displayed with NEW badge in centered navigation
 - **💰 Ad System**: Configurable custom ads with Google Ads integration
 
 ---
