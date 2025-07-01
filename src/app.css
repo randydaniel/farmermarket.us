@@ -41,6 +41,10 @@
 	.blog-content h6 {
 		@apply mt-3 mb-2 text-sm font-medium tracking-wide text-slate-500 uppercase dark:text-slate-400;
 	}
+
+	.blog-content a {
+		@apply text-blue-600 underline dark:text-blue-400;
+	}
 }
 
 :root {

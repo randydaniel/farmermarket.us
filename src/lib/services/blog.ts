@@ -2,9 +2,11 @@ import { processMarkdown, type BlogPost } from '$lib/utils/markdown';
 
 // Import markdown files as raw strings
 import yourLocalFoodAdventureMd from '$lib/content/blog/your-local-food-adventure-starts-here.md?raw';
+import july4thRecipesMd from '$lib/content/blog/july-4th-farmers-market-recipes.md?raw';
 
 // Define the blog posts with their content
 const blogPostsData = [
+	{ slug: 'july-4th-farmers-market-recipes', content: july4thRecipesMd },
 	{ slug: 'your-local-food-adventure-starts-here', content: yourLocalFoodAdventureMd }
 ];
 
