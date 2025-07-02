@@ -90,11 +90,11 @@
 		<!-- Center: Latest Blog Post with NEW Badge (Desktop Only) - Absolutely Centered -->
 		{#if latestBlogPost}
 			<div
-				class="absolute top-1/2 left-1/2 hidden -translate-x-1/2 -translate-y-1/2 transform lg:block"
+				class="absolute top-1/2 left-1/2 hidden -translate-x-1/2 -translate-y-1/2 transform lg:block pointer-events-none"
 			>
 				<a
 					href="/blog/{latestBlogPost.slug}"
-					class="group flex items-center gap-2 rounded-full bg-gradient-to-r from-blue-50 to-indigo-50 py-2 pr-4 pl-2 whitespace-nowrap transition-all duration-300 hover:from-blue-100 hover:to-indigo-100 dark:from-slate-800 dark:to-slate-700 dark:hover:from-slate-700 dark:hover:to-slate-600"
+					class="group flex items-center gap-2 rounded-full bg-gradient-to-r from-blue-50 to-indigo-50 py-2 pr-4 pl-2 whitespace-nowrap transition-all duration-300 hover:from-blue-100 hover:to-indigo-100 dark:from-slate-800 dark:to-slate-700 dark:hover:from-slate-700 dark:hover:to-slate-600 pointer-events-auto"
 				>
 					<span
 						class="inline-flex items-center rounded-full bg-red-500 px-2 py-1 text-xs font-bold text-white"
