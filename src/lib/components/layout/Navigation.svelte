@@ -43,7 +43,7 @@
 <svelte:window on:click={handleClickOutside} />
 
 <nav class="sticky top-0 z-40 w-full bg-white py-4 shadow-xs dark:bg-slate-950">
-	<div class="container mx-auto flex items-center justify-between px-4 xl:px-0 relative">
+	<div class="relative container mx-auto flex items-center justify-between px-4 xl:px-0">
 		<!-- Left: Logo + Nav Links (Original Structure) -->
 		<div class="flex items-center gap-4 sm:gap-8">
 			<a
@@ -89,15 +89,21 @@
 
 		<!-- Center: Latest Blog Post with NEW Badge (Desktop Only) - Absolutely Centered -->
 		{#if latestBlogPost}
-			<div class="hidden lg:block absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
+			<div
+				class="absolute top-1/2 left-1/2 hidden -translate-x-1/2 -translate-y-1/2 transform lg:block"
+			>
 				<a
 					href="/blog/{latestBlogPost.slug}"
-					class="group flex items-center gap-2 rounded-full bg-gradient-to-r from-blue-50 to-indigo-50 px-4 py-2 transition-all duration-300 hover:from-blue-100 hover:to-indigo-100 dark:from-slate-800 dark:to-slate-700 dark:hover:from-slate-700 dark:hover:to-slate-600 whitespace-nowrap"
+					class="group flex items-center gap-2 rounded-full bg-gradient-to-r from-blue-50 to-indigo-50 py-2 pr-4 pl-2 whitespace-nowrap transition-all duration-300 hover:from-blue-100 hover:to-indigo-100 dark:from-slate-800 dark:to-slate-700 dark:hover:from-slate-700 dark:hover:to-slate-600"
 				>
-					<span class="inline-flex items-center rounded-full bg-red-500 px-2 py-1 text-xs font-bold text-white">
+					<span
+						class="inline-flex items-center rounded-full bg-red-500 px-2 py-1 text-xs font-bold text-white"
+					>
 						NEW
 					</span>
-					<span class="max-w-[200px] truncate text-sm font-medium text-slate-700 group-hover:text-slate-900 dark:text-slate-300 dark:group-hover:text-slate-100">
+					<span
+						class="max-w-[200px] truncate text-sm font-medium text-slate-700 group-hover:text-slate-900 dark:text-slate-300 dark:group-hover:text-slate-100"
+					>
 						{latestBlogPost.title}
 					</span>
 				</a>
