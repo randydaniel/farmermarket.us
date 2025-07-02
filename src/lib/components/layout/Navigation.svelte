@@ -146,7 +146,7 @@
 	{#if mobileMenuOpen}
 		<div
 			id="mobile-menu"
-			class="mobile-menu fixed inset-x-0 top-[60px] border-t border-slate-200 bg-white md:hidden"
+			class="mobile-menu fixed inset-x-0 top-[76px] border-t border-slate-200 bg-white md:hidden z-50"
 			transition:slide={{ duration: 200 }}
 		>
 			<div class="container mx-auto px-4 xl:px-0">
