@@ -12,13 +12,21 @@
 
 	let { latestBlogPost }: Props = $props();
 
-	// Mobile menu state
-	let mobileMenuOpen = false;
+	// Mobile menu state - using Svelte 5's $state() rune for proper reactivity
+	let mobileMenuOpen = $state(false);
+	let justToggled = $state(false);
 
-	// Toggle mobile menu
+	// Simple toggle function
 	function toggleMobileMenu(e: MouseEvent) {
-		e.stopPropagation(); // Prevent click from bubbling to window
+		e.preventDefault();
+		e.stopPropagation();
 		mobileMenuOpen = !mobileMenuOpen;
+		
+		// Prevent click outside from immediately closing
+		justToggled = true;
+		setTimeout(() => {
+			justToggled = false;
+		}, 100);
 	}
 
 	// Close mobile menu when clicking nav links
@@ -28,12 +36,18 @@
 
 	// Close mobile menu when clicking outside
 	function handleClickOutside(event: Event) {
+		// Don't close if we just toggled
+		if (justToggled) return;
+		
 		const target = event.target as Element;
-		if (
-			mobileMenuOpen &&
-			!target.closest('.mobile-menu') &&
-			!target.closest('.mobile-menu-button')
-		) {
+		
+		// Don't close if clicking on the button or menu
+		if (target.closest('[data-mobile-menu-button]') || target.closest('[data-mobile-menu]')) {
+			return;
+		}
+		
+		// Close if menu is open and clicking outside
+		if (mobileMenuOpen) {
 			mobileMenuOpen = false;
 		}
 	}
@@ -128,6 +142,7 @@
 			<button
 				type="button"
 				class="mobile-menu-button flex h-10 w-10 items-center justify-center rounded-lg text-slate-600 hover:bg-slate-100 hover:text-slate-950 md:hidden"
+				data-mobile-menu-button
 				on:click={toggleMobileMenu}
 				aria-label={mobileMenuOpen ? 'Close menu' : 'Open menu'}
 				aria-expanded={mobileMenuOpen}
@@ -139,47 +154,48 @@
 					<List size={24} />
 				{/if}
 			</button>
+			
+			<!-- Debug indicator - removing since it's working now -->
+			<!-- <div class="fixed top-20 right-4 z-50 bg-red-500 text-white px-2 py-1 text-xs rounded md:hidden">
+				Debug: {mobileMenuOpen ? 'OPEN' : 'CLOSED'}
+			</div> -->
 		</div>
 	</div>
 
-	<!-- Mobile Menu (Collapsible) -->
-	{#if mobileMenuOpen}
-		<div
-			id="mobile-menu"
-			class="mobile-menu fixed inset-x-0 top-[76px] border-t border-slate-200 bg-white md:hidden z-50"
-			transition:slide={{ duration: 200 }}
-		>
-			<div class="container mx-auto px-4 xl:px-0">
-				<div class="space-y-1 py-4">
-					<!-- Mobile Menu Items -->
-					<a
-						href="/"
-						class={`block rounded-lg px-4 py-3 text-base font-medium transition-colors duration-200
-						${$page.url.pathname === '/' ? 'bg-slate-100 text-slate-950' : 'text-slate-600 hover:bg-slate-50 hover:text-slate-950'}`}
-						on:click={closeMobileMenu}
-					>
-						Directory
-					</a>
-					<a
-						href="/blog"
-						class={`block rounded-lg px-4 py-3 text-base font-medium transition-colors duration-200
-						${$page.url.pathname.startsWith('/blog') ? 'bg-slate-100 text-slate-950' : 'text-slate-600 hover:bg-slate-50 hover:text-slate-950'}`}
-						on:click={closeMobileMenu}
-					>
-						Blog
-					</a>
-					<a
-						href="/faq"
-						class={`block rounded-lg px-4 py-3 text-base font-medium transition-colors duration-200
-						${$page.url.pathname === '/faq' ? 'bg-slate-100 text-slate-950' : 'text-slate-600 hover:bg-slate-50 hover:text-slate-950'}`}
-						on:click={closeMobileMenu}
-					>
-						FAQ
-					</a>
-				</div>
+<!-- Mobile Menu (Collapsible) -->
+{#if mobileMenuOpen}
+	<div class="absolute left-0 right-0 top-full bg-white border-t border-slate-200 shadow-lg z-50 md:hidden" data-mobile-menu>
+		<div class="container mx-auto px-4 xl:px-0">
+			<div class="space-y-1 py-4">
+				<!-- Mobile Menu Items -->
+				<a
+					href="/"
+					class={`block rounded-lg px-4 py-3 text-base font-medium transition-colors duration-200
+					${$page.url.pathname === '/' ? 'bg-slate-100 text-slate-950' : 'text-slate-600 hover:bg-slate-50 hover:text-slate-950'}`}
+					on:click={closeMobileMenu}
+				>
+					Directory
+				</a>
+				<a
+					href="/blog"
+					class={`block rounded-lg px-4 py-3 text-base font-medium transition-colors duration-200
+					${$page.url.pathname.startsWith('/blog') ? 'bg-slate-100 text-slate-950' : 'text-slate-600 hover:bg-slate-50 hover:text-slate-950'}`}
+					on:click={closeMobileMenu}
+				>
+					Blog
+				</a>
+				<a
+					href="/faq"
+					class={`block rounded-lg px-4 py-3 text-base font-medium transition-colors duration-200
+					${$page.url.pathname === '/faq' ? 'bg-slate-100 text-slate-950' : 'text-slate-600 hover:bg-slate-50 hover:text-slate-950'}`}
+					on:click={closeMobileMenu}
+				>
+					FAQ
+				</a>
 			</div>
 		</div>
-	{/if}
+	</div>
+{/if}
 </nav>
 
 <style>
